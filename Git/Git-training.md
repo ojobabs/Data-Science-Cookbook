@@ -43,7 +43,18 @@ When you are using Git, you will frequently want to check the  **status**  of yo
 ---
 You have been put in the `dental`repository. Use `git status` to discover which file(s) have been changed since the last save. Which file(s) are listed?
 
+##### Possible Answers
 
+[ x   `data/summer.csv`.
+    
+-   `report.txt`.
+    
+-   Neither of the above.
+    
+-   Both of the above.
+    
+
+Submit Answer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0Njk4NDA5OF19
+eyJoaXN0b3J5IjpbOTYzNjU3Mzg1XX0=
 -->
