@@ -411,12 +411,20 @@ The lines starting with  `#`  are comments, and won't be saved. (They are there 
 
 You have been put in the `dental`repository, and `report.txt` has been added to the staging area. The changes to `report.txt` have already been staged. Use `git commit`  _without_  `-m` to commit the changes. The Nano editor will open up. Write a meaningful message and use Ctrl+O and Ctrl+X to save and leave the editor.
 
-#
+### How does Git store information?
+
+You may wonder what information is stored by each commit that you make. Git uses a three-level structure for this.
+
+1.  A  **commit**  contains metadata such as the author, the commit message, and the time the commit happened. In the diagram below, the most recent commit is at the bottom (`feed0098`), and vertical arrows point up towards the previous ("parent") commits.
+2.  Each commit also has a  **tree**, which tracks the names and locations in the repository when that commit happened. In the oldest (top) commit, there were two files tracked by the repository.
+3.  For each of the files listed in the tree, there is a  **blob**. This contains a compressed snapshot of the contents of the file when the commit happened. (Blob is short for  _binary large object_, which is a SQL database term for "may contain data of any kind".) In the middle commit,  `report.md`  and  `draft.md`  were changed, so the blobs are shown next to that commit.  `data/northern.csv`  didn't change in that commit, so the tree links to the blob from the previous commit. Reusing blobs between commits help make common operations fast and minimizes storage space.
+
+![](https://s3.amazonaws.com/assets.datacamp.com/production/course_5355/datasets/commit-tree-blob.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQzNTc3NDIyLC0xNzYxNzU5ODAxLDcxMT
-ExNDEzMCwxMDI5OTA1NDYsLTE1NTY2NzQ0MTMsMTk5NzY0NjMw
-OSwxNTM2NTQ5MTUwLDE0ODY1MTA3NjcsLTk1NjkyOTMzMiwyMj
-g4MDgwMjgsLTE3MzcyMTczODMsMTI5MDgyMTcxOCwxMTg0ODgz
-NzEzLC0xMjgyMTk3NDc3LDEyNDk1NDkzMDksLTEzNDI4OTk2Nz
-ksLTk5OTk2MzUwOV19
+eyJoaXN0b3J5IjpbLTI2ODIxODg4MSwtMTc2MTc1OTgwMSw3MT
+ExMTQxMzAsMTAyOTkwNTQ2LC0xNTU2Njc0NDEzLDE5OTc2NDYz
+MDksMTUzNjU0OTE1MCwxNDg2NTEwNzY3LC05NTY5MjkzMzIsMj
+I4ODA4MDI4LC0xNzM3MjE3MzgzLDEyOTA4MjE3MTgsMTE4NDg4
+MzcxMywtMTI4MjE5NzQ3NywxMjQ5NTQ5MzA5LC0xMzQyODk5Nj
+c5LC05OTk5NjM1MDldfQ==
 -->
