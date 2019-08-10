@@ -279,10 +279,14 @@ Changes to be committed:  (use "git reset HEAD <file>..." to unstage)
 
 Commit the changes in the staging area with the message "Adding a reference."
 
+```git
+$ git commit -m "Adding a reference."
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NjUxMDc2NywtOTU2OTI5MzMyLDIyOD
-gwODAyOCwtMTczNzIxNzM4MywxMjkwODIxNzE4LDExODQ4ODM3
-MTMsLTEyODIxOTc0NzcsMTI0OTU0OTMwOSwtMTM0Mjg5OTY3OS
-wtOTk5OTYzNTA5XX0=
+eyJoaXN0b3J5IjpbLTkxMDk5MzYzOSwxNDg2NTEwNzY3LC05NT
+Y5MjkzMzIsMjI4ODA4MDI4LC0xNzM3MjE3MzgzLDEyOTA4MjE3
+MTgsMTE4NDg4MzcxMywtMTI4MjE5NzQ3NywxMjQ5NTQ5MzA5LC
+0xMzQyODk5Njc5LC05OTk5NjM1MDldfQ==
 -->
