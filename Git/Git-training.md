@@ -45,16 +45,17 @@ You have been put in the `dental`repository. Use `git status` to discover which 
 
 ##### Possible Answers
 
-[ x   `data/summer.csv`.
+- [ ]   `data/summer.csv`.
     
--   `report.txt`.
+-   [X] `report.txt`.
     
--   Neither of the above.
+-   [ ] Neither of the above.
     
--   Both of the above.
-    
+-   [ ] Both of the above.
 
-Submit Answer
+### How can I tell what I have changed?
+
+Git has a  **staging area**  in which it stores files with changes you want to save that haven't been saved yet. Putting files in the staging area is like putting things in a box, while  **committing**  those changes is like putting that box in the mail: you can add more things to the box or take things out as often as you want, but once you put it in the mail, you can't make further changes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYzNjU3Mzg1XX0=
+eyJoaXN0b3J5IjpbMTc0MzM0MzY1OV19
 -->
