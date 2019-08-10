@@ -321,11 +321,13 @@ commit ebaf5c1169621398e713346fc508e1388dfe220e
 Author: Rep Loop <repl@datacamp.com>
 Date:   Mon Jul 15 17:11:48 2019 +0000
 
-commit 610de9192eb50716c2447622bc36d19873f54554Author: Rep Loop <repl@datacamp.com>
+commit 610de9192eb50716c2447622bc36d19873f54554
+Author: Rep Loop <repl@datacamp.com>
 Date:   Mon Jul 15 17:11:48 2019 +0000
     Added year to report title.
 
-commit 90959a632eed76570dc8fd9c448d48e1abf1174dAuthor: Rep Loop <repl@datacamp.com>
+commit 90959a632eed76570dc8fd9c448d48e1abf1174d
+Author: Rep Loop <repl@datacamp.com>
 Date:   Mon Jul 15 17:11:48 2019 +0000
 
     Adding fresh data for western region.
@@ -341,11 +343,12 @@ Author: Rep Loop <repl@datacamp.com>Date:   Mon Jul 15 17:11:48 2019 +0000
     1. bin/teeth was selecting column 1 instead of
  column 2: fixed.    2. Regenerated dependent results.
 
-commit 9e1367c2539dde990fef44aecd80318b7b02d2b6Author: Rep Loop <repl@datacamp.com>
+commit 9e1367c2539dde990fef44aecd80318b7b02d2b6
+Author: Rep Loop <repl@datacamp.com>
 :
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTA5OTY2NywxNTM2NTQ5MTUwLDE0OD
+eyJoaXN0b3J5IjpbMTk5NzY0NjMwOSwxNTM2NTQ5MTUwLDE0OD
 Y1MTA3NjcsLTk1NjkyOTMzMiwyMjg4MDgwMjgsLTE3MzcyMTcz
 ODMsMTI5MDgyMTcxOCwxMTg0ODgzNzEzLC0xMjgyMTk3NDc3LD
 EyNDk1NDkzMDksLTEzNDI4OTk2NzksLTk5OTk2MzUwOV19
