@@ -365,10 +365,12 @@ A project's entire log can be overwhelming, so it's often useful to inspect only
 ----------
 
 You have been put in the  `dental`  repository. Use  `git log`  to display only the changes made to  `data/southern.csv`. How many have there been?
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTkwNTQ2LC0xNTU2Njc0NDEzLDE5OT
-c2NDYzMDksMTUzNjU0OTE1MCwxNDg2NTEwNzY3LC05NTY5Mjkz
-MzIsMjI4ODA4MDI4LC0xNzM3MjE3MzgzLDEyOTA4MjE3MTgsMT
-E4NDg4MzcxMywtMTI4MjE5NzQ3NywxMjQ5NTQ5MzA5LC0xMzQy
-ODk5Njc5LC05OTk5NjM1MDldfQ==
+eyJoaXN0b3J5IjpbODI5MTQzNTU4LDEwMjk5MDU0NiwtMTU1Nj
+Y3NDQxMywxOTk3NjQ2MzA5LDE1MzY1NDkxNTAsMTQ4NjUxMDc2
+NywtOTU2OTI5MzMyLDIyODgwODAyOCwtMTczNzIxNzM4MywxMj
+kwODIxNzE4LDExODQ4ODM3MTMsLTEyODIxOTc0NzcsMTI0OTU0
+OTMwOSwtMTM0Mjg5OTY3OSwtOTk5OTYzNTA5XX0=
 -->
