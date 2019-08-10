@@ -389,7 +389,7 @@ Date:   Mon Jul 15 17:11:48 2019 +0000
     
 -   [ ] 3.
 
-# How do I write a better log message?
+### How do I write a better log message?
 
 Writing a one-line log message with  `git commit -m "message"`is good enough for very small changes, but your collaborators (including your future self) will appreciate more information. If you run  `git commit`_without_  `-m "message"`, Git launches a text editor with a template like this:
 
@@ -407,7 +407,7 @@ Writing a one-line log message with  `git commit -m "message"`is good enough for
 
 The lines starting with  `#`  are comments, and won't be saved. (They are there to remind you what you are supposed to do and what files you have changed.) Your message should go at the top, and may be as long and as detailed as you want.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTkwNTY0Miw3MTExMTQxMzAsMTAyOT
+eyJoaXN0b3J5IjpbLTgwMDk0NDUwMiw3MTExMTQxMzAsMTAyOT
 kwNTQ2LC0xNTU2Njc0NDEzLDE5OTc2NDYzMDksMTUzNjU0OTE1
 MCwxNDg2NTEwNzY3LC05NTY5MjkzMzIsMjI4ODA4MDI4LC0xNz
 M3MjE3MzgzLDEyOTA4MjE3MTgsMTE4NDg4MzcxMywtMTI4MjE5
