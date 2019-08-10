@@ -173,8 +173,10 @@ We will explore other uses of  `-r`  and  `HEAD`  in the next chapter.
 ---
 
 You have been put in the `dental`repository, where `data/northern.csv` has been added to the staging area. Use `git diff` with `-r` and an argument to see how files differ from the last saved revision.
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MDgyMTcxOCwxMTg0ODgzNzEzLC0xMj
-gyMTk3NDc3LDEyNDk1NDkzMDksLTEzNDI4OTk2NzksLTk5OTk2
-MzUwOV19
+eyJoaXN0b3J5IjpbLTUyMDY1ODk0MiwxMjkwODIxNzE4LDExOD
+Q4ODM3MTMsLTEyODIxOTc0NzcsMTI0OTU0OTMwOSwtMTM0Mjg5
+OTY3OSwtOTk5OTYzNTA5XX0=
 -->
