@@ -276,9 +276,13 @@ Changes to be committed:  (use "git reset HEAD <file>..." to unstage)
         modified:   report.txt
 
 ```
+
+Commit the changes in the staging area with the message "Adding a reference."
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM1NjI0NjIxLC05NTY5MjkzMzIsMjI4OD
-A4MDI4LC0xNzM3MjE3MzgzLDEyOTA4MjE3MTgsMTE4NDg4Mzcx
-MywtMTI4MjE5NzQ3NywxMjQ5NTQ5MzA5LC0xMzQyODk5Njc5LC
-05OTk5NjM1MDldfQ==
+eyJoaXN0b3J5IjpbMTQ4NjUxMDc2NywtOTU2OTI5MzMyLDIyOD
+gwODAyOCwtMTczNzIxNzM4MywxMjkwODIxNzE4LDExODQ4ODM3
+MTMsLTEyODIxOTc0NzcsMTI0OTU0OTMwOSwtMTM0Mjg5OTY3OS
+wtOTk5OTYzNTA5XX0=
 -->
