@@ -283,9 +283,26 @@ Commit the changes in the staging area with the message "Adding a reference."
 $ git commit -m "Adding a reference."
 ```
 
+### How can I view a repository's history?
 
+The command  `git log`  is used to view the  **log**  of the project's history. Log entries are shown most recent first, and look like this:
+
+```
+commit 0430705487381195993bac9c21512ccfb511056d
+Author: Rep Loop <repl@datacamp.com>
+Date:   Wed Sep 20 13:42:26 2017 +0000
+
+    Added year to report title.
+
+```
+
+The  `commit`  line displays a unique ID for the commit called a  **hash**; we will explore these further in the next chapter. The other lines tell you who made the change, when, and what log message they wrote for the change.
+
+When you run  `git log`, Git automatically uses a pager to show one screen of output at a time. Press the space bar to go down a page or the 'q' key to quit.
+
+----------
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDk5MzYzOSwxNDg2NTEwNzY3LC05NT
+eyJoaXN0b3J5IjpbMTUzNjU0OTE1MCwxNDg2NTEwNzY3LC05NT
 Y5MjkzMzIsMjI4ODA4MDI4LC0xNzM3MjE3MzgzLDEyOTA4MjE3
 MTgsMTE4NDg4MzcxMywtMTI4MjE5NzQ3NywxMjQ5NTQ5MzA5LC
 0xMzQyODk5Njc5LC05OTk5NjM1MDldfQ==
