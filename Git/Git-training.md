@@ -169,7 +169,12 @@ To compare the state of your files with those in the staging area, you can use  
 You can restrict the results to a single file or directory using  `git diff -r HEAD path/to/file`, where the path to the file is relative to where you are (for example, the path from the root directory of the repository).
 
 We will explore other uses of  `-r`  and  `HEAD`  in the next chapter.
+
+---
+
+You have been put in the `dental`repository, where `data/northern.csv` has been added to the staging area. Use `git diff` with `-r` and an argument to see how files differ from the last saved revision.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NDg4MzcxMywtMTI4MjE5NzQ3NywxMj
-Q5NTQ5MzA5LC0xMzQyODk5Njc5LC05OTk5NjM1MDldfQ==
+eyJoaXN0b3J5IjpbMTI5MDgyMTcxOCwxMTg0ODgzNzEzLC0xMj
+gyMTk3NDc3LDEyNDk1NDkzMDksLTEzNDI4OTk2NzksLTk5OTk2
+MzUwOV19
 -->
