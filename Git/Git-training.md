@@ -20,11 +20,30 @@ A  **version control system**  is a tool that manages changes made to the files 
 
 Version control isn't just for software: books, papers, parameter sets, and anything that changes over time or needs to be shared can and should be stored and shared using something like Git.
 
-## Where does Git store information?
+### Where does Git store information?
 
 Each of your Git projects has two parts: the files and directories that you create and edit directly, and the extra information that Git records about the project's history. The combination of these two things is called a  **repository**.
 
 Git stores all of its extra information in a directory called  `.git`  located in the root directory of the repository. Git expects this information to be laid out in a very precise way, so you should never edit or delete anything in  `.git`.
+
+---
+
+Suppose your home directory `/home/repl` contains a repository called `dental`, which has a sub-directory called `data`. Where is information about the history of the files in `/home/repl/dental/data`stored?
+
+  Answers
+- [ ]  `/home/repl/.git`
+- [X] `/home/repl/dental/.git`
+- [ ] `/home/repl/dental/data/.git`
+- [ ] None of the above.
+
+### How can I check the state of a repository?
+
+When you are using Git, you will frequently want to check the  **status**  of your repository. To do this, run the command  `git status`, which displays a list of the files that have been modified since the last time changes were saved.
+
+---
+You have been put in the `dental`repository. Use `git status` to discover which file(s) have been changed since the last save. Which file(s) are listed?
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY2OTMxMTExXX0=
+eyJoaXN0b3J5IjpbMTE0Njk4NDA5OF19
 -->
