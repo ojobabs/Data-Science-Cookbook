@@ -440,11 +440,47 @@ Hashes are what enable Git to share data efficiently between repositories. If tw
 ----------
 
 Use  `cd`  to go into the  `dental`  directory and then run  `git log`. What are the first four characters of the hash of the most recent commit?
+
+```git
+$ cd dental$ git logcommit 610de9192eb50716c2447622bc36d19873f54554
+Author: Rep Loop <repl@datacamp.com>Date:   Mon Jul 15 17:11:48 2019 +0000
+
+    Added year to report title.
+
+commit 90959a632eed76570dc8fd9c448d48e1abf1174d
+Author: Rep Loop <repl@datacamp.com>
+Date:   Mon Jul 15 17:11:48 2019 +0000
+
+    Adding fresh data for western region.
+
+commit b001be7b2c9ecc538d1390dfc2f038b682d33d17
+Author: Rep Loop <repl@datacamp.com>
+Date:   Mon Jul 15 17:11:48 2019 +0000
+
+    Adding fresh data for southern and western regions.
+
+commit ebaf5c1169621398e713346fc508e1388dfe220e
+Author: Rep Loop <repl@datacamp.com>
+Date:   Mon Jul 15 17:11:48 2019 +0000
+
+    Fixed bug and regenerated results.
+:
+```
+##### Possible Answers
+
+-   bedc
+    
+-   2e1b
+    
+-   2e95
+    
+-   None of the above
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODYzNDQxNTYsLTI2ODIxODg4MSwtMT
-c2MTc1OTgwMSw3MTExMTQxMzAsMTAyOTkwNTQ2LC0xNTU2Njc0
-NDEzLDE5OTc2NDYzMDksMTUzNjU0OTE1MCwxNDg2NTEwNzY3LC
-05NTY5MjkzMzIsMjI4ODA4MDI4LC0xNzM3MjE3MzgzLDEyOTA4
-MjE3MTgsMTE4NDg4MzcxMywtMTI4MjE5NzQ3NywxMjQ5NTQ5Mz
-A5LC0xMzQyODk5Njc5LC05OTk5NjM1MDldfQ==
+eyJoaXN0b3J5IjpbLTM2ODYyNDQyNCwtMjA4NjM0NDE1NiwtMj
+Y4MjE4ODgxLC0xNzYxNzU5ODAxLDcxMTExNDEzMCwxMDI5OTA1
+NDYsLTE1NTY2NzQ0MTMsMTk5NzY0NjMwOSwxNTM2NTQ5MTUwLD
+E0ODY1MTA3NjcsLTk1NjkyOTMzMiwyMjg4MDgwMjgsLTE3Mzcy
+MTczODMsMTI5MDgyMTcxOCwxMTg0ODgzNzEzLC0xMjgyMTk3ND
+c3LDEyNDk1NDkzMDksLTEzNDI4OTk2NzksLTk5OTk2MzUwOV19
+
 -->
