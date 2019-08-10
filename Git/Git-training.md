@@ -358,9 +358,15 @@ Author: Rep Loop <repl@datacamp.com>
     
 -   [ ] "Added reminder to cite funding sources."
 
+### How can I view a specific file's history?
 
+A project's entire log can be overwhelming, so it's often useful to inspect only the changes to particular files or directories. You can do this using  `git log path`, where  `path`  is the path to a specific file or directory. The log for a file shows changes made to that file; the log for a directory shows when files were added or deleted in that directory, rather than when the contents of the directory's files were changed.
+
+----------
+
+You have been put in the  `dental`  repository. Use  `git log`  to display only the changes made to  `data/southern.csv`. How many have there been?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkyMTExOTExLC0xNTU2Njc0NDEzLDE5OT
+eyJoaXN0b3J5IjpbMTAyOTkwNTQ2LC0xNTU2Njc0NDEzLDE5OT
 c2NDYzMDksMTUzNjU0OTE1MCwxNDg2NTEwNzY3LC05NTY5Mjkz
 MzIsMjI4ODA4MDI4LC0xNzM3MjE3MzgzLDEyOTA4MjE3MTgsMT
 E4NDg4MzcxMywtMTI4MjE5NzQ3NywxMjQ5NTQ5MzA5LC0xMzQy
