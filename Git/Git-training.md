@@ -265,9 +265,20 @@ git commit --amend - m "new message"
 
 ---
 You have been put in the `dental`repository, and `report.txt` has been added to the staging area. Use a Git command to check the status of the repository.
+
+```git
+$ cd dental
+$ git add report.txt
+$ git status
+On branch master
+Changes to be committed:  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   report.txt
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDI4NzE2MDEsLTk1NjkyOTMzMiwyMj
-g4MDgwMjgsLTE3MzcyMTczODMsMTI5MDgyMTcxOCwxMTg0ODgz
-NzEzLC0xMjgyMTk3NDc3LDEyNDk1NDkzMDksLTEzNDI4OTk2Nz
-ksLTk5OTk2MzUwOV19
+eyJoaXN0b3J5IjpbMjM1NjI0NjIxLC05NTY5MjkzMzIsMjI4OD
+A4MDI4LC0xNzM3MjE3MzgzLDEyOTA4MjE3MTgsMTE4NDg4Mzcx
+MywtMTI4MjE5NzQ3NywxMjQ5NTQ5MzA5LC0xMzQyODk5Njc5LC
+05OTk5NjM1MDldfQ==
 -->
