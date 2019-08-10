@@ -350,17 +350,19 @@ Author: Rep Loop <repl@datacamp.com>
 
 ##### Possible Answers
 
-- [ ]  "Added summary report file."
+- [X]  "Added summary report file."
     
 -   [ ] "Added seasonal CSV data files"
     
 -   [ ] "Fixed bug and regenerated results."
     
 -   [ ] "Added reminder to cite funding sources."
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTY2NzQ0MTMsMTk5NzY0NjMwOSwxNT
-M2NTQ5MTUwLDE0ODY1MTA3NjcsLTk1NjkyOTMzMiwyMjg4MDgw
-MjgsLTE3MzcyMTczODMsMTI5MDgyMTcxOCwxMTg0ODgzNzEzLC
-0xMjgyMTk3NDc3LDEyNDk1NDkzMDksLTEzNDI4OTk2NzksLTk5
-OTk2MzUwOV19
+eyJoaXN0b3J5IjpbODkyMTExOTExLC0xNTU2Njc0NDEzLDE5OT
+c2NDYzMDksMTUzNjU0OTE1MCwxNDg2NTEwNzY3LC05NTY5Mjkz
+MzIsMjI4ODA4MDI4LC0xNzM3MjE3MzgzLDEyOTA4MjE3MTgsMT
+E4NDg4MzcxMywtMTI4MjE5NzQ3NywxMjQ5NTQ5MzA5LC0xMzQy
+ODk5Njc5LC05OTk5NjM1MDldfQ==
 -->
