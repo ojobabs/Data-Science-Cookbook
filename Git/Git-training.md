@@ -5,7 +5,9 @@
 
 # Git for Data Scientists
 
-# What is version control?
+## Basic Workflow
+
+### What is version control?
 
 A  **version control system**  is a tool that manages changes made to the files and directories in a project. Many version control systems exist; this lesson focuses on one called Git, which is used by many of the data science tools covered in our other lessons. Its strengths are:
 
@@ -17,6 +19,12 @@ A  **version control system**  is a tool that manages changes made to the files 
     
 
 Version control isn't just for software: books, papers, parameter sets, and anything that changes over time or needs to be shared can and should be stored and shared using something like Git.
+
+## Where does Git store information?
+
+Each of your Git projects has two parts: the files and directories that you create and edit directly, and the extra information that Git records about the project's history. The combination of these two things is called a  **repository**.
+
+Git stores all of its extra information in a directory called  `.git`  located in the root directory of the repository. Git expects this information to be laid out in a very precise way, so you should never edit or delete anything in  `.git`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMzM4MjY0MV19
+eyJoaXN0b3J5IjpbNDY2OTMxMTExXX0=
 -->
