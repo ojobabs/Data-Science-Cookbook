@@ -106,7 +106,9 @@ Desktop programming tools like  [RStudio](https://www.rstudio.com/)  can turn di
 ----------
 
 You have been put in the  `dental`repository. Use  `git diff data/northern.csv`  to look at the changes to that file. How many lines have been changed?
+
+``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0OTU0OTMwOSwtMTM0Mjg5OTY3OSwtOT
-k5OTYzNTA5XX0=
+eyJoaXN0b3J5IjpbLTEyNTgxODE5OTEsMTI0OTU0OTMwOSwtMT
+M0Mjg5OTY3OSwtOTk5OTYzNTA5XX0=
 -->
