@@ -228,8 +228,22 @@ Unix has a bewildering variety of text editors. In this course, we will sometime
 -   Ctrl-U: un-delete a line.
 -   Ctrl-O: save the file ('O' stands for 'output').
 -   Ctrl-X: exit the editor.
+
+---
+
+Run  `nano names.txt`  to edit a new file in your home directory and enter the following four lines:
+
+```
+Lovelace
+Hopper
+Johnson
+Wilson
+
+```
+
+To save what you have written, type Ctrl-O to write the file out, then Enter to confirm the filename, then Ctrl-X and Enter to exit the editor.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzcyMTczODMsMTI5MDgyMTcxOCwxMT
-g0ODgzNzEzLC0xMjgyMTk3NDc3LDEyNDk1NDkzMDksLTEzNDI4
-OTk2NzksLTk5OTk2MzUwOV19
+eyJoaXN0b3J5IjpbMjI4ODA4MDI4LC0xNzM3MjE3MzgzLDEyOT
+A4MjE3MTgsMTE4NDg4MzcxMywtMTI4MjE5NzQ3NywxMjQ5NTQ5
+MzA5LC0xMzQyODk5Njc5LC05OTk5NjM1MDldfQ==
 -->
