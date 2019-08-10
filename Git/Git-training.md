@@ -422,11 +422,19 @@ You may wonder what information is stored by each commit that you make. Git uses
 ![](https://s3.amazonaws.com/assets.datacamp.com/production/course_5355/datasets/commit-tree-blob.png)
 
 Looking at the diagram, which files changed in the most recent commit to this repository?
+
+##### Possible Answers
+
+- [ ]  `data/northern.csv`
+    
+-  [ ] `report.md`
+    
+-  [ ] `draft.md`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2ODg4MTMzNiwtMjY4MjE4ODgxLC0xNz
-YxNzU5ODAxLDcxMTExNDEzMCwxMDI5OTA1NDYsLTE1NTY2NzQ0
-MTMsMTk5NzY0NjMwOSwxNTM2NTQ5MTUwLDE0ODY1MTA3NjcsLT
-k1NjkyOTMzMiwyMjg4MDgwMjgsLTE3MzcyMTczODMsMTI5MDgy
-MTcxOCwxMTg0ODgzNzEzLC0xMjgyMTk3NDc3LDEyNDk1NDkzMD
-ksLTEzNDI4OTk2NzksLTk5OTk2MzUwOV19
+eyJoaXN0b3J5IjpbNjgyNjk3NzIyLC0yNjgyMTg4ODEsLTE3Nj
+E3NTk4MDEsNzExMTE0MTMwLDEwMjk5MDU0NiwtMTU1NjY3NDQx
+MywxOTk3NjQ2MzA5LDE1MzY1NDkxNTAsMTQ4NjUxMDc2NywtOT
+U2OTI5MzMyLDIyODgwODAyOCwtMTczNzIxNzM4MywxMjkwODIx
+NzE4LDExODQ4ODM3MTMsLTEyODIxOTc0NzcsMTI0OTU0OTMwOS
+wtMTM0Mjg5OTY3OSwtOTk5OTYzNTA5XX0=
 -->
