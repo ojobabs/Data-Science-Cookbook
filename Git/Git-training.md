@@ -65,7 +65,47 @@ Git has a  **staging area**  in which it stores files with changes you want to s
 
 You have been put in the `dental`repository. Use `git diff` to see what changes have been made to the files.
 
+```bash
+$ git diffdiff --git a/data/northern.csvb/data/northern.csv
+index 5eb7a96..5a2a259 100644
+--- a/data/northern.csv
++++ b/data/northern.csv
+@@ -22,3 +22,4 @@ Date,Tooth
+ 2017-08-13,incisor
+ 2017-08-13,wisdom
+ 2017-09-07,molar
++2017-11-01,bicuspid
+```
+### What is in a diff?
 
+A  **diff**  is a formatted display of the differences between two sets of files. Git displays diffs like this:
+
+```
+diff --git a/report.txt b/report.txt
+index e713b17..4c0742a 100644
+--- a/report.txt
++++ b/report.txt
+@@ -1,4 +1,4 @@
+-# Seasonal Dental Surgeries 2017-18
++# Seasonal Dental Surgeries (2017) 2017-18
+
+ TODO: write executive summary.
+
+```
+
+This shows:
+
+-   The command used to produce the output (in this case,  `diff --git`). In it,  `a`  and  `b`are placeholders meaning "the first version" and "the second version".
+-   An index line showing keys into Git's internal database of changes. We will explore these in the next chapter.
+-   `--- a/report.txt`  and  `+++ b/report.txt`, which indicate that lines being  _removed_are prefixed with  `-`, while lines being added are prefixed with  `+`.
+-   A line starting with  `@@`  that tells where the changes are being made. The pairs of numbers are  `start line,number of lines changed`. Here, the diff output shows that 4 lines from line 1 are being removed and replaced with new lines.
+-   A line-by-line listing of the changes with  `-`  showing deletions and  `+`  showing additions. (We have also configured Git to show deletions in red and additions in green.) Lines that  _haven't_  changed are sometimes shown before and after the ones that have in order to give context; when they appear, they  _don't_  have either  `+`  or  `-`in front of them.
+
+Desktop programming tools like  [RStudio](https://www.rstudio.com/)  can turn diffs like this into a more readable side-by-side display of changes; you can also use standalone tools like  [DiffMerge](https://sourcegear.com/diffmerge/)  or  [WinMerge](http://winmerge.org/).
+
+----------
+
+You have been put in the  `dental`repository. Use  `git diff data/northern.csv`  to look at the changes to that file. How many lines have been changed?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NzY1NDg4NywtOTk5OTYzNTA5XX0=
+eyJoaXN0b3J5IjpbLTEzNDI4OTk2NzksLTk5OTk2MzUwOV19
 -->
