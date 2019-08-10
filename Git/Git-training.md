@@ -145,7 +145,15 @@ To add a file to the staging area, use  `git add filename`.
 ---
 
 You have been put in the `dental`repository. Use `git add` to add the file `report.txt` to the staging area.
+
+```git
+$ cd dental$ git add report.txt
+```
+
+Use another Git command to check the repository's status.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDU4NTgxODAsLTEyODIxOTc0NzcsMT
-I0OTU0OTMwOSwtMTM0Mjg5OTY3OSwtOTk5OTYzNTA5XX0=
+eyJoaXN0b3J5IjpbLTU2NDI3MTc5LC0xMjgyMTk3NDc3LDEyND
+k1NDkzMDksLTEzNDI4OTk2NzksLTk5OTk2MzUwOV19
 -->
