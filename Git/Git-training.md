@@ -263,10 +263,11 @@ git commit --amend - m "new message"
 
 ```
 
-##### In
+---
+You have been put in the `dental`repository, and `report.txt` has been added to the staging area. Use a Git command to check the status of the repository.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NjkyOTMzMiwyMjg4MDgwMjgsLTE3Mz
-cyMTczODMsMTI5MDgyMTcxOCwxMTg0ODgzNzEzLC0xMjgyMTk3
-NDc3LDEyNDk1NDkzMDksLTEzNDI4OTk2NzksLTk5OTk2MzUwOV
-19
+eyJoaXN0b3J5IjpbLTExNDI4NzE2MDEsLTk1NjkyOTMzMiwyMj
+g4MDgwMjgsLTE3MzcyMTczODMsMTI5MDgyMTcxOCwxMTg0ODgz
+NzEzLC0xMjgyMTk3NDc3LDEyNDk1NDkzMDksLTEzNDI4OTk2Nz
+ksLTk5OTk2MzUwOV19
 -->
