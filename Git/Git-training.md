@@ -420,11 +420,13 @@ You may wonder what information is stored by each commit that you make. Git uses
 3.  For each of the files listed in the tree, there is a  **blob**. This contains a compressed snapshot of the contents of the file when the commit happened. (Blob is short for  _binary large object_, which is a SQL database term for "may contain data of any kind".) In the middle commit,  `report.md`  and  `draft.md`  were changed, so the blobs are shown next to that commit.  `data/northern.csv`  didn't change in that commit, so the tree links to the blob from the previous commit. Reusing blobs between commits help make common operations fast and minimizes storage space.
 
 ![](https://s3.amazonaws.com/assets.datacamp.com/production/course_5355/datasets/commit-tree-blob.png)
+
+Looking at the diagram, which files changed in the most recent commit to this repository?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2ODIxODg4MSwtMTc2MTc1OTgwMSw3MT
-ExMTQxMzAsMTAyOTkwNTQ2LC0xNTU2Njc0NDEzLDE5OTc2NDYz
-MDksMTUzNjU0OTE1MCwxNDg2NTEwNzY3LC05NTY5MjkzMzIsMj
-I4ODA4MDI4LC0xNzM3MjE3MzgzLDEyOTA4MjE3MTgsMTE4NDg4
-MzcxMywtMTI4MjE5NzQ3NywxMjQ5NTQ5MzA5LC0xMzQyODk5Nj
-c5LC05OTk5NjM1MDldfQ==
+eyJoaXN0b3J5IjpbMTE2ODg4MTMzNiwtMjY4MjE4ODgxLC0xNz
+YxNzU5ODAxLDcxMTExNDEzMCwxMDI5OTA1NDYsLTE1NTY2NzQ0
+MTMsMTk5NzY0NjMwOSwxNTM2NTQ5MTUwLDE0ODY1MTA3NjcsLT
+k1NjkyOTMzMiwyMjg4MDgwMjgsLTE3MzcyMTczODMsMTI5MDgy
+MTcxOCwxMTg0ODgzNzEzLC0xMjgyMTk3NDc3LDEyNDk1NDkzMD
+ksLTEzNDI4OTk2NzksLTk5OTk2MzUwOV19
 -->
