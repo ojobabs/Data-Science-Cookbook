@@ -213,8 +213,14 @@ index 5eb7a96..5a2a259 100644
  2017-09-07,molar
 +2017-11-01,bicuspid
 ```
+
+`data/eastern.csv`  hasn't been added to the staging area yet. Use a Git command to do this now.
+
+```git
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMjY2NDUxNywxMjkwODIxNzE4LDExOD
-Q4ODM3MTMsLTEyODIxOTc0NzcsMTI0OTU0OTMwOSwtMTM0Mjg5
-OTY3OSwtOTk5OTYzNTA5XX0=
+eyJoaXN0b3J5IjpbLTE2NjgzMjQ2NjgsMTI5MDgyMTcxOCwxMT
+g0ODgzNzEzLC0xMjgyMTk3NDc3LDEyNDk1NDkzMDksLTEzNDI4
+OTk2NzksLTk5OTk2MzUwOV19
 -->
