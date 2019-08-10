@@ -217,10 +217,19 @@ index 5eb7a96..5a2a259 100644
 `data/eastern.csv`  hasn't been added to the staging area yet. Use a Git command to do this now.
 
 ```git
-
+$ git add data/eastern.csv
 ```
+
+### Interlude: how can I edit a file?
+
+Unix has a bewildering variety of text editors. In this course, we will sometimes use a very simple one called Nano. If you type  `nano filename`, it will open  `filename`  for editing (or create it if it doesn't already exist). You can then move around with the arrow keys, delete characters with the backspace key, and so on. You can also do a few other operations with control-key combinations:
+
+-   Ctrl-K: delete a line.
+-   Ctrl-U: un-delete a line.
+-   Ctrl-O: save the file ('O' stands for 'output').
+-   Ctrl-X: exit the editor.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjgzMjQ2NjgsMTI5MDgyMTcxOCwxMT
+eyJoaXN0b3J5IjpbLTE3MzcyMTczODMsMTI5MDgyMTcxOCwxMT
 g0ODgzNzEzLC0xMjgyMTk3NDc3LDEyNDk1NDkzMDksLTEzNDI4
 OTk2NzksLTk5OTk2MzUwOV19
 -->
