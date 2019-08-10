@@ -406,11 +406,15 @@ Writing a one-line log message with  `git commit -m "message"`is good enough for
 ```
 
 The lines starting with  `#`  are comments, and won't be saved. (They are there to remind you what you are supposed to do and what files you have changed.) Your message should go at the top, and may be as long and as detailed as you want.
+
+---
+
+You have been put in the `dental`repository, and `report.txt` has been added to the staging area. The changes to `report.txt` have already been staged. Use `git commit`  _without_  `-m` to commit the changes. The Nano editor will open up. Write a meaningful message and use Ctrl+O and Ctrl+X to save and leave the editor.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDk0NDUwMiw3MTExMTQxMzAsMTAyOT
-kwNTQ2LC0xNTU2Njc0NDEzLDE5OTc2NDYzMDksMTUzNjU0OTE1
-MCwxNDg2NTEwNzY3LC05NTY5MjkzMzIsMjI4ODA4MDI4LC0xNz
-M3MjE3MzgzLDEyOTA4MjE3MTgsMTE4NDg4MzcxMywtMTI4MjE5
-NzQ3NywxMjQ5NTQ5MzA5LC0xMzQyODk5Njc5LC05OTk5NjM1MD
-ldfQ==
+eyJoaXN0b3J5IjpbLTE3NjE3NTk4MDEsNzExMTE0MTMwLDEwMj
+k5MDU0NiwtMTU1NjY3NDQxMywxOTk3NjQ2MzA5LDE1MzY1NDkx
+NTAsMTQ4NjUxMDc2NywtOTU2OTI5MzMyLDIyODgwODAyOCwtMT
+czNzIxNzM4MywxMjkwODIxNzE4LDExODQ4ODM3MTMsLTEyODIx
+OTc0NzcsMTI0OTU0OTMwOSwtMTM0Mjg5OTY3OSwtOTk5OTYzNT
+A5XX0=
 -->
