@@ -97,7 +97,7 @@ This shows:
 
 -   The command used to produce the output (in this case,  `diff --git`). In it,  `a`  and  `b`are placeholders meaning "the first version" and "the second version".
 -   An index line showing keys into Git's internal database of changes. We will explore these in the next chapter.
--   `--- a/report.txt`  and  `+++ b/report.txt`, which indicate that lines being  _removed_are prefixed with  `-`, while lines being added are prefixed with  `+`.
+-   `--- a/report.txt`  and  `+++ b/report.txt`, which indicate that lines being  _removed_ are prefixed with  `-`, while lines being added are prefixed with  `+`.
 -   A line starting with  `@@`  that tells where the changes are being made. The pairs of numbers are  `start line,number of lines changed`. Here, the diff output shows that 4 lines from line 1 are being removed and replaced with new lines.
 -   A line-by-line listing of the changes with  `-`  showing deletions and  `+`  showing additions. (We have also configured Git to show deletions in red and additions in green.) Lines that  _haven't_  changed are sometimes shown before and after the ones that have in order to give context; when they appear, they  _don't_  have either  `+`  or  `-`in front of them.
 
@@ -107,5 +107,6 @@ Desktop programming tools like  [RStudio](https://www.rstudio.com/)  can turn di
 
 You have been put in the  `dental`repository. Use  `git diff data/northern.csv`  to look at the changes to that file. How many lines have been changed?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDI4OTk2NzksLTk5OTk2MzUwOV19
+eyJoaXN0b3J5IjpbMTI0OTU0OTMwOSwtMTM0Mjg5OTY3OSwtOT
+k5OTYzNTA5XX0=
 -->
