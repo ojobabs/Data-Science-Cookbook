@@ -185,7 +185,9 @@ index b3c1688..85053c3 100644
  2017-08-03,bicuspid
  2017-08-04,canine
 +2017-11-02,molar
-diff --git a/data/northern.csvb/data/northern.csv
+diff --git 
+a/data/northern.csv
+b/data/northern.csv
 index 5eb7a96..5a2a259 100644
 --- a/data/northern.csv
 +++ b/data/northern.csv
@@ -199,7 +201,9 @@ Use a single Git command to view the changes in the file that has been staged (a
 
 ```git
 $ git diff -r HEAD data/northern.csv
-diff --git a/data/northern.csv b/data/northern.csv
+diff --git 
+a/data/northern.csv 
+b/data/northern.csv
 index 5eb7a96..5a2a259 100644
 --- a/data/northern.csv
 +++ b/data/northern.csv
@@ -210,7 +214,7 @@ index 5eb7a96..5a2a259 100644
 +2017-11-01,bicuspid
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTQyOTMzNSwxMjkwODIxNzE4LDExOD
+eyJoaXN0b3J5IjpbLTgyMjY2NDUxNywxMjkwODIxNzE4LDExOD
 Q4ODM3MTMsLTEyODIxOTc0NzcsMTI0OTU0OTMwOSwtMTM0Mjg5
 OTY3OSwtOTk5OTYzNTA5XX0=
 -->
