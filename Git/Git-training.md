@@ -347,9 +347,20 @@ commit 9e1367c2539dde990fef44aecd80318b7b02d2b6
 Author: Rep Loop <repl@datacamp.com>
 :
 ```
+
+##### Possible Answers
+
+- [ ]  "Added summary report file."
+    
+-   [ ] "Added seasonal CSV data files"
+    
+-   [ ] "Fixed bug and regenerated results."
+    
+-   [ ] "Added reminder to cite funding sources."
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NzY0NjMwOSwxNTM2NTQ5MTUwLDE0OD
-Y1MTA3NjcsLTk1NjkyOTMzMiwyMjg4MDgwMjgsLTE3MzcyMTcz
-ODMsMTI5MDgyMTcxOCwxMTg0ODgzNzEzLC0xMjgyMTk3NDc3LD
-EyNDk1NDkzMDksLTEzNDI4OTk2NzksLTk5OTk2MzUwOV19
+eyJoaXN0b3J5IjpbLTE1NTY2NzQ0MTMsMTk5NzY0NjMwOSwxNT
+M2NTQ5MTUwLDE0ODY1MTA3NjcsLTk1NjkyOTMzMiwyMjg4MDgw
+MjgsLTE3MzcyMTczODMsMTI5MDgyMTcxOCwxMTg0ODgzNzEzLC
+0xMjgyMTk3NDc3LDEyNDk1NDkzMDksLTEzNDI4OTk2NzksLTk5
+OTk2MzUwOV19
 -->
