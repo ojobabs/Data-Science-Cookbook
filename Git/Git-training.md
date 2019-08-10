@@ -133,7 +133,15 @@ index 5eb7a96..5a2a259 100644
     
 -   [ ] 20.
 
+### What's the first step in saving changes?
+
+You commit changes to a Git repository in two steps:
+
+1.  Add one or more files to the staging area.
+2.  Commit everything in the staging area.
+
+To add a file to the staging area, use  `git add filename`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTc1NDMwMzEsLTEyODIxOTc0NzcsMT
-I0OTU0OTMwOSwtMTM0Mjg5OTY3OSwtOTk5OTYzNTA5XX0=
+eyJoaXN0b3J5IjpbMTA1OTY3NTgyNCwtMTI4MjE5NzQ3NywxMj
+Q5NTQ5MzA5LC0xMzQyODk5Njc5LC05OTk5NjM1MDldfQ==
 -->
