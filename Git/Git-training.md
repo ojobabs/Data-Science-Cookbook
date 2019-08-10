@@ -161,7 +161,15 @@ Changes to be committed:
         modified:   report.txt
 
 ```
+
+### How can I tell what's going to be committed?
+
+To compare the state of your files with those in the staging area, you can use  `git diff -r HEAD`. The  `-r`  flag means "compare to a particular revision", and  `HEAD`  is a shortcut meaning "the most recent commit".
+
+You can restrict the results to a single file or directory using  `git diff -r HEAD path/to/file`, where the path to the file is relative to where you are (for example, the path from the root directory of the repository).
+
+We will explore other uses of  `-r`  and  `HEAD`  in the next chapter.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM4NDQ2OTQzLC0xMjgyMTk3NDc3LDEyND
-k1NDkzMDksLTEzNDI4OTk2NzksLTk5OTk2MzUwOV19
+eyJoaXN0b3J5IjpbMTE4NDg4MzcxMywtMTI4MjE5NzQ3NywxMj
+Q5NTQ5MzA5LC0xMzQyODk5Njc5LC05OTk5NjM1MDldfQ==
 -->
