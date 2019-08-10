@@ -305,12 +305,48 @@ When you run  `git log`, Git automatically uses a pager to show one screen of ou
 You are in the directory  `dental`, which is a Git repository. Use a single Git command to view the repository's history. What is the message on the very first entry in the log (which is displayed last)?
 
 ```git
+$ git logcommit 610de9192eb50716c2447622bc36d19873f54554
+Author: Rep Loop <repl@datacamp.com>
+Date:   Mon Jul 15 17:11:48 2019 +0000
+    Added year to report title.
 
+commit 90959a632eed76570dc8fd9c448d48e1abf1174d
+Author: Rep Loop <repl@datacamp.com>Date:   Mon Jul 15 17:11:48 2019 +0000
+    Adding fresh data for western region.commit b001be7b2c9ecc538d1390dfc2f038b682d33d17
+Author: Rep Loop <repl@datacamp.com>
+Date:   Mon Jul 15 17:11:48 2019 +0000
+
+    Adding fresh data for southern and western regions.
+commit ebaf5c1169621398e713346fc508e1388dfe220e
+Author: Rep Loop <repl@datacamp.com>
+Date:   Mon Jul 15 17:11:48 2019 +0000
+
+commit 610de9192eb50716c2447622bc36d19873f54554Author: Rep Loop <repl@datacamp.com>
+Date:   Mon Jul 15 17:11:48 2019 +0000
+    Added year to report title.
+
+commit 90959a632eed76570dc8fd9c448d48e1abf1174dAuthor: Rep Loop <repl@datacamp.com>
+Date:   Mon Jul 15 17:11:48 2019 +0000
+
+    Adding fresh data for western region.
+commit b001be7b2c9ecc538d1390dfc2f038b682d33d17
+Author: Rep Loop <repl@datacamp.com>
+Date:   Mon Jul 15 17:11:48 2019 +0000
+    Adding fresh data for southern and western reg
+ions.
+commit ebaf5c1169621398e713346fc508e1388dfe220e
+Author: Rep Loop <repl@datacamp.com>Date:   Mon Jul 15 17:11:48 2019 +0000
+
+    Fixed bug and regenerated results.
+    1. bin/teeth was selecting column 1 instead of
+ column 2: fixed.    2. Regenerated dependent results.
+
+commit 9e1367c2539dde990fef44aecd80318b7b02d2b6Author: Rep Loop <repl@datacamp.com>
+:
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODk3NjcxMDgsMTUzNjU0OTE1MCwxND
-g2NTEwNzY3LC05NTY5MjkzMzIsMjI4ODA4MDI4LC0xNzM3MjE3
-MzgzLDEyOTA4MjE3MTgsMTE4NDg4MzcxMywtMTI4MjE5NzQ3Ny
-wxMjQ5NTQ5MzA5LC0xMzQyODk5Njc5LC05OTk5NjM1MDldfQ==
-
+eyJoaXN0b3J5IjpbMTk3OTA5OTY2NywxNTM2NTQ5MTUwLDE0OD
+Y1MTA3NjcsLTk1NjkyOTMzMiwyMjg4MDgwMjgsLTE3MzcyMTcz
+ODMsMTI5MDgyMTcxOCwxMTg0ODgzNzEzLC0xMjgyMTk3NDc3LD
+EyNDk1NDkzMDksLTEzNDI4OTk2NzksLTk5OTk2MzUwOV19
 -->
