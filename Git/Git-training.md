@@ -242,8 +242,31 @@ Wilson
 ```
 
 To save what you have written, type Ctrl-O to write the file out, then Enter to confirm the filename, then Ctrl-X and Enter to exit the editor.
+
+# How do I commit changes?
+
+To save the changes in the staging area, you use the command  `git commit`. It always saves everything that is in the staging area as one unit: as you will see later, when you want to undo changes to a project, you undo all of a commit or none of it.
+
+When you commit changes, Git requires you to enter a  **log message**. This serves the same purpose as a comment in a program: it tells the next person to examine the repository why you made a change.
+
+By default, Git launches a text editor to let you write this message. To keep things simple, you can use  `-m "some message in quotes"`  on the command line to enter a single-line message like this:
+
+```
+git commit -m "Program appears to have become self-aware."
+
+```
+
+If you accidentally mistype a commit message, you can change it using the  `--amend`  flag.
+
+```
+git commit --amend - m "new message"
+
+```
+
+##### In
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI4ODA4MDI4LC0xNzM3MjE3MzgzLDEyOT
-A4MjE3MTgsMTE4NDg4MzcxMywtMTI4MjE5NzQ3NywxMjQ5NTQ5
-MzA5LC0xMzQyODk5Njc5LC05OTk5NjM1MDldfQ==
+eyJoaXN0b3J5IjpbOTk2NDQ0OTA4LDIyODgwODAyOCwtMTczNz
+IxNzM4MywxMjkwODIxNzE4LDExODQ4ODM3MTMsLTEyODIxOTc0
+NzcsMTI0OTU0OTMwOSwtMTM0Mjg5OTY3OSwtOTk5OTYzNTA5XX
+0=
 -->
