@@ -366,9 +366,20 @@ A project's entire log can be overwhelming, so it's often useful to inspect only
 
 You have been put in the  `dental`  repository. Use  `git log`  to display only the changes made to  `data/southern.csv`. How many have there been?
 
+```git
+$ git log data/southern.csv
+commit b001be7b2c9ecc538d1390dfc2f038b682d33d17Author: Rep Loop <repl@datacamp.com>Date:   Mon Jul 15 17:11:48 2019 +0000
+
+    Adding fresh data for southern and western regions.
+
+commit 2712f6668534f5dfd942ada335cadc5ce22b62df
+Author: Rep Loop <repl@datacamp.com>
+Date:   Mon Jul 15 17:11:48 2019 +0000
+
+    Added seasonal CSV data files
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI5MTQzNTU4LDEwMjk5MDU0NiwtMTU1Nj
+eyJoaXN0b3J5IjpbNzExMTE0MTMwLDEwMjk5MDU0NiwtMTU1Nj
 Y3NDQxMywxOTk3NjQ2MzA5LDE1MzY1NDkxNTAsMTQ4NjUxMDc2
 NywtOTU2OTI5MzMyLDIyODgwODAyOCwtMTczNzIxNzM4MywxMj
 kwODIxNzE4LDExODQ4ODM3MTMsLTEyODIxOTc0NzcsMTI0OTU0
