@@ -107,8 +107,9 @@ Desktop programming tools like  [RStudio](https://www.rstudio.com/)  can turn di
 
 You have been put in the  `dental`repository. Use  `git diff data/northern.csv`  to look at the changes to that file. How many lines have been changed?
 
-```
-$ cd dental$ git diff data/northern.csvdiff --git a/data/northern.csvb/data/northern.csvindex 5eb7a96..5a2a259 100644--- a/data/northern.csv
+```bash
+$ cd dental
+$ git diff data/northern.csvdiff --git a/data/northern.csvb/data/northern.csvindex 5eb7a96..5a2a259 100644--- a/data/northern.csv
 +++ b/data/northern.csv
 @@ -22,3 +22,4 @@ Date,Tooth
  2017-08-13,incisor
@@ -127,6 +128,6 @@ $ cd dental$ git diff data/northern.csvdiff --git a/data/northern.csvb/data/nort
     
 -   [ ] 20.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMjAxNzk0NSwxMjQ5NTQ5MzA5LC0xMz
-QyODk5Njc5LC05OTk5NjM1MDldfQ==
+eyJoaXN0b3J5IjpbOTI4NDQ3ODk5LDEyNDk1NDkzMDksLTEzND
+I4OTk2NzksLTk5OTk2MzUwOV19
 -->
