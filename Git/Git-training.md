@@ -64,6 +64,8 @@ Git has a  **staging area**  in which it stores files with changes you want to s
 ---
 
 You have been put in the `dental`repository. Use `git diff` to see what changes have been made to the files.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5OTk2MzUwOV19
+eyJoaXN0b3J5IjpbMTQ4NzY1NDg4NywtOTk5OTYzNTA5XX0=
 -->
