@@ -243,7 +243,7 @@ Wilson
 
 To save what you have written, type Ctrl-O to write the file out, then Enter to confirm the filename, then Ctrl-X and Enter to exit the editor.
 
-# How do I commit changes?
+### How do I commit changes?
 
 To save the changes in the staging area, you use the command  `git commit`. It always saves everything that is in the staging area as one unit: as you will see later, when you want to undo changes to a project, you undo all of a commit or none of it.
 
@@ -265,8 +265,8 @@ git commit --amend - m "new message"
 
 ##### In
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk2NDQ0OTA4LDIyODgwODAyOCwtMTczNz
-IxNzM4MywxMjkwODIxNzE4LDExODQ4ODM3MTMsLTEyODIxOTc0
-NzcsMTI0OTU0OTMwOSwtMTM0Mjg5OTY3OSwtOTk5OTYzNTA5XX
-0=
+eyJoaXN0b3J5IjpbLTk1NjkyOTMzMiwyMjg4MDgwMjgsLTE3Mz
+cyMTczODMsMTI5MDgyMTcxOCwxMTg0ODgzNzEzLC0xMjgyMTk3
+NDc3LDEyNDk1NDkzMDksLTEzNDI4OTk2NzksLTk5OTk2MzUwOV
+19
 -->
