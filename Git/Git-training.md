@@ -152,8 +152,16 @@ $ cd dental$ git add report.txt
 
 Use another Git command to check the repository's status.
 
+```git
+$ git status
+On branch master
+Changes to be committed:  
+	(use "git reset HEAD <file>..." to unstage)
 
+        modified:   report.txt
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDI3MTc5LC0xMjgyMTk3NDc3LDEyND
+eyJoaXN0b3J5IjpbMzM4NDQ2OTQzLC0xMjgyMTk3NDc3LDEyND
 k1NDkzMDksLTEzNDI4OTk2NzksLTk5OTk2MzUwOV19
 -->
