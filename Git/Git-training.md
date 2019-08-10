@@ -301,9 +301,11 @@ The  `commit`  line displays a unique ID for the commit called a  **hash**; we w
 When you run  `git log`, Git automatically uses a pager to show one screen of output at a time. Press the space bar to go down a page or the 'q' key to quit.
 
 ----------
+
+You are in the directory  `dental`, which is a Git repository. Use a single Git command to view the repository's history. What is the message on the very first entry in the log (which is displayed last)?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjU0OTE1MCwxNDg2NTEwNzY3LC05NT
-Y5MjkzMzIsMjI4ODA4MDI4LC0xNzM3MjE3MzgzLDEyOTA4MjE3
-MTgsMTE4NDg4MzcxMywtMTI4MjE5NzQ3NywxMjQ5NTQ5MzA5LC
-0xMzQyODk5Njc5LC05OTk5NjM1MDldfQ==
+eyJoaXN0b3J5IjpbLTE3MTE1NjA0NiwxNTM2NTQ5MTUwLDE0OD
+Y1MTA3NjcsLTk1NjkyOTMzMiwyMjg4MDgwMjgsLTE3MzcyMTcz
+ODMsMTI5MDgyMTcxOCwxMTg0ODgzNzEzLC0xMjgyMTk3NDc3LD
+EyNDk1NDkzMDksLTEzNDI4OTk2NzksLTk5OTk2MzUwOV19
 -->
