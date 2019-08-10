@@ -303,9 +303,14 @@ When you run  `git log`, Git automatically uses a pager to show one screen of ou
 ----------
 
 You are in the directory  `dental`, which is a Git repository. Use a single Git command to view the repository's history. What is the message on the very first entry in the log (which is displayed last)?
+
+```git
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTE1NjA0NiwxNTM2NTQ5MTUwLDE0OD
-Y1MTA3NjcsLTk1NjkyOTMzMiwyMjg4MDgwMjgsLTE3MzcyMTcz
-ODMsMTI5MDgyMTcxOCwxMTg0ODgzNzEzLC0xMjgyMTk3NDc3LD
-EyNDk1NDkzMDksLTEzNDI4OTk2NzksLTk5OTk2MzUwOV19
+eyJoaXN0b3J5IjpbLTEyODk3NjcxMDgsMTUzNjU0OTE1MCwxND
+g2NTEwNzY3LC05NTY5MjkzMzIsMjI4ODA4MDI4LC0xNzM3MjE3
+MzgzLDEyOTA4MjE3MTgsMTE4NDg4MzcxMywtMTI4MjE5NzQ3Ny
+wxMjQ5NTQ5MzA5LC0xMzQyODk5Njc5LC05OTk5NjM1MDldfQ==
+
 -->
