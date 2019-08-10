@@ -141,7 +141,11 @@ You commit changes to a Git repository in two steps:
 2.  Commit everything in the staging area.
 
 To add a file to the staging area, use  `git add filename`.
+
+---
+
+You have been put in the `dental`repository. Use `git add` to add the file `report.txt` to the staging area.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTY3NTgyNCwtMTI4MjE5NzQ3NywxMj
-Q5NTQ5MzA5LC0xMzQyODk5Njc5LC05OTk5NjM1MDldfQ==
+eyJoaXN0b3J5IjpbLTE2MDU4NTgxODAsLTEyODIxOTc0NzcsMT
+I0OTU0OTMwOSwtMTM0Mjg5OTY3OSwtOTk5OTYzNTA5XX0=
 -->
