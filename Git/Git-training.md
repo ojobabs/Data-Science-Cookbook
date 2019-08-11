@@ -758,10 +758,16 @@ nothing added to commit but untracked files present (use "git add" to track)
 ```
 `backup.log` appears to be an untracked file and it's one we don't need. Let's get rid of it. Use `git clean` with the appropriate flag to remove unwanted files.
 ```git
-
+$ git clean -f
+Removing backup.log
+```
+List the files in your directory. `backup.log` should no longer be there!
+```git
+$ ls
+bin  data  report.txt  results
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4ODQyMTg5MiwyMDQ3NjY3OTIzLDgyMz
+eyJoaXN0b3J5IjpbLTQzNjM4NzE4MSwyMDQ3NjY3OTIzLDgyMz
 kzMzAyMSwxOTYwNDAwODIwLDEyNTcwMzExOCwtMjE4Nzg1OTks
 MTA5NzczMjk1NywtNDkwODIxNzkxLDUyMDIzNTUxMCwtNjA5Nz
 Q0MzQ4LDE4NjQxMTc3NjgsMTQ2MDg0OTM5Miw1ODcxMDgxMzQs
