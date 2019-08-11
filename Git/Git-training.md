@@ -623,7 +623,7 @@ $ git annotate report.txt
 
 -   [ ] 1.
     
--   [ ] 3.
+-   [X] 3.
     
 -   [ ] 4.
     
@@ -631,12 +631,20 @@ $ git annotate report.txt
     
 
 Submit Answer
+
+### How can I see what changed between two commits?
+
+`git show`  with a commit ID shows the changes made  _in_  a particular commit. To see the changes  _between_  two commits, you can use  `git diff ID1..ID2`, where  `ID1`  and  `ID2`  identify the two commits you're interested in, and the connector  `..`is a pair of dots. For example,  `git diff abc123..def456`  shows the differences between the commits  `abc123`  and  `def456`, while  `git diff HEAD~1..HEAD~3`  shows the differences between the state of the repository one commit in the past and its state three commits in the past.
+
+----------
+
+You are in the  `dental`  repository. Use  `git diff`  to view the differences between its current state and its state two commits previously. Which of the following files have changed?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwODkwMDQzMiwtMjE4Nzg1OTksMTA5Nz
-czMjk1NywtNDkwODIxNzkxLDUyMDIzNTUxMCwtNjA5NzQ0MzQ4
-LDE4NjQxMTc3NjgsMTQ2MDg0OTM5Miw1ODcxMDgxMzQsOTg5Mj
-YyNDI4LC0xMTc2MDY3NjYzLDE1NTk4ODk5MCwxMzkxMjE3ODcy
-LC0yMDg2MzQ0MTU2LC0yNjgyMTg4ODEsLTE3NjE3NTk4MDEsNz
-ExMTE0MTMwLDEwMjk5MDU0NiwtMTU1NjY3NDQxMywxOTk3NjQ2
-MzA5XX0=
+eyJoaXN0b3J5IjpbMTI1NzAzMTE4LC0yMTg3ODU5OSwxMDk3Nz
+MyOTU3LC00OTA4MjE3OTEsNTIwMjM1NTEwLC02MDk3NDQzNDgs
+MTg2NDExNzc2OCwxNDYwODQ5MzkyLDU4NzEwODEzNCw5ODkyNj
+I0MjgsLTExNzYwNjc2NjMsMTU1OTg4OTkwLDEzOTEyMTc4NzIs
+LTIwODYzNDQxNTYsLTI2ODIxODg4MSwtMTc2MTc1OTgwMSw3MT
+ExMTQxMzAsMTAyOTkwNTQ2LC0xNTU2Njc0NDEzLDE5OTc2NDYz
+MDldfQ==
 -->
