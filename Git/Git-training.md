@@ -151,7 +151,7 @@ $ git add report.txt
 
 Use another Git command to check the repository's status.
 
-Let's see what happe
+Let's see what happens before and after using `git add`:
 ```git
 $ cd dental
 $ git status
@@ -486,11 +486,11 @@ Date:   Mon Jul 15 17:11:48 2019 +0000
     
 -   [x] None of the above
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ0MjgwNjYsOTg5MjYyNDI4LC0xMTc2MD
-Y3NjYzLDE1NTk4ODk5MCwxMzkxMjE3ODcyLC0yMDg2MzQ0MTU2
-LC0yNjgyMTg4ODEsLTE3NjE3NTk4MDEsNzExMTE0MTMwLDEwMj
-k5MDU0NiwtMTU1NjY3NDQxMywxOTk3NjQ2MzA5LDE1MzY1NDkx
-NTAsMTQ4NjUxMDc2NywtOTU2OTI5MzMyLDIyODgwODAyOCwtMT
-czNzIxNzM4MywxMjkwODIxNzE4LDExODQ4ODM3MTMsLTEyODIx
-OTc0NzddfQ==
+eyJoaXN0b3J5IjpbNTg3MTA4MTM0LDk4OTI2MjQyOCwtMTE3Nj
+A2NzY2MywxNTU5ODg5OTAsMTM5MTIxNzg3MiwtMjA4NjM0NDE1
+NiwtMjY4MjE4ODgxLC0xNzYxNzU5ODAxLDcxMTExNDEzMCwxMD
+I5OTA1NDYsLTE1NTY2NzQ0MTMsMTk5NzY0NjMwOSwxNTM2NTQ5
+MTUwLDE0ODY1MTA3NjcsLTk1NjkyOTMzMiwyMjg4MDgwMjgsLT
+E3MzcyMTczODMsMTI5MDgyMTcxOCwxMTg0ODgzNzEzLC0xMjgy
+MTk3NDc3XX0=
 -->
