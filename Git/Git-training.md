@@ -780,13 +780,30 @@ Each level overrides the one above it, so  **local settings**  (per-project) tak
 
 You are in the  `dental`  repository. How many local configuration values are set in for this repository?
 
+```git
+$ git config --list --local
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
 ```
+##### Possible Answers
+
+-   [ ] None.
+    
+-   [ ] 3.
+    
+-   [X] 4.
+    
+-   [ ] 7.
+
+>Correct! Config settings are useful for storing your name and email address (to identify you in commit logs), choosing your favorite text editor and diff view tools, and customizing things just how you like them.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDAwODU2MiwxNjM0ODM3MjIyLDIwND
-c2Njc5MjMsODIzOTMzMDIxLDE5NjA0MDA4MjAsMTI1NzAzMTE4
-LC0yMTg3ODU5OSwxMDk3NzMyOTU3LC00OTA4MjE3OTEsNTIwMj
-M1NTEwLC02MDk3NDQzNDgsMTg2NDExNzc2OCwxNDYwODQ5Mzky
-LDU4NzEwODEzNCw5ODkyNjI0MjgsLTExNzYwNjc2NjMsMTU1OT
-g4OTkwLDEzOTEyMTc4NzIsLTIwODYzNDQxNTYsLTI2ODIxODg4
-MV19
+eyJoaXN0b3J5IjpbLTE3NjkzODUyOTYsMTYzNDgzNzIyMiwyMD
+Q3NjY3OTIzLDgyMzkzMzAyMSwxOTYwNDAwODIwLDEyNTcwMzEx
+OCwtMjE4Nzg1OTksMTA5NzczMjk1NywtNDkwODIxNzkxLDUyMD
+IzNTUxMCwtNjA5NzQ0MzQ4LDE4NjQxMTc3NjgsMTQ2MDg0OTM5
+Miw1ODcxMDgxMzQsOTg5MjYyNDI4LC0xMTc2MDY3NjYzLDE1NT
+k4ODk5MCwxMzkxMjE3ODcyLC0yMDg2MzQ0MTU2LC0yNjgyMTg4
+ODFdfQ==
 -->
