@@ -684,12 +684,29 @@ Git does not track files by default. Instead, it waits until you have used  `git
 In the diagram you saw at the start of the chapter, the untracked files won't have a blob, and won't be listed in a tree.
 
 The untracked files won't benefit from version control, so to make sure you don't miss anything,  `git status`  will always tell you about files that are in your repository but aren't (yet) being tracked.
+
+---
+
+You are in the `dental` repository. Use `git status` to find the files that aren't yet being tracked.
+
+```git
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        sources.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+```
+Use `git add` to add the new file to the staging area.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI0MDY1Nzc3LDE5NjA0MDA4MjAsMTI1Nz
-AzMTE4LC0yMTg3ODU5OSwxMDk3NzMyOTU3LC00OTA4MjE3OTEs
-NTIwMjM1NTEwLC02MDk3NDQzNDgsMTg2NDExNzc2OCwxNDYwOD
-Q5MzkyLDU4NzEwODEzNCw5ODkyNjI0MjgsLTExNzYwNjc2NjMs
-MTU1OTg4OTkwLDEzOTEyMTc4NzIsLTIwODYzNDQxNTYsLTI2OD
-IxODg4MSwtMTc2MTc1OTgwMSw3MTExMTQxMzAsMTAyOTkwNTQ2
-XX0=
+eyJoaXN0b3J5IjpbLTE5MDg1NDgyNTksMTk2MDQwMDgyMCwxMj
+U3MDMxMTgsLTIxODc4NTk5LDEwOTc3MzI5NTcsLTQ5MDgyMTc5
+MSw1MjAyMzU1MTAsLTYwOTc0NDM0OCwxODY0MTE3NzY4LDE0Nj
+A4NDkzOTIsNTg3MTA4MTM0LDk4OTI2MjQyOCwtMTE3NjA2NzY2
+MywxNTU5ODg5OTAsMTM5MTIxNzg3MiwtMjA4NjM0NDE1NiwtMj
+Y4MjE4ODgxLC0xNzYxNzU5ODAxLDcxMTExNDEzMCwxMDI5OTA1
+NDZdfQ==
 -->
