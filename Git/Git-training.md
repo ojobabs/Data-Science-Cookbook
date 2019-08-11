@@ -101,7 +101,7 @@ This shows:
 
 Desktop programming tools like  [RStudio](https://www.rstudio.com/)  can turn diffs like this into a more readable side-by-side display of changes; you can also use standalone tools like  [DiffMerge](https://sourcegear.com/diffmerge/)  or  [WinMerge](http://winmerge.org/).
 
-----------
+---
 
 You have been put in the  `dental`repository. Use  `git diff data/northern.csv`  to look at the changes to that file. How many lines have been changed?
 
@@ -145,7 +145,8 @@ To add a file to the staging area, use  `git add filename`.
 You have been put in the `dental`repository. Use `git add` to add the file `report.txt` to the staging area.
 
 ```git
-$ cd dental$ git add report.txt
+$ cd dental
+$ git add report.txt
 ```
 
 Use another Git command to check the repository's status.
@@ -474,11 +475,11 @@ Date:   Mon Jul 15 17:11:48 2019 +0000
     
 -   [x] None of the above
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzYwNjc2NjMsMTU1OTg4OTkwLDEzOT
-EyMTc4NzIsLTIwODYzNDQxNTYsLTI2ODIxODg4MSwtMTc2MTc1
-OTgwMSw3MTExMTQxMzAsMTAyOTkwNTQ2LC0xNTU2Njc0NDEzLD
-E5OTc2NDYzMDksMTUzNjU0OTE1MCwxNDg2NTEwNzY3LC05NTY5
-MjkzMzIsMjI4ODA4MDI4LC0xNzM3MjE3MzgzLDEyOTA4MjE3MT
-gsMTE4NDg4MzcxMywtMTI4MjE5NzQ3NywxMjQ5NTQ5MzA5LC0x
-MzQyODk5Njc5XX0=
+eyJoaXN0b3J5IjpbOTg5MjYyNDI4LC0xMTc2MDY3NjYzLDE1NT
+k4ODk5MCwxMzkxMjE3ODcyLC0yMDg2MzQ0MTU2LC0yNjgyMTg4
+ODEsLTE3NjE3NTk4MDEsNzExMTE0MTMwLDEwMjk5MDU0NiwtMT
+U1NjY3NDQxMywxOTk3NjQ2MzA5LDE1MzY1NDkxNTAsMTQ4NjUx
+MDc2NywtOTU2OTI5MzMyLDIyODgwODAyOCwtMTczNzIxNzM4My
+wxMjkwODIxNzE4LDExODQ4ODM3MTMsLTEyODIxOTc0NzcsMTI0
+OTU0OTMwOV19
 -->
