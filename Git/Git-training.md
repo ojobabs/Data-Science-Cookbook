@@ -798,12 +798,25 @@ core.logallrefupdates=true
 -   [ ] 7.
 
 >Correct! Config settings are useful for storing your name and email address (to identify you in commit logs), choosing your favorite text editor and diff view tools, and customizing things just how you like them.
+
+### How can I change my Git configuration?
+
+Most of Git's settings should be left as they are. However, there are two you should set on every computer you use: your name and your email address. These are recorded in the log every time you commit a change, and are often used to identify the authors of a project's content in order to give credit (or assign blame, depending on the circumstances).
+
+To change a configuration value for all of your projects on a particular computer, run the command:
+
+```
+git config --global setting.name setting.value
+
+```
+
+with the setting's name and value in the appropriate places. The keys that identify your name and email address are  `user.name`  and  `user.email`  respectively.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjkzODUyOTYsMTYzNDgzNzIyMiwyMD
-Q3NjY3OTIzLDgyMzkzMzAyMSwxOTYwNDAwODIwLDEyNTcwMzEx
-OCwtMjE4Nzg1OTksMTA5NzczMjk1NywtNDkwODIxNzkxLDUyMD
-IzNTUxMCwtNjA5NzQ0MzQ4LDE4NjQxMTc3NjgsMTQ2MDg0OTM5
-Miw1ODcxMDgxMzQsOTg5MjYyNDI4LC0xMTc2MDY3NjYzLDE1NT
-k4ODk5MCwxMzkxMjE3ODcyLC0yMDg2MzQ0MTU2LC0yNjgyMTg4
-ODFdfQ==
+eyJoaXN0b3J5IjpbMjA2MTMyNTUzOCwxNjM0ODM3MjIyLDIwND
+c2Njc5MjMsODIzOTMzMDIxLDE5NjA0MDA4MjAsMTI1NzAzMTE4
+LC0yMTg3ODU5OSwxMDk3NzMyOTU3LC00OTA4MjE3OTEsNTIwMj
+M1NTEwLC02MDk3NDQzNDgsMTg2NDExNzc2OCwxNDYwODQ5Mzky
+LDU4NzEwODEzNCw5ODkyNjI0MjgsLTExNzYwNjc2NjMsMTU1OT
+g4OTkwLDEzOTEyMTc4NzIsLTIwODYzNDQxNTYsLTI2ODIxODg4
+MV19
 -->
