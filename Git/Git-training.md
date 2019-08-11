@@ -673,15 +673,23 @@ index 4c0742a..e713b17 100644
     
 -   [ ] `data/southern.csv`.
     
--   [] `report.txt`  and  `data/western.csv`.
+-   [X] `report.txt`  and  `data/western.csv`.
     
 -   [ ] `report.txt`  and  `data/southern.csv`.
+
+### How do I add new files?
+
+Git does not track files by default. Instead, it waits until you have used  `git add`  at least once before it starts paying attention to a file.
+
+In the diagram you saw at the start of the chapter, the untracked files won't have a blob, and won't be listed in a tree.
+
+The untracked files won't benefit from version control, so to make sure you don't miss anything,  `git status`  will always tell you about files that are in your repository but aren't (yet) being tracked.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDA5MTQxODQsMTk2MDQwMDgyMCwxMj
-U3MDMxMTgsLTIxODc4NTk5LDEwOTc3MzI5NTcsLTQ5MDgyMTc5
-MSw1MjAyMzU1MTAsLTYwOTc0NDM0OCwxODY0MTE3NzY4LDE0Nj
-A4NDkzOTIsNTg3MTA4MTM0LDk4OTI2MjQyOCwtMTE3NjA2NzY2
-MywxNTU5ODg5OTAsMTM5MTIxNzg3MiwtMjA4NjM0NDE1NiwtMj
-Y4MjE4ODgxLC0xNzYxNzU5ODAxLDcxMTExNDEzMCwxMDI5OTA1
-NDZdfQ==
+eyJoaXN0b3J5IjpbNTI0MDY1Nzc3LDE5NjA0MDA4MjAsMTI1Nz
+AzMTE4LC0yMTg3ODU5OSwxMDk3NzMyOTU3LC00OTA4MjE3OTEs
+NTIwMjM1NTEwLC02MDk3NDQzNDgsMTg2NDExNzc2OCwxNDYwOD
+Q5MzkyLDU4NzEwODEzNCw5ODkyNjI0MjgsLTExNzYwNjc2NjMs
+MTU1OTg4OTkwLDEzOTEyMTc4NzIsLTIwODYzNDQxNTYsLTI2OD
+IxODg4MSwtMTc2MTc1OTgwMSw3MTExMTQxMzAsMTAyOTkwNTQ2
+XX0=
 -->
