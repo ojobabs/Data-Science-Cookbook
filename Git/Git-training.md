@@ -556,22 +556,41 @@ Note that the symbol between  `HEAD`  and the number is a tilde  `~`,  _not_  a 
 ----------
 
 You are in the  `dental`  repository. Using a single Git command, show the commit made just before the most recent one. Which of the following files did it change?
+```git
+$ git show HEAD~1
+commit 90959a632eed76570dc8fd9c448d48e1abf1174d
+Author: Rep Loop <repl@datacamp.com>
+Date:   Mon Jul 15 17:11:48 2019 +0000
 
+    Adding fresh data for western region.
+
+diff --git a/data/western.csv b/data/western.csv
+index f6d6374..f7c4509 100644
+--- a/data/western.csv
++++ b/data/western.csv
+@@ -27,3 +27,6 @@ Date,Tooth
+ 2017-10-05,molar
+ 2017-10-06,incisor
+ 2017-10-07,incisor
++2017-10-15,molar
++2017-10-17,bicuspid
++2017-10-18,bicuspid
+```
 ##### Possible Answers
 
 -  [ ] `report.txt`.
     
--   [ ] `data/western.csv`.
+-   [X] `data/western.csv`.
     
 -   [ ] Both of the above.
     
 -   [ ] Neither of the above.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NjQzMTg2MiwxMDk3NzMyOTU3LC00OT
-A4MjE3OTEsNTIwMjM1NTEwLC02MDk3NDQzNDgsMTg2NDExNzc2
-OCwxNDYwODQ5MzkyLDU4NzEwODEzNCw5ODkyNjI0MjgsLTExNz
-YwNjc2NjMsMTU1OTg4OTkwLDEzOTEyMTc4NzIsLTIwODYzNDQx
-NTYsLTI2ODIxODg4MSwtMTc2MTc1OTgwMSw3MTExMTQxMzAsMT
-AyOTkwNTQ2LC0xNTU2Njc0NDEzLDE5OTc2NDYzMDksMTUzNjU0
-OTE1MF19
+eyJoaXN0b3J5IjpbLTE1MjU0OTE3MjMsMTA5NzczMjk1NywtND
+kwODIxNzkxLDUyMDIzNTUxMCwtNjA5NzQ0MzQ4LDE4NjQxMTc3
+NjgsMTQ2MDg0OTM5Miw1ODcxMDgxMzQsOTg5MjYyNDI4LC0xMT
+c2MDY3NjYzLDE1NTk4ODk5MCwxMzkxMjE3ODcyLC0yMDg2MzQ0
+MTU2LC0yNjgyMTg4ODEsLTE3NjE3NTk4MDEsNzExMTE0MTMwLD
+EwMjk5MDU0NiwtMTU1NjY3NDQxMywxOTk3NjQ2MzA5LDE1MzY1
+NDkxNTBdfQ==
 -->
