@@ -66,7 +66,8 @@ Git has a  **staging area**  in which it stores files with changes you want to s
 You have been put in the `dental`repository. Use `git diff` to see what changes have been made to the files.
 
 ```git
-$ git diffdiff --git a/data/northern.csvb/data/northern.csv
+$ git diff
+diff --git a/data/northern.csvb/data/northern.csv
 index 5eb7a96..5a2a259 100644
 --- a/data/northern.csv
 +++ b/data/northern.csv
@@ -476,11 +477,11 @@ Date:   Mon Jul 15 17:11:48 2019 +0000
     
 -   [x] None of the above
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTIxNzg3MiwtMjA4NjM0NDE1NiwtMj
-Y4MjE4ODgxLC0xNzYxNzU5ODAxLDcxMTExNDEzMCwxMDI5OTA1
-NDYsLTE1NTY2NzQ0MTMsMTk5NzY0NjMwOSwxNTM2NTQ5MTUwLD
-E0ODY1MTA3NjcsLTk1NjkyOTMzMiwyMjg4MDgwMjgsLTE3Mzcy
-MTczODMsMTI5MDgyMTcxOCwxMTg0ODgzNzEzLC0xMjgyMTk3ND
-c3LDEyNDk1NDkzMDksLTEzNDI4OTk2NzksLTk5OTk2MzUwOV19
-
+eyJoaXN0b3J5IjpbMTU1OTg4OTkwLDEzOTEyMTc4NzIsLTIwOD
+YzNDQxNTYsLTI2ODIxODg4MSwtMTc2MTc1OTgwMSw3MTExMTQx
+MzAsMTAyOTkwNTQ2LC0xNTU2Njc0NDEzLDE5OTc2NDYzMDksMT
+UzNjU0OTE1MCwxNDg2NTEwNzY3LC05NTY5MjkzMzIsMjI4ODA4
+MDI4LC0xNzM3MjE3MzgzLDEyOTA4MjE3MTgsMTE4NDg4MzcxMy
+wtMTI4MjE5NzQ3NywxMjQ5NTQ5MzA5LC0xMzQyODk5Njc5LC05
+OTk5NjM1MDldfQ==
 -->
