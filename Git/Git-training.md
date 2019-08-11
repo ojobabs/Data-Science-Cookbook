@@ -244,7 +244,6 @@ Lovelace
 Hopper
 Johnson
 Wilson
-
 ```
 
 To save what you have written, type Ctrl-O to write the file out, then Enter to confirm the filename, then Ctrl-X and Enter to exit the editor.
@@ -482,11 +481,11 @@ Date:   Mon Jul 15 17:11:48 2019 +0000
     
 -   [x] None of the above
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MDg0OTM5Miw1ODcxMDgxMzQsOTg5Mj
-YyNDI4LC0xMTc2MDY3NjYzLDE1NTk4ODk5MCwxMzkxMjE3ODcy
-LC0yMDg2MzQ0MTU2LC0yNjgyMTg4ODEsLTE3NjE3NTk4MDEsNz
-ExMTE0MTMwLDEwMjk5MDU0NiwtMTU1NjY3NDQxMywxOTk3NjQ2
-MzA5LDE1MzY1NDkxNTAsMTQ4NjUxMDc2NywtOTU2OTI5MzMyLD
-IyODgwODAyOCwtMTczNzIxNzM4MywxMjkwODIxNzE4LDExODQ4
-ODM3MTNdfQ==
+eyJoaXN0b3J5IjpbODIxNzQwODMwLDE0NjA4NDkzOTIsNTg3MT
+A4MTM0LDk4OTI2MjQyOCwtMTE3NjA2NzY2MywxNTU5ODg5OTAs
+MTM5MTIxNzg3MiwtMjA4NjM0NDE1NiwtMjY4MjE4ODgxLC0xNz
+YxNzU5ODAxLDcxMTExNDEzMCwxMDI5OTA1NDYsLTE1NTY2NzQ0
+MTMsMTk5NzY0NjMwOSwxNTM2NTQ5MTUwLDE0ODY1MTA3NjcsLT
+k1NjkyOTMzMiwyMjg4MDgwMjgsLTE3MzcyMTczODMsMTI5MDgy
+MTcxOF19
 -->
