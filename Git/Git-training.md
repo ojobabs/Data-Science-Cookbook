@@ -585,12 +585,35 @@ index f6d6374..f7c4509 100644
 -   [ ] Both of the above.
     
 -   [ ] Neither of the above.
+
+### How can I see who changed what in a file?
+
+`git log`  displays the overall history of a project or file, but Git can give even more information: the command  `git annotate file`  shows who made the last change to each line of a file and when. For example, the first three lines of output from  `git annotate report.txt`  look something like this:
+
+```
+04307054        (  Rep Loop     2017-09-20 13:42:26 +0000       1)# Seasonal Dental Surgeries (2017) 2017-18
+5e6f92b6        (  Rep Loop     2017-09-20 13:42:26 +0000       2)
+5e6f92b6        (  Rep Loop     2017-09-20 13:42:26 +0000       3)TODO: write executive summary.
+
+```
+
+Each line contains five things, with two to four in parentheses.
+
+1.  The first eight digits of the hash,  `04307054`.
+2.  The author,  `Rep Loop`.
+3.  The time of the commit,  `2017-09-20 13:42:26 +0000`.
+4.  The line number,  `1`.
+5.  The contents of the line,  `# Seasonal Dental Surgeries (2017) 2017-18`.
+
+----------
+
+You are in the  `dental`  repository. Use a single command to see the changes to  `report.txt`. How many different sets of changes have been made to this file (i.e., how many different hashes show up in the first column of the output)?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjU0OTE3MjMsMTA5NzczMjk1NywtND
-kwODIxNzkxLDUyMDIzNTUxMCwtNjA5NzQ0MzQ4LDE4NjQxMTc3
-NjgsMTQ2MDg0OTM5Miw1ODcxMDgxMzQsOTg5MjYyNDI4LC0xMT
-c2MDY3NjYzLDE1NTk4ODk5MCwxMzkxMjE3ODcyLC0yMDg2MzQ0
-MTU2LC0yNjgyMTg4ODEsLTE3NjE3NTk4MDEsNzExMTE0MTMwLD
-EwMjk5MDU0NiwtMTU1NjY3NDQxMywxOTk3NjQ2MzA5LDE1MzY1
-NDkxNTBdfQ==
+eyJoaXN0b3J5IjpbLTIxODc4NTk5LDEwOTc3MzI5NTcsLTQ5MD
+gyMTc5MSw1MjAyMzU1MTAsLTYwOTc0NDM0OCwxODY0MTE3NzY4
+LDE0NjA4NDkzOTIsNTg3MTA4MTM0LDk4OTI2MjQyOCwtMTE3Nj
+A2NzY2MywxNTU5ODg5OTAsMTM5MTIxNzg3MiwtMjA4NjM0NDE1
+NiwtMjY4MjE4ODgxLC0xNzYxNzU5ODAxLDcxMTExNDEzMCwxMD
+I5OTA1NDYsLTE1NTY2NzQ0MTMsMTk5NzY0NjMwOSwxNTM2NTQ5
+MTUwXX0=
 -->
