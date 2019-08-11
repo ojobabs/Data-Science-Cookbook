@@ -700,13 +700,22 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 Use `git add` to add the new file to the staging area.
-
+```git
+$ git add sources.txt
+```
+Use `git commit` to save the staged files with the message "Starting to track data sources."
+```git
+$ git commit -m "Starting to track data sources"
+[master b1d072a] Starting to track data sources
+ 1 file changed, 1 insertion(+)
+ create mode 100644 sources.txt
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDg1NDgyNTksMTk2MDQwMDgyMCwxMj
-U3MDMxMTgsLTIxODc4NTk5LDEwOTc3MzI5NTcsLTQ5MDgyMTc5
-MSw1MjAyMzU1MTAsLTYwOTc0NDM0OCwxODY0MTE3NzY4LDE0Nj
-A4NDkzOTIsNTg3MTA4MTM0LDk4OTI2MjQyOCwtMTE3NjA2NzY2
-MywxNTU5ODg5OTAsMTM5MTIxNzg3MiwtMjA4NjM0NDE1NiwtMj
-Y4MjE4ODgxLC0xNzYxNzU5ODAxLDcxMTExNDEzMCwxMDI5OTA1
-NDZdfQ==
+eyJoaXN0b3J5IjpbLTU5MzE0NzYxLDE5NjA0MDA4MjAsMTI1Nz
+AzMTE4LC0yMTg3ODU5OSwxMDk3NzMyOTU3LC00OTA4MjE3OTEs
+NTIwMjM1NTEwLC02MDk3NDQzNDgsMTg2NDExNzc2OCwxNDYwOD
+Q5MzkyLDU4NzEwODEzNCw5ODkyNjI0MjgsLTExNzYwNjc2NjMs
+MTU1OTg4OTkwLDEzOTEyMTc4NzIsLTIwODYzNDQxNTYsLTI2OD
+IxODg4MSwtMTc2MTc1OTgwMSw3MTExMTQxMzAsMTAyOTkwNTQ2
+XX0=
 -->
