@@ -265,10 +265,9 @@ If you accidentally mistype a commit message, you can change it using the  `--am
 
 ```
 git commit --amend - m "new message"
-
 ```
+----
 
----
 You have been put in the `dental`repository, and `report.txt` has been added to the staging area. Use a Git command to check the status of the repository.
 
 ```git
@@ -481,11 +480,11 @@ Date:   Mon Jul 15 17:11:48 2019 +0000
     
 -   [x] None of the above
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIxNzQwODMwLDE0NjA4NDkzOTIsNTg3MT
-A4MTM0LDk4OTI2MjQyOCwtMTE3NjA2NzY2MywxNTU5ODg5OTAs
-MTM5MTIxNzg3MiwtMjA4NjM0NDE1NiwtMjY4MjE4ODgxLC0xNz
-YxNzU5ODAxLDcxMTExNDEzMCwxMDI5OTA1NDYsLTE1NTY2NzQ0
-MTMsMTk5NzY0NjMwOSwxNTM2NTQ5MTUwLDE0ODY1MTA3NjcsLT
-k1NjkyOTMzMiwyMjg4MDgwMjgsLTE3MzcyMTczODMsMTI5MDgy
-MTcxOF19
+eyJoaXN0b3J5IjpbLTE2ODk2MDcyOTcsMTQ2MDg0OTM5Miw1OD
+cxMDgxMzQsOTg5MjYyNDI4LC0xMTc2MDY3NjYzLDE1NTk4ODk5
+MCwxMzkxMjE3ODcyLC0yMDg2MzQ0MTU2LC0yNjgyMTg4ODEsLT
+E3NjE3NTk4MDEsNzExMTE0MTMwLDEwMjk5MDU0NiwtMTU1NjY3
+NDQxMywxOTk3NjQ2MzA5LDE1MzY1NDkxNTAsMTQ4NjUxMDc2Ny
+wtOTU2OTI5MzMyLDIyODgwODAyOCwtMTczNzIxNzM4MywxMjkw
+ODIxNzE4XX0=
 -->
