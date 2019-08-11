@@ -515,12 +515,48 @@ The first part is the same as the log entry shown by  `git log`. The second part
 You have been put in the  `dental`  directory. Use  `git log`  to see the hashes of recent commits, and then  `git show`  with the first few digits of a hash to look at the most recent commit. How many files did it change?
 
 Reminder: press the space bar to page down through  `git log`'s output and  `q`  to quit the paged display.
+```git
+$ git show 610de9192
+commit 610de9192eb50716c2447622bc36d19873f54554
+Author: Rep Loop <repl@datacamp.com>
+Date:   Mon Jul 15 17:11:48 2019 +0000
+
+    Added year to report title.
+
+diff --git a/report.txt b/report.txt
+index e713b17..4c0742a 100644
+--- a/report.txt
++++ b/report.txt
+@@ -1,4 +1,4 @@
+-# Seasonal Dental Surgeries 2017-18
++# Seasonal Dental Surgeries (2017) 2017-18
+
+ TODO: write executive summary.
+
+$ git show 610de9192
+commit 610de9192eb50716c2447622bc36d19873f54554
+Author: Rep Loop <repl@datacamp.com>
+Date:   Mon Jul 15 17:11:48 2019 +0000
+
+    Added year to report title.
+
+diff --git a/report.txt b/report.txt
+index e713b17..4c0742a 100644
+--- a/report.txt
++++ b/report.txt
+@@ -1,4 +1,4 @@
+-# Seasonal Dental Surgeries 2017-18
++# Seasonal Dental Surgeries (2017) 2017-18
+
+ TODO: write executive summary.
+
+```
 
 ##### Possible Answers
 
 -  [ ] None.
     
--   [ ] 1.
+-   [X] 1.
     
 -   [ ] 2.
     
@@ -531,11 +567,11 @@ Submit Answer
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NzczMjk1NywtNDkwODIxNzkxLDUyMD
-IzNTUxMCwtNjA5NzQ0MzQ4LDE4NjQxMTc3NjgsMTQ2MDg0OTM5
-Miw1ODcxMDgxMzQsOTg5MjYyNDI4LC0xMTc2MDY3NjYzLDE1NT
-k4ODk5MCwxMzkxMjE3ODcyLC0yMDg2MzQ0MTU2LC0yNjgyMTg4
-ODEsLTE3NjE3NTk4MDEsNzExMTE0MTMwLDEwMjk5MDU0NiwtMT
-U1NjY3NDQxMywxOTk3NjQ2MzA5LDE1MzY1NDkxNTAsMTQ4NjUx
-MDc2N119
+eyJoaXN0b3J5IjpbNDg2MDI4NjE5LDEwOTc3MzI5NTcsLTQ5MD
+gyMTc5MSw1MjAyMzU1MTAsLTYwOTc0NDM0OCwxODY0MTE3NzY4
+LDE0NjA4NDkzOTIsNTg3MTA4MTM0LDk4OTI2MjQyOCwtMTE3Nj
+A2NzY2MywxNTU5ODg5OTAsMTM5MTIxNzg3MiwtMjA4NjM0NDE1
+NiwtMjY4MjE4ODgxLC0xNzYxNzU5ODAxLDcxMTExNDEzMCwxMD
+I5OTA1NDYsLTE1NTY2NzQ0MTMsMTk5NzY0NjMwOSwxNTM2NTQ5
+MTUwXX0=
 -->
