@@ -810,8 +810,11 @@ git config --global setting.name setting.value
 ```
 
 with the setting's name and value in the appropriate places. The keys that identify your name and email address are  `user.name`  and  `user.email`  respectively.
+
+---
+Change the email address (`user.email`) configured for the current user for _all_ projects to `rep.loop@datacamp.com`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MzYyOTI5NiwxNjM0ODM3MjIyLDIwND
+eyJoaXN0b3J5IjpbLTExMTM4MDcwOCwxNjM0ODM3MjIyLDIwND
 c2Njc5MjMsODIzOTMzMDIxLDE5NjA0MDA4MjAsMTI1NzAzMTE4
 LC0yMTg3ODU5OSwxMDk3NzMyOTU3LC00OTA4MjE3OTEsNTIwMj
 M1NTEwLC02MDk3NDQzNDgsMTg2NDExNzc2OCwxNDYwODQ5Mzky
