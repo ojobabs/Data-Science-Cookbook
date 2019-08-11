@@ -743,12 +743,25 @@ backup
 Git can help you clean up files that you have told it you don't want. The command  `git clean -n`  will show you a list of files that are in the repository, but whose history Git is not currently tracking. A similar command  `git clean -f`  will then delete those files.
 
 _Use this command carefully:_  `git clean`  only works on untracked files, so by definition, their history has not been saved. If you delete them with  `git clean -f`, they're gone for good.
+
+---
+You are in the `dental` repository. Use `git status` to see the status of your repo.
+```git
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        backup.log
+
+nothing added to commit but untracked files present (use "git add" to track)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NzY2NzkyMyw4MjM5MzMwMjEsMTk2MD
-QwMDgyMCwxMjU3MDMxMTgsLTIxODc4NTk5LDEwOTc3MzI5NTcs
-LTQ5MDgyMTc5MSw1MjAyMzU1MTAsLTYwOTc0NDM0OCwxODY0MT
-E3NzY4LDE0NjA4NDkzOTIsNTg3MTA4MTM0LDk4OTI2MjQyOCwt
-MTE3NjA2NzY2MywxNTU5ODg5OTAsMTM5MTIxNzg3MiwtMjA4Nj
-M0NDE1NiwtMjY4MjE4ODgxLC0xNzYxNzU5ODAxLDcxMTExNDEz
-MF19
+eyJoaXN0b3J5IjpbMTQ2ODY0NTU0LDIwNDc2Njc5MjMsODIzOT
+MzMDIxLDE5NjA0MDA4MjAsMTI1NzAzMTE4LC0yMTg3ODU5OSwx
+MDk3NzMyOTU3LC00OTA4MjE3OTEsNTIwMjM1NTEwLC02MDk3ND
+QzNDgsMTg2NDExNzc2OCwxNDYwODQ5MzkyLDU4NzEwODEzNCw5
+ODkyNjI0MjgsLTExNzYwNjc2NjMsMTU1OTg4OTkwLDEzOTEyMT
+c4NzIsLTIwODYzNDQxNTYsLTI2ODIxODg4MSwtMTc2MTc1OTgw
+MV19
 -->
