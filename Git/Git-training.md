@@ -533,23 +533,6 @@ index e713b17..4c0742a 100644
 
  TODO: write executive summary.
 
-$ git show 610de9192
-commit 610de9192eb50716c2447622bc36d19873f54554
-Author: Rep Loop <repl@datacamp.com>
-Date:   Mon Jul 15 17:11:48 2019 +0000
-
-    Added year to report title.
-
-diff --git a/report.txt b/report.txt
-index e713b17..4c0742a 100644
---- a/report.txt
-+++ b/report.txt
-@@ -1,4 +1,4 @@
--# Seasonal Dental Surgeries 2017-18
-+# Seasonal Dental Surgeries (2017) 2017-18
-
- TODO: write executive summary.
-
 ```
 
 ##### Possible Answers
@@ -567,7 +550,7 @@ Submit Answer
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg2MDI4NjE5LDEwOTc3MzI5NTcsLTQ5MD
+eyJoaXN0b3J5IjpbOTcwMzQ0NjMwLDEwOTc3MzI5NTcsLTQ5MD
 gyMTc5MSw1MjAyMzU1MTAsLTYwOTc0NDM0OCwxODY0MTE3NzY4
 LDE0NjA4NDkzOTIsNTg3MTA4MTM0LDk4OTI2MjQyOCwtMTE3Nj
 A2NzY2MywxNTU5ODg5OTAsMTM5MTIxNzg3MiwtMjA4NjM0NDE1
