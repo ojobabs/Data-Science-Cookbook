@@ -807,12 +807,11 @@ To change a configuration value for all of your projects on a particular compute
 
 ```
 git config --global setting.name setting.value
-
 ```
 
 with the setting's name and value in the appropriate places. The keys that identify your name and email address are  `user.name`  and  `user.email`  respectively.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MTMyNTUzOCwxNjM0ODM3MjIyLDIwND
+eyJoaXN0b3J5IjpbLTQ3MzYyOTI5NiwxNjM0ODM3MjIyLDIwND
 c2Njc5MjMsODIzOTMzMDIxLDE5NjA0MDA4MjAsMTI1NzAzMTE4
 LC0yMTg3ODU5OSwxMDk3NzMyOTU3LC00OTA4MjE3OTEsNTIwMj
 M1NTEwLC02MDk3NDQzNDgsMTg2NDExNzc2OCwxNDYwODQ5Mzky
