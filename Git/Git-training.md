@@ -813,12 +813,14 @@ with the setting's name and value in the appropriate places. The keys that ident
 
 ---
 Change the email address (`user.email`) configured for the current user for _all_ projects to `rep.loop@datacamp.com`.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTM4MDcwOCwxNjM0ODM3MjIyLDIwND
-c2Njc5MjMsODIzOTMzMDIxLDE5NjA0MDA4MjAsMTI1NzAzMTE4
-LC0yMTg3ODU5OSwxMDk3NzMyOTU3LC00OTA4MjE3OTEsNTIwMj
-M1NTEwLC02MDk3NDQzNDgsMTg2NDExNzc2OCwxNDYwODQ5Mzky
-LDU4NzEwODEzNCw5ODkyNjI0MjgsLTExNzYwNjc2NjMsMTU1OT
-g4OTkwLDEzOTEyMTc4NzIsLTIwODYzNDQxNTYsLTI2ODIxODg4
-MV19
+eyJoaXN0b3J5IjpbLTE1MTcyNzYyNCwtMTExMzgwNzA4LDE2Mz
+Q4MzcyMjIsMjA0NzY2NzkyMyw4MjM5MzMwMjEsMTk2MDQwMDgy
+MCwxMjU3MDMxMTgsLTIxODc4NTk5LDEwOTc3MzI5NTcsLTQ5MD
+gyMTc5MSw1MjAyMzU1MTAsLTYwOTc0NDM0OCwxODY0MTE3NzY4
+LDE0NjA4NDkzOTIsNTg3MTA4MTM0LDk4OTI2MjQyOCwtMTE3Nj
+A2NzY2MywxNTU5ODg5OTAsMTM5MTIxNzg3MiwtMjA4NjM0NDE1
+Nl19
 -->
