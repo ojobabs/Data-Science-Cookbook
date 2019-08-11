@@ -608,12 +608,15 @@ Each line contains five things, with two to four in parentheses.
 ----------
 
 You are in the  `dental`  repository. Use a single command to see the changes to  `report.txt`. How many different sets of changes have been made to this file (i.e., how many different hashes show up in the first column of the output)?
+
+```git
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODc4NTk5LDEwOTc3MzI5NTcsLTQ5MD
-gyMTc5MSw1MjAyMzU1MTAsLTYwOTc0NDM0OCwxODY0MTE3NzY4
-LDE0NjA4NDkzOTIsNTg3MTA4MTM0LDk4OTI2MjQyOCwtMTE3Nj
-A2NzY2MywxNTU5ODg5OTAsMTM5MTIxNzg3MiwtMjA4NjM0NDE1
-NiwtMjY4MjE4ODgxLC0xNzYxNzU5ODAxLDcxMTExNDEzMCwxMD
-I5OTA1NDYsLTE1NTY2NzQ0MTMsMTk5NzY0NjMwOSwxNTM2NTQ5
-MTUwXX0=
+eyJoaXN0b3J5IjpbLTE3NjMwMzUxOTcsLTIxODc4NTk5LDEwOT
+c3MzI5NTcsLTQ5MDgyMTc5MSw1MjAyMzU1MTAsLTYwOTc0NDM0
+OCwxODY0MTE3NzY4LDE0NjA4NDkzOTIsNTg3MTA4MTM0LDk4OT
+I2MjQyOCwtMTE3NjA2NzY2MywxNTU5ODg5OTAsMTM5MTIxNzg3
+MiwtMjA4NjM0NDE1NiwtMjY4MjE4ODgxLC0xNzYxNzU5ODAxLD
+cxMTExNDEzMCwxMDI5OTA1NDYsLTE1NTY2NzQ0MTMsMTk5NzY0
+NjMwOV19
 -->
