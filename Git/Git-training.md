@@ -610,13 +610,33 @@ Each line contains five things, with two to four in parentheses.
 You are in the  `dental`  repository. Use a single command to see the changes to  `report.txt`. How many different sets of changes have been made to this file (i.e., how many different hashes show up in the first column of the output)?
 
 ```git
+$ git annotate report.txt
+610de919        (  Rep Loop     2019-07-15 17:11:48 +0000       1)# Seasonal Dental Surgeries (2017) 2017-18
+472e96ae        (  Rep Loop     2019-07-15 17:11:48 +0000       2)
+472e96ae        (  Rep Loop     2019-07-15 17:11:48 +0000       3)TODO: write executive summary.
+472e96ae        (  Rep Loop     2019-07-15 17:11:48 +0000       4)
+472e96ae        (  Rep Loop     2019-07-15 17:11:48 +0000       5)TODO: include link to raw data.
+9e15b9ea        (  Rep Loop     2019-07-15 17:11:48 +0000       6)
+9e15b9ea        (  Rep Loop     2019-07-15 17:11:48 +0000       7)TODO: remember to cite funding sources!
 ```
+##### Possible Answers
+
+-   [ ] 1.
+    
+-   [ ] 3.
+    
+-   [ ] 4.
+    
+-   [ ] 7.
+    
+
+Submit Answer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjMwMzUxOTcsLTIxODc4NTk5LDEwOT
-c3MzI5NTcsLTQ5MDgyMTc5MSw1MjAyMzU1MTAsLTYwOTc0NDM0
-OCwxODY0MTE3NzY4LDE0NjA4NDkzOTIsNTg3MTA4MTM0LDk4OT
-I2MjQyOCwtMTE3NjA2NzY2MywxNTU5ODg5OTAsMTM5MTIxNzg3
-MiwtMjA4NjM0NDE1NiwtMjY4MjE4ODgxLC0xNzYxNzU5ODAxLD
-cxMTExNDEzMCwxMDI5OTA1NDYsLTE1NTY2NzQ0MTMsMTk5NzY0
-NjMwOV19
+eyJoaXN0b3J5IjpbMTYwODkwMDQzMiwtMjE4Nzg1OTksMTA5Nz
+czMjk1NywtNDkwODIxNzkxLDUyMDIzNTUxMCwtNjA5NzQ0MzQ4
+LDE4NjQxMTc3NjgsMTQ2MDg0OTM5Miw1ODcxMDgxMzQsOTg5Mj
+YyNDI4LC0xMTc2MDY3NjYzLDE1NTk4ODk5MCwxMzkxMjE3ODcy
+LC0yMDg2MzQ0MTU2LC0yNjgyMTg4ODEsLTE3NjE3NTk4MDEsNz
+ExMTE0MTMwLDEwMjk5MDU0NiwtMTU1NjY3NDQxMywxOTk3NjQ2
+MzA5XX0=
 -->
