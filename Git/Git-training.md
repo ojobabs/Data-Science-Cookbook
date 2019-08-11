@@ -779,12 +779,14 @@ Each level overrides the one above it, so  **local settings**  (per-project) tak
 ----------
 
 You are in the  `dental`  repository. How many local configuration values are set in for this repository?
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNDgzNzIyMiwyMDQ3NjY3OTIzLDgyMz
-kzMzAyMSwxOTYwNDAwODIwLDEyNTcwMzExOCwtMjE4Nzg1OTks
-MTA5NzczMjk1NywtNDkwODIxNzkxLDUyMDIzNTUxMCwtNjA5Nz
-Q0MzQ4LDE4NjQxMTc3NjgsMTQ2MDg0OTM5Miw1ODcxMDgxMzQs
-OTg5MjYyNDI4LC0xMTc2MDY3NjYzLDE1NTk4ODk5MCwxMzkxMj
-E3ODcyLC0yMDg2MzQ0MTU2LC0yNjgyMTg4ODEsLTE3NjE3NTk4
-MDFdfQ==
+eyJoaXN0b3J5IjpbMTcwNDAwODU2MiwxNjM0ODM3MjIyLDIwND
+c2Njc5MjMsODIzOTMzMDIxLDE5NjA0MDA4MjAsMTI1NzAzMTE4
+LC0yMTg3ODU5OSwxMDk3NzMyOTU3LC00OTA4MjE3OTEsNTIwMj
+M1NTEwLC02MDk3NDQzNDgsMTg2NDExNzc2OCwxNDYwODQ5Mzky
+LDU4NzEwODEzNCw5ODkyNjI0MjgsLTExNzYwNjc2NjMsMTU1OT
+g4OTkwLDEzOTEyMTc4NzIsLTIwODYzNDQxNTYsLTI2ODIxODg4
+MV19
 -->
