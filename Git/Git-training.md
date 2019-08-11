@@ -372,7 +372,9 @@ You have been put in the  `dental`  repository. Use  `git log`  to display only 
 
 ```git
 $ git log data/southern.csv
-commit b001be7b2c9ecc538d1390dfc2f038b682d33d17Author: Rep Loop <repl@datacamp.com>Date:   Mon Jul 15 17:11:48 2019 +0000
+commit b001be7b2c9ecc538d1390dfc2f038b682d33d17
+Author: Rep Loop <repl@datacamp.com>
+Date:   Mon Jul 15 17:11:48 2019 +0000
 
     Adding fresh data for southern and western regions.
 
@@ -480,11 +482,11 @@ Date:   Mon Jul 15 17:11:48 2019 +0000
     
 -   [x] None of the above
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDExNzc2OCwxNDYwODQ5MzkyLDU4Nz
-EwODEzNCw5ODkyNjI0MjgsLTExNzYwNjc2NjMsMTU1OTg4OTkw
-LDEzOTEyMTc4NzIsLTIwODYzNDQxNTYsLTI2ODIxODg4MSwtMT
-c2MTc1OTgwMSw3MTExMTQxMzAsMTAyOTkwNTQ2LC0xNTU2Njc0
-NDEzLDE5OTc2NDYzMDksMTUzNjU0OTE1MCwxNDg2NTEwNzY3LC
-05NTY5MjkzMzIsMjI4ODA4MDI4LC0xNzM3MjE3MzgzLDEyOTA4
-MjE3MThdfQ==
+eyJoaXN0b3J5IjpbLTYwOTc0NDM0OCwxODY0MTE3NzY4LDE0Nj
+A4NDkzOTIsNTg3MTA4MTM0LDk4OTI2MjQyOCwtMTE3NjA2NzY2
+MywxNTU5ODg5OTAsMTM5MTIxNzg3MiwtMjA4NjM0NDE1NiwtMj
+Y4MjE4ODgxLC0xNzYxNzU5ODAxLDcxMTExNDEzMCwxMDI5OTA1
+NDYsLTE1NTY2NzQ0MTMsMTk5NzY0NjMwOSwxNTM2NTQ5MTUwLD
+E0ODY1MTA3NjcsLTk1NjkyOTMzMiwyMjg4MDgwMjgsLTE3Mzcy
+MTczODNdfQ==
 -->
