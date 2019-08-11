@@ -195,8 +195,7 @@ index b3c1688..85053c3 100644
  2017-08-03,bicuspid
  2017-08-04,canine
 +2017-11-02,molar
-diff --git a/data/northern.csv
-b/data/northern.csv
+diff --git a/data/northern.csv b/data/northern.csv
 index 5eb7a96..5a2a259 100644
 --- a/data/northern.csv
 +++ b/data/northern.csv
@@ -210,9 +209,7 @@ Use a single Git command to view the changes in the file that has been staged (a
 
 ```git
 $ git diff -r HEAD data/northern.csv
-diff --git 
-a/data/northern.csv 
-b/data/northern.csv
+diff --git a/data/northern.csv b/data/northern.csv
 index 5eb7a96..5a2a259 100644
 --- a/data/northern.csv
 +++ b/data/northern.csv
@@ -485,11 +482,11 @@ Date:   Mon Jul 15 17:11:48 2019 +0000
     
 -   [x] None of the above
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTMzMzE0MzYsNTg3MTA4MTM0LDk4OT
-I2MjQyOCwtMTE3NjA2NzY2MywxNTU5ODg5OTAsMTM5MTIxNzg3
-MiwtMjA4NjM0NDE1NiwtMjY4MjE4ODgxLC0xNzYxNzU5ODAxLD
-cxMTExNDEzMCwxMDI5OTA1NDYsLTE1NTY2NzQ0MTMsMTk5NzY0
-NjMwOSwxNTM2NTQ5MTUwLDE0ODY1MTA3NjcsLTk1NjkyOTMzMi
-wyMjg4MDgwMjgsLTE3MzcyMTczODMsMTI5MDgyMTcxOCwxMTg0
-ODgzNzEzXX0=
+eyJoaXN0b3J5IjpbMTQ2MDg0OTM5Miw1ODcxMDgxMzQsOTg5Mj
+YyNDI4LC0xMTc2MDY3NjYzLDE1NTk4ODk5MCwxMzkxMjE3ODcy
+LC0yMDg2MzQ0MTU2LC0yNjgyMTg4ODEsLTE3NjE3NTk4MDEsNz
+ExMTE0MTMwLDEwMjk5MDU0NiwtMTU1NjY3NDQxMywxOTk3NjQ2
+MzA5LDE1MzY1NDkxNTAsMTQ4NjUxMDc2NywtOTU2OTI5MzMyLD
+IyODgwODAyOCwtMTczNzIxNzM4MywxMjkwODIxNzE4LDExODQ4
+ODM3MTNdfQ==
 -->
