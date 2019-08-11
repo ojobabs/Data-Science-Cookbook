@@ -766,8 +766,21 @@ List the files in your directory. `backup.log` should no longer be there!
 $ ls
 bin  data  report.txt  results
 ```
+### How can I see how Git is configured?
+
+Like most complex pieces of software, Git allows you to change its default settings. To see what the settings are, you can use the command  `git config --list`  with one of three additional options:
+
+-   `--system`: settings for every user on this computer.
+-   `--global`: settings for every one of your projects.
+-   `--local`: settings for one specific project.
+
+Each level overrides the one above it, so  **local settings**  (per-project) take precedence over  **global settings**  (per-user), which in turn take precedence over  **system settings**  (for all users on the computer).
+
+----------
+
+You are in the  `dental`  repository. How many local configuration values are set in for this repository?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjM4NzE4MSwyMDQ3NjY3OTIzLDgyMz
+eyJoaXN0b3J5IjpbMTYzNDgzNzIyMiwyMDQ3NjY3OTIzLDgyMz
 kzMzAyMSwxOTYwNDAwODIwLDEyNTcwMzExOCwtMjE4Nzg1OTks
 MTA5NzczMjk1NywtNDkwODIxNzkxLDUyMDIzNTUxMCwtNjA5Nz
 Q0MzQ4LDE4NjQxMTc3NjgsMTQ2MDg0OTM5Miw1ODcxMDgxMzQs
