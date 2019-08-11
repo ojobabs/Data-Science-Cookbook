@@ -559,15 +559,15 @@ You are in the  `dental`  repository. Using a single Git command, show the commi
 
 ##### Possible Answers
 
--  [ ]`report.txt`.
+-  [ ] `report.txt`.
     
--   `data/western.csv`.
+-   [ ] `data/western.csv`.
     
--   Both of the above.
+-   [ ] Both of the above.
     
--   Neither of the above.
+-   [ ] Neither of the above.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3Mjc4MDY5MCwxMDk3NzMyOTU3LC00OT
+eyJoaXN0b3J5IjpbMTg2NjQzMTg2MiwxMDk3NzMyOTU3LC00OT
 A4MjE3OTEsNTIwMjM1NTEwLC02MDk3NDQzNDgsMTg2NDExNzc2
 OCwxNDYwODQ5MzkyLDU4NzEwODEzNCw5ODkyNjI0MjgsLTExNz
 YwNjc2NjMsMTU1OTg4OTkwLDEzOTEyMTc4NzIsLTIwODYzNDQx
