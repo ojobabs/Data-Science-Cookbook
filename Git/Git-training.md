@@ -756,12 +756,16 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 ```
+`backup.log` appears to be an untracked file and it's one we don't need. Let's get rid of it. Use `git clean` with the appropriate flag to remove unwanted files.
+```git
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2ODY0NTU0LDIwNDc2Njc5MjMsODIzOT
-MzMDIxLDE5NjA0MDA4MjAsMTI1NzAzMTE4LC0yMTg3ODU5OSwx
-MDk3NzMyOTU3LC00OTA4MjE3OTEsNTIwMjM1NTEwLC02MDk3ND
-QzNDgsMTg2NDExNzc2OCwxNDYwODQ5MzkyLDU4NzEwODEzNCw5
-ODkyNjI0MjgsLTExNzYwNjc2NjMsMTU1OTg4OTkwLDEzOTEyMT
-c4NzIsLTIwODYzNDQxNTYsLTI2ODIxODg4MSwtMTc2MTc1OTgw
-MV19
+eyJoaXN0b3J5IjpbMjA4ODQyMTg5MiwyMDQ3NjY3OTIzLDgyMz
+kzMzAyMSwxOTYwNDAwODIwLDEyNTcwMzExOCwtMjE4Nzg1OTks
+MTA5NzczMjk1NywtNDkwODIxNzkxLDUyMDIzNTUxMCwtNjA5Nz
+Q0MzQ4LDE4NjQxMTc3NjgsMTQ2MDg0OTM5Miw1ODcxMDgxMzQs
+OTg5MjYyNDI4LC0xMTc2MDY3NjYzLDE1NTk4ODk5MCwxMzkxMj
+E3ODcyLC0yMDg2MzQ0MTU2LC0yNjgyMTg4ODEsLTE3NjE3NTk4
+MDFdfQ==
 -->
