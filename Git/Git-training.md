@@ -639,12 +639,24 @@ Submit Answer
 ----------
 
 You are in the  `dental`  repository. Use  `git diff`  to view the differences between its current state and its state two commits previously. Which of the following files have changed?
+
+##### Possible Answers
+
+-   [ ]`data/western.csv`.
+    
+-   `report.txt`.
+    
+-   `data/southern.csv`.
+    
+-   `report.txt`  and  `data/western.csv`.
+    
+-   `report.txt`  and  `data/southern.csv`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzAzMTE4LC0yMTg3ODU5OSwxMDk3Nz
-MyOTU3LC00OTA4MjE3OTEsNTIwMjM1NTEwLC02MDk3NDQzNDgs
-MTg2NDExNzc2OCwxNDYwODQ5MzkyLDU4NzEwODEzNCw5ODkyNj
-I0MjgsLTExNzYwNjc2NjMsMTU1OTg4OTkwLDEzOTEyMTc4NzIs
-LTIwODYzNDQxNTYsLTI2ODIxODg4MSwtMTc2MTc1OTgwMSw3MT
-ExMTQxMzAsMTAyOTkwNTQ2LC0xNTU2Njc0NDEzLDE5OTc2NDYz
-MDldfQ==
+eyJoaXN0b3J5IjpbLTEyNDgzMjU1MDQsMTI1NzAzMTE4LC0yMT
+g3ODU5OSwxMDk3NzMyOTU3LC00OTA4MjE3OTEsNTIwMjM1NTEw
+LC02MDk3NDQzNDgsMTg2NDExNzc2OCwxNDYwODQ5MzkyLDU4Nz
+EwODEzNCw5ODkyNjI0MjgsLTExNzYwNjc2NjMsMTU1OTg4OTkw
+LDEzOTEyMTc4NzIsLTIwODYzNDQxNTYsLTI2ODIxODg4MSwtMT
+c2MTc1OTgwMSw3MTExMTQxMzAsMTAyOTkwNTQ2LC0xNTU2Njc0
+NDEzXX0=
 -->
