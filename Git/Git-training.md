@@ -449,7 +449,9 @@ Hashes are what enable Git to share data efficiently between repositories. If tw
 Use  `cd`  to go into the  `dental`  directory and then run  `git log`. What are the first four characters of the hash of the most recent commit?
 
 ```git
-$ cd dental$ git logcommit 610de9192eb50716c2447622bc36d19873f54554
+$ cd dental
+$ git log
+commit 610de9192eb50716c2447622bc36d19873f54554
 Author: Rep Loop <repl@datacamp.com>Date:   Mon Jul 15 17:11:48 2019 +0000
 
     Added year to report title.
@@ -482,12 +484,48 @@ Date:   Mon Jul 15 17:11:48 2019 +0000
 -   [ ] 2e95
     
 -   [x] None of the above
+
+### How can I view a specific commit?
+
+To view the details of a specific commit, you use the command  `git show`  with the first few characters of the commit's hash. For example, the command  `git show 0da2f7`  produces this:
+
+```
+commit 0da2f7ad11664ca9ed933c1ccd1f3cd24d481e42
+Author: Rep Loop <repl@datacamp.com>
+Date:   Wed Sep 5 15:39:18 2018 +0000
+
+    Added year to report title.
+
+diff --git a/report.txt b/report.txt
+index e713b17..4c0742a 100644
+--- a/report.txt
++++ b/report.txt
+@@ -1,4 +1,4 @@
+-# Seasonal Dental Surgeries 2017-18
++# Seasonal Dental Surgeries (2017) 2017-18
+
+ TODO: write executive summary.
+
+```
+
+The first part is the same as the log entry shown by  `git log`. The second part shows the changes; as with  `git diff`, lines that the change removed are prefixed with  `-`, while lines that it added are prefixed with  `+`.
+
+----------
+
+You have been put in the  `dental`  directory. Use  `git log`  to see the hashes of recent commits, and then  `git show`  with the first few digits of a hash to look at the most recent commit. How many files did it change?
+
+Reminder: press the space bar to page down through  `git log`'s output and  `q`  to quit the paged display.
+
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIwMjM1NTEwLC02MDk3NDQzNDgsMTg2ND
-ExNzc2OCwxNDYwODQ5MzkyLDU4NzEwODEzNCw5ODkyNjI0Mjgs
-LTExNzYwNjc2NjMsMTU1OTg4OTkwLDEzOTEyMTc4NzIsLTIwOD
-YzNDQxNTYsLTI2ODIxODg4MSwtMTc2MTc1OTgwMSw3MTExMTQx
-MzAsMTAyOTkwNTQ2LC0xNTU2Njc0NDEzLDE5OTc2NDYzMDksMT
-UzNjU0OTE1MCwxNDg2NTEwNzY3LC05NTY5MjkzMzIsMjI4ODA4
-MDI4XX0=
+eyJoaXN0b3J5IjpbLTQ5MDgyMTc5MSw1MjAyMzU1MTAsLTYwOT
+c0NDM0OCwxODY0MTE3NzY4LDE0NjA4NDkzOTIsNTg3MTA4MTM0
+LDk4OTI2MjQyOCwtMTE3NjA2NzY2MywxNTU5ODg5OTAsMTM5MT
+IxNzg3MiwtMjA4NjM0NDE1NiwtMjY4MjE4ODgxLC0xNzYxNzU5
+ODAxLDcxMTExNDEzMCwxMDI5OTA1NDYsLTE1NTY2NzQ0MTMsMT
+k5NzY0NjMwOSwxNTM2NTQ5MTUwLDE0ODY1MTA3NjcsLTk1Njky
+OTMzMl19
 -->
