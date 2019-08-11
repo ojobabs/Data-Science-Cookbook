@@ -640,6 +640,31 @@ Submit Answer
 
 You are in the  `dental`  repository. Use  `git diff`  to view the differences between its current state and its state two commits previously. Which of the following files have changed?
 
+```git
+$ cd dental
+$ git diff HEAD..HEAD~2
+diff --git a/data/western.csv b/data/western.csv
+index f7c4509..f6d6374 100644
+--- a/data/western.csv
++++ b/data/western.csv
+@@ -27,6 +27,3 @@ Date,Tooth
+ 2017-10-05,molar
+ 2017-10-06,incisor
+ 2017-10-07,incisor
+-2017-10-15,molar
+-2017-10-17,bicuspid
+-2017-10-18,bicuspid
+diff --git a/report.txt b/report.txt
+index 4c0742a..e713b17 100644
+--- a/report.txt
++++ b/report.txt
+@@ -1,4 +1,4 @@
+-# Seasonal Dental Surgeries (2017) 2017-18
++# Seasonal Dental Surgeries 2017-18
+
+ TODO: write executive summary.
+
+```
 ##### Possible Answers
 
 -   [ ] `data/western.csv`.
@@ -648,15 +673,15 @@ You are in the  `dental`  repository. Use  `git diff`  to view the differences b
     
 -   [ ] `data/southern.csv`.
     
--   [ ] `report.txt`  and  `data/western.csv`.
+-   [] `report.txt`  and  `data/western.csv`.
     
 -   [ ] `report.txt`  and  `data/southern.csv`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MDQwMDgyMCwxMjU3MDMxMTgsLTIxOD
-c4NTk5LDEwOTc3MzI5NTcsLTQ5MDgyMTc5MSw1MjAyMzU1MTAs
-LTYwOTc0NDM0OCwxODY0MTE3NzY4LDE0NjA4NDkzOTIsNTg3MT
-A4MTM0LDk4OTI2MjQyOCwtMTE3NjA2NzY2MywxNTU5ODg5OTAs
-MTM5MTIxNzg3MiwtMjA4NjM0NDE1NiwtMjY4MjE4ODgxLC0xNz
-YxNzU5ODAxLDcxMTExNDEzMCwxMDI5OTA1NDYsLTE1NTY2NzQ0
-MTNdfQ==
+eyJoaXN0b3J5IjpbLTE2NDA5MTQxODQsMTk2MDQwMDgyMCwxMj
+U3MDMxMTgsLTIxODc4NTk5LDEwOTc3MzI5NTcsLTQ5MDgyMTc5
+MSw1MjAyMzU1MTAsLTYwOTc0NDM0OCwxODY0MTE3NzY4LDE0Nj
+A4NDkzOTIsNTg3MTA4MTM0LDk4OTI2MjQyOCwtMTE3NjA2NzY2
+MywxNTU5ODg5OTAsMTM5MTIxNzg3MiwtMjA4NjM0NDE1NiwtMj
+Y4MjE4ODgxLC0xNzYxNzU5ODAxLDcxMTExNDEzMCwxMDI5OTA1
+NDZdfQ==
 -->
