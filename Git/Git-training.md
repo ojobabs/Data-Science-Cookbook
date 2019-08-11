@@ -417,6 +417,7 @@ The lines starting with  `#`  are comments, and won't be saved. (They are there 
 
 You have been put in the `dental`repository, and `report.txt` has been added to the staging area. The changes to `report.txt` have already been staged. Use `git commit`  _without_  `-m` to commit the changes. The Nano editor will open up. Write a meaningful message and use Ctrl+O and Ctrl+X to save and leave the editor.
 
+
 ### How does Git store information?
 
 You may wonder what information is stored by each commit that you make. Git uses a three-level structure for this.
@@ -482,11 +483,11 @@ Date:   Mon Jul 15 17:11:48 2019 +0000
     
 -   [x] None of the above
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwOTc0NDM0OCwxODY0MTE3NzY4LDE0Nj
-A4NDkzOTIsNTg3MTA4MTM0LDk4OTI2MjQyOCwtMTE3NjA2NzY2
-MywxNTU5ODg5OTAsMTM5MTIxNzg3MiwtMjA4NjM0NDE1NiwtMj
-Y4MjE4ODgxLC0xNzYxNzU5ODAxLDcxMTExNDEzMCwxMDI5OTA1
-NDYsLTE1NTY2NzQ0MTMsMTk5NzY0NjMwOSwxNTM2NTQ5MTUwLD
-E0ODY1MTA3NjcsLTk1NjkyOTMzMiwyMjg4MDgwMjgsLTE3Mzcy
-MTczODNdfQ==
+eyJoaXN0b3J5IjpbNTIwMjM1NTEwLC02MDk3NDQzNDgsMTg2ND
+ExNzc2OCwxNDYwODQ5MzkyLDU4NzEwODEzNCw5ODkyNjI0Mjgs
+LTExNzYwNjc2NjMsMTU1OTg4OTkwLDEzOTEyMTc4NzIsLTIwOD
+YzNDQxNTYsLTI2ODIxODg4MSwtMTc2MTc1OTgwMSw3MTExMTQx
+MzAsMTAyOTkwNTQ2LC0xNTU2Njc0NDEzLDE5OTc2NDYzMDksMT
+UzNjU0OTE1MCwxNDg2NTEwNzY3LC05NTY5MjkzMzIsMjI4ODA4
+MDI4XX0=
 -->
