@@ -151,14 +151,25 @@ $ git add report.txt
 
 Use another Git command to check the repository's status.
 
+Let's see what happe
 ```git
+$ cd dental
 $ git status
 On branch master
-Changes to be committed:  
-	(use "git reset HEAD <file>..." to unstage)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
 
         modified:   report.txt
 
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git add report.txt
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   report.txt
 ```
 
 ### How can I tell what's going to be committed?
@@ -475,11 +486,11 @@ Date:   Mon Jul 15 17:11:48 2019 +0000
     
 -   [x] None of the above
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg5MjYyNDI4LC0xMTc2MDY3NjYzLDE1NT
-k4ODk5MCwxMzkxMjE3ODcyLC0yMDg2MzQ0MTU2LC0yNjgyMTg4
-ODEsLTE3NjE3NTk4MDEsNzExMTE0MTMwLDEwMjk5MDU0NiwtMT
-U1NjY3NDQxMywxOTk3NjQ2MzA5LDE1MzY1NDkxNTAsMTQ4NjUx
-MDc2NywtOTU2OTI5MzMyLDIyODgwODAyOCwtMTczNzIxNzM4My
-wxMjkwODIxNzE4LDExODQ4ODM3MTMsLTEyODIxOTc0NzcsMTI0
-OTU0OTMwOV19
+eyJoaXN0b3J5IjpbMjQ0MjgwNjYsOTg5MjYyNDI4LC0xMTc2MD
+Y3NjYzLDE1NTk4ODk5MCwxMzkxMjE3ODcyLC0yMDg2MzQ0MTU2
+LC0yNjgyMTg4ODEsLTE3NjE3NTk4MDEsNzExMTE0MTMwLDEwMj
+k5MDU0NiwtMTU1NjY3NDQxMywxOTk3NjQ2MzA5LDE1MzY1NDkx
+NTAsMTQ4NjUxMDc2NywtOTU2OTI5MzMyLDIyODgwODAyOCwtMT
+czNzIxNzM4MywxMjkwODIxNzE4LDExODQ4ODM3MTMsLTEyODIx
+OTc0NzddfQ==
 -->
