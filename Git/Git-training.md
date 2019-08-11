@@ -710,8 +710,29 @@ $ git commit -m "Starting to track data sources"
  1 file changed, 1 insertion(+)
  create mode 100644 sources.txt
 ```
+
+### How do I tell Git to ignore certain files?
+
+Data analysis often produces temporary or intermediate files that you don't want to save. You can tell it to stop paying attention to files you don't care about by creating a file in the root directory of your repository called  `.gitignore`  and storing a list of  **wildcard**  patterns that specify the files you don't want Git to pay attention to. For example, if  `.gitignore`  contains:
+
+```
+build
+*.mpl
+```
+
+then Git will ignore any file or directory called  `build`  (and, if it's a directory, anything in it), as well as any file whose name ends in  `.mpl`.
+
+----------
+
+Which of the following files would  _not_  be ignored by a  `.gitignore`  that contained the lines:
+
+```
+pdf
+*.pyc
+backup
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzE0NzYxLDE5NjA0MDA4MjAsMTI1Nz
+eyJoaXN0b3J5IjpbODIzOTMzMDIxLDE5NjA0MDA4MjAsMTI1Nz
 AzMTE4LC0yMTg3ODU5OSwxMDk3NzMyOTU3LC00OTA4MjE3OTEs
 NTIwMjM1NTEwLC02MDk3NDQzNDgsMTg2NDExNzc2OCwxNDYwOD
 Q5MzkyLDU4NzEwODEzNCw5ODkyNjI0MjgsLTExNzYwNjc2NjMs
