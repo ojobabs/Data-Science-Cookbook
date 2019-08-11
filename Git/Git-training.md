@@ -547,14 +547,31 @@ index e713b17..4c0742a 100644
     
 Submit Answer
 
+### What is Git's equivalent of a relative path?
 
+A hash is like an absolute path: it identifies a specific commit. Another way to identify a commit is to use the equivalent of a relative path. The special label  `HEAD`, which we saw in the previous chapter, always refers to the most recent commit. The label  `HEAD~1`  then refers to the commit before it, while  `HEAD~2`  refers to the commit before that, and so on.
 
+Note that the symbol between  `HEAD`  and the number is a tilde  `~`,  _not_  a minus sign  `-`, and that there cannot be spaces before or after the tilde.
+
+----------
+
+You are in the  `dental`  repository. Using a single Git command, show the commit made just before the most recent one. Which of the following files did it change?
+
+##### Possible Answers
+
+-  [ ]`report.txt`.
+    
+-   `data/western.csv`.
+    
+-   Both of the above.
+    
+-   Neither of the above.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcwMzQ0NjMwLDEwOTc3MzI5NTcsLTQ5MD
-gyMTc5MSw1MjAyMzU1MTAsLTYwOTc0NDM0OCwxODY0MTE3NzY4
-LDE0NjA4NDkzOTIsNTg3MTA4MTM0LDk4OTI2MjQyOCwtMTE3Nj
-A2NzY2MywxNTU5ODg5OTAsMTM5MTIxNzg3MiwtMjA4NjM0NDE1
-NiwtMjY4MjE4ODgxLC0xNzYxNzU5ODAxLDcxMTExNDEzMCwxMD
-I5OTA1NDYsLTE1NTY2NzQ0MTMsMTk5NzY0NjMwOSwxNTM2NTQ5
-MTUwXX0=
+eyJoaXN0b3J5IjpbLTU3Mjc4MDY5MCwxMDk3NzMyOTU3LC00OT
+A4MjE3OTEsNTIwMjM1NTEwLC02MDk3NDQzNDgsMTg2NDExNzc2
+OCwxNDYwODQ5MzkyLDU4NzEwODEzNCw5ODkyNjI0MjgsLTExNz
+YwNjc2NjMsMTU1OTg4OTkwLDEzOTEyMTc4NzIsLTIwODYzNDQx
+NTYsLTI2ODIxODg4MSwtMTc2MTc1OTgwMSw3MTExMTQxMzAsMT
+AyOTkwNTQ2LC0xNTU2Njc0NDEzLDE5OTc2NDYzMDksMTUzNjU0
+OTE1MF19
 -->
