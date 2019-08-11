@@ -642,21 +642,21 @@ You are in the  `dental`  repository. Use  `git diff`  to view the differences b
 
 ##### Possible Answers
 
--   [ ]`data/western.csv`.
+-   [ ] `data/western.csv`.
     
--   `report.txt`.
+-   [ ] `report.txt`.
     
--   `data/southern.csv`.
+-   [ ] `data/southern.csv`.
     
--   `report.txt`  and  `data/western.csv`.
+-   [ ] `report.txt`  and  `data/western.csv`.
     
--   `report.txt`  and  `data/southern.csv`.
+-   [ ] `report.txt`  and  `data/southern.csv`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDgzMjU1MDQsMTI1NzAzMTE4LC0yMT
-g3ODU5OSwxMDk3NzMyOTU3LC00OTA4MjE3OTEsNTIwMjM1NTEw
-LC02MDk3NDQzNDgsMTg2NDExNzc2OCwxNDYwODQ5MzkyLDU4Nz
-EwODEzNCw5ODkyNjI0MjgsLTExNzYwNjc2NjMsMTU1OTg4OTkw
-LDEzOTEyMTc4NzIsLTIwODYzNDQxNTYsLTI2ODIxODg4MSwtMT
-c2MTc1OTgwMSw3MTExMTQxMzAsMTAyOTkwNTQ2LC0xNTU2Njc0
-NDEzXX0=
+eyJoaXN0b3J5IjpbMTk2MDQwMDgyMCwxMjU3MDMxMTgsLTIxOD
+c4NTk5LDEwOTc3MzI5NTcsLTQ5MDgyMTc5MSw1MjAyMzU1MTAs
+LTYwOTc0NDM0OCwxODY0MTE3NzY4LDE0NjA4NDkzOTIsNTg3MT
+A4MTM0LDk4OTI2MjQyOCwtMTE3NjA2NzY2MywxNTU5ODg5OTAs
+MTM5MTIxNzg3MiwtMjA4NjM0NDE1NiwtMjY4MjE4ODgxLC0xNz
+YxNzU5ODAxLDcxMTExNDEzMCwxMDI5OTA1NDYsLTE1NTY2NzQ0
+MTNdfQ==
 -->
