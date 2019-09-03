@@ -27,6 +27,8 @@ $ exit
 ```
 > Note: the `tree`command is not part of [Chocolatey](https://chocolatey.org/). You can find the `tree` command as part of Bash but not in Chocolatey.  Of course, the tree command exist for `cmd`.
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NjE0OTAyNywtMTk2OTkyODQ1OV19
+eyJoaXN0b3J5IjpbLTUzODUwMDA3OSwxMTg2MTQ5MDI3LC0xOT
+Y5OTI4NDU5XX0=
 -->
