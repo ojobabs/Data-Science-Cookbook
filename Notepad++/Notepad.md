@@ -47,7 +47,10 @@ Then click on  Replace all
 
 `([\w-]+)`  is a character class that matches alphanumeric character (including underscore) and dash.  
 This will replace each field by the same with single quotes arround it.
+
+### [How to delete all lines in a document which has a specific text]([https://notepad-plus-plus.org/community/topic/12814/how-to-delete-all-lines-in-a-document-which-has-a-specific-text](https://notepad-plus-plus.org/community/topic/12814/how-to-delete-all-lines-in-a-document-which-has-a-specific-text))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzkwNzQxNywxMzQ1NzMwOTkzLC00Mz
-cxNjQ2NjMsLTEzMjY3OTY0NzUsNTE1NzE0NzRdfQ==
+eyJoaXN0b3J5IjpbODA2NTM1NTQyLC01Nzc5MDc0MTcsMTM0NT
+czMDk5MywtNDM3MTY0NjYzLC0xMzI2Nzk2NDc1LDUxNTcxNDc0
+XX0=
 -->
