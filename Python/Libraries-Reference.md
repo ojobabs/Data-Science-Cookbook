@@ -50,6 +50,11 @@ Kedro is a development workflow framework which aims to become the industry stan
 References:
 
 - [Introducing `kedro` the open source library for production ready machine learning code](https://medium.com/@QuantumBlack/introducing-kedro-the-open-source-library-for-production-ready-machine-learning-code-d1c6d26ce2cf)
+
+
+### [Feature-engine](https://www.trainindata.com/feature-engine)
+
+Feature Engine allows you to design and store a feature engineering pipeline with bespoke procedures for different variable groups.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTM3MTExNTBdfQ==
+eyJoaXN0b3J5IjpbLTUxMzkxMTU4OCwtMTg5MzcxMTE1MF19
 -->
