@@ -199,7 +199,7 @@ $ git cherry -v master traditional
 ```
 This would show all of the commits which are contained within  _traditional_, but NOT in  _master_. If you leave off the last option (_traditional_), it will compare the current branch instead.
 
-As VonC pointed out, you are ALWAYS comparing your branch to another branch, so know your branches and then choose which one to compare to.
+You are ALWAYS comparing your branch to another branch, so know your branches and then choose which one to compare to.
 
 
 
@@ -211,7 +211,7 @@ As VonC pointed out, you are ALWAYS comparing your branch to another branch, so 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzYyMTgwMTEsLTEwMTc2ODM0OTMsMT
+eyJoaXN0b3J5IjpbLTEwNjM1Nzc2MjIsLTEwMTc2ODM0OTMsMT
 czNjEwNDA2OCwyMDE5Mjc5Mzg2LDIwMTkyNzkzODYsMTYwMTgx
 Njk3MSwtMTMwMjE1MjY1MCwtMTkyNTcwODQ2MCwtMTA1MTMyNT
 c0NywyMDQwMjY3NjA5LDI0MjY4OTczM119
