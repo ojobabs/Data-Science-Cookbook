@@ -203,9 +203,13 @@ You are ALWAYS comparing your branch to another branch, so know your branches an
 
 The log is listed in chronological order. 
 
-Another way:
+Another way using:
 
-```gi
+```git
+$ git log --graph traditional
+```
+Example:
+```git
 t93kqi0@IAG-MAGUI-KQ10 MINGW64 ~/Documents/Projects/Agent-Screening (traditional)
 $ git log --graph traditional
 * commit 0d423c6deeb87f28c41f6e1639ccfe3b69adfbaf (HEAD -> traditional, origin/traditional)
@@ -235,6 +239,46 @@ $ git log --graph traditional
 |       Add code\pipeline-03.py and all corresponding data
 |
 *   commit 618382c12aa72867c2694aa3f56ae08c2c45ba9e
+* *   commit 618382c12aa72867c2694aa3f56ae08c2c45ba9e
+|\  Merge: 3439e2d 8e6723a
+| | Author: Marcos <marcos_aguilerakeyser@newyorklife.com>
+
+| | Date:   Sun Sep 15 17:45:59 2019 -0400
+| |
+| |     Merge branch 'traditional' of nylgit.newyorklife.com:CDSA/Agent-Screening into traditional
+| |
+| * commit 8e6723af883136261914acdcd36c3145edc4c463
+| | Author: Marcos <marcos_aguilerakeyser@newyorklife.com>
+| | Date:   Sun Sep 15 17:40:02 2019 -0400
+| |
+| |     Add code\pipeline-01.py with the corresponding data
+| |
+* | commit 3439e2de2a2a98caf7c3afc525552062ec774b3e
+|/  Author: Marcos <marcos_aguilerakeyser@newyorklife.com>
+|   Date:   Sun Sep 15 17:40:47 2019 -0400
+|
+|       Add code\pipeline-01.py with the corresponding data
+|
+* commit 12b990690912f11ae18cdb9bdc1f37caa9820079
+| Author: Marcos <marcos_aguilerakeyser@newyorklife.com>
+| Date:   Sun Sep 15 17:38:40 2019 -0400
+|
+|     Add documents\analysis-traditional-economentric-approach-v01.xls with the variables inlcuded in the traditional approach.
+|
+* commit 8be0467d1597af1b26ef371c23cac74415f77b30
+| Author: Marcos <marcos_aguilerakeyser@newyorklife.com>
+| Date:   Wed Sep 11 10:17:23 2019 -0400
+|
+|     Add code\binning_efd.py to apply equally frequency discretization to train, test and validation data. The data have been created for 3 and 6 bins.
+|
+* commit 3be7aa49aa51a0314a2efd059167bf7befe6cf41 (origin/master, master)
+* | Author: Marcos <marcos_aguilerakeyser@newyorklife.com>
+| Date:   Mon Sep 9 14:30:54 2019 -0400
+|
+|     Update code\binning_decision_trees_data_2.py and master_validate\bootstrapped_validation_Binned.csv Updated code to include the binned version fo the validation dataset for model assesment.
+|
+* commit 75684932b31b3aba7d5494f8e37ad9cc8e113393
+| Author: Marcos <marcos_aguilerakeyser@newyorklife.com>
 ```
 
 ```
@@ -248,8 +292,8 @@ $ git log --graph traditional
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NDYxMTI5NCwtMTAxNzY4MzQ5MywxNz
-M2MTA0MDY4LDIwMTkyNzkzODYsMjAxOTI3OTM4NiwxNjAxODE2
-OTcxLC0xMzAyMTUyNjUwLC0xOTI1NzA4NDYwLC0xMDUxMzI1Nz
-Q3LDIwNDAyNjc2MDksMjQyNjg5NzMzXX0=
+eyJoaXN0b3J5IjpbLTEwOTU2NjMyMzcsLTEwMTc2ODM0OTMsMT
+czNjEwNDA2OCwyMDE5Mjc5Mzg2LDIwMTkyNzkzODYsMTYwMTgx
+Njk3MSwtMTMwMjE1MjY1MCwtMTkyNTcwODQ2MCwtMTA1MTMyNT
+c0NywyMDQwMjY3NjA5LDI0MjY4OTczM119
 -->
