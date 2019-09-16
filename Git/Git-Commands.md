@@ -182,7 +182,11 @@ When using `git clone` (from GitHub, or any source repository for that matter) t
 
 ### Create a new branch
 
-### 
+### [Git log to get commits only for a specific branch](https://stackoverflow.com/questions/14848274/git-log-to-get-commits-only-for-a-specific-branch)
+
+From what it sounds like you should be using `cherry`:
+
+```bash
 
 
 
@@ -196,8 +200,8 @@ When using `git clone` (from GitHub, or any source repository for that matter) t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODQwMzgyMiwtMTAxNzY4MzQ5MywxNz
-M2MTA0MDY4LDIwMTkyNzkzODYsMjAxOTI3OTM4NiwxNjAxODE2
-OTcxLC0xMzAyMTUyNjUwLC0xOTI1NzA4NDYwLC0xMDUxMzI1Nz
-Q3LDIwNDAyNjc2MDksMjQyNjg5NzMzXX0=
+eyJoaXN0b3J5IjpbOTk1OTQ0NzE4LC0xMDE3NjgzNDkzLDE3Mz
+YxMDQwNjgsMjAxOTI3OTM4NiwyMDE5Mjc5Mzg2LDE2MDE4MTY5
+NzEsLTEzMDIxNTI2NTAsLTE5MjU3MDg0NjAsLTEwNTEzMjU3ND
+csMjA0MDI2NzYwOSwyNDI2ODk3MzNdfQ==
 -->
