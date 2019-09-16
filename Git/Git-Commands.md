@@ -180,7 +180,9 @@ When using `git clone` (from GitHub, or any source repository for that matter) t
 ```
 [Reference](https://stackoverflow.com/questions/4089430/how-can-i-determine-the-url-that-a-local-git-repository-was-originally-cloned-fr)
 
- 
+### Create a new branch
+
+### 
 
 
 
@@ -194,8 +196,8 @@ When using `git clone` (from GitHub, or any source repository for that matter) t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTc2ODM0OTMsMTczNjEwNDA2OCwyMD
-E5Mjc5Mzg2LDIwMTkyNzkzODYsMTYwMTgxNjk3MSwtMTMwMjE1
-MjY1MCwtMTkyNTcwODQ2MCwtMTA1MTMyNTc0NywyMDQwMjY3Nj
-A5LDI0MjY4OTczM119
+eyJoaXN0b3J5IjpbLTQyODQwMzgyMiwtMTAxNzY4MzQ5MywxNz
+M2MTA0MDY4LDIwMTkyNzkzODYsMjAxOTI3OTM4NiwxNjAxODE2
+OTcxLC0xMzAyMTUyNjUwLC0xOTI1NzA4NDYwLC0xMDUxMzI1Nz
+Q3LDIwNDAyNjc2MDksMjQyNjg5NzMzXX0=
 -->
