@@ -201,6 +201,13 @@ This would show all of the commits which are contained within  _traditional_, bu
 
 You are ALWAYS comparing your branch to another branch, so know your branches and then choose which one to compare to.
 
+The log is listed in chronological order. 
+
+Another way:
+
+```git
+
+```
 
 
 
@@ -211,8 +218,8 @@ You are ALWAYS comparing your branch to another branch, so know your branches an
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjM1Nzc2MjIsLTEwMTc2ODM0OTMsMT
-czNjEwNDA2OCwyMDE5Mjc5Mzg2LDIwMTkyNzkzODYsMTYwMTgx
-Njk3MSwtMTMwMjE1MjY1MCwtMTkyNTcwODQ2MCwtMTA1MTMyNT
-c0NywyMDQwMjY3NjA5LDI0MjY4OTczM119
+eyJoaXN0b3J5IjpbMTIxMjY3Mjk2MSwtMTAxNzY4MzQ5MywxNz
+M2MTA0MDY4LDIwMTkyNzkzODYsMjAxOTI3OTM4NiwxNjAxODE2
+OTcxLC0xMzAyMTUyNjUwLC0xOTI1NzA4NDYwLC0xMDUxMzI1Nz
+Q3LDIwNDAyNjc2MDksMjQyNjg5NzMzXX0=
 -->
