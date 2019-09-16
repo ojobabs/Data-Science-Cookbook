@@ -187,6 +187,10 @@ When using `git clone` (from GitHub, or any source repository for that matter) t
 From what it sounds like you should be using `cherry`:
 
 ```git
+$ git cherry -v master traditional
+```
+Example:
+```git
 t93kqi0@IAG-MAGUI-KQ10 MINGW64 ~/Documents/Projects/Agent-Screening (traditional)
 $ git cherry -v master traditional
 + 8be0467d1597af1b26ef371c23cac74415f77b30 Add code\binning_efd.py to apply equally frequency discretization to train, test and validation data. The data have been created for 3 and 6 bins.
@@ -292,8 +296,8 @@ $ git log --graph traditional
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTU2NjMyMzcsLTEwMTc2ODM0OTMsMT
-czNjEwNDA2OCwyMDE5Mjc5Mzg2LDIwMTkyNzkzODYsMTYwMTgx
-Njk3MSwtMTMwMjE1MjY1MCwtMTkyNTcwODQ2MCwtMTA1MTMyNT
-c0NywyMDQwMjY3NjA5LDI0MjY4OTczM119
+eyJoaXN0b3J5IjpbMjEwMDA2NzM5MiwtMTAxNzY4MzQ5MywxNz
+M2MTA0MDY4LDIwMTkyNzkzODYsMjAxOTI3OTM4NiwxNjAxODE2
+OTcxLC0xMzAyMTUyNjUwLC0xOTI1NzA4NDYwLC0xMDUxMzI1Nz
+Q3LDIwNDAyNjc2MDksMjQyNjg5NzMzXX0=
 -->
