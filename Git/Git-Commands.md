@@ -186,9 +186,20 @@ When using `git clone` (from GitHub, or any source repository for that matter) t
 
 From what it sounds like you should be using `cherry`:
 
-```bash
+```git
+t93kqi0@IAG-MAGUI-KQ10 MINGW64 ~/Documents/Projects/Agent-Screening (traditional)
+$ git cherry -v master traditional
++ 8be0467d1597af1b26ef371c23cac74415f77b30 Add code\binning_efd.py to apply equally frequency discretization to train, test and validation data. The data have been created for 3 and 6 bins.
++ 12b990690912f11ae18cdb9bdc1f37caa9820079 Add documents\analysis-traditional-economentric-approach-v01.xls with the variables inlcuded in the traditional approach.
++ 8e6723af883136261914acdcd36c3145edc4c463 Add code\pipeline-01.py with the corresponding data
++ 3439e2de2a2a98caf7c3afc525552062ec774b3e Add code\pipeline-01.py with the corresponding data
++ 80e80a3b78ad9fff8ff7082e2e5a863c4d8de271 Add code\pipeline-03.py and all corresponding data
++ 796f882c018b5a218d00c50de8cd24f4961b125d Add code\pipeline-03.py and all corresponding data
++ 0d423c6deeb87f28c41f6e1639ccfe3b69adfbaf Add code\pipeline-05.py with remaining and corresponding data
+```
+This would show all of the commits which are contained within  _traditional_, but NOT in  _master_. If you leave off the last option (_traditional_), it will compare the current branch instead.
 
-
+As VonC pointed out, you are ALWAYS comparing your branch to another branch, so know your branches and then choose which one to compare to.
 
 
 
@@ -200,8 +211,8 @@ From what it sounds like you should be using `cherry`:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk1OTQ0NzE4LC0xMDE3NjgzNDkzLDE3Mz
-YxMDQwNjgsMjAxOTI3OTM4NiwyMDE5Mjc5Mzg2LDE2MDE4MTY5
-NzEsLTEzMDIxNTI2NTAsLTE5MjU3MDg0NjAsLTEwNTEzMjU3ND
-csMjA0MDI2NzYwOSwyNDI2ODk3MzNdfQ==
+eyJoaXN0b3J5IjpbLTIxMzYyMTgwMTEsLTEwMTc2ODM0OTMsMT
+czNjEwNDA2OCwyMDE5Mjc5Mzg2LDIwMTkyNzkzODYsMTYwMTgx
+Njk3MSwtMTMwMjE1MjY1MCwtMTkyNTcwODQ2MCwtMTA1MTMyNT
+c0NywyMDQwMjY3NjA5LDI0MjY4OTczM119
 -->
