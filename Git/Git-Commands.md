@@ -285,7 +285,6 @@ $ git log --graph traditional
 | Author: Marcos <marcos_aguilerakeyser@newyorklife.com>
 ```
 
-```
 
 
 
@@ -296,7 +295,7 @@ $ git log --graph traditional
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMDA2NzM5MiwtMTAxNzY4MzQ5MywxNz
+eyJoaXN0b3J5IjpbMTAyODczMDQ5OCwtMTAxNzY4MzQ5MywxNz
 M2MTA0MDY4LDIwMTkyNzkzODYsMjAxOTI3OTM4NiwxNjAxODE2
 OTcxLC0xMzAyMTUyNjUwLC0xOTI1NzA4NDYwLC0xMDUxMzI1Nz
 Q3LDIwNDAyNjc2MDksMjQyNjg5NzMzXX0=
