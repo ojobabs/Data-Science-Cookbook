@@ -205,7 +205,37 @@ The log is listed in chronological order.
 
 Another way:
 
-```git
+```gi
+t93kqi0@IAG-MAGUI-KQ10 MINGW64 ~/Documents/Projects/Agent-Screening (traditional)
+$ git log --graph traditional
+* commit 0d423c6deeb87f28c41f6e1639ccfe3b69adfbaf (HEAD -> traditional, origin/traditional)
+| Author: Marcos <marcos_aguilerakeyser@newyorklife.com>
+| Date:   Sun Sep 15 17:52:13 2019 -0400
+|
+|     Add code\pipeline-05.py with remaining and corresponding data
+|
+*   commit 1fc98a3ce47fd56020a4b9d620d43b06ea8ebfd8
+|\  Merge: 796f882 80e80a3
+
+| | Author: Marcos <marcos_aguilerakeyser@newyorklife.com>
+| | Date:   Sun Sep 15 17:49:13 2019 -0400
+| |
+| |     Merge branch 'traditional' of nylgit.newyorklife.com:CDSA/Agent-Screening into traditional
+| |
+| * commit 80e80a3b78ad9fff8ff7082e2e5a863c4d8de271
+| | Author: Marcos <marcos_aguilerakeyser@newyorklife.com>
+| | Date:   Sun Sep 15 17:47:07 2019 -0400
+| |
+| |     Add code\pipeline-03.py and all corresponding data
+| |
+* | commit 796f882c018b5a218d00c50de8cd24f4961b125d
+|/  Author: Marcos <marcos_aguilerakeyser@newyorklife.com>
+|   Date:   Sun Sep 15 17:48:44 2019 -0400
+|
+|       Add code\pipeline-03.py and all corresponding data
+|
+*   commit 618382c12aa72867c2694aa3f56ae08c2c45ba9e
+```
 
 ```
 
@@ -218,7 +248,7 @@ Another way:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjY3Mjk2MSwtMTAxNzY4MzQ5MywxNz
+eyJoaXN0b3J5IjpbMTA4NDYxMTI5NCwtMTAxNzY4MzQ5MywxNz
 M2MTA0MDY4LDIwMTkyNzkzODYsMjAxOTI3OTM4NiwxNjAxODE2
 OTcxLC0xMzAyMTUyNjUwLC0xOTI1NzA4NDYwLC0xMDUxMzI1Nz
 Q3LDIwNDAyNjc2MDksMjQyNjg5NzMzXX0=
