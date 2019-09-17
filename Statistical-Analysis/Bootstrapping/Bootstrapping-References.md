@@ -12,6 +12,8 @@ Chapter 17 of the follwong book:
 - [HOW CAN I BOOTSTRAP ESTIMATES IN SAS? - UCLA](https://stats.idre.ucla.edu/sas/faq/how-can-i-bootstrap-estimates-in-sas/)
 - [Using the Bootstrap for Estimating the Sample Size in Statistical Experiments](https://pdfs.semanticscholar.org/c39b/24fe237486bce3cc7a3124efc864051b39a6.pdf)
 - [Confidence Intervals for Effect Sizes: Applying Bootstrap Resampling](https://pareonline.net/getvn.asp?v=21&n=5)
+- Pages 187 to 190 and 194 to 196 from the following book;
+- [An Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
 - [An Introduction to the Bootstrap Method](https://towardsdatascience.com/an-introduction-to-the-bootstrap-method-58bcb51b4d60)
 
 - [Bootstrapping](http://homepage.stat.uiowa.edu/~rdecook/stat3200/notes/bootstrap_4pp.pdf)
@@ -30,9 +32,10 @@ Chapter 17 of the follwong book:
 - [How to use the %BOOT and %BOOTCI macros in SAS](https://blogs.sas.com/content/iml/2018/07/23/boot-and-bootci-macros-sas.html)
 - [Stadistical Learning](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
 - [why-is-bootstrapping-useful](https://stats.stackexchange.com/questions/331676/why-is-bootstrapping-useful)
+- [Applied Predictive Modeling](https://www.amazon.com/Applied-Predictive-Modeling-Max-Kuhn/dp/1493979361/ref=asc_df_1493979361/?tag=hyprod-20&linkCode=df0&hvadid=312091457223&hvpos=1o1&hvnetw=g&hvrand=4457934212424178131&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9004338&hvtargid=aud-801381245258:pla-664199700931&psc=1&tag=&ref=&adgrpid=62820903995&hvpone=&hvptwo=&hvadid=312091457223&hvpos=1o1&hvnetw=g&hvrand=4457934212424178131&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9004338&hvtargid=aud-801381245258:pla-664199700931)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE1NjgyOTU4LC0xMjc2NDgxNCwxMTkzMD
-c1NDYxLC02NjE2MzY1NDEsNDc4NDAzODA2LC03MzcyMjM3NDUs
-MTAzODc0NzA1OCwxNjUxMzg4MTAyLDY1ODI2ODA4OCw2OTYzMT
-E0NjAsMTI0MTA4NzU5NywtMTc0NjA0MjMyM119
+eyJoaXN0b3J5IjpbLTE0OTE2NjY3MywtMTI3NjQ4MTQsMTE5Mz
+A3NTQ2MSwtNjYxNjM2NTQxLDQ3ODQwMzgwNiwtNzM3MjIzNzQ1
+LDEwMzg3NDcwNTgsMTY1MTM4ODEwMiw2NTgyNjgwODgsNjk2Mz
+ExNDYwLDEyNDEwODc1OTcsLTE3NDYwNDIzMjNdfQ==
 -->
