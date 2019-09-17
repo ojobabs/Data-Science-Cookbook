@@ -26,9 +26,9 @@ Pages 187 to 190 and 194 to 196 from the following book;
 - [Bootstrap regression estimates: Case resampling](https://blogs.sas.com/content/iml/2018/10/24/bootstrap-regression-case-resampling.html)
 - [Compute a bootstrap confidence interval in SAS](https://blogs.sas.com/content/iml/2016/08/10/bootstrap-confidence-interval-sas.html)
 - [The bias-corrected and accelerated (BCa) bootstrap interval](https://blogs.sas.com/content/iml/2017/07/12/bootstrap-bca-interval.html)
-- # How to use the %BOOT and %BOOTCI macros in SAS
+- [How to use the %BOOT and %BOOTCI macros in SAS](https://blogs.sas.com/content/iml/2018/07/23/boot-and-bootci-macros-sas.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxODk0NTU2LC03MzcyMjM3NDUsMTAzOD
+eyJoaXN0b3J5IjpbNDc4NDAzODA2LC03MzcyMjM3NDUsMTAzOD
 c0NzA1OCwxNjUxMzg4MTAyLDY1ODI2ODA4OCw2OTYzMTE0NjAs
 MTI0MTA4NzU5NywtMTc0NjA0MjMyM119
 -->
