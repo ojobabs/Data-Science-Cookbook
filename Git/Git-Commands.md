@@ -203,6 +203,14 @@ git checkout master
 
 # Merge the `experiment` branch into the current (`master`) branch
 git merge experiment
+
+# Push the current branch to the BRANCH_NAME branch on the `origin`
+# remote (GitHub)
+git push origin BRANCH_NAME
+
+# Push to the BRANCH_NAME branch on origin, enabling remote tracking
+# The -u creates an association between the local and remote branches
+git push -u origin BRANCH_NAME
 ```
 
 
@@ -319,8 +327,9 @@ $ git log --graph traditional
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU3NTUwMjA2LDEwMjg3MzA0OTgsLTEwMT
-c2ODM0OTMsMTczNjEwNDA2OCwyMDE5Mjc5Mzg2LDIwMTkyNzkz
-ODYsMTYwMTgxNjk3MSwtMTMwMjE1MjY1MCwtMTkyNTcwODQ2MC
-wtMTA1MTMyNTc0NywyMDQwMjY3NjA5LDI0MjY4OTczM119
+eyJoaXN0b3J5IjpbLTE2NDQ5NDE4OTEsMTAyODczMDQ5OCwtMT
+AxNzY4MzQ5MywxNzM2MTA0MDY4LDIwMTkyNzkzODYsMjAxOTI3
+OTM4NiwxNjAxODE2OTcxLC0xMzAyMTUyNjUwLC0xOTI1NzA4ND
+YwLC0xMDUxMzI1NzQ3LDIwNDAyNjc2MDksMjQyNjg5NzMzXX0=
+
 -->
