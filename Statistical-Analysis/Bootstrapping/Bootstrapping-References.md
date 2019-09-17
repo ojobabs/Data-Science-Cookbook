@@ -6,6 +6,11 @@
 # Bootstrapping References
 
 - [Chapter_21 Bootstrapping Regression Models](http://www.sagepub.com/sites/default/files/upm-binaries/21122_Chapter_21.pdf)
+
+There is a reviewed version for the above reference here:
+
+- [Appendix-Bootstrapping](https://socialsciences.mcmaster.ca/jfox/Books/Companion/appendices/Appendix-Bootstrapping.pdf)
+
 - [How to Calculate Bootstrap Confidence Intervals For Machine Learning Results in Python](https://machinelearningmastery.com/calculate-bootstrap-confidence-intervals-machine-learning-results-python/)
 Chapter 17 of the follwong book:
 - [Statistical Methods for Machine Learning](https://machinelearningmastery.com/statistics_for_machine_learning/)
@@ -35,8 +40,9 @@ Chapter 17 of the follwong book:
 - [why-is-bootstrapping-useful](https://stats.stackexchange.com/questions/331676/why-is-bootstrapping-useful)
 - [Applied Predictive Modeling](https://www.amazon.com/Applied-Predictive-Modeling-Max-Kuhn/dp/1493979361/ref=asc_df_1493979361/?tag=hyprod-20&linkCode=df0&hvadid=312091457223&hvpos=1o1&hvnetw=g&hvrand=4457934212424178131&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9004338&hvtargid=aud-801381245258:pla-664199700931&psc=1&tag=&ref=&adgrpid=62820903995&hvpone=&hvptwo=&hvadid=312091457223&hvpos=1o1&hvnetw=g&hvrand=4457934212424178131&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9004338&hvtargid=aud-801381245258:pla-664199700931)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzU5MjYyOTcsLTEyNzY0ODE0LDExOT
-MwNzU0NjEsLTY2MTYzNjU0MSw0Nzg0MDM4MDYsLTczNzIyMzc0
-NSwxMDM4NzQ3MDU4LDE2NTEzODgxMDIsNjU4MjY4MDg4LDY5Nj
-MxMTQ2MCwxMjQxMDg3NTk3LC0xNzQ2MDQyMzIzXX0=
+eyJoaXN0b3J5IjpbODI2MzI5OTg4LC0xNDM1OTI2Mjk3LC0xMj
+c2NDgxNCwxMTkzMDc1NDYxLC02NjE2MzY1NDEsNDc4NDAzODA2
+LC03MzcyMjM3NDUsMTAzODc0NzA1OCwxNjUxMzg4MTAyLDY1OD
+I2ODA4OCw2OTYzMTE0NjAsMTI0MTA4NzU5NywtMTc0NjA0MjMy
+M119
 -->
