@@ -39,10 +39,12 @@ Chapter 17 of the follwong book:
 - [Stadistical Learning](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
 - [why-is-bootstrapping-useful](https://stats.stackexchange.com/questions/331676/why-is-bootstrapping-useful)
 - [Applied Predictive Modeling](https://www.amazon.com/Applied-Predictive-Modeling-Max-Kuhn/dp/1493979361/ref=asc_df_1493979361/?tag=hyprod-20&linkCode=df0&hvadid=312091457223&hvpos=1o1&hvnetw=g&hvrand=4457934212424178131&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9004338&hvtargid=aud-801381245258:pla-664199700931&psc=1&tag=&ref=&adgrpid=62820903995&hvpone=&hvptwo=&hvadid=312091457223&hvpos=1o1&hvnetw=g&hvrand=4457934212424178131&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9004338&hvtargid=aud-801381245258:pla-664199700931)
+- [https://www.datacamp.com/community/tutorials/bootstrap-r](https://www.datacamp.com/community/tutorials/bootstrap-r)
+- [https://stats.idre.ucla.edu/r/library/r-library-introduction-to-bootstrapping/](https://stats.idre.ucla.edu/r/library/r-library-introduction-to-bootstrapping/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2MzI5OTg4LC0xNDM1OTI2Mjk3LC0xMj
-c2NDgxNCwxMTkzMDc1NDYxLC02NjE2MzY1NDEsNDc4NDAzODA2
-LC03MzcyMjM3NDUsMTAzODc0NzA1OCwxNjUxMzg4MTAyLDY1OD
-I2ODA4OCw2OTYzMTE0NjAsMTI0MTA4NzU5NywtMTc0NjA0MjMy
-M119
+eyJoaXN0b3J5IjpbMTIxNDM4MjE3Niw4MjYzMjk5ODgsLTE0Mz
+U5MjYyOTcsLTEyNzY0ODE0LDExOTMwNzU0NjEsLTY2MTYzNjU0
+MSw0Nzg0MDM4MDYsLTczNzIyMzc0NSwxMDM4NzQ3MDU4LDE2NT
+EzODgxMDIsNjU4MjY4MDg4LDY5NjMxMTQ2MCwxMjQxMDg3NTk3
+LC0xNzQ2MDQyMzIzXX0=
 -->
