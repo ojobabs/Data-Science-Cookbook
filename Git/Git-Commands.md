@@ -182,6 +182,9 @@ When using `git clone` (from GitHub, or any source repository for that matter) t
 
 ### Create a new branch
 
+# See a list of current branches in the repo
+git branch
+
 ### [Git log to get commits only for a specific branch](https://stackoverflow.com/questions/14848274/git-log-to-get-commits-only-for-a-specific-branch)
 
 From what it sounds like you should be using `cherry`:
@@ -295,8 +298,9 @@ $ git log --graph traditional
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyODczMDQ5OCwtMTAxNzY4MzQ5MywxNz
-M2MTA0MDY4LDIwMTkyNzkzODYsMjAxOTI3OTM4NiwxNjAxODE2
-OTcxLC0xMzAyMTUyNjUwLC0xOTI1NzA4NDYwLC0xMDUxMzI1Nz
-Q3LDIwNDAyNjc2MDksMjQyNjg5NzMzXX0=
+eyJoaXN0b3J5IjpbLTEzMDgwNTI4MjEsMTAyODczMDQ5OCwtMT
+AxNzY4MzQ5MywxNzM2MTA0MDY4LDIwMTkyNzkzODYsMjAxOTI3
+OTM4NiwxNjAxODE2OTcxLC0xMzAyMTUyNjUwLC0xOTI1NzA4ND
+YwLC0xMDUxMzI1NzQ3LDIwNDAyNjc2MDksMjQyNjg5NzMzXX0=
+
 -->
