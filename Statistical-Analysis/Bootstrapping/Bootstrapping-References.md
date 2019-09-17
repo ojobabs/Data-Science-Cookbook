@@ -14,7 +14,8 @@ Pages 187 to 190 and 194 to 196 from the following book;
 - [An Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
 - [Bootstrapping](http://homepage.stat.uiowa.edu/~rdecook/stat3200/notes/bootstrap_4pp.pdf)
 - [http://web.stanford.edu/~rjohari/teaching/notes/226_lecture13_inference.pdf](http://web.stanford.edu/~rjohari/teaching/notes/226_lecture13_inference.pdf)
+- [https://stats.idre.ucla.edu/r/library/r-library-introduction-to-bootstrapping/](https://stats.idre.ucla.edu/r/library/r-library-introduction-to-bootstrapping/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk2MzExNDYwLDEyNDEwODc1OTcsLTE3ND
-YwNDIzMjNdfQ==
+eyJoaXN0b3J5IjpbNjU4MjY4MDg4LDY5NjMxMTQ2MCwxMjQxMD
+g3NTk3LC0xNzQ2MDQyMzIzXX0=
 -->
