@@ -182,8 +182,17 @@ When using `git clone` (from GitHub, or any source repository for that matter) t
 
 ### Create a new branch
 
+```git
 # See a list of current branches in the repo
 git branch
+
+# Create a new branch called BRANCH_NAMEgit branch BRANCH_NAME
+git branch BRANCH_NAME
+
+# Switch to the BRANCH_NAME branch
+git checkout BRANCH_NAME
+```
+
 
 ### [Git log to get commits only for a specific branch](https://stackoverflow.com/questions/14848274/git-log-to-get-commits-only-for-a-specific-branch)
 
@@ -298,9 +307,9 @@ $ git log --graph traditional
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDgwNTI4MjEsMTAyODczMDQ5OCwtMT
-AxNzY4MzQ5MywxNzM2MTA0MDY4LDIwMTkyNzkzODYsMjAxOTI3
-OTM4NiwxNjAxODE2OTcxLC0xMzAyMTUyNjUwLC0xOTI1NzA4ND
-YwLC0xMDUxMzI1NzQ3LDIwNDAyNjc2MDksMjQyNjg5NzMzXX0=
+eyJoaXN0b3J5IjpbMTM4ODg4MzUyMywxMDI4NzMwNDk4LC0xMD
+E3NjgzNDkzLDE3MzYxMDQwNjgsMjAxOTI3OTM4NiwyMDE5Mjc5
+Mzg2LDE2MDE4MTY5NzEsLTEzMDIxNTI2NTAsLTE5MjU3MDg0Nj
+AsLTEwNTEzMjU3NDcsMjA0MDI2NzYwOSwyNDI2ODk3MzNdfQ==
 
 -->
