@@ -15,7 +15,8 @@ Pages 187 to 190 and 194 to 196 from the following book;
 - [Bootstrapping](http://homepage.stat.uiowa.edu/~rdecook/stat3200/notes/bootstrap_4pp.pdf)
 - [http://web.stanford.edu/~rjohari/teaching/notes/226_lecture13_inference.pdf](http://web.stanford.edu/~rjohari/teaching/notes/226_lecture13_inference.pdf)
 - [https://stats.idre.ucla.edu/r/library/r-library-introduction-to-bootstrapping/](https://stats.idre.ucla.edu/r/library/r-library-introduction-to-bootstrapping/)
+- [A-gentle-introduction-to-the-bootstrap-method](https://machinelearningmastery.com/a-gentle-introduction-to-the-bootstrap-method/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU4MjY4MDg4LDY5NjMxMTQ2MCwxMjQxMD
-g3NTk3LC0xNzQ2MDQyMzIzXX0=
+eyJoaXN0b3J5IjpbMTY1MTM4ODEwMiw2NTgyNjgwODgsNjk2Mz
+ExNDYwLDEyNDEwODc1OTcsLTE3NDYwNDIzMjNdfQ==
 -->
