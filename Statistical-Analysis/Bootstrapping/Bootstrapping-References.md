@@ -12,7 +12,8 @@
 - [An Introduction to the Bootstrap Method](https://towardsdatascience.com/an-introduction-to-the-bootstrap-method-58bcb51b4d60)
 Pages 187 to 190 and 194 to 196 from the following book;
 - [An Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
-
+-[http://homepage.stat.uiowa.edu/~rdecook/stat3200/notes/bootstrap_4pp.pdf](http://homepage.stat.uiowa.edu/~rdecook/stat3200/notes/bootstrap_4pp.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTA4NzU5NywtMTc0NjA0MjMyM119
+eyJoaXN0b3J5IjpbODQ3MTc3NjU3LDEyNDEwODc1OTcsLTE3ND
+YwNDIzMjNdfQ==
 -->
