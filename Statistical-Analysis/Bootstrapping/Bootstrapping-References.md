@@ -17,8 +17,9 @@ Pages 187 to 190 and 194 to 196 from the following book;
 - [http://web.stanford.edu/~rjohari/teaching/notes/226_lecture13_inference.pdf](http://web.stanford.edu/~rjohari/teaching/notes/226_lecture13_inference.pdf)
 - [https://stats.idre.ucla.edu/r/library/r-library-introduction-to-bootstrapping/](https://stats.idre.ucla.edu/r/library/r-library-introduction-to-bootstrapping/)
 - [A-gentle-introduction-to-the-bootstrap-method](https://machinelearningmastery.com/a-gentle-introduction-to-the-bootstrap-method/)
+- [A Gentle Introduction to Statistical Sampling and Resampling](https://machinelearningmastery.com/statistical-sampling-and-resampling/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzODc0NzA1OCwxNjUxMzg4MTAyLDY1OD
-I2ODA4OCw2OTYzMTE0NjAsMTI0MTA4NzU5NywtMTc0NjA0MjMy
-M119
+eyJoaXN0b3J5IjpbODg5Njg0NDkwLDEwMzg3NDcwNTgsMTY1MT
+M4ODEwMiw2NTgyNjgwODgsNjk2MzExNDYwLDEyNDEwODc1OTcs
+LTE3NDYwNDIzMjNdfQ==
 -->
