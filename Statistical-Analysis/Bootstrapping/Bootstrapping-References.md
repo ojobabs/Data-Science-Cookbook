@@ -21,8 +21,10 @@ Pages 187 to 190 and 194 to 196 from the following book;
 - [Confidence Intervals for Machine Learning](https://machinelearningmastery.com/confidence-intervals-for-machine-learning/)
 - [How to Evaluate the Skill of Deep Learning Models](https://machinelearningmastery.com/evaluate-skill-deep-learning-models/)
 - [Bootstrapping Regression Models](https://pdfs.semanticscholar.org/a799/8de6a01900069ec764e62da84588b026b312.pdf)
+- [The essential guide to bootstrapping in SAS](https://blogs.sas.com/content/iml/2018/12/12/essential-guide-bootstrapping-sas.html)
+- [Discrimination, accuracy, and stability in binary classifiers](https://blogs.sas.com/content/iml/2019/05/08/stability-binary-classifier.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNzIyMzc0NSwxMDM4NzQ3MDU4LDE2NT
-EzODgxMDIsNjU4MjY4MDg4LDY5NjMxMTQ2MCwxMjQxMDg3NTk3
-LC0xNzQ2MDQyMzIzXX0=
+eyJoaXN0b3J5IjpbMTU0Njc4MzU5NiwtNzM3MjIzNzQ1LDEwMz
+g3NDcwNTgsMTY1MTM4ODEwMiw2NTgyNjgwODgsNjk2MzExNDYw
+LDEyNDEwODc1OTcsLTE3NDYwNDIzMjNdfQ==
 -->
