@@ -11,7 +11,7 @@
 - [Confidence Intervals for Effect Sizes: Applying Bootstrap Resampling](https://pareonline.net/getvn.asp?v=21&n=5)
 - [An Introduction to the Bootstrap Method](https://towardsdatascience.com/an-introduction-to-the-bootstrap-method-58bcb51b4d60)
 - [dfa](https://drive.google.com/file/d/0BwrKUdeoMjBganpQbkhlUnl6UTA/view)
--187 to 190
+-187 to 190 and 194 to 196
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI0NTA2OTcxLC0xNzQ2MDQyMzIzXX0=
+eyJoaXN0b3J5IjpbNTQwNjg0MzcxLC0xNzQ2MDQyMzIzXX0=
 -->
