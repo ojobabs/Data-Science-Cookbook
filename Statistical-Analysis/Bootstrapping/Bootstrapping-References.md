@@ -23,8 +23,10 @@ Pages 187 to 190 and 194 to 196 from the following book;
 - [Bootstrapping Regression Models](https://pdfs.semanticscholar.org/a799/8de6a01900069ec764e62da84588b026b312.pdf)
 - [The essential guide to bootstrapping in SAS](https://blogs.sas.com/content/iml/2018/12/12/essential-guide-bootstrapping-sas.html)
 - [Discrimination, accuracy, and stability in binary classifiers](https://blogs.sas.com/content/iml/2019/05/08/stability-binary-classifier.html)
+- [Bootstrap regression estimates: Case resampling](https://blogs.sas.com/content/iml/2018/10/24/bootstrap-regression-case-resampling.html)
+- [Compute a bootstrap confidence interval in SAS](https://blogs.sas.com/content/iml/2016/08/10/bootstrap-confidence-interval-sas.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0Njc4MzU5NiwtNzM3MjIzNzQ1LDEwMz
+eyJoaXN0b3J5IjpbLTQ4MDQ2MjQ1MiwtNzM3MjIzNzQ1LDEwMz
 g3NDcwNTgsMTY1MTM4ODEwMiw2NTgyNjgwODgsNjk2MzExNDYw
 LDEyNDEwODc1OTcsLTE3NDYwNDIzMjNdfQ==
 -->
