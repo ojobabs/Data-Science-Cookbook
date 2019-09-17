@@ -19,8 +19,9 @@ Pages 187 to 190 and 194 to 196 from the following book;
 - [A-gentle-introduction-to-the-bootstrap-method](https://machinelearningmastery.com/a-gentle-introduction-to-the-bootstrap-method/)
 - [A Gentle Introduction to Statistical Sampling and Resampling](https://machinelearningmastery.com/statistical-sampling-and-resampling/)
 - [Confidence Intervals for Machine Learning](https://machinelearningmastery.com/confidence-intervals-for-machine-learning/)
+- [How to Evaluate the Skill of Deep Learning Models](https://machinelearningmastery.com/evaluate-skill-deep-learning-models/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Njk0OTE1OTYsMTAzODc0NzA1OCwxNj
-UxMzg4MTAyLDY1ODI2ODA4OCw2OTYzMTE0NjAsMTI0MTA4NzU5
-NywtMTc0NjA0MjMyM119
+eyJoaXN0b3J5IjpbOTcwNTc5MTExLDEwMzg3NDcwNTgsMTY1MT
+M4ODEwMiw2NTgyNjgwODgsNjk2MzExNDYwLDEyNDEwODc1OTcs
+LTE3NDYwNDIzMjNdfQ==
 -->
