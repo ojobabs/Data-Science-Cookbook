@@ -13,8 +13,7 @@ Chapter 17 of the follwong book:
 - [Using the Bootstrap for Estimating the Sample Size in Statistical Experiments](https://pdfs.semanticscholar.org/c39b/24fe237486bce3cc7a3124efc864051b39a6.pdf)
 - [Confidence Intervals for Effect Sizes: Applying Bootstrap Resampling](https://pareonline.net/getvn.asp?v=21&n=5)
 - [An Introduction to the Bootstrap Method](https://towardsdatascience.com/an-introduction-to-the-bootstrap-method-58bcb51b4d60)
-Pages 187 to 190 and 194 to 196 from the following book;
-- [An Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+
 - [Bootstrapping](http://homepage.stat.uiowa.edu/~rdecook/stat3200/notes/bootstrap_4pp.pdf)
 - [http://web.stanford.edu/~rjohari/teaching/notes/226_lecture13_inference.pdf](http://web.stanford.edu/~rjohari/teaching/notes/226_lecture13_inference.pdf)
 - [https://stats.idre.ucla.edu/r/library/r-library-introduction-to-bootstrapping/](https://stats.idre.ucla.edu/r/library/r-library-introduction-to-bootstrapping/)
@@ -32,8 +31,8 @@ Pages 187 to 190 and 194 to 196 from the following book;
 - [Stadistical Learning](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
 - [why-is-bootstrapping-useful](https://stats.stackexchange.com/questions/331676/why-is-bootstrapping-useful)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzY0ODE0LDExOTMwNzU0NjEsLTY2MT
-YzNjU0MSw0Nzg0MDM4MDYsLTczNzIyMzc0NSwxMDM4NzQ3MDU4
-LDE2NTEzODgxMDIsNjU4MjY4MDg4LDY5NjMxMTQ2MCwxMjQxMD
-g3NTk3LC0xNzQ2MDQyMzIzXX0=
+eyJoaXN0b3J5IjpbMzE1NjgyOTU4LC0xMjc2NDgxNCwxMTkzMD
+c1NDYxLC02NjE2MzY1NDEsNDc4NDAzODA2LC03MzcyMjM3NDUs
+MTAzODc0NzA1OCwxNjUxMzg4MTAyLDY1ODI2ODA4OCw2OTYzMT
+E0NjAsMTI0MTA4NzU5NywtMTc0NjA0MjMyM119
 -->
