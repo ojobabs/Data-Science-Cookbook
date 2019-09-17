@@ -7,7 +7,7 @@
 
 - [Chapter_21 Bootstrapping Regression Models](http://www.sagepub.com/sites/default/files/upm-binaries/21122_Chapter_21.pdf)
 - [How to Calculate Bootstrap Confidence Intervals For Machine Learning Results in Python](https://machinelearningmastery.com/calculate-bootstrap-confidence-intervals-machine-learning-results-python/)
-Chapter 17 of 
+Chapter 17 of the follwong book:
 - [Statistical Methods for Machine Learning](https://machinelearningmastery.com/statistics_for_machine_learning/)
 - [HOW CAN I BOOTSTRAP ESTIMATES IN SAS? - UCLA](https://stats.idre.ucla.edu/sas/faq/how-can-i-bootstrap-estimates-in-sas/)
 - [Using the Bootstrap for Estimating the Sample Size in Statistical Experiments](https://pdfs.semanticscholar.org/c39b/24fe237486bce3cc7a3124efc864051b39a6.pdf)
@@ -32,8 +32,8 @@ Pages 187 to 190 and 194 to 196 from the following book;
 - [Stadistical Learning](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
 - [why-is-bootstrapping-useful](https://stats.stackexchange.com/questions/331676/why-is-bootstrapping-useful)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzM0OTE2MDQsMTE5MzA3NTQ2MSwtNj
-YxNjM2NTQxLDQ3ODQwMzgwNiwtNzM3MjIzNzQ1LDEwMzg3NDcw
-NTgsMTY1MTM4ODEwMiw2NTgyNjgwODgsNjk2MzExNDYwLDEyND
-EwODc1OTcsLTE3NDYwNDIzMjNdfQ==
+eyJoaXN0b3J5IjpbLTEyNzY0ODE0LDExOTMwNzU0NjEsLTY2MT
+YzNjU0MSw0Nzg0MDM4MDYsLTczNzIyMzc0NSwxMDM4NzQ3MDU4
+LDE2NTEzODgxMDIsNjU4MjY4MDg4LDY5NjMxMTQ2MCwxMjQxMD
+g3NTk3LC0xNzQ2MDQyMzIzXX0=
 -->
