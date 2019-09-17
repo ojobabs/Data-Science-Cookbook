@@ -18,8 +18,9 @@ Pages 187 to 190 and 194 to 196 from the following book;
 - [https://stats.idre.ucla.edu/r/library/r-library-introduction-to-bootstrapping/](https://stats.idre.ucla.edu/r/library/r-library-introduction-to-bootstrapping/)
 - [A-gentle-introduction-to-the-bootstrap-method](https://machinelearningmastery.com/a-gentle-introduction-to-the-bootstrap-method/)
 - [A Gentle Introduction to Statistical Sampling and Resampling](https://machinelearningmastery.com/statistical-sampling-and-resampling/)
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5Njg0NDkwLDEwMzg3NDcwNTgsMTY1MT
-M4ODEwMiw2NTgyNjgwODgsNjk2MzExNDYwLDEyNDEwODc1OTcs
-LTE3NDYwNDIzMjNdfQ==
+eyJoaXN0b3J5IjpbMTY2NTg0MDc3MywxMDM4NzQ3MDU4LDE2NT
+EzODgxMDIsNjU4MjY4MDg4LDY5NjMxMTQ2MCwxMjQxMDg3NTk3
+LC0xNzQ2MDQyMzIzXX0=
 -->
