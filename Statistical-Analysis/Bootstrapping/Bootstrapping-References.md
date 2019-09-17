@@ -28,8 +28,10 @@ Pages 187 to 190 and 194 to 196 from the following book;
 - [The bias-corrected and accelerated (BCa) bootstrap interval](https://blogs.sas.com/content/iml/2017/07/12/bootstrap-bca-interval.html)
 - [How to use the %BOOT and %BOOTCI macros in SAS](https://blogs.sas.com/content/iml/2018/07/23/boot-and-bootci-macros-sas.html)
 - [Stadistical Learning](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
+- [why-is-bootstrapping-useful](https://stats.stackexchange.com/questions/331676/why-is-bootstrapping-useful)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MTYzNjU0MSw0Nzg0MDM4MDYsLTczNz
-IyMzc0NSwxMDM4NzQ3MDU4LDE2NTEzODgxMDIsNjU4MjY4MDg4
-LDY5NjMxMTQ2MCwxMjQxMDg3NTk3LC0xNzQ2MDQyMzIzXX0=
+eyJoaXN0b3J5IjpbMTE5MzA3NTQ2MSwtNjYxNjM2NTQxLDQ3OD
+QwMzgwNiwtNzM3MjIzNzQ1LDEwMzg3NDcwNTgsMTY1MTM4ODEw
+Miw2NTgyNjgwODgsNjk2MzExNDYwLDEyNDEwODc1OTcsLTE3ND
+YwNDIzMjNdfQ==
 -->
