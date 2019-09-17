@@ -191,6 +191,18 @@ git branch BRANCH_NAME
 
 # Switch to the BRANCH_NAME branch
 git checkout BRANCH_NAME
+
+# Create and switch to a branch called BRANCH_NAME
+git checkout -b BRANCH_NAME
+
+# Merge OTHER_BRANCH into the current branch
+git merge OTHER_BRANCH
+
+# Make sure you are on the `master` branch
+git checkout master
+
+# Merge the `experiment` branch into the current (`master`) branch
+git merge experiment
 ```
 
 
@@ -307,9 +319,8 @@ $ git log --graph traditional
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4ODg4MzUyMywxMDI4NzMwNDk4LC0xMD
-E3NjgzNDkzLDE3MzYxMDQwNjgsMjAxOTI3OTM4NiwyMDE5Mjc5
-Mzg2LDE2MDE4MTY5NzEsLTEzMDIxNTI2NTAsLTE5MjU3MDg0Nj
-AsLTEwNTEzMjU3NDcsMjA0MDI2NzYwOSwyNDI2ODk3MzNdfQ==
-
+eyJoaXN0b3J5IjpbMzU3NTUwMjA2LDEwMjg3MzA0OTgsLTEwMT
+c2ODM0OTMsMTczNjEwNDA2OCwyMDE5Mjc5Mzg2LDIwMTkyNzkz
+ODYsMTYwMTgxNjk3MSwtMTMwMjE1MjY1MCwtMTkyNTcwODQ2MC
+wtMTA1MTMyNTc0NywyMDQwMjY3NjA5LDI0MjY4OTczM119
 -->
