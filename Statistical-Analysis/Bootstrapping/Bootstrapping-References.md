@@ -20,8 +20,9 @@ Pages 187 to 190 and 194 to 196 from the following book;
 - [A Gentle Introduction to Statistical Sampling and Resampling](https://machinelearningmastery.com/statistical-sampling-and-resampling/)
 - [Confidence Intervals for Machine Learning](https://machinelearningmastery.com/confidence-intervals-for-machine-learning/)
 - [How to Evaluate the Skill of Deep Learning Models](https://machinelearningmastery.com/evaluate-skill-deep-learning-models/)
+- [Bootstrapping Regression Models](https://pdfs.semanticscholar.org/a799/8de6a01900069ec764e62da84588b026b312.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcwNTc5MTExLDEwMzg3NDcwNTgsMTY1MT
-M4ODEwMiw2NTgyNjgwODgsNjk2MzExNDYwLDEyNDEwODc1OTcs
-LTE3NDYwNDIzMjNdfQ==
+eyJoaXN0b3J5IjpbLTczNzIyMzc0NSwxMDM4NzQ3MDU4LDE2NT
+EzODgxMDIsNjU4MjY4MDg4LDY5NjMxMTQ2MCwxMjQxMDg3NTk3
+LC0xNzQ2MDQyMzIzXX0=
 -->
