@@ -9,9 +9,12 @@
 
 ### GIS analysis using Python
 
+- [Introduction to Geospatial Data in Python](https://www.datacamp.com/community/tutorials/geospatial-data-python)
+
 The following tutorial is using Jupyter Notebooks and geopandas and other spatial analytics libraries:
 - [Christy Heaton - Intro to Spatial Analysis and Maps with Python - PyCon 2018](https://www.youtube.com/watch?v=uRvTeK5Ndq8)
 - [Introduction to Geospatial Data Analysis with Python | SciPy 2018 Tutorial | Serge Rey](https://www.youtube.com/watch?v=kJXUUO5M4ok)
+
 On DataCamp.com there are more information:
 
 - [Working with Geospatial Data in Python - This course will show you how to integrate spatial data into your Python Data Science workflow](https://www.datacamp.com/courses/working-with-geospatial-data-in-python)
@@ -36,6 +39,7 @@ Some viedeos about how to start using machine learning with spatial data from Es
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4NzU4ODQ1LDE0MDI1NDAwMDAsLTE1Mj
-I3MTA2NjAsLTE2MTM5ODMzNzQsLTI0MDQzNDQ0NV19
+eyJoaXN0b3J5IjpbLTIwODIzMjY4MjAsNDE4NzU4ODQ1LDE0MD
+I1NDAwMDAsLTE1MjI3MTA2NjAsLTE2MTM5ODMzNzQsLTI0MDQz
+NDQ0NV19
 -->
