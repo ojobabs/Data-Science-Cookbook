@@ -17,12 +17,12 @@ The following tutorial is using Jupyter Notebooks and geopandas
 The following 3.5 hours tutorial is free an on YouTube: 
 - [Sergio Sánchez - Analyzing Census Data with Pandas - PyCon 2019](https://youtu.be/sGtCgYWzOV4)
 
-
+You can find the  following 5 hours training course at DataCamp.com:
 - [Analyzing US Census Data in Python - Learn to use the Census API to work with demographic and socioeconomic data.](https://www.datacamp.com/courses/analyzing-us-census-data-in-python)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMjU0MDAwMCwtMTUyMjcxMDY2MCwtMT
-YxMzk4MzM3NCwtMjQwNDM0NDQ1XX0=
+eyJoaXN0b3J5IjpbNjk5NzY0MDEyLDE0MDI1NDAwMDAsLTE1Mj
+I3MTA2NjAsLTE2MTM5ODMzNzQsLTI0MDQzNDQ0NV19
 -->
