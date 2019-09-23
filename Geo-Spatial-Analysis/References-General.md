@@ -38,6 +38,10 @@ we have that read book too.
 
 Some viedeos about how to start using machine learning with spatial data from Esri the one I've sent to Sassoon.
 
+- [https://cloud.google.com/maps-platform/](https://cloud.google.com/maps-platform/)
+
+Under products we can see 
+
 ### Spatial Machine Learning
 
 Some information about solving the optimal location problem from a supervised and unsupervised approaches.  Here an example of unsupervised and supervised spatial machine learning:
@@ -66,8 +70,8 @@ Some information about solving the optimal location problem from a supervised an
 [https://www.youtube.com/watch?v=9bYtfoOeN7I](https://www.youtube.com/watch?v=9bYtfoOeN7I)
 [https://www.youtube.com/watch?v=LZ1psf9NhiE](https://www.youtube.com/watch?v=LZ1psf9NhiE) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MDM5ODUxMCwtODk3Mzg2OTE3LC0xMD
-k1NzE3MDQwLDIwOTQ5ODUxMTYsLTIwODIzMjY4MjAsNDE4NzU4
-ODQ1LDE0MDI1NDAwMDAsLTE1MjI3MTA2NjAsLTE2MTM5ODMzNz
-QsLTI0MDQzNDQ0NV19
+eyJoaXN0b3J5IjpbMTE5MTYwODM1MywtMjcwMzk4NTEwLC04OT
+czODY5MTcsLTEwOTU3MTcwNDAsMjA5NDk4NTExNiwtMjA4MjMy
+NjgyMCw0MTg3NTg4NDUsMTQwMjU0MDAwMCwtMTUyMjcxMDY2MC
+wtMTYxMzk4MzM3NCwtMjQwNDM0NDQ1XX0=
 -->
