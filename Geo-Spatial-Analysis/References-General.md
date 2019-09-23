@@ -40,11 +40,13 @@ Some viedeos about how to start using machine learning with spatial data from Es
 
 ### Spatial Machine Learning
 
-Some information about solving the optimal location problem from a supervised and unsupervised approaches.  
+Some information about solving the optimal location problem from a supervised and unsupervised approaches.  Here an example of unsupervised and supervised spatial machine learning:
+
+- # ArcGIS Pro 2.2–AI & Machine Learning 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY4NzgzNzAzLC0yMDgyMzI2ODIwLDQxOD
-c1ODg0NSwxNDAyNTQwMDAwLC0xNTIyNzEwNjYwLC0xNjEzOTgz
-Mzc0LC0yNDA0MzQ0NDVdfQ==
+eyJoaXN0b3J5IjpbLTE1ODA3NjA2NjQsLTIwODIzMjY4MjAsND
+E4NzU4ODQ1LDE0MDI1NDAwMDAsLTE1MjI3MTA2NjAsLTE2MTM5
+ODMzNzQsLTI0MDQzNDQ0NV19
 -->
