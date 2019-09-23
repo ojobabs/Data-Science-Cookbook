@@ -23,10 +23,12 @@ The following 3.5 hours tutorial is free an on YouTube:
 You can find the  following 5 hours training course at DataCamp.com:
 - [Analyzing US Census Data in Python - Learn to use the Census API to work with demographic and socioeconomic data.](https://www.datacamp.com/courses/analyzing-us-census-data-in-python)
 
+### Google API for geocoding and routing capabilities
 
+I need to pr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkxMTYwMDQ5LDE0MDI1NDAwMDAsLTE1Mj
+eyJoaXN0b3J5IjpbMjAzNTU3Mjc4LDE0MDI1NDAwMDAsLTE1Mj
 I3MTA2NjAsLTE2MTM5ODMzNzQsLTI0MDQzNDQ0NV19
 -->
