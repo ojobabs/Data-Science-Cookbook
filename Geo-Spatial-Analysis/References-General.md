@@ -40,11 +40,11 @@ Some viedeos about how to start using machine learning with spatial data from Es
 
 ### Spatial Machine Learning
 
-Some information about solving the optimal location problem from diffe 
+Some information about solving the optimal location problem from a supervised and unsupervised approaches.  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk1Nzg1MjQyLC0yMDgyMzI2ODIwLDQxOD
+eyJoaXN0b3J5IjpbNDY4NzgzNzAzLC0yMDgyMzI2ODIwLDQxOD
 c1ODg0NSwxNDAyNTQwMDAwLC0xNTIyNzEwNjYwLC0xNjEzOTgz
 Mzc0LC0yNDA0MzQ0NDVdfQ==
 -->
