@@ -46,11 +46,12 @@ Some information about solving the optimal location problem from a supervised an
 
 #### Hot-pot analysis using Python
 
-[# PySAL: Python Spatial Analysis Library](https://pysal.readthedocs.io/en/latest/)
+- [PySAL: Python Spatial Analysis Library](https://pysal.readthedocs.io/en/latest/)
+- [PySAL & Hot Spot Analysis of Trip Productions & Attractions Equilibrium](https://www.linkedin.com/pulse/pysal-hot-spot-analysis-trip-productions-attractions-sardari-gisp/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTAzNTEzODksLTIwODIzMjY4MjAsND
-E4NzU4ODQ1LDE0MDI1NDAwMDAsLTE1MjI3MTA2NjAsLTE2MTM5
-ODMzNzQsLTI0MDQzNDQ0NV19
+eyJoaXN0b3J5IjpbMTM4MTAzOTk1MiwtMjA4MjMyNjgyMCw0MT
+g3NTg4NDUsMTQwMjU0MDAwMCwtMTUyMjcxMDY2MCwtMTYxMzk4
+MzM3NCwtMjQwNDM0NDQ1XX0=
 -->
