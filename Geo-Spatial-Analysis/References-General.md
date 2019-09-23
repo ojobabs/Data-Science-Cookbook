@@ -50,10 +50,11 @@ Some information about solving the optimal location problem from a supervised an
 - [PySAL & Hot Spot Analysis of Trip Productions & Attractions Equilibrium](https://www.linkedin.com/pulse/pysal-hot-spot-analysis-trip-productions-attractions-sardari-gisp/)
 
 - [Spatial Analytics with ArcGIS](mazon.com/Spatial-Analytics-ArcGIS-Eric-Pimpler/dp/1787122581/ref=sr_1_6?keywords=arcgis+spatial+analysis&qid=1569253556&s=gateway&sr=8-6)
-
+- [Exploratory Spatial Data Analysis (ESDA)](http://darribas.org/gds_scipy16/ipynb_md/04_esda.html)
+- [Spatial Data Mining I: Essentials of Cluster Analysis](https://www.youtube.com/watch?v=qQNOlfOYtyw)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NDk4NTExNiwtMjA4MjMyNjgyMCw0MT
-g3NTg4NDUsMTQwMjU0MDAwMCwtMTUyMjcxMDY2MCwtMTYxMzk4
-MzM3NCwtMjQwNDM0NDQ1XX0=
+eyJoaXN0b3J5IjpbMTIxMjc2Njk3MSwyMDk0OTg1MTE2LC0yMD
+gyMzI2ODIwLDQxODc1ODg0NSwxNDAyNTQwMDAwLC0xNTIyNzEw
+NjYwLC0xNjEzOTgzMzc0LC0yNDA0MzQ0NDVdfQ==
 -->
