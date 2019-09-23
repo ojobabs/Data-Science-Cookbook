@@ -19,7 +19,7 @@ On DataCamp.com there are more information:
 
 - [Working with Geospatial Data in Python - This course will show you how to integrate spatial data into your Python Data Science workflow](https://www.datacamp.com/courses/working-with-geospatial-data-in-python)
 - [Working with Geospatial Data in Python - This course will show you how to integrate spatial data into your Python Data Science workflow](https://www.datacamp.com/courses/working-with-geospatial-data-in-python)
-- [Recreating John Snow's Ghost Map - Recreate John Snow's famous map of the 1854 cholera outbreak in London]()
+- [Recreating John Snow's Ghost Map - Recreate John Snow's famous map of the 1854 cholera outbreak in London](https://www.datacamp.com/projects/132)
 
 ### Analyzing Census Data with Pandas
 The following 3.5 hours tutorial is free an on YouTube: 
@@ -38,9 +38,13 @@ we have that read book too.
 
 Some viedeos about how to start using machine learning with spatial data from Esri the one I've sent to Sassoon.
 
+### Spatial Machine Learning
+
+Some information about solving the optimal location problem from diffe 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MDIwMzQ0NCwtMjA4MjMyNjgyMCw0MT
-g3NTg4NDUsMTQwMjU0MDAwMCwtMTUyMjcxMDY2MCwtMTYxMzk4
-MzM3NCwtMjQwNDM0NDQ1XX0=
+eyJoaXN0b3J5IjpbODk1Nzg1MjQyLC0yMDgyMzI2ODIwLDQxOD
+c1ODg0NSwxNDAyNTQwMDAwLC0xNTIyNzEwNjYwLC0xNjEzOTgz
+Mzc0LC0yNDA0MzQ0NDVdfQ==
 -->
