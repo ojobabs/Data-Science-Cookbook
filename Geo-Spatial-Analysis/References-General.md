@@ -29,8 +29,12 @@ I need to provide any resource about how to start using Google API
 
 Also, the ESRI book about hotspot analysis, that's an interesting approach to find the optimal location
 
+we have that read book too.
+
+Some viedeos about how to start using machine learning with spatial data from Esri the one I've sent to Sassoon.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwODMyMzYyOCwxNDAyNTQwMDAwLC0xNT
-IyNzEwNjYwLC0xNjEzOTgzMzc0LC0yNDA0MzQ0NDVdfQ==
+eyJoaXN0b3J5IjpbLTE5MjY3NjA4NzIsMTQwMjU0MDAwMCwtMT
+UyMjcxMDY2MCwtMTYxMzk4MzM3NCwtMjQwNDM0NDQ1XX0=
 -->
