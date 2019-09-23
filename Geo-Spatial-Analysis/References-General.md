@@ -18,11 +18,11 @@ The following 3.5 hours tutorial is free an on YouTube:
 - [Sergio Sánchez - Analyzing Census Data with Pandas - PyCon 2019](https://youtu.be/sGtCgYWzOV4)
 
 
-- [Analyzing-us-census-data-in-python](https://www.datacamp.com/courses/analyzing-us-census-data-in-python)
+- [Analyzing US Census Data in Python - Learn to use the Census API to work with demographic and socioeconomic data.](https://www.datacamp.com/courses/analyzing-us-census-data-in-python)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE4NDY0MTU4LC0xNTIyNzEwNjYwLC0xNj
-EzOTgzMzc0LC0yNDA0MzQ0NDVdfQ==
+eyJoaXN0b3J5IjpbMTQwMjU0MDAwMCwtMTUyMjcxMDY2MCwtMT
+YxMzk4MzM3NCwtMjQwNDM0NDQ1XX0=
 -->
