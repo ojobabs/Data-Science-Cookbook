@@ -54,8 +54,11 @@ Some information about solving the optimal location problem from a supervised an
 - [Spatial Data Mining I: Essentials of Cluster Analysis](https://www.youtube.com/watch?v=qQNOlfOYtyw)
 - [Spatial Data Mining II: A Deep Dive into Space-Time Analysis](https://www.youtube.com/watch?v=0aV6HHwJuo4)
 
+#### Supervised spatial machine learning examples
+- [The Forest for the Trees: Making Predictions using Forest-Based Classification and Regression](https://www.youtube.com/watch?v=kDAL2mKnae8&list=PLaPDDLTCmy4bcqd8fyG4RBCydi-bktLic&index=9)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTU3MTcwNDAsMjA5NDk4NTExNiwtMj
-A4MjMyNjgyMCw0MTg3NTg4NDUsMTQwMjU0MDAwMCwtMTUyMjcx
-MDY2MCwtMTYxMzk4MzM3NCwtMjQwNDM0NDQ1XX0=
+eyJoaXN0b3J5IjpbMTA5NDUzOTkyOSwtMTA5NTcxNzA0MCwyMD
+k0OTg1MTE2LC0yMDgyMzI2ODIwLDQxODc1ODg0NSwxNDAyNTQw
+MDAwLC0xNTIyNzEwNjYwLC0xNjEzOTgzMzc0LC0yNDA0MzQ0ND
+VdfQ==
 -->
