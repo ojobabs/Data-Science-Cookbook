@@ -9,7 +9,8 @@
 
 ### Analyzing Census Data with Pandas
 
-- 
+- # Sergio Sánchez - Analyzing Census Data with Pandas - PyCon 2019
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ1MjM4NzMwLC0yNDA0MzQ0NDVdfQ==
+eyJoaXN0b3J5IjpbNjQyNTMyOTcwLC0yNDA0MzQ0NDVdfQ==
 -->
