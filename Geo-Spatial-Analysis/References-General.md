@@ -49,9 +49,11 @@ Some information about solving the optimal location problem from a supervised an
 - [PySAL: Python Spatial Analysis Library](https://pysal.readthedocs.io/en/latest/)
 - [PySAL & Hot Spot Analysis of Trip Productions & Attractions Equilibrium](https://www.linkedin.com/pulse/pysal-hot-spot-analysis-trip-productions-attractions-sardari-gisp/)
 
+- [Spatial Analytics with ArcGIS](mazon.com/Spatial-Analytics-ArcGIS-Eric-Pimpler/dp/1787122581/ref=sr_1_6?keywords=arcgis+spatial+analysis&qid=1569253556&s=gateway&sr=8-6)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MTAzOTk1MiwtMjA4MjMyNjgyMCw0MT
+eyJoaXN0b3J5IjpbMjA5NDk4NTExNiwtMjA4MjMyNjgyMCw0MT
 g3NTg4NDUsMTQwMjU0MDAwMCwtMTUyMjcxMDY2MCwtMTYxMzk4
 MzM3NCwtMjQwNDM0NDQ1XX0=
 -->
