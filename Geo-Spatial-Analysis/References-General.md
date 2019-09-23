@@ -14,7 +14,7 @@ The following tutorial is using Jupyter Notebooks and geopandas and other spatia
 - [Introduction to Geospatial Data Analysis with Python | SciPy 2018 Tutorial | Serge Rey](https://www.youtube.com/watch?v=kJXUUO5M4ok)
 On DataCamp.com there are more information:
 
-- [Working-with-geospatial-data-in-python](https://www.datacamp.com/courses/working-with-geospatial-data-in-python)]
+- [Working with Geospatial Data in Python - This course will show you how to integrate spatial data into your Python Data Science workflow](https://www.datacamp.com/courses/working-with-geospatial-data-in-python)
 
 ### Analyzing Census Data with Pandas
 The following 3.5 hours tutorial is free an on YouTube: 
@@ -27,6 +27,6 @@ You can find the  following 5 hours training course at DataCamp.com:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NzAzOTA3MSwxNDAyNTQwMDAwLC0xNT
-IyNzEwNjYwLC0xNjEzOTgzMzc0LC0yNDA0MzQ0NDVdfQ==
+eyJoaXN0b3J5IjpbMjkxMTYwMDQ5LDE0MDI1NDAwMDAsLTE1Mj
+I3MTA2NjAsLTE2MTM5ODMzNzQsLTI0MDQzNDQ0NV19
 -->
