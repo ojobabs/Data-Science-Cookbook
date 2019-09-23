@@ -16,7 +16,13 @@ The following tutorial is using Jupyter Notebooks and geopandas
 ### Analyzing Census Data with Pandas
 The following 3.5 hours tutorial is free an on YouTube: 
 - [Sergio Sánchez - Analyzing Census Data with Pandas - PyCon 2019](https://youtu.be/sGtCgYWzOV4)
+
+
+- [Analyzing-us-census-data-in-python](https://www.datacamp.com/courses/analyzing-us-census-data-in-python)
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjI3MTA2NjAsLTE2MTM5ODMzNzQsLT
-I0MDQzNDQ0NV19
+eyJoaXN0b3J5IjpbNTE4NDY0MTU4LC0xNTIyNzEwNjYwLC0xNj
+EzOTgzMzc0LC0yNDA0MzQ0NDVdfQ==
 -->
