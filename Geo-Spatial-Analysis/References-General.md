@@ -25,10 +25,12 @@ You can find the  following 5 hours training course at DataCamp.com:
 
 ### Google API for geocoding and routing capabilities
 
-I need to pr
+I need to provide any resource about how to start using Google API
+
+Also, the ESRI book about hotspot analysis, that's an interesting approach to find the optimal location
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTU3Mjc4LDE0MDI1NDAwMDAsLTE1Mj
-I3MTA2NjAsLTE2MTM5ODMzNzQsLTI0MDQzNDQ0NV19
+eyJoaXN0b3J5IjpbMjEwODMyMzYyOCwxNDAyNTQwMDAwLC0xNT
+IyNzEwNjYwLC0xNjEzOTgzMzc0LC0yNDA0MzQ0NDVdfQ==
 -->
