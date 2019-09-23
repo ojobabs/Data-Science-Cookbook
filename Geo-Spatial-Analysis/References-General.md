@@ -56,9 +56,10 @@ Some information about solving the optimal location problem from a supervised an
 
 #### Supervised spatial machine learning examples
 - [The Forest for the Trees: Making Predictions using Forest-Based Classification and Regression](https://www.youtube.com/watch?v=kDAL2mKnae8&list=PLaPDDLTCmy4bcqd8fyG4RBCydi-bktLic&index=9)
+- Beyond Where: Modeling Spatial Relationships and Making Predictions
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NDUzOTkyOSwtMTA5NTcxNzA0MCwyMD
-k0OTg1MTE2LC0yMDgyMzI2ODIwLDQxODc1ODg0NSwxNDAyNTQw
-MDAwLC0xNTIyNzEwNjYwLC0xNjEzOTgzMzc0LC0yNDA0MzQ0ND
-VdfQ==
+eyJoaXN0b3J5IjpbLTE1MDM4ODk5NTYsLTEwOTU3MTcwNDAsMj
+A5NDk4NTExNiwtMjA4MjMyNjgyMCw0MTg3NTg4NDUsMTQwMjU0
+MDAwMCwtMTUyMjcxMDY2MCwtMTYxMzk4MzM3NCwtMjQwNDM0ND
+Q1XX0=
 -->
