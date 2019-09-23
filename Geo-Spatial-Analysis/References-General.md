@@ -53,12 +53,13 @@ Some information about solving the optimal location problem from a supervised an
 - [Exploratory Spatial Data Analysis (ESDA)](http://darribas.org/gds_scipy16/ipynb_md/04_esda.html)
 - [Spatial Data Mining I: Essentials of Cluster Analysis](https://www.youtube.com/watch?v=qQNOlfOYtyw)
 - [Spatial Data Mining II: A Deep Dive into Space-Time Analysis](https://www.youtube.com/watch?v=0aV6HHwJuo4)
+- [Summarize Your Data and Perform Hot Spot Analysis in ArcGIS Online](https://youtu.be/UdlrmWJDQ-E)
 
 #### Supervised spatial machine learning examples
 - [The Forest for the Trees: Making Predictions using Forest-Based Classification and Regression](https://www.youtube.com/watch?v=kDAL2mKnae8&list=PLaPDDLTCmy4bcqd8fyG4RBCydi-bktLic&index=9)
 - [Beyond Where: Modeling Spatial Relationships and Making Predictions](https://youtu.be/ob18SuuAJGI)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNDY4Nzg0MCwtMTA5NTcxNzA0MCwyMD
+eyJoaXN0b3J5IjpbLTg5NzM4NjkxNywtMTA5NTcxNzA0MCwyMD
 k0OTg1MTE2LC0yMDgyMzI2ODIwLDQxODc1ODg0NSwxNDAyNTQw
 MDAwLC0xNTIyNzEwNjYwLC0xNjEzOTgzMzc0LC0yNDA0MzQ0ND
 VdfQ==
