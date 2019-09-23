@@ -42,11 +42,15 @@ Some viedeos about how to start using machine learning with spatial data from Es
 
 Some information about solving the optimal location problem from a supervised and unsupervised approaches.  Here an example of unsupervised and supervised spatial machine learning:
 
-- # ArcGIS Pro 2.2–AI & Machine Learning 
+- [ArcGIS Pro 2.2–AI & Machine Learning ](https://www.youtube.com/watch?v=KCkGif6wSMo)
+
+#### Hot-pot analysis using Python
+
+[# PySAL: Python Spatial Analysis Library](https://pysal.readthedocs.io/en/latest/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODA3NjA2NjQsLTIwODIzMjY4MjAsND
+eyJoaXN0b3J5IjpbLTE4OTAzNTEzODksLTIwODIzMjY4MjAsND
 E4NzU4ODQ1LDE0MDI1NDAwMDAsLTE1MjI3MTA2NjAsLTE2MTM5
 ODMzNzQsLTI0MDQzNDQ0NV19
 -->
