@@ -20,7 +20,10 @@ $ jt -t onedork -tfs 10 -nfs 10 -fs 10 -dfs 8 -T -N -kl
 - [Unleash the power of Jupyter Notebooks](https://towardsdatascience.com/unleash-the-power-of-jupyter-notebooks-4ed452a47895)
 - [Power-Ups for Jupyter Notebooks](https://towardsdatascience.com/power-ups-for-jupyter-notebooks-ebfa6e5e57a)
 - [28 Jupyter Notebook tips, tricks, and shortcuts](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
+- [bootstrap_jumbotron_header](https://www.w3schools.com/bootstrap/bootstrap_jumbotron_header.asp)
+- [bootstrap_alerts](https://www.w3schools.com/bootstrap/bootstrap_alerts.asp)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIwMDM1NjQsMTA5Njk0MjM3OCwxMDgxMz
-M1MDMyLDIwMjI0NTgyNDgsLTE5NDgyMTA4NTddfQ==
+eyJoaXN0b3J5IjpbLTM1NjU0NTg3NCwyMjAwMzU2NCwxMDk2OT
+QyMzc4LDEwODEzMzUwMzIsMjAyMjQ1ODI0OCwtMTk0ODIxMDg1
+N119
 -->
