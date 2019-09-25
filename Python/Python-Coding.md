@@ -70,7 +70,7 @@ You can use the  [sequence method  `list.extend`](https://docs.python.org/3/libr
 ```
 So you can use  `list.append()`  to append  _a single_  value, and  `list.extend()`  to append  _multiple_  values.
 
-
+### [Writing a list to a file with Python](https://stackoverflow.com/questions/899103/writing-a-list-to-a-file-with-python)
 ```python
 # Create a list with all column names
 colsAll = [var for var in allAgents.columns]
@@ -81,6 +81,6 @@ with open('master_train_test/columns.txt', 'w') as f:
         f.write("%s\n" % item)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2OTEwNzQ0Nyw4OTc2MDcwOTIsNjYwMD
-U5MzE3XX0=
+eyJoaXN0b3J5IjpbLTE4MjEyNDYwMDAsODk3NjA3MDkyLDY2MD
+A1OTMxN119
 -->
