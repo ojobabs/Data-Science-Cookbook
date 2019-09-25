@@ -69,6 +69,18 @@ You can use the  [sequence method  `list.extend`](https://docs.python.org/3/libr
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 ```
 So you can use  `list.append()`  to append  _a single_  value, and  `list.extend()`  to append  _multiple_  values.
+
+
+```python
+# Create a list with all column names
+colsAll = [var for var in allAgents.columns]
+
+# send the colsAll list to a txt file
+with open('master_train_test/columns.txt', 'w') as f:
+    for item in colsAll:
+        f.write("%s\n" % item)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3NjA3MDkyLDY2MDA1OTMxN119
+eyJoaXN0b3J5IjpbMTI2OTEwNzQ0Nyw4OTc2MDcwOTIsNjYwMD
+U5MzE3XX0=
 -->
