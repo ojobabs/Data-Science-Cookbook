@@ -22,8 +22,12 @@ $ jt -t onedork -tfs 10 -nfs 10 -fs 10 -dfs 8 -T -N -kl
 - [28 Jupyter Notebook tips, tricks, and shortcuts](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
 - [bootstrap_jumbotron_header](https://www.w3schools.com/bootstrap/bootstrap_jumbotron_header.asp)
 - [bootstrap_alerts](https://www.w3schools.com/bootstrap/bootstrap_alerts.asp)
+
+<div class="alert alert-info">
+  <strong>Info!</strong> So we can't just say that there's certain good values for particular metrics. Obviously if you get 100% across precision, accuracy and recall then you have a really good model. But in the real world you're probably not going to get 100% of all those.
+</div>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NjU0NTg3NCwyMjAwMzU2NCwxMDk2OT
-QyMzc4LDEwODEzMzUwMzIsMjAyMjQ1ODI0OCwtMTk0ODIxMDg1
-N119
+eyJoaXN0b3J5IjpbLTE4NTg0NDY2LC0zNTY1NDU4NzQsMjIwMD
+M1NjQsMTA5Njk0MjM3OCwxMDgxMzM1MDMyLDIwMjI0NTgyNDgs
+LTE5NDgyMTA4NTddfQ==
 -->
