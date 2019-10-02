@@ -107,10 +107,24 @@ from pyspark.sql import SparkSession
 %pyspark
 spark = SparkSession.builder.appName('nlp').getOrCreate()
 ```
-Now we can create a PySpark data frame
+Now we can create a PySpark dataframe:
+
+```python
+%pyspark
+smg = spark.read.csv("/user/t93kqi0/smg.csv", header = True, inferSchema = True)
+```
+
+### Using a Python Pandas function with a PySpark dataframe
+
+Here `smg` is a Py
+
+```python
+%pyspark
+smg.toPandas()['PreviousOccupation'].unique()
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTY1NzgxMywtOTQwMzk5MjAyXX0=
+eyJoaXN0b3J5IjpbMTc1ODc3OTQ2OSwtOTQwMzk5MjAyXX0=
 -->
