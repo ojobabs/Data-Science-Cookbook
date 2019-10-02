@@ -217,8 +217,27 @@ def labelValuesEdu(df):
 merge['education'] = merge.apply(labelValuesEdu, axis=1)
 merge.head()
 ```
+Another example in Python with many level:
+```python
+def labelValuesWeek(df):
+    if df['week_earn'] == 1:
+        return 'Less than $500'
+    elif df['week_earn'] == 2:
+        return '$500 to $1,000'
+    elif df['week_earn'] == 3:
+        return '$1,001 to $1,500'
+    elif df['week_earn'] == 4:
+        return '$1,501 to $2,000' 
+    elif df['week_earn'] == 5:
+        return 'Greater than $2,000'         
+    else:
+        return 'unknown'
+
+merge['week_earn'] = merge.apply(labelValuesWeek, axis=1)
+merge.head()
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MzcxNjQ4NywxMTc5NzQ5NjczLC04Mz
+eyJoaXN0b3J5IjpbMTMzODc1NjQ1OSwxMTc5NzQ5NjczLC04Mz
 Q1ODcyMjMsLTU4Nzk1NjkzOSwtOTQwMzk5MjAyXX0=
 -->
