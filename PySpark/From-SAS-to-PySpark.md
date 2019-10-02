@@ -67,7 +67,33 @@ from pyspark.sql.functions import isnan, when, count, col, length, max, levensht
 from pyspark.sql.window import Window
 hc = HiveContext(sc)
 ```
-### To start using Pytho
+Now we can get access to tables on Hive (DBeaver)
+
+```python
+%pyspark
+# Import table tenant_insurance_cdsaagy.mrd_agency_itr1 built by Harsha for Agency.
+agents = hc.sql(
+    """
+    select marketer_id,  calendar_year, title_type_name, active_status_src, class_description 
+	from tenant_insurance_cdsaagy.mrd_agency_itr1
+	where marketer_id = '0123019'
+	order by calendar_date
+	""")
+```
+
+
+### To start using Python with Pyspark
+
+```python
+%pyspark
+# Import Python libraries
+import pandas as pd
+import numpy as np
+pd.set_option('display.max_columns', 1000)
+pd.set_option('display.max_rows', 1000)
+pd.set_option('display.width', 1000)
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExODg1NTc5MywtOTQwMzk5MjAyXX0=
+eyJoaXN0b3J5IjpbOTQ0MzE5MjcwLC05NDAzOTkyMDJdfQ==
 -->
