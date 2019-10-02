@@ -97,10 +97,20 @@ pd.set_option('display.width', 1000)
 %pyspark
 agents.show(truncate = False)
 ```
-
+### Importing tables from HDFS
+```python
+%pyspark
+# Import a Spark session:
+from pyspark.sql import SparkSession
+```
+```python
+%pyspark
+spark = SparkSession.builder.appName('nlp').getOrCreate()
+```
+Now we can create a PySpark data frame
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMwMDM1Njg0LC05NDAzOTkyMDJdfQ==
+eyJoaXN0b3J5IjpbLTYzOTY1NzgxMywtOTQwMzk5MjAyXX0=
 -->
