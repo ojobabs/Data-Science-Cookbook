@@ -237,9 +237,17 @@ merge['week_earn'] = merge.apply(labelValuesWeek, axis=1)
 merge.head()
 ```
 
-### How to publish a 
+### How to publish a PySpark dataframe on Hive (DBeaver)
+
+```python
+%pyspark
+agent_demographics.registerTempTable('temp')
+hc.sql("drop table tenant_insurance_cdsa.agent_demographics purge")
+hc.sql('create table tenant_insurance_cdsa.agent_demographics as select * from temp')
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1OTc2MzMsMTE3OTc0OTY3MywtODM0NT
-g3MjIzLC01ODc5NTY5MzksLTk0MDM5OTIwMl19
+eyJoaXN0b3J5IjpbLTMyNzA4MjIwNiwxMTc5NzQ5NjczLC04Mz
+Q1ODcyMjMsLTU4Nzk1NjkzOSwtOTQwMzk5MjAyXX0=
 -->
