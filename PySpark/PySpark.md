@@ -280,6 +280,9 @@ References:
 
 - [User-Defined Functions - Python](https://docs.databricks.com/spark/latest/spark-sql/udf-python.html)
 - [How to Turn Python Functions into PySpark Functions (UDF)](https://changhsinlee.com/pyspark-udf/)
+- [pyspark-udfs-and-star-expansion](https://towardsdatascience.com/pyspark-udfs-and-star-expansion-b50f501dcb7b)
+- [developing-pyspark-udfs](https://medium.com/@ayplam/developing-pyspark-udfs-d179db0ccc87)
+- [future-vision/spark-udfs-we-can-use-them-but-should-we-use-them](https://medium.com/future-vision/spark-udfs-we-can-use-them-but-should-we-use-them-2c5a561fde6d)
 
 Let's compare the above PySpark function to the equivalent function using Python:
 
@@ -333,6 +336,6 @@ it is just to remove an old version of the table is you want to rewrite the same
 
 If you use Zeppelin or DBeaver you will see this table published here `tenant_insurance_cdsa`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNzA1MTk2MSwtMTIxMjg5MjQ2LC0yMD
-A3MjUxMzA1XX0=
+eyJoaXN0b3J5IjpbNjk4ODI0NzI0LC01MTcwNTE5NjEsLTEyMT
+I4OTI0NiwtMjAwNzI1MTMwNV19
 -->
