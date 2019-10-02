@@ -170,9 +170,17 @@ Output
 %pyspark
 allAgents.count()
 ```
+### Left Join with PySpark dataframes
+```python
+%pyspark
+# Left join to add allAgents to df
+left_join = df.join(allAgents, df.marketer_id == allAgents.marketer_id,how='left') # Could also use 'left_outer'
+left_join.show(truncate = False)
+```
+More here  [Pyspark joins by example](http://www.learnbymarketing.com/1100/pyspark-joins-by-example/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI4MzY5NjM1LC01ODc5NTY5MzksLTk0MD
-M5OTIwMl19
+eyJoaXN0b3J5IjpbLTE4NDAzNDYyODYsLTU4Nzk1NjkzOSwtOT
+QwMzk5MjAyXX0=
 -->
