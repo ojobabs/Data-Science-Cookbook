@@ -1,4 +1,7 @@
-Ze### Start a Spark session> REFERENCES:
+# PySpark Notes
+---
+
+### Start a Spark session REFERENCES:
 >  - [ Complete Guide on DataFrame Operations in PySpark](https://www.analyticsvidhya.com/blog/2016/10/spark-dataframe-and-operations/)
 > 
 
@@ -330,6 +333,6 @@ it is just to remove an old version of the table is you want to rewrite the same
 
 If you use Zeppelin or DBeaver you will see this table published here `tenant_insurance_cdsa`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI4NjE0OTEzLC0xMjEyODkyNDYsLTIwMD
-cyNTEzMDVdfQ==
+eyJoaXN0b3J5IjpbLTUxNzA1MTk2MSwtMTIxMjg5MjQ2LC0yMD
+A3MjUxMzA1XX0=
 -->
