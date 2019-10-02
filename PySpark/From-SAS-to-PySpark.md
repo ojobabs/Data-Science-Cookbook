@@ -53,6 +53,18 @@ Output:
 |2  |Vegatables are nasty                                  |
 +---+------------------------------------------------------+
 ```
+
+### Get access to Hive tables
+
+%pyspark
+### import modules ###
+from pyspark import SQLContext, HiveContext, SparkConf, SparkContext
+from pyspark.sql import HiveContext, Row, Window
+import pyspark.sql.functions as F
+from pyspark.sql.types import LongType, StringType,DoubleType, IntegerType
+from pyspark.sql.functions import isnan, when, count, col, length, max, levenshtein, datediff, to_date, lit, year, rank, month
+from pyspark.sql.window import Window
+hc = HiveContext(sc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MDM5OTIwMl19
+eyJoaXN0b3J5IjpbLTE5NzE1NjU0OCwtOTQwMzk5MjAyXX0=
 -->
