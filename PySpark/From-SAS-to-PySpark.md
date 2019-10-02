@@ -97,12 +97,10 @@ pd.set_option('display.width', 1000)
 %pyspark
 agents.show(truncate = False)
 ```
-Output 
 
-+-----------+-------------+---------------+-----------------+------------------------------+ |marketer_id|calendar_year|title_type_name|active_status_src|class_description | +-----------+-------------+---------------+-----------------+------------------------------+ |0123019 |2000 |null |N |null | |0123019 |2001 |null |N |null | |0123019 |2002 |null |N |null | |0123019 |2003 |null |N |null | |0123019 |2004 |null |N |null | |0123019 |2005 |null |N |null | |0123019 |2006 |null |N |null | |0123019 |2007 |null |N |null | |0123019 |2008 |null |N |null | |0123019 |2009 |null |N |null | |0123019 |2010 |null |N |null | |0123019 |2011 |null |N |null | |0123019 |2012 |AGENT |Y |PTAS (FYCs prior to PTAS) | |0123019 |2013 |AGENT |Y |Current Class | |0123019 |2014 |AGENT |Y |First Prior | |0123019 |2015 |AGENT |Y |Second Prior | |0123019 |2016 |AGENT |Y |Third Prior | |0123019 |2017 |AGENT |N |Discontinued | |0123019 |2018 |AGENT |N |Discontinued | |0123019 |2019 |AGENT |N |Discontinued | +-----------+-------------+---------------+-----------------+------------------------------+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTkwNDY5NDEsLTk0MDM5OTIwMl19
+eyJoaXN0b3J5IjpbNjMwMDM1Njg0LC05NDAzOTkyMDJdfQ==
 -->
