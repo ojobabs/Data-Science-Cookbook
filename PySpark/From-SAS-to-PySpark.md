@@ -116,15 +116,20 @@ smg = spark.read.csv("/user/t93kqi0/smg.csv", header = True, inferSchema = True)
 
 ### Using a Python Pandas function with a PySpark dataframe
 
-Here `smg` is a Py
+Here `smg` is a PySpark dataframe. We can use the pandas `.unique()` function on this `smg` PySpark dataframe using before `.toPandas()`:
 
 ```python
 %pyspark
 smg.toPandas()['PreviousOccupation'].unique()
 ```
+Another example with `value_counts()`
+
+```python
+smg.toPandas()['PreviousOccupation'].value_counts()
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1ODc3OTQ2OSwtOTQwMzk5MjAyXX0=
+eyJoaXN0b3J5IjpbMTQ2NDgzMzg0LC05NDAzOTkyMDJdfQ==
 -->
