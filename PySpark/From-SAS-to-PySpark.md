@@ -179,7 +179,10 @@ left_join.show(truncate = False)
 ```
 More here: [Pyspark joins by example](http://www.learnbymarketing.com/1100/pyspark-joins-by-example/)
 ### Using a User Defined Function UDF in PySpark
-Here an example of an UDF 
+Here an example of an UDF. 
+- `aux00` is the input table
+- `aux01` is the output table
+- 
 ```python
 %pyspark
 def def_status(class_description):
@@ -191,9 +194,9 @@ def def_status(class_description):
 
 udf_trail_1 = F.udf(def_status)
 
-aux00 = left_join.select('*', udf_trail_1((col('class_description'))).alias('Ret_CC'))
+aux01 = aux00.select('*', udf_trail_1((col('class_description'))).alias('Ret_CC'))
 
-aux00.show()
+aux01.show()
 ```
 References:
 
@@ -201,6 +204,6 @@ References:
 - [How to Turn Python Functions into PySpark Functions (UDF)](https://changhsinlee.com/pyspark-udf/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTU5NzQ3MTAsLTU4Nzk1NjkzOSwtOT
-QwMzk5MjAyXX0=
+eyJoaXN0b3J5IjpbNzg4Mjc3ODMsLTU4Nzk1NjkzOSwtOTQwMz
+k5MjAyXX0=
 -->
