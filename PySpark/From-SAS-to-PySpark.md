@@ -195,9 +195,11 @@ aux00 = left_join.select('*', udf_trail_1((col('class_description'))).alias('Ret
 
 aux00.show()
 ```
+References:
 
+- [# User-Defined Functions - Python[](https://docs.databricks.com/spark/latest/spark-sql/udf-python.html#user-defined-functions-python "Permalink to this headline")](https://docs.databricks.com/spark/latest/spark-sql/udf-python.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MTk0MjgwOSwtNTg3OTU2OTM5LC05ND
+eyJoaXN0b3J5IjpbLTUzODk1OTcyNSwtNTg3OTU2OTM5LC05ND
 AzOTkyMDJdfQ==
 -->
