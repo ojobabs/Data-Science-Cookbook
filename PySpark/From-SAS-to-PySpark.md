@@ -147,13 +147,13 @@ smgId =  smg.select('MKTRNUM', 'CONTRACTDT', 'PreviousOccupation', 'education', 
 ### Convert a PySpark dataframe into a Python Pandas dataframe
 ```python
 %pyspark
-# Let's convert smgId into Pandas dataframe to make easier to attache a zero
+# Let's convert smgId PySpark dataframe into a Python Pandas dataframe
 smgIdP = smgId.toPandas() 
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDMzOTczOCwtNTg3OTU2OTM5LC05ND
-AzOTkyMDJdfQ==
+eyJoaXN0b3J5IjpbLTE3OTI1Njk4MzYsLTU4Nzk1NjkzOSwtOT
+QwMzk5MjAyXX0=
 -->
