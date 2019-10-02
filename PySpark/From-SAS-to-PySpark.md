@@ -150,10 +150,16 @@ smgId =  smg.select('MKTRNUM', 'CONTRACTDT', 'PreviousOccupation', 'education', 
 # Let's convert smgId PySpark dataframe into a Python Pandas dataframe
 smgIdP = smgId.toPandas() 
 ```
+### Convert a Python Pandas dataframe into a PySpark dataframe
+```python
+%pyspark
+# From Pandas DF to PySpark DF
+df = spark.createDataFrame(smgIdP)
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTI1Njk4MzYsLTU4Nzk1NjkzOSwtOT
-QwMzk5MjAyXX0=
+eyJoaXN0b3J5IjpbNTU2MDQ1Mjk5LC01ODc5NTY5MzksLTk0MD
+M5OTIwMl19
 -->
