@@ -178,9 +178,26 @@ left_join = df.join(allAgents, df.marketer_id == allAgents.marketer_id,how='left
 left_join.show(truncate = False)
 ```
 More here: [Pyspark joins by example](http://www.learnbymarketing.com/1100/pyspark-joins-by-example/)
+### Using a User Defined Function in PySpark
+
+```python
+%pyspark
+def def_status(class_description):
+    if 'Current Class' in class_description:
+        status = 1
+    else:
+        status = 0
+    return status
+
+udf_trail_1 = F.udf(def_status)
+
+aux00 = left_join.select('*', udf_trail_1((col('class_description'))).alias('Ret_CC'))
+
+aux00.show()
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MzQyMjU3MiwtNTg3OTU2OTM5LC05ND
+eyJoaXN0b3J5IjpbLTk1MTk0MjgwOSwtNTg3OTU2OTM5LC05ND
 AzOTkyMDJdfQ==
 -->
