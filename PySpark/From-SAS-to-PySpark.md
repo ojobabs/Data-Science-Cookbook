@@ -137,8 +137,23 @@ Office/Admin Support 		1650
 Insurance Sales/Broker 		1529 
 ```
 
+### Select some column on a PySpark dataframe
+
+```python
+%pyspark
+# Select some columns
+smgId =  smg.select('MKTRNUM', 'CONTRACTDT', 'PreviousOccupation', 'education', 'graduate', 'week_earn')
+```
+### Convert a PySpark dataframe into a Python Pandas dataframe
+```python
+%pyspark
+# Let's convert smgId into Pandas dataframe to make easier to attache a zero
+smgIdP = smgId.toPandas() 
+```
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4Nzk1NjkzOSwtOTQwMzk5MjAyXX0=
+eyJoaXN0b3J5IjpbLTQxNDMzOTczOCwtNTg3OTU2OTM5LC05ND
+AzOTkyMDJdfQ==
 -->
