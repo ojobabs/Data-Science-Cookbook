@@ -335,7 +335,21 @@ hc.sql("drop table tenant_insurance_cdsa.agent_demographics purge")
 it is just to remove an old version of the table is you want to rewrite the same table.
 
 If you use Zeppelin or DBeaver you will see this table published here `tenant_insurance_cdsa`.
+
+### Convert your Zeppelin notebooks to Python or any other formats. 
+
+Our team is one of the largest users of Zeppelin notebook(Spark) and converting the zeppelin notebooks to python or any other formats (.R, .txt, .sql) is a huge challenge till now, but not anymore. I have developed a python library (command line tool) to take care of that process (with inbuilt multiple interpreter support).
+
+Installation: `pip install Zeppi_Convert`
+
+Anaconda Installation: `conda install pip`
+
+pip install Zeppi_Convert
+
+Package: [https://pypi.org/project/Zeppi_Convert/](https://pypi.org/project/Zeppi_Convert/)
+
+Github: [https://github.com/kbsriharsha/Zeppi_Convert](https://github.com/kbsriharsha/Zeppi_Convert)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4ODI0NzI0LC01MTcwNTE5NjEsLTEyMT
-I4OTI0NiwtMjAwNzI1MTMwNV19
+eyJoaXN0b3J5IjpbNTY4OTg3MzY5LDY5ODgyNDcyNCwtNTE3MD
+UxOTYxLC0xMjEyODkyNDYsLTIwMDcyNTEzMDVdfQ==
 -->
