@@ -122,14 +122,23 @@ Here `smg` is a PySpark dataframe. We can use the pandas `.unique()` function on
 %pyspark
 smg.toPandas()['PreviousOccupation'].unique()
 ```
-Another example with `value_counts()`
+Another example with Pandas' `value_counts()` function:
 
 ```python
 smg.toPandas()['PreviousOccupation'].value_counts()
+```
+Output:
+
+```
+Unemployed 				 	3004 
+Business/Finance/Banking 	1902 
+Retail Salesperson 			1736 
+Office/Admin Support 		1650 
+Insurance Sales/Broker 		1529 
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NDgzMzg0LC05NDAzOTkyMDJdfQ==
+eyJoaXN0b3J5IjpbLTU4Nzk1NjkzOSwtOTQwMzk5MjAyXX0=
 -->
