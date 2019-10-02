@@ -178,8 +178,8 @@ left_join = df.join(allAgents, df.marketer_id == allAgents.marketer_id,how='left
 left_join.show(truncate = False)
 ```
 More here: [Pyspark joins by example](http://www.learnbymarketing.com/1100/pyspark-joins-by-example/)
-### Using a User Defined Function in PySpark
-
+### Using a User Defined Function UDF in PySpark
+Here an example of an UDF 
 ```python
 %pyspark
 def def_status(class_description):
@@ -197,9 +197,10 @@ aux00.show()
 ```
 References:
 
-- [# User-Defined Functions - Python[](https://docs.databricks.com/spark/latest/spark-sql/udf-python.html#user-defined-functions-python "Permalink to this headline")](https://docs.databricks.com/spark/latest/spark-sql/udf-python.html)
+- [User-Defined Functions - Python](https://docs.databricks.com/spark/latest/spark-sql/udf-python.html)
+- [How to Turn Python Functions into PySpark Functions (UDF)](https://changhsinlee.com/pyspark-udf/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzODk1OTcyNSwtNTg3OTU2OTM5LC05ND
-AzOTkyMDJdfQ==
+eyJoaXN0b3J5IjpbLTE2OTU5NzQ3MTAsLTU4Nzk1NjkzOSwtOT
+QwMzk5MjAyXX0=
 -->
