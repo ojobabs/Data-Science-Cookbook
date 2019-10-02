@@ -340,16 +340,36 @@ If you use Zeppelin or DBeaver you will see this table published here `tenant_in
 
 Our team is one of the largest users of Zeppelin notebook(Spark) and converting the zeppelin notebooks to python or any other formats (.R, .txt, .sql) is a huge challenge till now, but not anymore. I have developed a python library (command line tool) to take care of that process (with inbuilt multiple interpreter support).
 
-Installation: `pip install Zeppi_Convert`
+Installation: 
 
-Anaconda Installation: `conda install pip`
+`$ pip install Zeppi_Convert`
 
-pip install Zeppi_Convert
+Anaconda Installation: 
 
-Package: [https://pypi.org/project/Zeppi_Convert/](https://pypi.org/project/Zeppi_Convert/)
+`$ conda install pip`
 
-Github: [https://github.com/kbsriharsha/Zeppi_Convert](https://github.com/kbsriharsha/Zeppi_Convert)
+`$ pip install Zeppi_Convert`
+
+Package: [Zeppi_Convert](https://pypi.org/project/Zeppi_Convert/)
+
+Github: [Zeppi_Convert](https://github.com/kbsriharsha/Zeppi_Convert)
+
+From the command line, use the keyword  zeppi-convert  to convert a zeppelin notebook (.json) to any other format output format
+
+> $  zeppi-convert  -i  <input_filename>  -o  <output_filename>  -int  <interpreter_type>
+
+Example1: Extract the code from all the cells and output a python file
+
+> $  zeppi-convert  -i  mynotebook.json  -o  mypython.py
+
+Example2: Convert a zeppelin notebook to any text format
+
+> $  zeppi-convert  -i  mynotebook.json  -o  myfile.txt
+
+Example3: Extract the code from a specific interpreter cells
+
+> $  zeppi-convert  -i  mynotebook.json  -o  myfile.txt  -int  pyspark
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4OTg3MzY5LDY5ODgyNDcyNCwtNTE3MD
-UxOTYxLC0xMjEyODkyNDYsLTIwMDcyNTEzMDVdfQ==
+eyJoaXN0b3J5IjpbLTIwNDEyMDcyMTUsNjk4ODI0NzI0LC01MT
+cwNTE5NjEsLTEyMTI4OTI0NiwtMjAwNzI1MTMwNV19
 -->
