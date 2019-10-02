@@ -177,10 +177,10 @@ allAgents.count()
 left_join = df.join(allAgents, df.marketer_id == allAgents.marketer_id,how='left') # Could also use 'left_outer'
 left_join.show(truncate = False)
 ```
-More here  [Pyspark joins by example](http://www.learnbymarketing.com/1100/pyspark-joins-by-example/)
+More here: [Pyspark joins by example](http://www.learnbymarketing.com/1100/pyspark-joins-by-example/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDAzNDYyODYsLTU4Nzk1NjkzOSwtOT
-QwMzk5MjAyXX0=
+eyJoaXN0b3J5IjpbMTU0MzQyMjU3MiwtNTg3OTU2OTM5LC05ND
+AzOTkyMDJdfQ==
 -->
