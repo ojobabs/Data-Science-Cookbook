@@ -182,7 +182,7 @@ More here: [Pyspark joins by example](http://www.learnbymarketing.com/1100/pyspa
 Here an example of an UDF. 
 - `aux00` is the input table
 - `aux01` is the output table
-- 
+- We want to create a new variable named `status` on the `aux01` table. The `status` variable takes the values `1` or `0` conditioned to the value of the variable `class_description` on table `aux00`. 
 ```python
 %pyspark
 def def_status(class_description):
@@ -204,6 +204,6 @@ References:
 - [How to Turn Python Functions into PySpark Functions (UDF)](https://changhsinlee.com/pyspark-udf/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg4Mjc3ODMsLTU4Nzk1NjkzOSwtOTQwMz
-k5MjAyXX0=
+eyJoaXN0b3J5IjpbLTEzODMyOTM4MTAsLTU4Nzk1NjkzOSwtOT
+QwMzk5MjAyXX0=
 -->
