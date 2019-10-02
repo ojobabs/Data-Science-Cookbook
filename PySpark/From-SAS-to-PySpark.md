@@ -239,15 +239,20 @@ merge.head()
 
 ### How to publish a PySpark dataframe on Hive (DBeaver)
 
+Let's say we want to save on Hive `agent_demographics`
+
 ```python
 %pyspark
 agent_demographics.registerTempTable('temp')
 hc.sql("drop table tenant_insurance_cdsa.agent_demographics purge")
 hc.sql('create table tenant_insurance_cdsa.agent_demographics as select * from temp')
-
 ```
-
+The line:
+```python
+hc.sql("drop table tenant_insurance_cdsa.agent_demographics purge")
+```
+it is just to remove an old version of the table is you want to rewrite the same table.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNzA4MjIwNiwxMTc5NzQ5NjczLC04Mz
-Q1ODcyMjMsLTU4Nzk1NjkzOSwtOTQwMzk5MjAyXX0=
+eyJoaXN0b3J5IjpbLTE2MTUwNDY5MjAsMTE3OTc0OTY3MywtOD
+M0NTg3MjIzLC01ODc5NTY5MzksLTk0MDM5OTIwMl19
 -->
