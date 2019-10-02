@@ -203,7 +203,22 @@ References:
 - [User-Defined Functions - Python](https://docs.databricks.com/spark/latest/spark-sql/udf-python.html)
 - [How to Turn Python Functions into PySpark Functions (UDF)](https://changhsinlee.com/pyspark-udf/)
 
+Let's compare the above PySpark function to the equivalent function using Python:
+
+```python
+def labelValuesEdu(df):
+    if df['education'] == 1:
+        return 'college or university'
+    elif df['education'] == 0:
+        return 'high school or trade school'
+    else:
+        return 'unknown'
+
+merge['education'] = merge.apply(labelValuesEdu, axis=1)
+merge.head()
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTc0OTY3MywtODM0NTg3MjIzLC01OD
-c5NTY5MzksLTk0MDM5OTIwMl19
+eyJoaXN0b3J5IjpbMTc4MzcxNjQ4NywxMTc5NzQ5NjczLC04Mz
+Q1ODcyMjMsLTU4Nzk1NjkzOSwtOTQwMzk5MjAyXX0=
 -->
