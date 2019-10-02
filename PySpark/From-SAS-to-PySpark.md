@@ -165,10 +165,14 @@ Output
 ```
 [('marketer_id', 'string'), ('calendar_year', 'string'), ('fyc', 'decimal(26,2)')]
 ```
-
+### Total obs. in a PySpark dataframe
+```python
+%pyspark
+allAgents.count()
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njg4NzExMjksLTU4Nzk1NjkzOSwtOT
-QwMzk5MjAyXX0=
+eyJoaXN0b3J5IjpbMzI4MzY5NjM1LC01ODc5NTY5MzksLTk0MD
+M5OTIwMl19
 -->
