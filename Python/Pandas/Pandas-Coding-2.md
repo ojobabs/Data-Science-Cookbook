@@ -321,8 +321,20 @@ to get this:
 0    A     2     4       11
 1    B     3     5       15
 ```
-Or 
+Or we can use:
 
+```python
+d = {'Missed':'Sum1', 'Credit':'Sum2','Grade':'Average'}
+df=df.groupby('Name').agg({'Missed':'sum', 'Credit':'sum','Grade':'mean'}).rename(columns=d)
+print (df)
+```
+To get this:
+```
+      Sum1  Sum2  Average
+Name                     
+A        2     4       11
+B        3     5       15
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MzM2NDI5LC04ODc5MjkwMDFdfQ==
+eyJoaXN0b3J5IjpbMTE1NDM1Mjk5MSwtODg3OTI5MDAxXX0=
 -->
