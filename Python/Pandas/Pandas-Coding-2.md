@@ -335,6 +335,32 @@ Name
 A        2     4       11
 B        3     5       15
 ```
+
+### [delete rows containing numeric values in strings from pandas dataframe](https://stackoverflow.com/questions/50804036/delete-rows-containing-numeric-values-in-strings-from-pandas-dataframe)
+
+Let's say we have the following Pandas dataframe:
+```
+       text type
+0       abc    b
+1    abc123    a
+2       cde    a
+3  abc1.2.3    b
+4     1.2.3    a
+5       xyz    a
+6    abc123    a
+7      9999    a
+8     5text    a
+9      text    a
+
+
+>>> df[~df.text.str.contains(r'[0-9]')]
+   text type
+0   abc    b
+2   cde    a
+5   xyz    a
+9  text    a
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NDM1Mjk5MSwtODg3OTI5MDAxXX0=
+eyJoaXN0b3J5IjpbMjc3ODU0NDE4LDExNTQzNTI5OTEsLTg4Nz
+kyOTAwMV19
 -->
