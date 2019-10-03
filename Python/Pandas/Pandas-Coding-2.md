@@ -292,8 +292,37 @@ References:
 df.name.unique()
 ```
 ### [How to us mean and sum opperatiors with groupby on different columns at the same time](https://stackoverflow.com/questions/48909110/python-pandas-mean-and-sum-groupby-on-different-columns-at-the-same-time)
+Let's say we have the following Pandas datafra:
 
+```
+Name    Missed    Credit    Grade
+A       1         3         10
+A       1         1         12      
+B       2         3         10
+B       1         2         20
+```
+And we want to get this:
+```
+Name    Sum1   Sum2    Average
+A       2      4      11
+B       3      5      15 
+```
+We can use:
+
+```python
+df = (df.groupby('Name', as_index=False)
+       .agg({'Missed':'sum', 'Credit':'sum','Grade':'mean'})
+       .rename(columns={'Missed':'Sum1', 'Credit':'Sum2','Grade':'Average'}))
+print (df)
+```
+to get this:
+```
+  Name  Sum1  Sum2  Average
+0    A     2     4       11
+1    B     3     5       15
+```
+Or 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MDQ1OTEyOSwtODg3OTI5MDAxXX0=
+eyJoaXN0b3J5IjpbMTU4MzM2NDI5LC04ODc5MjkwMDFdfQ==
 -->
