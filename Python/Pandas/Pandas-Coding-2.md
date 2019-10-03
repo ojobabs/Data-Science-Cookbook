@@ -291,6 +291,9 @@ References:
 #List unique values in the df['name'] column
 df.name.unique()
 ```
+### [How to us mean and sum opperatiors with groupby on different columns at the same time](https://stackoverflow.com/questions/48909110/python-pandas-mean-and-sum-groupby-on-different-columns-at-the-same-time)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NzkyOTAwMV19
+eyJoaXN0b3J5IjpbMTY0MDQ1OTEyOSwtODg3OTI5MDAxXX0=
 -->
