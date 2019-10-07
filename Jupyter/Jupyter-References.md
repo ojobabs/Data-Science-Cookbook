@@ -67,8 +67,12 @@ https://mirrors.rit.edu
 If you set up this on the pop up window or opening the MiKTeX console (General tab), you will be able to install all remaining packages without problem. 
 
 After having installed all needed packages, the PDF file will be buit on your Download folder.
+
+### Create Presentation Slides from Jupyter using RICE
+
+- [Create Presentation Slides from Jupyter using RICE](https://www.youtube.com/watch?v=utNl9f3gqYQ)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzExNTYyNTQsODc5NjY4OTM5LDIwND
-IxODE0NCw2MzYyNDE4NDEsMTUzNzgyMTc5OSwtMTk2MzExMDUs
-MjAzMjE0OTYyNywtMTQ1MjA4MDA2MF19
+eyJoaXN0b3J5IjpbLTM0Njc1OTk4NCwtMTAzMTE1NjI1NCw4Nz
+k2Njg5MzksMjA0MjE4MTQ0LDYzNjI0MTg0MSwxNTM3ODIxNzk5
+LC0xOTYzMTEwNSwyMDMyMTQ5NjI3LC0xNDUyMDgwMDYwXX0=
 -->
