@@ -322,11 +322,22 @@ $ git log --graph traditional
 If you clone a repository that comes with different branches you need to do the following:
 
 ```bash
-git clone repository 
+$ git clone repository 
 ```
 And then
 ```bash
+$ git fetch --all
 ```
+Now if you do
+```bash
+$ git branch -r
+```
+You can see all the branches
+
+Finally, you can move the the branch you want doing
+
+```bash
+$ git cheac
 
 
 
@@ -336,7 +347,7 @@ And then
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM4NDE1ODIwLC0xNjQ0OTQxODkxLDEwMj
+eyJoaXN0b3J5IjpbNzMzNzIyMjM4LC0xNjQ0OTQxODkxLDEwMj
 g3MzA0OTgsLTEwMTc2ODM0OTMsMTczNjEwNDA2OCwyMDE5Mjc5
 Mzg2LDIwMTkyNzkzODYsMTYwMTgxNjk3MSwtMTMwMjE1MjY1MC
 wtMTkyNTcwODQ2MCwtMTA1MTMyNTc0NywyMDQwMjY3NjA5LDI0
