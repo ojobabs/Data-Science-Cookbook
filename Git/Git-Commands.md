@@ -337,8 +337,8 @@ You can see all the branches
 Finally, you can move the the branch you want doing
 
 ```bash
-$ git cheac
-
+$ git checkout name_of_branch
+```
 
 
 
@@ -347,7 +347,7 @@ $ git cheac
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMzNzIyMjM4LC0xNjQ0OTQxODkxLDEwMj
+eyJoaXN0b3J5IjpbNTM4ODg3NDY0LC0xNjQ0OTQxODkxLDEwMj
 g3MzA0OTgsLTEwMTc2ODM0OTMsMTczNjEwNDA2OCwyMDE5Mjc5
 Mzg2LDIwMTkyNzkzODYsMTYwMTgxNjk3MSwtMTMwMjE1MjY1MC
 wtMTkyNTcwODQ2MCwtMTA1MTMyNTc0NywyMDQwMjY3NjA5LDI0
