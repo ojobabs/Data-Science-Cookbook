@@ -319,7 +319,14 @@ $ git log --graph traditional
 
 ### [How to fetch all Git branches](https://stackoverflow.com/questions/10312521/how-to-fetch-all-git-branches)
 
-If you colone a 
+If you clone a repository that comes with different branches you need to do the following:
+
+```bash
+git clone repository 
+```
+And then
+```bash
+```
 
 
 
@@ -329,7 +336,7 @@ If you colone a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQzMzc5MzcyLC0xNjQ0OTQxODkxLDEwMj
+eyJoaXN0b3J5IjpbODM4NDE1ODIwLC0xNjQ0OTQxODkxLDEwMj
 g3MzA0OTgsLTEwMTc2ODM0OTMsMTczNjEwNDA2OCwyMDE5Mjc5
 Mzg2LDIwMTkyNzkzODYsMTYwMTgxNjk3MSwtMTMwMjE1MjY1MC
 wtMTkyNTcwODQ2MCwtMTA1MTMyNTc0NywyMDQwMjY3NjA5LDI0
