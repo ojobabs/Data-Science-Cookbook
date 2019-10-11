@@ -317,7 +317,9 @@ $ git log --graph traditional
 | Author: Marcos <marcos_aguilerakeyser@newyorklife.com>
 ```
 
+### [How to fetch all Git branches](https://stackoverflow.com/questions/10312521/how-to-fetch-all-git-branches)
 
+If you colone a 
 
 
 
@@ -327,9 +329,9 @@ $ git log --graph traditional
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDQ5NDE4OTEsMTAyODczMDQ5OCwtMT
-AxNzY4MzQ5MywxNzM2MTA0MDY4LDIwMTkyNzkzODYsMjAxOTI3
-OTM4NiwxNjAxODE2OTcxLC0xMzAyMTUyNjUwLC0xOTI1NzA4ND
-YwLC0xMDUxMzI1NzQ3LDIwNDAyNjc2MDksMjQyNjg5NzMzXX0=
-
+eyJoaXN0b3J5IjpbMjQzMzc5MzcyLC0xNjQ0OTQxODkxLDEwMj
+g3MzA0OTgsLTEwMTc2ODM0OTMsMTczNjEwNDA2OCwyMDE5Mjc5
+Mzg2LDIwMTkyNzkzODYsMTYwMTgxNjk3MSwtMTMwMjE1MjY1MC
+wtMTkyNTcwODQ2MCwtMTA1MTMyNTc0NywyMDQwMjY3NjA5LDI0
+MjY4OTczM119
 -->
