@@ -378,8 +378,15 @@ Example3: Extract the code from a specific interpreter cells
 print(len(mrc.columns)) 
 print(mrc.count())
 ```
+### Using 
+First import all function on the following script:
+```python
+sc.addPyFile("hdfs:///tmp/common_functions.py")
+from common_functions import *
+```
+Then, we can use the `` function to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjE3MDY4NjQsMjA0ODQ1OTE1Nyw2OT
-g4MjQ3MjQsLTUxNzA1MTk2MSwtMTIxMjg5MjQ2LC0yMDA3MjUx
-MzA1XX0=
+eyJoaXN0b3J5IjpbLTcwODAxMjg5NCwtMTY2MTcwNjg2NCwyMD
+Q4NDU5MTU3LDY5ODgyNDcyNCwtNTE3MDUxOTYxLC0xMjEyODky
+NDYsLTIwMDcyNTEzMDVdfQ==
 -->
