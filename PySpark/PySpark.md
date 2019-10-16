@@ -399,8 +399,15 @@ https://nylgit.newyorklife.com/T93KMZT/kuppuluri/blob/master/common_functions.py
 df1 = df0.drop('var01')
 df1 = df0.drop(['var01','var02'])
 ```
+or
+```python
+drop_list = ['a column', 'another column', ...]
+
+df.select([column for column in df.columns if column not in drop_list])
+```
+[reference](https://stackoverflow.com/questions/29600673/how-to-delete-columns-in-pyspark-dataframe)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDYyMTY2NTUsLTE2NjM2ODk4NiwtMT
-Y2MTcwNjg2NCwyMDQ4NDU5MTU3LDY5ODgyNDcyNCwtNTE3MDUx
-OTYxLC0xMjEyODkyNDYsLTIwMDcyNTEzMDVdfQ==
+eyJoaXN0b3J5IjpbLTU2ODc3MDk5NCwtMTY2MzY4OTg2LC0xNj
+YxNzA2ODY0LDIwNDg0NTkxNTcsNjk4ODI0NzI0LC01MTcwNTE5
+NjEsLTEyMTI4OTI0NiwtMjAwNzI1MTMwNV19
 -->
