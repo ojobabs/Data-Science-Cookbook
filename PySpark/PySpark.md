@@ -396,10 +396,11 @@ https://nylgit.newyorklife.com/T93KMZT/kuppuluri/blob/master/common_functions.py
 ### Drop one or more columns from PySpark Data Frame
 
 ```python
-
+df1 = df0.drop('var01')
+df1 = df0.drop(['var01','var02'])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcyMjgyMzI2LC0xNjYzNjg5ODYsLTE2Nj
-E3MDY4NjQsMjA0ODQ1OTE1Nyw2OTg4MjQ3MjQsLTUxNzA1MTk2
-MSwtMTIxMjg5MjQ2LC0yMDA3MjUxMzA1XX0=
+eyJoaXN0b3J5IjpbLTIxNDYyMTY2NTUsLTE2NjM2ODk4NiwtMT
+Y2MTcwNjg2NCwyMDQ4NDU5MTU3LDY5ODgyNDcyNCwtNTE3MDUx
+OTYxLC0xMjEyODkyNDYsLTIwMDcyNTEzMDVdfQ==
 -->
