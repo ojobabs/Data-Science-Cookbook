@@ -416,10 +416,17 @@ df.groupBy('variablename').count().show()
 df.toPandas()['variablename'].value_counts()
 ```
 
-### 
+### Values in a column
+
+```python
+# Using PySpark
+df.select("variablename").distinct().show()
+# Using Python with Pyspark 
+df.toPandas()['variablename'].unique()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAwOTgxNzEwLC01Njg3NzA5OTQsLTE2Nj
-M2ODk4NiwtMTY2MTcwNjg2NCwyMDQ4NDU5MTU3LDY5ODgyNDcy
-NCwtNTE3MDUxOTYxLC0xMjEyODkyNDYsLTIwMDcyNTEzMDVdfQ
-==
+eyJoaXN0b3J5IjpbLTEwMjIwMDg0MSwtNTY4NzcwOTk0LC0xNj
+YzNjg5ODYsLTE2NjE3MDY4NjQsMjA0ODQ1OTE1Nyw2OTg4MjQ3
+MjQsLTUxNzA1MTk2MSwtMTIxMjg5MjQ2LC0yMDA3MjUxMzA1XX
+0=
 -->
