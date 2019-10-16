@@ -407,11 +407,19 @@ df.select([column for column in df.columns if column not in drop_list])
 ```
 [reference](https://stackoverflow.com/questions/29600673/how-to-delete-columns-in-pyspark-dataframe)
 
-### Count the number of observations per each level of a categorical variable in PySpark 
+### Count the number of observations by variable value
 
-mrc02.groupBy('calendar_year').count().show()
+```python
+# Using PySpark
+df.groupBy('variablename').count().show()
+# Using Python with PySpark
+df.toPandas()['variablename'].value_counts()
+```
+
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM3OTczMDYsLTU2ODc3MDk5NCwtMTY2Mz
-Y4OTg2LC0xNjYxNzA2ODY0LDIwNDg0NTkxNTcsNjk4ODI0NzI0
-LC01MTcwNTE5NjEsLTEyMTI4OTI0NiwtMjAwNzI1MTMwNV19
+eyJoaXN0b3J5IjpbNTAwOTgxNzEwLC01Njg3NzA5OTQsLTE2Nj
+M2ODk4NiwtMTY2MTcwNjg2NCwyMDQ4NDU5MTU3LDY5ODgyNDcy
+NCwtNTE3MDUxOTYxLC0xMjEyODkyNDYsLTIwMDcyNTEzMDVdfQ
+==
 -->
