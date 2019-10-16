@@ -385,8 +385,16 @@ sc.addPyFile("hdfs:///tmp/common_functions.py")
 from common_functions import *
 ```
 Then, we can use the `` function to 
+
+```python
+pprint(mrc, nrows=10)
+```
+The `common_functions.py` is located on GitLab here:
+```
+https://nylgit.newyorklife.com/T93KMZT/kuppuluri/blob/master/common_functions.py
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODAxMjg5NCwtMTY2MTcwNjg2NCwyMD
-Q4NDU5MTU3LDY5ODgyNDcyNCwtNTE3MDUxOTYxLC0xMjEyODky
-NDYsLTIwMDcyNTEzMDVdfQ==
+eyJoaXN0b3J5IjpbLTEzNDUzMDgyNjksLTE2NjE3MDY4NjQsMj
+A0ODQ1OTE1Nyw2OTg4MjQ3MjQsLTUxNzA1MTk2MSwtMTIxMjg5
+MjQ2LC0yMDA3MjUxMzA1XX0=
 -->
