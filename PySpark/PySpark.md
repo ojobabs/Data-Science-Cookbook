@@ -378,13 +378,13 @@ Example3: Extract the code from a specific interpreter cells
 print(len(mrc.columns)) 
 print(mrc.count())
 ```
-### Using 
+### Using `pprint` function to get the output in table manner in Zeppelin
 First import all function on the following script:
 ```python
 sc.addPyFile("hdfs:///tmp/common_functions.py")
 from common_functions import *
 ```
-Then, we can use the `` function to 
+Then, we can use the `pprint` function to 
 
 ```python
 pprint(mrc, nrows=10)
@@ -394,7 +394,7 @@ The `common_functions.py` is located on GitLab here:
 https://nylgit.newyorklife.com/T93KMZT/kuppuluri/blob/master/common_functions.py
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDUzMDgyNjksLTE2NjE3MDY4NjQsMj
-A0ODQ1OTE1Nyw2OTg4MjQ3MjQsLTUxNzA1MTk2MSwtMTIxMjg5
-MjQ2LC0yMDA3MjUxMzA1XX0=
+eyJoaXN0b3J5IjpbLTE2NjM2ODk4NiwtMTY2MTcwNjg2NCwyMD
+Q4NDU5MTU3LDY5ODgyNDcyNCwtNTE3MDUxOTYxLC0xMjEyODky
+NDYsLTIwMDcyNTEzMDVdfQ==
 -->
