@@ -369,7 +369,17 @@ Example2: Convert a zeppelin notebook to any text format
 Example3: Extract the code from a specific interpreter cells
 
 `$  zeppi-convert  -i  mynotebook.json  -o  myfile.txt  -int  pyspark`
+
+### Number of columns and number of rows on a PySpark data frame
+
+```python
+%pyspark
+# Number of columns and number of rows:
+print(len(mrc.columns)) 
+print(mrc.count())
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODQ1OTE1Nyw2OTg4MjQ3MjQsLTUxNz
-A1MTk2MSwtMTIxMjg5MjQ2LC0yMDA3MjUxMzA1XX0=
+eyJoaXN0b3J5IjpbLTE2NjE3MDY4NjQsMjA0ODQ1OTE1Nyw2OT
+g4MjQ3MjQsLTUxNzA1MTk2MSwtMTIxMjg5MjQ2LC0yMDA3MjUx
+MzA1XX0=
 -->
