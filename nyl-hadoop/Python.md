@@ -5,7 +5,7 @@
 
 # Using Python code on remote server
 
-### .bash_profile to execute Python code using Anaconda, PySpark and Scala
+### .bash_profile to execute Python code using Anaconda, PySpark and Scala on the remote server
 
 ```bash
 # .bash_profile
@@ -67,5 +67,6 @@ plt.scatter(X,Y)
 plt.savefig('scatterPlot.png')
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0OTU3NTY0NywtMTI4MDY2OTA0OF19
+eyJoaXN0b3J5IjpbLTIwODc2Mjk4MzAsLTEyODA2NjkwNDhdfQ
+==
 -->
