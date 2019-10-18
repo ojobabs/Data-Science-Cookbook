@@ -5,6 +5,11 @@
 
 # Using Python code on remote server
 
+### Executing a 
+
+
+### Using Matplotlib package to create, save and see images on the remote server
+
 How to use matplotlib package to create and save images on the remote server (Hadoop). By using the Atom's [ftp-remote-edit](https://atom.io/packages/ftp-remote-edit) it is possible to actually open the image on Atom to see the content. 
 
 ```python
@@ -31,5 +36,5 @@ plt.scatter(X,Y)
 plt.savefig('scatterPlot.png')
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ5OTU2NTIwXX0=
+eyJoaXN0b3J5IjpbLTE5NjAyMTAzNjhdfQ==
 -->
