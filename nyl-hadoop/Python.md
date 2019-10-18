@@ -5,8 +5,13 @@
 
 # Using Python code on remote server
 
-### Executing a 
+### Executing a Python script on the remote server
 
+Just use on the remote terminal:
+
+```bash
+$ python program-name.py
+```
 
 ### Using Matplotlib package to create, save and see images on the remote server
 
@@ -36,5 +41,5 @@ plt.scatter(X,Y)
 plt.savefig('scatterPlot.png')
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjAyMTAzNjhdfQ==
+eyJoaXN0b3J5IjpbLTEyODA2NjkwNDhdfQ==
 -->
