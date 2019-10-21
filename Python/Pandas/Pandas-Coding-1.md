@@ -53,6 +53,10 @@ warnings.filterwarnings('ignore')
 ```python
 # Pandas by default display 60 rows. You can override this:
 pd.set_option('display.max_rows', 120)
+# Choose the number of columns to display
+pd.set_option('display.max_columns', 1000)
+# Choose the width of the display
+pd.set_option('display.width', 1000)
 ```
 [reference](https://stackoverflow.com/questions/28238919/python-pandas-dtypes-not-show-column-types-for-all-columns)
 
@@ -750,5 +754,5 @@ appended_data = pd.concat(appended_data, axis=1)
 appended_data.to_excel('appended.xlsx')
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMDc4NzUwOV19
+eyJoaXN0b3J5IjpbLTc3MTA0MjU3LDEyMTA3ODc1MDldfQ==
 -->
