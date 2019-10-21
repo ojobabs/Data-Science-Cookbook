@@ -365,7 +365,9 @@ We get:
    xyz    a
   text    a
 ```
+
+### Create a new column based on 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2OTg5NzE3NywxMTU0MzUyOTkxLC04OD
-c5MjkwMDFdfQ==
+eyJoaXN0b3J5IjpbMjA3MDEzNzg3MSwxMDY5ODk3MTc3LDExNT
+QzNTI5OTEsLTg4NzkyOTAwMV19
 -->
