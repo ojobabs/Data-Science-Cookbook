@@ -366,8 +366,22 @@ We get:
   text    a
 ```
 
-### Create a new column based on 
+### Create a new column based on if then conditions
+
+```python
+# Implementation Target 2 Rolling 12 months creation:
+
+def target2Def(df):
+    if df['target1Rolling'] == 0:
+        return 'Low'
+    elif (df['target1Rolling'] == 1 and df['cncl_cd'] == 'QC') or (df['target1Rolling'] == 1 and df['cncl_cd'] == ""):
+        return 'Medium'
+    else:
+        return 'High'
+
+targetAux02['target2Rolling'] = targetAux02.apply(target2Def, axis=1)
+``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDEzNzg3MSwxMDY5ODk3MTc3LDExNT
-QzNTI5OTEsLTg4NzkyOTAwMV19
+eyJoaXN0b3J5IjpbNzMxNDU1NTEsMTA2OTg5NzE3NywxMTU0Mz
+UyOTkxLC04ODc5MjkwMDFdfQ==
 -->
