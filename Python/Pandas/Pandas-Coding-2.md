@@ -381,7 +381,28 @@ def target2Def(df):
 
 targetAux02['target2Rolling'] = targetAux02.apply(target2Def, axis=1)
 ``` 
+
+### Count the number of value per category
+
+Here `smg` is a PySpark dataframe. We can use the pandas `.unique()` function on this `smg` PySpark dataframe using before `.toPandas()`:
+
+```python
+smg['PreviousOccupation'].unique()
+```
+Another example with Pandas' `value_counts()` function:
+
+```python
+smg.toPandas()['PreviousOccupation'].value_counts()
+```
+Output:
+
+```
+Unemployed 				 	3004 
+Business/Finance/Banking 	1902 
+Retail Salesperson 			1736 
+Office/Admin Support 		1650 
+Insurance Sales/Broker 		1529 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMxNDU1NTEsMTA2OTg5NzE3NywxMTU0Mz
-UyOTkxLC04ODc5MjkwMDFdfQ==
+eyJoaXN0b3J5IjpbMjU5MjA0MTE0LDczMTQ1NTUxLDEwNjk4OT
+cxNzcsMTE1NDM1Mjk5MSwtODg3OTI5MDAxXX0=
 -->
