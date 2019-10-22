@@ -402,7 +402,13 @@ Business/Finance/Banking 	1902
 Retail Salesperson 			1736 
 Office/Admin Support 		1650 
 Insurance Sales/Broker 		1529 
+
+### Groupby one column and return the mean of only particular column in the group
+
+
+cont02.groupby('zipcode_taxable_income_Bin')['zipcode_taxable_income'].mean()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1NjI4OTU1LDczMTQ1NTUxLDEwNjk4OT
-cxNzcsMTE1NDM1Mjk5MSwtODg3OTI5MDAxXX0=
+eyJoaXN0b3J5IjpbLTIyMjE4NjIxOSw4ODU2Mjg5NTUsNzMxND
+U1NTEsMTA2OTg5NzE3NywxMTU0MzUyOTkxLC04ODc5MjkwMDFd
+fQ==
 -->
