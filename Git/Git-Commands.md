@@ -340,6 +340,14 @@ Finally, you can move the the branch you want doing
 $ git checkout name_of_branch
 ```
 
+### [How do I undo 'git add' before commit?](https://stackoverflow.com/questions/348170/how-do-i-undo-git-add-before-commit)
+
+You can undo  `git add`  before commit with
+
+```
+git reset <file>
+```
+
 
 
 
@@ -347,9 +355,9 @@ $ git checkout name_of_branch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM4ODg3NDY0LC0xNjQ0OTQxODkxLDEwMj
-g3MzA0OTgsLTEwMTc2ODM0OTMsMTczNjEwNDA2OCwyMDE5Mjc5
-Mzg2LDIwMTkyNzkzODYsMTYwMTgxNjk3MSwtMTMwMjE1MjY1MC
-wtMTkyNTcwODQ2MCwtMTA1MTMyNTc0NywyMDQwMjY3NjA5LDI0
-MjY4OTczM119
+eyJoaXN0b3J5IjpbNTcwMzUzNzAyLDUzODg4NzQ2NCwtMTY0ND
+k0MTg5MSwxMDI4NzMwNDk4LC0xMDE3NjgzNDkzLDE3MzYxMDQw
+NjgsMjAxOTI3OTM4NiwyMDE5Mjc5Mzg2LDE2MDE4MTY5NzEsLT
+EzMDIxNTI2NTAsLTE5MjU3MDg0NjAsLTEwNTEzMjU3NDcsMjA0
+MDI2NzYwOSwyNDI2ODk3MzNdfQ==
 -->
