@@ -760,7 +760,9 @@ For example, capitalize one column:
 ```python
 df['client_address_county'] = df['client_address_county'].str.upper()
 ```
+
+###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMjY5MDA2MywtNzcxMDQyNTcsMTIxMD
-c4NzUwOV19
+eyJoaXN0b3J5IjpbMzgyNTc5NiwtMzIyNjkwMDYzLC03NzEwND
+I1NywxMjEwNzg3NTA5XX0=
 -->
