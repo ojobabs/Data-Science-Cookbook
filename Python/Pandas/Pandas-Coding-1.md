@@ -761,8 +761,19 @@ For example, capitalize one column:
 df['client_address_county'] = df['client_address_county'].str.upper()
 ```
 
-###
+### [add a string prefix / suffix to each value in a string column using Pandas](https://stackoverflow.com/questions/20025882/add-a-string-prefix-to-each-value-in-a-string-column-using-pandas)
+
+Prefix:
+
+```python
+df['client_address_county'] = 'COUNTY ' + df['client_address_county'].astype(str)
+```
+Suffix:
+
+```python
+df['client_address_county'] = df['client_address_county'].astype(str) + ' COUNTY'
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgyNTc5NiwtMzIyNjkwMDYzLC03NzEwND
-I1NywxMjEwNzg3NTA5XX0=
+eyJoaXN0b3J5IjpbMjE1OTcwNTY5LC0zMjI2OTAwNjMsLTc3MT
+A0MjU3LDEyMTA3ODc1MDldfQ==
 -->
