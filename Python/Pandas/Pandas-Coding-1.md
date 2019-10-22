@@ -753,6 +753,11 @@ appended_data = pd.concat(appended_data, axis=1)
 # write DataFrame to an excel sheet 
 appended_data.to_excel('appended.xlsx')
 ```
+
+###  [Apply uppercase to a column in Pandas dataframe](https://www.geeksforgeeks.org/apply-uppercase-to-a-column-in-pandas-dataframe/)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MTA0MjU3LDEyMTA3ODc1MDldfQ==
+eyJoaXN0b3J5IjpbNTg4MjkxOTExLC03NzEwNDI1NywxMjEwNz
+g3NTA5XX0=
 -->
