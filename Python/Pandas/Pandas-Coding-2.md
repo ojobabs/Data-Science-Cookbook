@@ -402,13 +402,15 @@ Business/Finance/Banking 	1902
 Retail Salesperson 			1736 
 Office/Admin Support 		1650 
 Insurance Sales/Broker 		1529 
-
+```
 ### Groupby one column and return the mean of only particular column in the group
 
-
-cont02.groupby('zipcode_taxable_income_Bin')['zipcode_taxable_income'].mean()
+```python
+df.groupby('A')['B'].mean()
+```
+[pandas.core.groupby.GroupBy.mean](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.core.groupby.GroupBy.mean.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMjE4NjIxOSw4ODU2Mjg5NTUsNzMxND
-U1NTEsMTA2OTg5NzE3NywxMTU0MzUyOTkxLC04ODc5MjkwMDFd
-fQ==
+eyJoaXN0b3J5IjpbLTExNzUzODIzMjksODg1NjI4OTU1LDczMT
+Q1NTUxLDEwNjk4OTcxNzcsMTE1NDM1Mjk5MSwtODg3OTI5MDAx
+XX0=
 -->
