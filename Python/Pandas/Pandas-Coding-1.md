@@ -756,8 +756,11 @@ appended_data.to_excel('appended.xlsx')
 
 ###  [Apply uppercase to a column in Pandas dataframe](https://www.geeksforgeeks.org/apply-uppercase-to-a-column-in-pandas-dataframe/)
 
-
+For example, capitalize one column:
+```python
+df['client_address_county'] = df['client_address_county'].str.upper()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg4MjkxOTExLC03NzEwNDI1NywxMjEwNz
-g3NTA5XX0=
+eyJoaXN0b3J5IjpbLTMyMjY5MDA2MywtNzcxMDQyNTcsMTIxMD
+c4NzUwOV19
 -->
