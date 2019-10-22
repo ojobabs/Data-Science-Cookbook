@@ -344,7 +344,7 @@ $ git checkout name_of_branch
 
 You can undo  `git add`  before commit with
 
-```
+```bash
 git reset <file>
 ```
 
@@ -355,7 +355,7 @@ git reset <file>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcwMzUzNzAyLDUzODg4NzQ2NCwtMTY0ND
+eyJoaXN0b3J5IjpbNDg5ODI3NzA2LDUzODg4NzQ2NCwtMTY0ND
 k0MTg5MSwxMDI4NzMwNDk4LC0xMDE3NjgzNDkzLDE3MzYxMDQw
 NjgsMjAxOTI3OTM4NiwyMDE5Mjc5Mzg2LDE2MDE4MTY5NzEsLT
 EzMDIxNTI2NTAsLTE5MjU3MDg0NjAsLTEwNTEzMjU3NDcsMjA0
