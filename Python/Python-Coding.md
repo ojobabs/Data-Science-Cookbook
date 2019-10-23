@@ -83,10 +83,6 @@ with open('master_train_test/columns.txt', 'w') as f:
 
 ### [Python-3-quick-tip-the-easy-way-to-deal-with-file-paths-on-windows-mac-and-linux](https://medium.com/@ageitgey/python-3-quick-tip-the-easy-way-to-deal-with-file-paths-on-windows-mac-and-linux-11a072b58d5f)
 
-from pathlib import Path
-
-# Load the datasets
-
 Using `Path` module with Python 3x: 
 
 ```python
@@ -102,6 +98,6 @@ cont = pd.read_csv(file_to_open)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTAwMDQ5MywtMTgyMTI0NjAwMCw4OT
-c2MDcwOTIsNjYwMDU5MzE3XX0=
+eyJoaXN0b3J5IjpbMTQ2OTIzMzYxNCwtOTA1MDAwNDkzLC0xOD
+IxMjQ2MDAwLDg5NzYwNzA5Miw2NjAwNTkzMTddfQ==
 -->
