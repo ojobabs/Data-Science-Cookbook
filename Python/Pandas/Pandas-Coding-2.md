@@ -336,6 +336,9 @@ A        2     4       11
 B        3     5       15
 ```
 
+Another example of 
+
+
 ### [delete rows containing numeric values in strings from pandas dataframe](https://stackoverflow.com/questions/50804036/delete-rows-containing-numeric-values-in-strings-from-pandas-dataframe)
 
 Let's say we have the following Pandas dataframe:
@@ -410,7 +413,7 @@ df.groupby('A')['B'].mean()
 ```
 [pandas.core.groupby.GroupBy.mean](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.core.groupby.GroupBy.mean.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzUzODIzMjksODg1NjI4OTU1LDczMT
-Q1NTUxLDEwNjk4OTcxNzcsMTE1NDM1Mjk5MSwtODg3OTI5MDAx
-XX0=
+eyJoaXN0b3J5IjpbMTgyNTU2OTA0OSwtMTE3NTM4MjMyOSw4OD
+U2Mjg5NTUsNzMxNDU1NTEsMTA2OTg5NzE3NywxMTU0MzUyOTkx
+LC04ODc5MjkwMDFdfQ==
 -->
