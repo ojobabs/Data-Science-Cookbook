@@ -13,9 +13,8 @@ The process of finding every single one of these instances is called incremental
 
 Using CTRL + D works really well when we only have a few instances and we really want to find a partial amount of them. 
 
-However, if the file much bigger, we 
+However, if the file much bigger, we probably want to do an entire select.  And to do that we can use 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTYyOTUwNjMsLTExMDU2NTE4MjJdfQ
-==
+eyJoaXN0b3J5IjpbOTMwMTQ5NTkzLC0xMTA1NjUxODIyXX0=
 -->
