@@ -336,7 +336,13 @@ A        2     4       11
 B        3     5       15
 ```
 
-Another example of 
+Another example of aggregate
+```python
+agg_vars = ['fyp_low', 'fyp_medium', 'fyp_high', 'zipcode_taxable_income_low',
+            'zipcode_taxable_income_medium', 'zipcode_taxable_income_high']
+
+end = life_county.groupby(['client_address_county'], as_index=False)[agg_vars].agg('sum')
+```
 
 
 ### [delete rows containing numeric values in strings from pandas dataframe](https://stackoverflow.com/questions/50804036/delete-rows-containing-numeric-values-in-strings-from-pandas-dataframe)
@@ -413,7 +419,7 @@ df.groupby('A')['B'].mean()
 ```
 [pandas.core.groupby.GroupBy.mean](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.core.groupby.GroupBy.mean.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNTU2OTA0OSwtMTE3NTM4MjMyOSw4OD
-U2Mjg5NTUsNzMxNDU1NTEsMTA2OTg5NzE3NywxMTU0MzUyOTkx
-LC04ODc5MjkwMDFdfQ==
+eyJoaXN0b3J5IjpbLTEyMDA5OTQ5NTksLTExNzUzODIzMjksOD
+g1NjI4OTU1LDczMTQ1NTUxLDEwNjk4OTcxNzcsMTE1NDM1Mjk5
+MSwtODg3OTI5MDAxXX0=
 -->
