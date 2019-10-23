@@ -80,7 +80,21 @@ with open('master_train_test/columns.txt', 'w') as f:
     for item in colsAll:
         f.write("%s\n" % item)
 ```
+
+### [Python-3-quick-tip-the-easy-way-to-deal-with-file-paths-on-windows-mac-and-linux](https://medium.com/@ageitgey/python-3-quick-tip-the-easy-way-to-deal-with-file-paths-on-windows-mac-and-linux-11a072b58d5f)
+
+from pathlib import Path
+
+# Load the datasets
+```python
+data_folder = Path("/nyl/data/tenants/insurance/cdsa/Agency/Agent_Analytics/NYU_Capstone/")
+
+file_to_open = data_folder / "contracts_with_attr.csv"
+
+cont = pd.read_csv(file_to_open)
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjEyNDYwMDAsODk3NjA3MDkyLDY2MD
-A1OTMxN119
+eyJoaXN0b3J5IjpbLTExNjc3Nzk3MSwtMTgyMTI0NjAwMCw4OT
+c2MDcwOTIsNjYwMDU5MzE3XX0=
 -->
