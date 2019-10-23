@@ -25,7 +25,7 @@ Then write: snippets
 
 And open the "Open Your Snippets"
 
-Now, you can create, for 
+Now, you can create, for example, a snippet for Python like the one bellow:
 
 ```cson
 # Your snippets
@@ -84,7 +84,10 @@ Now, you can create, for
     # The bove data is the input of the code `data_prep_02.py`
     """
 ```
+
+References:
+[How to Add Custom Code Snippets to Atom](https://www.hongkiat.com/blog/add-custom-code-snippets-atom/#targetText=To%20add%20your%20own%20custom,add%20your%20own%20custom%20snippets.)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTg3NDQzNzgsMTI3NDYzNDQyNCw5Mz
-AxNDk1OTMsLTExMDU2NTE4MjJdfQ==
+eyJoaXN0b3J5IjpbMTM5NzYxNDM2MywxMjc0NjM0NDI0LDkzMD
+E0OTU5MywtMTEwNTY1MTgyMl19
 -->
