@@ -15,6 +15,8 @@ Using CTRL + D works really well when we only have a few instances and we really
 
 However, if the file much bigger, we probably want to do an entire select.  And to do that we can use 
 
+[https://flight-manual.atom.io/using-atom/sections/editing-and-deleting-text/](https://flight-manual.atom.io/using-atom/sections/editing-and-deleting-text/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMwMTQ5NTkzLC0xMTA1NjUxODIyXX0=
+eyJoaXN0b3J5IjpbMTI3NDYzNDQyNCw5MzAxNDk1OTMsLTExMD
+U2NTE4MjJdfQ==
 -->
