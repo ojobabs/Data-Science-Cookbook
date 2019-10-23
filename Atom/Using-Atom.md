@@ -19,7 +19,13 @@ However, if the file much bigger, we probably want to do an entire select.  And 
 
 ### Using Snippets
 
-Open the Command Palette using 
+Open the Command Palette using Ctrl + Shift + P. 
+
+Then write: snippets
+
+And open the "Open Your Snippets"
+
+Now, you can create, for 
 
 ```cson
 # Your snippets
@@ -79,6 +85,6 @@ Open the Command Palette using
     """
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NjA1MTYyOCwxMjc0NjM0NDI0LDkzMD
-E0OTU5MywtMTEwNTY1MTgyMl19
+eyJoaXN0b3J5IjpbLTE4MTg3NDQzNzgsMTI3NDYzNDQyNCw5Mz
+AxNDk1OTMsLTExMDU2NTE4MjJdfQ==
 -->
