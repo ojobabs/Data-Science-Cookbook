@@ -86,7 +86,14 @@ with open('master_train_test/columns.txt', 'w') as f:
 from pathlib import Path
 
 # Load the datasets
+
+Using `Path` module with Python 3x: 
+
 ```python
+import pandas as pd
+import numpy as np
+from pathlib import Path
+
 data_folder = Path("/nyl/data/tenants/insurance/cdsa/Agency/Agent_Analytics/NYU_Capstone/")
 
 file_to_open = data_folder / "contracts_with_attr.csv"
@@ -95,6 +102,6 @@ cont = pd.read_csv(file_to_open)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjc3Nzk3MSwtMTgyMTI0NjAwMCw4OT
+eyJoaXN0b3J5IjpbLTkwNTAwMDQ5MywtMTgyMTI0NjAwMCw4OT
 c2MDcwOTIsNjYwMDU5MzE3XX0=
 -->
