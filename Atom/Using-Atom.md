@@ -84,10 +84,11 @@ Now, you can create, for example, a snippet for Python like the one bellow:
     # The bove data is the input of the code `data_prep_02.py`
     """
 ```
+Notice that If you want to add **more than one custom snippets** to the same scope (Python in this case), add the name of the scope **only once**, then list the snippets one by one
 
 References:
 [How to Add Custom Code Snippets to Atom](https://www.hongkiat.com/blog/add-custom-code-snippets-atom/#targetText=To%20add%20your%20own%20custom,add%20your%20own%20custom%20snippets.)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NzYxNDM2MywxMjc0NjM0NDI0LDkzMD
+eyJoaXN0b3J5IjpbLTc4NTcwMjU5OCwxMjc0NjM0NDI0LDkzMD
 E0OTU5MywtMTEwNTY1MTgyMl19
 -->
