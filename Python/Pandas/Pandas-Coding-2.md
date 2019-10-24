@@ -420,16 +420,14 @@ df.groupby('A')['B'].mean()
 [pandas.core.groupby.GroupBy.mean](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.core.groupby.GroupBy.mean.html)
 
 
-**Extract first n Characterss from left of column in pandas:**
+**[Extract first n Characterss from left of column in pandas]([http://www.datasciencemadesimple.com/return-first-n-character-from-left-of-column-in-pandas-python/](http://www.datasciencemadesimple.com/return-first-n-character-from-left-of-column-in-pandas-python/))**
 
 **str[:n]**  is used to get first n characters of column in pandas
 ```python
-df1['StateInitial'] = df1[`'State'``].``str``[:``2``]`
-
-`print``(df1)`
+df1['StateInitial'] = df1['State'].str[:2]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNjk0NDU1OCwtMTIwMDk5NDk1OSwtMT
-E3NTM4MjMyOSw4ODU2Mjg5NTUsNzMxNDU1NTEsMTA2OTg5NzE3
-NywxMTU0MzUyOTkxLC04ODc5MjkwMDFdfQ==
+eyJoaXN0b3J5IjpbNTUzNzEyOTEzLC0xMjAwOTk0OTU5LC0xMT
+c1MzgyMzI5LDg4NTYyODk1NSw3MzE0NTU1MSwxMDY5ODk3MTc3
+LDExNTQzNTI5OTEsLTg4NzkyOTAwMV19
 -->
