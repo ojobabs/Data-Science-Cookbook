@@ -497,8 +497,7 @@ print(len(all))
 
 # Save
 all.to_csv('../data/psycle_segment_by_pyc.csv', index=False)
-
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI4NDg3MTI1XX0=
+eyJoaXN0b3J5IjpbLTE2NzMwODUwNTNdfQ==
 -->
