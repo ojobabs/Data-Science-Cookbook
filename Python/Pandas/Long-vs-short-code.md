@@ -454,6 +454,24 @@ print(len(all))
 
 
 def fypVars(df, var_1, var_2):
+    """This funciton creates a new column per each P$ycle level (10 levels)
+       and premium level (3 levels). It assigns 1 to the observations if a
+       contract is present, it assigns 0 otherwise.
+    Parameters
+    ----------
+    df : pandas dataframe
+        input / output dataframe `df`.
+    var_1 : str
+        Levels of P$ycle segment `var_1`.
+    var_2 : str
+        Levels of premium fyp `var_2`.
+
+    Returns
+    -------
+    pandas dataframe
+        A new column for each combination segent, premium.
+        The column contain1 or ).
+    """
     if (df['psycle_segment_name'] == var_1 and df['fyp'] == var_2):
         return 1
     else:
@@ -499,5 +517,6 @@ print(len(all))
 all.to_csv('../data/psycle_segment_by_pyc.csv', index=False)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzMwODUwNTNdfQ==
+eyJoaXN0b3J5IjpbLTE5NjMyOTk2NjcsLTE2NzMwODUwNTNdfQ
+==
 -->
