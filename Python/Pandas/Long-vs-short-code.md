@@ -516,7 +516,116 @@ print(len(all))
 # Save
 all.to_csv('../data/psycle_segment_by_pyc.csv', index=False)
 ```
+
+## Another example of short code
+
+```python
+# PROJECT NAME : NYU-Capstone-project
+# CODE NAME: `data_prep_10.py`
+# AUTHOR: Marcos Keyser
+# AIM: Create and aggregate Number of Life and Annuities by customer segment
+# (10 new variables)
+#
+# INPUT DATA: Create Number of Life and Annuities by customer segment
+# (10 new variables)
+#
+# - `/data/map_segments.csv`
+#
+# The above data is the output of the code `src/data_prep_09.py`
+#
+# OUTPUT DATA:
+#
+# - `/data/psycle_segment_all.csv`
+#
+# The bove data is the input of the code `.py`
+
+# Import modules
+import matplotlib.pyplot as plt
+from pathlib import Path
+import warnings
+import pandas as pd
+import numpy as np
+import matplotlib
+matplotlib.use('agg')
+warnings.filterwarnings('ignore')
+
+# Load the datasets
+
+data_folder = Path("../data/")
+
+all = data_folder / "map_segments.csv"
+
+# Loading all
+
+all = pd.read_csv(all)
+
+all = all[['client_address_county', 'psycle_segment_name']]
+
+print(all.head())
+
+print(len(all))
+
+# Let's create 10 new columns for ech segment
+
+def fypVars(df, var):
+    """This funciton creates a new column per each P$ycle level (10 levels).
+        It assigns 1 to the observations if a contract is present, it assigns 0
+        otherwise.
+
+    Parameters
+    ----------
+    df : pandas dataframe
+        input / output dataframe `df`.
+    var : str
+        Levels of P$ycle segment `var`.
+
+    Returns
+    -------
+    pandas dataframe
+        A new column for each segent.
+    """
+
+    if (df['psycle_segment_name'] == var):
+        return 1
+    else:
+        return 0
+
+
+var = ['C3B', 'C2C', 'C1D', 'B3B', 'A2B', 'A2C',
+       'B2C', 'B1D', 'B1A', 'B3A', 'missing']
+
+for item in zip(var):
+    all["psycle_segment_%s" % (item)] = all.apply(
+        fypVars, args=(item), axis=1)
+
+print(all)
+
+agg_vars = []
+
+for item in zip(var):
+    agg_vars.append("psycle_segment_%s" % (item))
+
+print(agg_vars)
+
+
+all = all.groupby(['client_address_county'], as_index=False)[agg_vars].agg('sum')
+
+print(all)
+
+print(len(all))
+# 709
+
+# Save
+all.to_csv('../data/psycle_segment_all.csv', index=False)
+```
+
+## Another example of a shorter version 
+
+```python
+
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjMyOTk2NjcsLTE2NzMwODUwNTNdfQ
-==
+eyJoaXN0b3J5IjpbMTc0MjI3ODY0MywtMTk2MzI5OTY2NywtMT
+Y3MzA4NTA1M119
 -->
