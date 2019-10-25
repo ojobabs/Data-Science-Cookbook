@@ -5,6 +5,38 @@
 >  - [ Complete Guide on DataFrame Operations in PySpark](https://www.analyticsvidhya.com/blog/2016/10/spark-dataframe-and-operations/)
 > 
 
+## Start a Hive session at NYL using Atom
+
+```python
+### import modules ###
+
+from pyspark import SQLContext, HiveContext, SparkConf, SparkContext
+### Import Modules & Read Data ###
+from pyspark import SQLContext
+from pyspark import SparkConf, SparkContext
+from pyspark.sql import HiveContext, Row
+from pyspark.sql.functions import col
+from pyspark.sql.functions import udf, col, lit, countDistinct, monotonically_increasing_id
+from pyspark.sql.types import LongType, StringType
+
+from subprocess import (PIPE, Popen)
+conf = (SparkConf().setAppName("cdsa123"))
+sc = SparkContext(conf=conf)
+sqlContext = HiveContext(sc)
+
+
+# Import table tenant_insurance_cdsaagy.mrd_agency_itr1 built by Harsha for Agency.
+agents = sqlContext.sql(
+    """
+    select marketer_id,  calendar_year, title_type_name, active_status_src, class_description
+	from tenant_insurance_cdsaagy.mrd_agency_itr1
+	where marketer_id = '0123019'
+	order by calendar_date
+	""")
+
+print(agents.show())
+```
+
 
 In order to actually work with Spark data frames we first need to start a Spark session to do that.
 ```python
@@ -425,8 +457,8 @@ df.select("variablename").distinct().show()
 df.toPandas()['variablename'].unique()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjIwMDg0MSwtNTY4NzcwOTk0LC0xNj
-YzNjg5ODYsLTE2NjE3MDY4NjQsMjA0ODQ1OTE1Nyw2OTg4MjQ3
-MjQsLTUxNzA1MTk2MSwtMTIxMjg5MjQ2LC0yMDA3MjUxMzA1XX
-0=
+eyJoaXN0b3J5IjpbMjAwMTAyOTQ1NiwtMTAyMjAwODQxLC01Nj
+g3NzA5OTQsLTE2NjM2ODk4NiwtMTY2MTcwNjg2NCwyMDQ4NDU5
+MTU3LDY5ODgyNDcyNCwtNTE3MDUxOTYxLC0xMjEyODkyNDYsLT
+IwMDcyNTEzMDVdfQ==
 -->
