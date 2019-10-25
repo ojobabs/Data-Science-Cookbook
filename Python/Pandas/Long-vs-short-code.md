@@ -619,13 +619,174 @@ print(len(all))
 all.to_csv('../data/psycle_segment_all.csv', index=False)
 ```
 
-## Another example of a shorter version 
+## Another example of a longer version 
 
 ```python
 
+# PROJECT NAME : NYU-Capstone-project
+# CODE NAME: `data_prep_10.py`
+# AUTHOR: Marcos Keyser
+# AIM: Create and aggregate Number of Life and Annuities by customer segment
+# (10 new variables)
+#
+# INPUT DATA: Create Number of Life and Annuities by customer segment
+# (10 new variables)
+#
+# - `/data/map_segments.csv`
+#
+# The above data is the output of the code `src/data_prep_09.py`
+#
+# OUTPUT DATA:
+#
+# - `/data/psycle_segment_all.csv`
+#
+# The bove data is the input of the code `.py`
+
+# Import modules
+import matplotlib.pyplot as plt
+from pathlib import Path
+import warnings
+import pandas as pd
+import numpy as np
+import matplotlib
+matplotlib.use('agg')
+warnings.filterwarnings('ignore')
+
+# Load the datasets
+
+data_folder = Path("../data/")
+
+all = data_folder / "map_segments.csv"
+
+# Loading all
+
+all = pd.read_csv(all)
+
+all = all[['client_address_county', 'psycle_segment_name']]
+
+print(all.head())
+
+print(len(all))
+
+# Let's create 10 new columns for ech segment
+
+def fypVars(df):
+    if df['psycle_segment_name'] == 'C3B':
+        return 1
+    else:
+        return 0
+
+all['psycle_segment_C3B'] = all.apply(fypVars, axis=1)
+
+def fypVars(df):
+    if df['psycle_segment_name'] == 'C2C':
+        return 1
+    else:
+        return 0
+
+all['psycle_segment_C2C'] = all.apply(fypVars, axis=1)
+
+def fypVars(df):
+    if df['psycle_segment_name'] == 'C1D':
+        return 1
+    else:
+        return 0
+
+all['psycle_segment_C1D'] = all.apply(fypVars, axis=1)
+
+def fypVars(df):
+    if df['psycle_segment_name'] == 'B3B':
+        return 1
+    else:
+        return 0
+
+all['psycle_segment_B3B'] = all.apply(fypVars, axis=1)
+
+def fypVars(df):
+    if df['psycle_segment_name'] == 'A2B':
+        return 1
+    else:
+        return 0
+
+all['psycle_segment_A2B'] = all.apply(fypVars, axis=1)
+
+def fypVars(df):
+    if df['psycle_segment_name'] == 'A2C':
+        return 1
+    else:
+        return 0
+
+all['psycle_segment_A2C'] = all.apply(fypVars, axis=1)
+
+def fypVars(df):
+    if df['psycle_segment_name'] == 'B2C':
+        return 1
+    else:
+        return 0
+
+all['psycle_segment_B2C'] = all.apply(fypVars, axis=1)
+
+def fypVars(df):
+    if df['psycle_segment_name'] == 'B1D':
+        return 1
+    else:
+        return 0
+
+all['psycle_segment_B1D'] = all.apply(fypVars, axis=1)
+
+def fypVars(df):
+    if df['psycle_segment_name'] == 'B1A':
+        return 1
+    else:
+        return 0
+
+all['psycle_segment_B1A'] = all.apply(fypVars, axis=1)
+
+def fypVars(df):
+    if df['psycle_segment_name'] == 'B3A':
+        return 1
+    else:
+        return 0
+
+all['psycle_segment_B3A'] = all.apply(fypVars, axis=1)
+
+def fypVars(df):
+    if df['psycle_segment_name'] == 'missing':
+        return 1
+    else:
+        return 0
+
+all['psycle_segment_Missing'] = all.apply(fypVars, axis=1)
+
+print(all)
+
+# let's aggregate by county
+
+agg_vars = ['psycle_segment_C3B',
+            'psycle_segment_C2C',
+            'psycle_segment_C1D',
+            'psycle_segment_B3B',
+            'psycle_segment_A2B',
+            'psycle_segment_A2C',
+            'psycle_segment_B2C',
+            'psycle_segment_B1D',
+            'psycle_segment_B1A',
+            'psycle_segment_B3A',
+            'psycle_segment_Missing']
+
+all = all.groupby(['client_address_county'], as_index=False)[agg_vars].agg('sum')
+
+print(all)
+
+print(len(all))
+# 709
+
+# Save
+all.to_csv('../data/psycle_segment_all.csv', index=False)
+#
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MjI3ODY0MywtMTk2MzI5OTY2NywtMT
-Y3MzA4NTA1M119
+eyJoaXN0b3J5IjpbLTEzMzAwODAwMSwxNzQyMjc4NjQzLC0xOT
+YzMjk5NjY3LC0xNjczMDg1MDUzXX0=
 -->
