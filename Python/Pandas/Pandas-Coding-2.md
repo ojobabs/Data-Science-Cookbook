@@ -427,7 +427,7 @@ df.groupby('A')['B'].mean()
 df1['StateInitial'] = df1['State'].str[:2]
 ```
 
-# 
+### [Remove duplicates by columns a keeping the row with the highest](https://stackoverflow.com/questions/12497402/python-pandas-remove-duplicates-by-columns-a-keeping-the-row-with-the-highest)
 
 ```python
 ```
@@ -435,7 +435,7 @@ df.drop_duplicates()
 ```
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYxMDUxNDgzLDU1MzcxMjkxMywtMTIwMD
+eyJoaXN0b3J5IjpbNjAxNjM1ODc2LDU1MzcxMjkxMywtMTIwMD
 k5NDk1OSwtMTE3NTM4MjMyOSw4ODU2Mjg5NTUsNzMxNDU1NTEs
 MTA2OTg5NzE3NywxMTU0MzUyOTkxLC04ODc5MjkwMDFdfQ==
 -->
