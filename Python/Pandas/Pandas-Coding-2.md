@@ -441,8 +441,11 @@ df.drop_duplicates()
 # MRD table uses leading 0 for marketer_id. We need to add zeros up to 7 fig.
 mrd_index_nodup['marketer_id'] = mrd_index_nodup['marketer_id'].str.strip().str.replace('.0', '').str.zfill(7)
 ```
+More
+
+#### [How to add leading zero formatting to string in Pandas?](https://stackoverflow.com/questions/33651668/how-to-add-leading-zero-formatting-to-string-in-pandas)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MDM3ODMxOCw4NzYzMTY4Miw1NTM3MT
+eyJoaXN0b3J5IjpbMTgzMzAwNzQ5Miw4NzYzMTY4Miw1NTM3MT
 I5MTMsLTEyMDA5OTQ5NTksLTExNzUzODIzMjksODg1NjI4OTU1
 LDczMTQ1NTUxLDEwNjk4OTcxNzcsMTE1NDM1Mjk5MSwtODg3OT
 I5MDAxXX0=
