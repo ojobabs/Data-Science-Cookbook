@@ -446,9 +446,17 @@ More:
 #### [How to add leading zero formatting to string in Pandas?](https://stackoverflow.com/questions/33651668/how-to-add-leading-zero-formatting-to-string-in-pandas)
 
 ### [Python with Pandas: Convert String to Float and other Numeric Types](https://wellsr.com/python/python-convert-pandas-dataframe-string-to-float-int/)
+
+```python
+import pandas as pd
+import numpy as np  # To use the int64 dtype, we will need to import numpy
+cols = ['Homework', 'Midterm', 'Project']
+for col in cols:
+	grades[col] = grades[col].astype(dtype=np.float64)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMzY2ODA2Miw4NzYzMTY4Miw1NTM3MT
-I5MTMsLTEyMDA5OTQ5NTksLTExNzUzODIzMjksODg1NjI4OTU1
-LDczMTQ1NTUxLDEwNjk4OTcxNzcsMTE1NDM1Mjk5MSwtODg3OT
-I5MDAxXX0=
+eyJoaXN0b3J5IjpbMTAzMDcxNTQyOSwtNTMzNjY4MDYyLDg3Nj
+MxNjgyLDU1MzcxMjkxMywtMTIwMDk5NDk1OSwtMTE3NTM4MjMy
+OSw4ODU2Mjg5NTUsNzMxNDU1NTEsMTA2OTg5NzE3NywxMTU0Mz
+UyOTkxLC04ODc5MjkwMDFdfQ==
 -->
