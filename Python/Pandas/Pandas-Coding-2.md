@@ -447,6 +447,8 @@ More:
 
 ### [Python with Pandas: Convert String to Float and other Numeric Types](https://wellsr.com/python/python-convert-pandas-dataframe-string-to-float-int/)
 
+#### Pandas Convert String to Float
+
 ```python
 import pandas as pd
 import numpy as np  # To use the int64 dtype, we will need to import numpy
@@ -455,8 +457,8 @@ for col in cols:
 	grades[col] = grades[col].astype(dtype=np.float64)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDcxNTQyOSwtNTMzNjY4MDYyLDg3Nj
-MxNjgyLDU1MzcxMjkxMywtMTIwMDk5NDk1OSwtMTE3NTM4MjMy
-OSw4ODU2Mjg5NTUsNzMxNDU1NTEsMTA2OTg5NzE3NywxMTU0Mz
-UyOTkxLC04ODc5MjkwMDFdfQ==
+eyJoaXN0b3J5IjpbLTE3MzUzMjExNDUsLTUzMzY2ODA2Miw4Nz
+YzMTY4Miw1NTM3MTI5MTMsLTEyMDA5OTQ5NTksLTExNzUzODIz
+MjksODg1NjI4OTU1LDczMTQ1NTUxLDEwNjk4OTcxNzcsMTE1ND
+M1Mjk5MSwtODg3OTI5MDAxXX0=
 -->
