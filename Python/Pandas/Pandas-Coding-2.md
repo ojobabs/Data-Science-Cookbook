@@ -465,13 +465,15 @@ grades["StudentID"] = grades["StudentID"].astype(dtype=np.int64)
 ```
 [Reference](https://wellsr.com/python/python-convert-pandas-dataframe-string-to-float-int/)
 
+The column `markeger_id` contains strings like `0002345` or `       NaN`. We want to remove the rows with `       NaN` values on that column.
+
 ### Filter out observations with `NaN` as part of a string column 
 ```python
 mrd_index_nodup = mrd_index_nodup[mrd_index_nodup['marketer_id'].str.contains("NaN") == False]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIzOTc5NDI4LC0xMDc2MDU4MzUsLTUzMz
-Y2ODA2Miw4NzYzMTY4Miw1NTM3MTI5MTMsLTEyMDA5OTQ5NTks
-LTExNzUzODIzMjksODg1NjI4OTU1LDczMTQ1NTUxLDEwNjk4OT
-cxNzcsMTE1NDM1Mjk5MSwtODg3OTI5MDAxXX0=
+eyJoaXN0b3J5IjpbLTIwNjM0NjkyNDUsLTEwNzYwNTgzNSwtNT
+MzNjY4MDYyLDg3NjMxNjgyLDU1MzcxMjkxMywtMTIwMDk5NDk1
+OSwtMTE3NTM4MjMyOSw4ODU2Mjg5NTUsNzMxNDU1NTEsMTA2OT
+g5NzE3NywxMTU0MzUyOTkxLC04ODc5MjkwMDFdfQ==
 -->
