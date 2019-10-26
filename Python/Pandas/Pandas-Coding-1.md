@@ -773,7 +773,16 @@ Suffix:
 ```python
 df['client_address_county'] = df['client_address_county'].astype(str) + ' COUNTY'
 ```
+
+### Select variable from zip_county
+```python
+zip_county = zip_county[['zip', 'county', 'res_ratio']]
+```
+### sort Brand - ascending order
+```python
+zip_county_sorted = zip_county.sort_values(by=['zip', 'res_ratio'], ascending=[True,False])
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIzNDY5MDk3LC0zMjI2OTAwNjMsLTc3MT
-A0MjU3LDEyMTA3ODc1MDldfQ==
+eyJoaXN0b3J5IjpbLTEwNTMyNTI4NjEsMzIzNDY5MDk3LC0zMj
+I2OTAwNjMsLTc3MTA0MjU3LDEyMTA3ODc1MDldfQ==
 -->
