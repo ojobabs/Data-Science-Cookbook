@@ -426,8 +426,16 @@ df.groupby('A')['B'].mean()
 ```python
 df1['StateInitial'] = df1['State'].str[:2]
 ```
+
+# 
+
+```python
+```
+df.drop_duplicates()
+```
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUzNzEyOTEzLC0xMjAwOTk0OTU5LC0xMT
-c1MzgyMzI5LDg4NTYyODk1NSw3MzE0NTU1MSwxMDY5ODk3MTc3
-LDExNTQzNTI5OTEsLTg4NzkyOTAwMV19
+eyJoaXN0b3J5IjpbMzYxMDUxNDgzLDU1MzcxMjkxMywtMTIwMD
+k5NDk1OSwtMTE3NTM4MjMyOSw4ODU2Mjg5NTUsNzMxNDU1NTEs
+MTA2OTg5NzE3NywxMTU0MzUyOTkxLC04ODc5MjkwMDFdfQ==
 -->
