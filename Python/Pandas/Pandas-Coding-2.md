@@ -444,9 +444,11 @@ mrd_index_nodup['marketer_id'] = mrd_index_nodup['marketer_id'].str.strip().str.
 More:
 
 #### [How to add leading zero formatting to string in Pandas?](https://stackoverflow.com/questions/33651668/how-to-add-leading-zero-formatting-to-string-in-pandas)
+
+### [Python with Pandas: Convert String to Float and other Numeric Types](https://wellsr.com/python/python-convert-pandas-dataframe-string-to-float-int/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzQ0Nzk1OTIsODc2MzE2ODIsNTUzNz
-EyOTEzLC0xMjAwOTk0OTU5LC0xMTc1MzgyMzI5LDg4NTYyODk1
-NSw3MzE0NTU1MSwxMDY5ODk3MTc3LDExNTQzNTI5OTEsLTg4Nz
-kyOTAwMV19
+eyJoaXN0b3J5IjpbLTUzMzY2ODA2Miw4NzYzMTY4Miw1NTM3MT
+I5MTMsLTEyMDA5OTQ5NTksLTExNzUzODIzMjksODg1NjI4OTU1
+LDczMTQ1NTUxLDEwNjk4OTcxNzcsMTE1NDM1Mjk5MSwtODg3OT
+I5MDAxXX0=
 -->
