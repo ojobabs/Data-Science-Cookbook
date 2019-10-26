@@ -433,7 +433,7 @@ df1['StateInitial'] = df1['State'].str[:2]
 df.drop_duplicates()
 ```
 
-###
+### Remove decimal points (.0) from string and add leading zeros to the string
 
 ```python
 # The markeger_id is a strg type variable and contains decimal points such as
@@ -442,8 +442,8 @@ df.drop_duplicates()
 mrd_index_nodup['marketer_id'] = mrd_index_nodup['marketer_id'].str.strip().str.replace('.0', '').str.zfill(7)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5MjI2NTM0LDg3NjMxNjgyLDU1MzcxMj
-kxMywtMTIwMDk5NDk1OSwtMTE3NTM4MjMyOSw4ODU2Mjg5NTUs
-NzMxNDU1NTEsMTA2OTg5NzE3NywxMTU0MzUyOTkxLC04ODc5Mj
-kwMDFdfQ==
+eyJoaXN0b3J5IjpbMTM4MDM3ODMxOCw4NzYzMTY4Miw1NTM3MT
+I5MTMsLTEyMDA5OTQ5NTksLTExNzUzODIzMjksODg1NjI4OTU1
+LDczMTQ1NTUxLDEwNjk4OTcxNzcsMTE1NDM1Mjk5MSwtODg3OT
+I5MDAxXX0=
 -->
