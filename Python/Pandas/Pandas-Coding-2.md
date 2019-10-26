@@ -456,8 +456,16 @@ cols = ['Homework', 'Midterm', 'Project']
 for col in cols:
 	grades[col] = grades[col].astype(dtype=np.float64)
 ```
+#### Pandas Convert String to Int
+
+```python
+import pandas as pd
+import numpy as np  # To use the int64 dtype, we will need to import numpy
+grades["StudentID"] = grades["StudentID"].astype(dtype=np.int64)
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzUzMjExNDUsLTUzMzY2ODA2Miw4Nz
+eyJoaXN0b3J5IjpbLTExNTkxOTA1MDIsLTUzMzY2ODA2Miw4Nz
 YzMTY4Miw1NTM3MTI5MTMsLTEyMDA5OTQ5NTksLTExNzUzODIz
 MjksODg1NjI4OTU1LDczMTQ1NTUxLDEwNjk4OTcxNzcsMTE1ND
 M1Mjk5MSwtODg3OTI5MDAxXX0=
