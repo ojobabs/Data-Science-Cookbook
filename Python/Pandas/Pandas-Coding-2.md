@@ -465,10 +465,13 @@ grades["StudentID"] = grades["StudentID"].astype(dtype=np.int64)
 ```
 [Reference](https://wellsr.com/python/python-convert-pandas-dataframe-string-to-float-int/)
 
-
+### Filter out observations with `NaN` as part of a string column 
+```python
+mrd_index_nodup = mrd_index_nodup[mrd_index_nodup['marketer_id'].str.contains("NaN") == False]
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzYwNTgzNSwtNTMzNjY4MDYyLDg3Nj
-MxNjgyLDU1MzcxMjkxMywtMTIwMDk5NDk1OSwtMTE3NTM4MjMy
-OSw4ODU2Mjg5NTUsNzMxNDU1NTEsMTA2OTg5NzE3NywxMTU0Mz
-UyOTkxLC04ODc5MjkwMDFdfQ==
+eyJoaXN0b3J5IjpbNjIzOTc5NDI4LC0xMDc2MDU4MzUsLTUzMz
+Y2ODA2Miw4NzYzMTY4Miw1NTM3MTI5MTMsLTEyMDA5OTQ5NTks
+LTExNzUzODIzMjksODg1NjI4OTU1LDczMTQ1NTUxLDEwNjk4OT
+cxNzcsMTE1NDM1Mjk5MSwtODg3OTI5MDAxXX0=
 -->
