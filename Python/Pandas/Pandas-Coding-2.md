@@ -432,8 +432,18 @@ df1['StateInitial'] = df1['State'].str[:2]
 ```python
 df.drop_duplicates()
 ```
+
+###
+
+```python
+# The markeger_id is a strg type variable and contains decimal points such as
+# `.0` for some obs. Therefore, first, we need to remove those decimals.
+# MRD table uses leading 0 for marketer_id. We need to add zeros up to 7 fig.
+mrd_index_nodup['marketer_id'] = mrd_index_nodup['marketer_id'].str.strip().str.replace('.0', '').str.zfill(7)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc2MzE2ODIsNTUzNzEyOTEzLC0xMjAwOT
-k0OTU5LC0xMTc1MzgyMzI5LDg4NTYyODk1NSw3MzE0NTU1MSwx
-MDY5ODk3MTc3LDExNTQzNTI5OTEsLTg4NzkyOTAwMV19
+eyJoaXN0b3J5IjpbNzY5MjI2NTM0LDg3NjMxNjgyLDU1MzcxMj
+kxMywtMTIwMDk5NDk1OSwtMTE3NTM4MjMyOSw4ODU2Mjg5NTUs
+NzMxNDU1NTEsMTA2OTg5NzE3NywxMTU0MzUyOTkxLC04ODc5Mj
+kwMDFdfQ==
 -->
