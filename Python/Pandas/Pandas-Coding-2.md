@@ -463,10 +463,12 @@ import pandas as pd
 import numpy as np  # To use the int64 dtype, we will need to import numpy
 grades["StudentID"] = grades["StudentID"].astype(dtype=np.int64)
 ```
+[Reference](https://wellsr.com/python/python-convert-pandas-dataframe-string-to-float-int/)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTkxOTA1MDIsLTUzMzY2ODA2Miw4Nz
-YzMTY4Miw1NTM3MTI5MTMsLTEyMDA5OTQ5NTksLTExNzUzODIz
-MjksODg1NjI4OTU1LDczMTQ1NTUxLDEwNjk4OTcxNzcsMTE1ND
-M1Mjk5MSwtODg3OTI5MDAxXX0=
+eyJoaXN0b3J5IjpbLTEwNzYwNTgzNSwtNTMzNjY4MDYyLDg3Nj
+MxNjgyLDU1MzcxMjkxMywtMTIwMDk5NDk1OSwtMTE3NTM4MjMy
+OSw4ODU2Mjg5NTUsNzMxNDU1NTEsMTA2OTg5NzE3NywxMTU0Mz
+UyOTkxLC04ODc5MjkwMDFdfQ==
 -->
