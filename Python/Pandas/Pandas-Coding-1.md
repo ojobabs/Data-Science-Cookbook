@@ -782,7 +782,12 @@ zip_county = zip_county[['zip', 'county', 'res_ratio']]
 ```python
 zip_county_sorted = zip_county.sort_values(by=['zip', 'res_ratio'], ascending=[True,False])
 ```
+
+### Slect first duplicate record
+zip_county_first = zip_county_sorted[zip_county_sorted.duplicated(['zip'], keep='first') == False]
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTMyNTI4NjEsMzIzNDY5MDk3LC0zMj
-I2OTAwNjMsLTc3MTA0MjU3LDEyMTA3ODc1MDldfQ==
+eyJoaXN0b3J5IjpbNjA2NDAwNDUxLC0xMDUzMjUyODYxLDMyMz
+Q2OTA5NywtMzIyNjkwMDYzLC03NzEwNDI1NywxMjEwNzg3NTA5
+XX0=
 -->
