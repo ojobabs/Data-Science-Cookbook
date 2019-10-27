@@ -24,13 +24,13 @@
 
 - [Learning Apache Spark](https://runawayhorse001.github.io/LearningApacheSpark/index.html#)
 
-- Cheatsheet
+## Cheatsheet
 
 - [Cheat Sheet for PySpark](https://runawayhorse001.github.io/LearningApacheSpark/_images/cheatSheet_pyspark1.jpg)
 - [Cheat Sheet for PySpark cont.](https://runawayhorse001.github.io/LearningApacheSpark/_images/cheatSheet_pyspark2.jpg)
 - [Cheat Sheet for PySpark pd.DataFrame vs. rdd.DataFrame](https://runawayhorse001.github.io/LearningApacheSpark/_images/cheatSheet_pdrdd.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzA2MTQxNDMsLTE2NzE0MjYzMDMsLT
-M3NjQ4NDYzOCwtMzE4MTkwODcyLDg2NjAwNzIwOCwxMjA4Mjg4
-MTQwLDE3OTA0OTA4MDFdfQ==
+eyJoaXN0b3J5IjpbLTI4NTM1ODYxMCwtMTY3MTQyNjMwMywtMz
+c2NDg0NjM4LC0zMTgxOTA4NzIsODY2MDA3MjA4LDEyMDgyODgx
+NDAsMTc5MDQ5MDgwMV19
 -->
