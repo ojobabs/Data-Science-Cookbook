@@ -23,8 +23,13 @@
 ## Other
 
 - [Learning Apache Spark](https://runawayhorse001.github.io/LearningApacheSpark/index.html#)
+
+- Cheatsheet
+
+- [cheatSheet_pyspark1](https://runawayhorse001.github.io/LearningApacheSpark/_images/cheatSheet_pyspark1.jpg)
+- [cheatSheet_pyspark2](https://runawayhorse001.github.io/LearningApacheSpark/_images/cheatSheet_pyspark2.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzE0MjYzMDMsLTM3NjQ4NDYzOCwtMz
-E4MTkwODcyLDg2NjAwNzIwOCwxMjA4Mjg4MTQwLDE3OTA0OTA4
-MDFdfQ==
+eyJoaXN0b3J5IjpbLTY3ODIzNTc2MiwtMTY3MTQyNjMwMywtMz
+c2NDg0NjM4LC0zMTgxOTA4NzIsODY2MDA3MjA4LDEyMDgyODgx
+NDAsMTc5MDQ5MDgwMV19
 -->
