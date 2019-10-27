@@ -26,10 +26,11 @@
 
 - Cheatsheet
 
-- [cheatSheet_pyspark1](https://runawayhorse001.github.io/LearningApacheSpark/_images/cheatSheet_pyspark1.jpg)
+- [CheatSheet for PySpark](https://runawayhorse001.github.io/LearningApacheSpark/_images/cheatSheet_pyspark1.jpg)
 - [cheatSheet_pyspark2](https://runawayhorse001.github.io/LearningApacheSpark/_images/cheatSheet_pyspark2.jpg)
+- [cheatSheet_pdrdd](https://runawayhorse001.github.io/LearningApacheSpark/_images/cheatSheet_pdrdd.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODIzNTc2MiwtMTY3MTQyNjMwMywtMz
-c2NDg0NjM4LC0zMTgxOTA4NzIsODY2MDA3MjA4LDEyMDgyODgx
-NDAsMTc5MDQ5MDgwMV19
+eyJoaXN0b3J5IjpbLTE3ODYyNDkyNzAsLTE2NzE0MjYzMDMsLT
+M3NjQ4NDYzOCwtMzE4MTkwODcyLDg2NjAwNzIwOCwxMjA4Mjg4
+MTQwLDE3OTA0OTA4MDFdfQ==
 -->
