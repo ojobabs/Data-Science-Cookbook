@@ -19,7 +19,12 @@
 - [How to Turn Python Functions into PySpark Functions (UDF)](https://changhsinlee.com/pyspark-udf/)
 - [Pyspark udfs and star expansion](https://towardsdatascience.com/pyspark-udfs-and-star-expansion-b50f501dcb7b)
 - [User-Defined Functions](https://docs.databricks.com/spark/latest/spark-sql/udf-python.html)
+
+## Other
+
+- [Learning Apache Spark](https://runawayhorse001.github.io/LearningApacheSpark/index.html#)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NjQ4NDYzOCwtMzE4MTkwODcyLDg2Nj
-AwNzIwOCwxMjA4Mjg4MTQwLDE3OTA0OTA4MDFdfQ==
+eyJoaXN0b3J5IjpbLTE2NzE0MjYzMDMsLTM3NjQ4NDYzOCwtMz
+E4MTkwODcyLDg2NjAwNzIwOCwxMjA4Mjg4MTQwLDE3OTA0OTA4
+MDFdfQ==
 -->
