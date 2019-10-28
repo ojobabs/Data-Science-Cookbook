@@ -471,9 +471,17 @@ The column `markeger_id` contains strings like `0002345` or `       NaN`. We wan
 ```python
 mrd_index_nodup = mrd_index_nodup[mrd_index_nodup['marketer_id'].str.contains("NaN") == False]
 ```
+### Convert floats to integers
+
+```python
+mrd_county['County_Res'] = mrd_county['County_Res'].apply(np.int64)
+```
+
+This solution doesn't work is you have `NaN` values. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjM0NjkyNDUsLTEwNzYwNTgzNSwtNT
-MzNjY4MDYyLDg3NjMxNjgyLDU1MzcxMjkxMywtMTIwMDk5NDk1
-OSwtMTE3NTM4MjMyOSw4ODU2Mjg5NTUsNzMxNDU1NTEsMTA2OT
-g5NzE3NywxMTU0MzUyOTkxLC04ODc5MjkwMDFdfQ==
+eyJoaXN0b3J5IjpbMTI1MDc1NzkzOSwtMjA2MzQ2OTI0NSwtMT
+A3NjA1ODM1LC01MzM2NjgwNjIsODc2MzE2ODIsNTUzNzEyOTEz
+LC0xMjAwOTk0OTU5LC0xMTc1MzgyMzI5LDg4NTYyODk1NSw3Mz
+E0NTU1MSwxMDY5ODk3MTc3LDExNTQzNTI5OTEsLTg4NzkyOTAw
+MV19
 -->
