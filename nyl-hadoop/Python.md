@@ -69,7 +69,17 @@ plt.savefig('scatterPlot.png')
 
 ### An example about creating plots using GeoPandas
 
+To create maps using GeoPandas you need to use:
 
+```python
+matplotlib.pyplot.switch_backend('agg')
+``` 
+instead of 
+
+```python
+matplotlib.use('agg')
+```
+As we did above when using matplotlib. 
 
 ```python
 # Load all importance packages
@@ -135,6 +145,6 @@ plt.savefig('../imgs/go.png')
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTEzMDUzNzcsLTIwODc2Mjk4MzAsLT
-EyODA2NjkwNDhdfQ==
+eyJoaXN0b3J5IjpbODA5Njc0NDE3LC0yMDg3NjI5ODMwLC0xMj
+gwNjY5MDQ4XX0=
 -->
