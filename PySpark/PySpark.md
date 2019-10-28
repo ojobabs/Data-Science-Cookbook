@@ -456,9 +456,31 @@ df.select("variablename").distinct().show()
 # Using Python with Pyspark 
 df.toPandas()['variablename'].unique()
 ```
+
+### [How to convert column with string type to int form in pyspark data frame?](https://stackoverflow.com/questions/46956026/how-to-convert-column-with-string-type-to-int-form-in-pyspark-data-frame)
+
+```python
+from pyspark.sql.types import IntegerType
+data_df = data_df.withColumn("Plays", data_df["Plays"].cast(IntegerType()))
+data_df = data_df.withColumn("drafts", data_df["drafts"].cast(IntegerType()))
+```
+
+### [how to change a Dataframe column from String type to Double type in pyspark](https://stackoverflow.com/questions/32284620/how-to-change-a-dataframe-column-from-string-type-to-double-type-in-pyspark)
+
+```python
+from pyspark.sql.types import DoubleType
+
+changedTypedf = joindf.withColumn("label", joindf["show"].cast(DoubleType()))
+```
+
+or short string:
+
+```python
+changedTypedf = joindf.withColumn("label", joindf["show"].cast("double"))
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMTAyOTQ1NiwtMTAyMjAwODQxLC01Nj
-g3NzA5OTQsLTE2NjM2ODk4NiwtMTY2MTcwNjg2NCwyMDQ4NDU5
-MTU3LDY5ODgyNDcyNCwtNTE3MDUxOTYxLC0xMjEyODkyNDYsLT
-IwMDcyNTEzMDVdfQ==
+eyJoaXN0b3J5IjpbLTg3MTM0Nzc5OCwyMDAxMDI5NDU2LC0xMD
+IyMDA4NDEsLTU2ODc3MDk5NCwtMTY2MzY4OTg2LC0xNjYxNzA2
+ODY0LDIwNDg0NTkxNTcsNjk4ODI0NzI0LC01MTcwNTE5NjEsLT
+EyMTI4OTI0NiwtMjAwNzI1MTMwNV19
 -->
