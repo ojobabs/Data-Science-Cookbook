@@ -5,7 +5,7 @@
 # Geo-Spatial General References
 ### Merging ZIP codes with Census Tracts
 
-- [United States ZIP codes.org](https://www.unitedstateszipcodes.org/) At the bottom of the page 
+- [United States ZIP codes.org](https://www.unitedstateszipcodes.org/) At the bottom of the page there is a section called   [Downloadable ZIP Code List](https://www.unitedstateszipcodes.org/zip-code-database/) from where it is possible to download the full US data base, that is, all zip codes and their equivalent counties and the centroid (lat and long) for each zip code.
 - [Merging Zip Codes with Census Data](https://verstaresearch.com/blog/merging-zip-codes-with-census-data/)
 - [HUD USPS ZIP CODE CROSSWALK FILES](https://www.huduser.gov/portal/datasets/usps_crosswalk.html#data)
 
@@ -72,9 +72,8 @@ Some information about solving the optimal location problem from a supervised an
 [https://www.youtube.com/watch?v=9bYtfoOeN7I](https://www.youtube.com/watch?v=9bYtfoOeN7I)
 [https://www.youtube.com/watch?v=LZ1psf9NhiE](https://www.youtube.com/watch?v=LZ1psf9NhiE) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzI0ODk5MzQsMTE5MTYwODM1MywtMj
-cwMzk4NTEwLC04OTczODY5MTcsLTEwOTU3MTcwNDAsMjA5NDk4
-NTExNiwtMjA4MjMyNjgyMCw0MTg3NTg4NDUsMTQwMjU0MDAwMC
-wtMTUyMjcxMDY2MCwtMTYxMzk4MzM3NCwtMjQwNDM0NDQ1XX0=
-
+eyJoaXN0b3J5IjpbOTI5MjYwMjM5LDExOTE2MDgzNTMsLTI3MD
+M5ODUxMCwtODk3Mzg2OTE3LC0xMDk1NzE3MDQwLDIwOTQ5ODUx
+MTYsLTIwODIzMjY4MjAsNDE4NzU4ODQ1LDE0MDI1NDAwMDAsLT
+E1MjI3MTA2NjAsLTE2MTM5ODMzNzQsLTI0MDQzNDQ0NV19
 -->
