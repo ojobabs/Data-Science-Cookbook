@@ -532,11 +532,12 @@ print(test_sample)
 More here
 - [how-to-remove-a-substring-of-string-in-a-dataframe-column](https://stackoverflow.com/questions/38706813/how-to-remove-a-substring-of-string-in-a-dataframe-column)
 - [strip-lstriprstrip-strip-function-python](http://www.datasciencemadesimple.com/strip-lstriprstrip-strip-function-python/)
+- [python-remove-character-from-string](https://www.journaldev.com/23674/python-remove-character-from-string)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDYzNTE5NzEsMzUyNzIwNTE1LDI1Nz
-k2OTExNywxNjMzNjA3OTY2LDEyNTA3NTc5MzksLTIwNjM0Njky
-NDUsLTEwNzYwNTgzNSwtNTMzNjY4MDYyLDg3NjMxNjgyLDU1Mz
-cxMjkxMywtMTIwMDk5NDk1OSwtMTE3NTM4MjMyOSw4ODU2Mjg5
-NTUsNzMxNDU1NTEsMTA2OTg5NzE3NywxMTU0MzUyOTkxLC04OD
-c5MjkwMDFdfQ==
+eyJoaXN0b3J5IjpbMTY0NDI4MjY4NiwzNTI3MjA1MTUsMjU3OT
+Y5MTE3LDE2MzM2MDc5NjYsMTI1MDc1NzkzOSwtMjA2MzQ2OTI0
+NSwtMTA3NjA1ODM1LC01MzM2NjgwNjIsODc2MzE2ODIsNTUzNz
+EyOTEzLC0xMjAwOTk0OTU5LC0xMTc1MzgyMzI5LDg4NTYyODk1
+NSw3MzE0NTU1MSwxMDY5ODk3MTc3LDExNTQzNTI5OTEsLTg4Nz
+kyOTAwMV19
 -->
