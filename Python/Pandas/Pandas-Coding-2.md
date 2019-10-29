@@ -527,10 +527,12 @@ print(test_sample)
 test_sample['marketer_id'] = test_sample['marketer_id'].str.strip(
 ).str.replace("\.0", "").str.lstrip("0").str.zfill(7)
 ```
+More here
+- [strip-lstriprstrip-strip-function-python](http://www.datasciencemadesimple.com/strip-lstriprstrip-strip-function-python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk5MjM4NjYsMjU3OTY5MTE3LDE2MzM2MD
-c5NjYsMTI1MDc1NzkzOSwtMjA2MzQ2OTI0NSwtMTA3NjA1ODM1
-LC01MzM2NjgwNjIsODc2MzE2ODIsNTUzNzEyOTEzLC0xMjAwOT
-k0OTU5LC0xMTc1MzgyMzI5LDg4NTYyODk1NSw3MzE0NTU1MSwx
-MDY5ODk3MTc3LDExNTQzNTI5OTEsLTg4NzkyOTAwMV19
+eyJoaXN0b3J5IjpbMTA5NzgwODYyOCwyNTc5NjkxMTcsMTYzMz
+YwNzk2NiwxMjUwNzU3OTM5LC0yMDYzNDY5MjQ1LC0xMDc2MDU4
+MzUsLTUzMzY2ODA2Miw4NzYzMTY4Miw1NTM3MTI5MTMsLTEyMD
+A5OTQ5NTksLTExNzUzODIzMjksODg1NjI4OTU1LDczMTQ1NTUx
+LDEwNjk4OTcxNzcsMTE1NDM1Mjk5MSwtODg3OTI5MDAxXX0=
 -->
