@@ -4,6 +4,8 @@
 > Written with [StackEdit](https://stackedit.io/).
 # Geo-Spatial General References
 ### Merging ZIP codes with Census Tracts
+
+- [United States ZIP codes.org](https://www.unitedstateszipcodes.org/) At the bottom of the page 
 - [Merging Zip Codes with Census Data](https://verstaresearch.com/blog/merging-zip-codes-with-census-data/)
 - [HUD USPS ZIP CODE CROSSWALK FILES](https://www.huduser.gov/portal/datasets/usps_crosswalk.html#data)
 
@@ -70,8 +72,9 @@ Some information about solving the optimal location problem from a supervised an
 [https://www.youtube.com/watch?v=9bYtfoOeN7I](https://www.youtube.com/watch?v=9bYtfoOeN7I)
 [https://www.youtube.com/watch?v=LZ1psf9NhiE](https://www.youtube.com/watch?v=LZ1psf9NhiE) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTYwODM1MywtMjcwMzk4NTEwLC04OT
-czODY5MTcsLTEwOTU3MTcwNDAsMjA5NDk4NTExNiwtMjA4MjMy
-NjgyMCw0MTg3NTg4NDUsMTQwMjU0MDAwMCwtMTUyMjcxMDY2MC
-wtMTYxMzk4MzM3NCwtMjQwNDM0NDQ1XX0=
+eyJoaXN0b3J5IjpbLTE2MzI0ODk5MzQsMTE5MTYwODM1MywtMj
+cwMzk4NTEwLC04OTczODY5MTcsLTEwOTU3MTcwNDAsMjA5NDk4
+NTExNiwtMjA4MjMyNjgyMCw0MTg3NTg4NDUsMTQwMjU0MDAwMC
+wtMTUyMjcxMDY2MCwtMTYxMzk4MzM3NCwtMjQwNDM0NDQ1XX0=
+
 -->
