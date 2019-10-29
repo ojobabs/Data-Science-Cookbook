@@ -478,10 +478,20 @@ mrd_county['County_Res'] = mrd_county['County_Res'].apply(np.int64)
 ```
 
 This solution doesn't work is you have `NaN` values. 
+
+### Save into a text file a list of values
+
+```python
+test_val = mat02['marketer_id'].unique()
+
+with open('../data/unique_marketers.txt', 'w') as f:
+    for item in test_val:
+        f.write("%s\n" % item)
+ ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDc1NzkzOSwtMjA2MzQ2OTI0NSwtMT
-A3NjA1ODM1LC01MzM2NjgwNjIsODc2MzE2ODIsNTUzNzEyOTEz
-LC0xMjAwOTk0OTU5LC0xMTc1MzgyMzI5LDg4NTYyODk1NSw3Mz
-E0NTU1MSwxMDY5ODk3MTc3LDExNTQzNTI5OTEsLTg4NzkyOTAw
-MV19
+eyJoaXN0b3J5IjpbMTYzMzYwNzk2NiwxMjUwNzU3OTM5LC0yMD
+YzNDY5MjQ1LC0xMDc2MDU4MzUsLTUzMzY2ODA2Miw4NzYzMTY4
+Miw1NTM3MTI5MTMsLTEyMDA5OTQ5NTksLTExNzUzODIzMjksOD
+g1NjI4OTU1LDczMTQ1NTUxLDEwNjk4OTcxNzcsMTE1NDM1Mjk5
+MSwtODg3OTI5MDAxXX0=
 -->
