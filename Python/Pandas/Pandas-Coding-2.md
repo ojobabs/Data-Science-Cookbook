@@ -487,11 +487,12 @@ test_val = mat02['marketer_id'].unique()
 with open('../data/unique_marketers.txt', 'w') as f:
     for item in test_val:
         f.write("%s\n" % item)
+f.close()       
  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMzYwNzk2NiwxMjUwNzU3OTM5LC0yMD
-YzNDY5MjQ1LC0xMDc2MDU4MzUsLTUzMzY2ODA2Miw4NzYzMTY4
-Miw1NTM3MTI5MTMsLTEyMDA5OTQ5NTksLTExNzUzODIzMjksOD
-g1NjI4OTU1LDczMTQ1NTUxLDEwNjk4OTcxNzcsMTE1NDM1Mjk5
-MSwtODg3OTI5MDAxXX0=
+eyJoaXN0b3J5IjpbMjU3OTY5MTE3LDE2MzM2MDc5NjYsMTI1MD
+c1NzkzOSwtMjA2MzQ2OTI0NSwtMTA3NjA1ODM1LC01MzM2Njgw
+NjIsODc2MzE2ODIsNTUzNzEyOTEzLC0xMjAwOTk0OTU5LC0xMT
+c1MzgyMzI5LDg4NTYyODk1NSw3MzE0NTU1MSwxMDY5ODk3MTc3
+LDExNTQzNTI5OTEsLTg4NzkyOTAwMV19
 -->
