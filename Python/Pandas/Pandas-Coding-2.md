@@ -533,11 +533,30 @@ More here
 - [how-to-remove-a-substring-of-string-in-a-dataframe-column](https://stackoverflow.com/questions/38706813/how-to-remove-a-substring-of-string-in-a-dataframe-column)
 - [strip-lstriprstrip-strip-function-python](http://www.datasciencemadesimple.com/strip-lstriprstrip-strip-function-python/)
 - [python-remove-character-from-string](https://www.journaldev.com/23674/python-remove-character-from-string)
+
+
+### # [Q: [Pandas] How to efficiently assign unique ID to individuals with multiple entries based on name in very large df](https://stackoverflow.com/questions/45685254/q-pandas-how-to-efficiently-assign-unique-id-to-individuals-with-multiple-ent)
+
+```python
+# Create an id variable. One id value for each marketer_id
+agent_final['id'] = agent_final.groupby(['marketer_id']).ngroup()
+```
+Output
+```
+    marketer_id  life_sales_low_premium  life_sales_medium_premium  life_sales_high_premium  annuities  calendar_year   Cultural_Market      Age Tenure  County_Res     id
+0         0000032                     4.0                        1.0                      5.0        2.0         2016.0       UNSPECIFIED  60 - 65   > 11     55009.0      0
+1         0000151                     0.0                        0.0                      3.0        NaN         2016.0       UNSPECIFIED  40 - 45   > 11     55025.0      1
+2         0000175                     0.0                        1.0                      1.0        3.0         2016.0       UNSPECIFIED  60 - 65   > 11     36103.0      2
+3         0000197                     0.0                        1.0                      2.0        2.0         2016.0       UNSPECIFIED  45 - 50   > 11     19061.0      3
+4         0000223                     0.0                        0.0                      1.0        NaN         2016.0             OTHER  45 - 50   > 11     24031.0      4
+5         0000227                     4.0                        1.0                      1.0        4.0         2016.0       UNSPECIFIED  45 - 50   > 11     19111.0      5
+6         0000281                     1.0                        1.0                      0.0        5.0         2016.0       UNSPECIFIED  55 - 60   > 11     20091.0      6
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDI4MjY4NiwzNTI3MjA1MTUsMjU3OT
-Y5MTE3LDE2MzM2MDc5NjYsMTI1MDc1NzkzOSwtMjA2MzQ2OTI0
-NSwtMTA3NjA1ODM1LC01MzM2NjgwNjIsODc2MzE2ODIsNTUzNz
-EyOTEzLC0xMjAwOTk0OTU5LC0xMTc1MzgyMzI5LDg4NTYyODk1
-NSw3MzE0NTU1MSwxMDY5ODk3MTc3LDExNTQzNTI5OTEsLTg4Nz
-kyOTAwMV19
+eyJoaXN0b3J5IjpbMTQwMDY2NTM5OCwxNjQ0MjgyNjg2LDM1Mj
+cyMDUxNSwyNTc5NjkxMTcsMTYzMzYwNzk2NiwxMjUwNzU3OTM5
+LC0yMDYzNDY5MjQ1LC0xMDc2MDU4MzUsLTUzMzY2ODA2Miw4Nz
+YzMTY4Miw1NTM3MTI5MTMsLTEyMDA5OTQ5NTksLTExNzUzODIz
+MjksODg1NjI4OTU1LDczMTQ1NTUxLDEwNjk4OTcxNzcsMTE1ND
+M1Mjk5MSwtODg3OTI5MDAxXX0=
 -->
