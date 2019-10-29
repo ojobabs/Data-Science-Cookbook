@@ -530,11 +530,13 @@ test_sample['marketer_id'] = test_sample['marketer_id'].str.strip(
 print(test_sample)
 ```
 More here
+- [how-to-remove-a-substring-of-string-in-a-dataframe-column](https://stackoverflow.com/questions/38706813/how-to-remove-a-substring-of-string-in-a-dataframe-column)
 - [strip-lstriprstrip-strip-function-python](http://www.datasciencemadesimple.com/strip-lstriprstrip-strip-function-python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUyNzIwNTE1LDI1Nzk2OTExNywxNjMzNj
-A3OTY2LDEyNTA3NTc5MzksLTIwNjM0NjkyNDUsLTEwNzYwNTgz
-NSwtNTMzNjY4MDYyLDg3NjMxNjgyLDU1MzcxMjkxMywtMTIwMD
-k5NDk1OSwtMTE3NTM4MjMyOSw4ODU2Mjg5NTUsNzMxNDU1NTEs
-MTA2OTg5NzE3NywxMTU0MzUyOTkxLC04ODc5MjkwMDFdfQ==
+eyJoaXN0b3J5IjpbLTE1NDYzNTE5NzEsMzUyNzIwNTE1LDI1Nz
+k2OTExNywxNjMzNjA3OTY2LDEyNTA3NTc5MzksLTIwNjM0Njky
+NDUsLTEwNzYwNTgzNSwtNTMzNjY4MDYyLDg3NjMxNjgyLDU1Mz
+cxMjkxMywtMTIwMDk5NDk1OSwtMTE3NTM4MjMyOSw4ODU2Mjg5
+NTUsNzMxNDU1NTEsMTA2OTg5NzE3NywxMTU0MzUyOTkxLC04OD
+c5MjkwMDFdfQ==
 -->
