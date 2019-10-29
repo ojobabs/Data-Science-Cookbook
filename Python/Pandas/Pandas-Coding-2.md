@@ -489,10 +489,48 @@ with open('../data/unique_marketers.txt', 'w') as f:
         f.write("%s\n" % item)
 f.close()       
  ```
+
+### Cleaning a difficult string variable 
+
+```python
+# The markeger_id is a strg type variable an contains two differnt types of
+# variable format: 1234567.0 or 1234567 and can be somethinglike 1234.0 or
+# like this 0034567.
+#
+# There are values like this
+# 438912.0
+# 0117085
+# 0089964
+# 0000944
+# 0TASAGT
+# 0000032
+# 72658.0
+# 0142150
+#
+# - There decimal values to remove .0
+# - We need to remove all leading 0, could be  0, 00, 000, etc.
+# - There is a unique problematique value to remove 0TASAGT
+# - Finally, we need to add leading zeros up to 7 figures
+
+
+# mat02['marketer_id'] = mat02['marketer_id'].str.strip(
+# ).str.replace('.0', '').str.zfill(7)
+# https://stackoverflow.com/questions/38706813/how-to-remove-a-substring-of-string-in-a-dataframe-column
+# Don't use replace('.0', ''), the . is not recognized as part of the sring and all
+# are going to be removed. you need to use replace('\.0', '') instead
+#mat02['marketer_id'] = mat02['marketer_id'].str.strip().str.replace('.0', '').str.lstrip("0").str.zfill(7)
+
+test_sample = mat02.head(30)
+
+print(test_sample)
+
+test_sample['marketer_id'] = test_sample['marketer_id'].str.strip(
+).str.replace("\.0", "").str.lstrip("0").str.zfill(7)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3OTY5MTE3LDE2MzM2MDc5NjYsMTI1MD
-c1NzkzOSwtMjA2MzQ2OTI0NSwtMTA3NjA1ODM1LC01MzM2Njgw
-NjIsODc2MzE2ODIsNTUzNzEyOTEzLC0xMjAwOTk0OTU5LC0xMT
-c1MzgyMzI5LDg4NTYyODk1NSw3MzE0NTU1MSwxMDY5ODk3MTc3
-LDExNTQzNTI5OTEsLTg4NzkyOTAwMV19
+eyJoaXN0b3J5IjpbMjk5MjM4NjYsMjU3OTY5MTE3LDE2MzM2MD
+c5NjYsMTI1MDc1NzkzOSwtMjA2MzQ2OTI0NSwtMTA3NjA1ODM1
+LC01MzM2NjgwNjIsODc2MzE2ODIsNTUzNzEyOTEzLC0xMjAwOT
+k0OTU5LC0xMTc1MzgyMzI5LDg4NTYyODk1NSw3MzE0NTU1MSwx
+MDY5ODk3MTc3LDExNTQzNTI5OTEsLTg4NzkyOTAwMV19
 -->
