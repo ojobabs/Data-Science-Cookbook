@@ -535,7 +535,7 @@ More here
 - [python-remove-character-from-string](https://www.journaldev.com/23674/python-remove-character-from-string)
 
 
-### # [Q: [Pandas] How to efficiently assign unique ID to individuals with multiple entries based on name in very large df](https://stackoverflow.com/questions/45685254/q-pandas-how-to-efficiently-assign-unique-id-to-individuals-with-multiple-ent)
+### [Q: [Pandas] How to efficiently assign unique ID to individuals with multiple entries based on name in very large df](https://stackoverflow.com/questions/45685254/q-pandas-how-to-efficiently-assign-unique-id-to-individuals-with-multiple-ent)
 
 ```python
 # Create an id variable. One id value for each marketer_id
@@ -553,10 +553,10 @@ Output
 6         0000281                     1.0                        1.0                      0.0        5.0         2016.0       UNSPECIFIED  55 - 60   > 11     20091.0      6
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMDY2NTM5OCwxNjQ0MjgyNjg2LDM1Mj
-cyMDUxNSwyNTc5NjkxMTcsMTYzMzYwNzk2NiwxMjUwNzU3OTM5
-LC0yMDYzNDY5MjQ1LC0xMDc2MDU4MzUsLTUzMzY2ODA2Miw4Nz
-YzMTY4Miw1NTM3MTI5MTMsLTEyMDA5OTQ5NTksLTExNzUzODIz
-MjksODg1NjI4OTU1LDczMTQ1NTUxLDEwNjk4OTcxNzcsMTE1ND
-M1Mjk5MSwtODg3OTI5MDAxXX0=
+eyJoaXN0b3J5IjpbMjQ5ODUzNTU1LDE2NDQyODI2ODYsMzUyNz
+IwNTE1LDI1Nzk2OTExNywxNjMzNjA3OTY2LDEyNTA3NTc5Mzks
+LTIwNjM0NjkyNDUsLTEwNzYwNTgzNSwtNTMzNjY4MDYyLDg3Nj
+MxNjgyLDU1MzcxMjkxMywtMTIwMDk5NDk1OSwtMTE3NTM4MjMy
+OSw4ODU2Mjg5NTUsNzMxNDU1NTEsMTA2OTg5NzE3NywxMTU0Mz
+UyOTkxLC04ODc5MjkwMDFdfQ==
 -->
