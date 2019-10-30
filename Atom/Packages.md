@@ -27,10 +27,11 @@
 - [x] [platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal)
 - [ ] project-manager
 - [x] [remote-sync](https://atom.io/packages/remote-sync)
+- [ ] [markdown-preview-plus](https://atom.io/packages/markdown-preview-plus) (to render maths in markdown).
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NDQ0NDI4NiwtMTY4MjU3NzUxMCwyMT
-Q1NzUzODU3XX0=
+eyJoaXN0b3J5IjpbMTg4NDk1MTg1NCwtMzQ0NDQ0Mjg2LC0xNj
+gyNTc3NTEwLDIxNDU3NTM4NTddfQ==
 -->
