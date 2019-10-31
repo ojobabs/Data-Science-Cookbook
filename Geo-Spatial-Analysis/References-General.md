@@ -71,9 +71,14 @@ Some information about solving the optimal location problem from a supervised an
 
 [https://www.youtube.com/watch?v=9bYtfoOeN7I](https://www.youtube.com/watch?v=9bYtfoOeN7I)
 [https://www.youtube.com/watch?v=LZ1psf9NhiE](https://www.youtube.com/watch?v=LZ1psf9NhiE) 
+
+### Census Data
+
+- [How to Download Census Data from American Factfinder and Display it in ArcMap](https://libraries.mit.edu/files/gis/factfinder.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI5MjYwMjM5LDExOTE2MDgzNTMsLTI3MD
-M5ODUxMCwtODk3Mzg2OTE3LC0xMDk1NzE3MDQwLDIwOTQ5ODUx
-MTYsLTIwODIzMjY4MjAsNDE4NzU4ODQ1LDE0MDI1NDAwMDAsLT
-E1MjI3MTA2NjAsLTE2MTM5ODMzNzQsLTI0MDQzNDQ0NV19
+eyJoaXN0b3J5IjpbLTIzMzc4MjI3LDkyOTI2MDIzOSwxMTkxNj
+A4MzUzLC0yNzAzOTg1MTAsLTg5NzM4NjkxNywtMTA5NTcxNzA0
+MCwyMDk0OTg1MTE2LC0yMDgyMzI2ODIwLDQxODc1ODg0NSwxND
+AyNTQwMDAwLC0xNTIyNzEwNjYwLC0xNjEzOTgzMzc0LC0yNDA0
+MzQ0NDVdfQ==
 -->
