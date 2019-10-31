@@ -79,10 +79,11 @@ Some information about solving the optimal location problem from a supervised an
 - [How to Download Census Data from American Factfinder and Display it in ArcMap](https://libraries.mit.edu/files/gis/factfinder.pdf)
 - [Data.gov](https://www.data.gov/)
 - [U.S. Census Bureau](https://www.census.gov/)
+- [QGIS: Downloading and Preparing U.S. Census Bureau Data](http://lib.dr.iastate.edu/cgi/viewcontent.cgi?article=1131&context=extension_pubs)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMxNDg0NDI5LDkyOTI2MDIzOSwxMTkxNj
-A4MzUzLC0yNzAzOTg1MTAsLTg5NzM4NjkxNywtMTA5NTcxNzA0
-MCwyMDk0OTg1MTE2LC0yMDgyMzI2ODIwLDQxODc1ODg0NSwxND
-AyNTQwMDAwLC0xNTIyNzEwNjYwLC0xNjEzOTgzMzc0LC0yNDA0
-MzQ0NDVdfQ==
+eyJoaXN0b3J5IjpbLTEzNDgyNzUyNzcsOTI5MjYwMjM5LDExOT
+E2MDgzNTMsLTI3MDM5ODUxMCwtODk3Mzg2OTE3LC0xMDk1NzE3
+MDQwLDIwOTQ5ODUxMTYsLTIwODIzMjY4MjAsNDE4NzU4ODQ1LD
+E0MDI1NDAwMDAsLTE1MjI3MTA2NjAsLTE2MTM5ODMzNzQsLTI0
+MDQzNDQ0NV19
 -->
