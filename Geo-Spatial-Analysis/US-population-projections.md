@@ -31,7 +31,7 @@ Finally, there is a company that sell projections at County level:
 
 [**Demographic Trends 2010-2060**](http://proximityone.com/demographics2060.htm). They are using time series analysis to make the projections at county level. The price is between $500 and $1,300.
 
-Here you have another company doning something similar:
+Here you have another company doing something similar:
 
 [https://www.woodsandpoole.com/our-databases/united-states/all-geographies/](https://www.woodsandpoole.com/our-databases/united-states/all-geographies/)
 
@@ -39,5 +39,5 @@ Here you have another company doning something similar:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjI4NTYxODMsLTQ2NTMyODY4XX0=
+eyJoaXN0b3J5IjpbNTE2NTIzNTA5LC00NjUzMjg2OF19
 -->
