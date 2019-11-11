@@ -29,11 +29,11 @@ On the article [Comparing Artificial Neural Network and Cohort-Component Models 
 
 Finally, there is a company that sell projections at County level:
 
-[http://proximityone.com/demographics2060.htm](http://proximityone.com/demographics2060.htm)
+[**Demographic Trends 2010-2060**](http://proximityone.com/demographics2060.htm)
 
  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MzA4MDY2NSwtNDY1MzI4NjhdfQ==
+eyJoaXN0b3J5IjpbLTIxMzY3MzIyMCwtNDY1MzI4NjhdfQ==
 -->
