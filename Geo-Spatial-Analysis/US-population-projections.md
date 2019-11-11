@@ -9,8 +9,8 @@ As you can see ([here](https://www.census.gov/programs-surveys/popproj/guidance.
 
 In summary, there is no official U.S. Census Bureau population projections at County level.
 
-> Note: Don't confuse the 50-years estimates from the American Community Survey (A
+> Note: Don't confuse the 50-years estimates from the American Community Survey (ACS) that also Claritas provides. [Here](https://www.census.gov/programs-surveys/acs/guidance/estimates.html) you can read that this is just 60 months of collected asta from, for example, 2014-2018. But these data are no forecasted data. This is only for the current time.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NTYyNDgzMF19
+eyJoaXN0b3J5IjpbMjA4OTc3MTU0NV19
 -->
