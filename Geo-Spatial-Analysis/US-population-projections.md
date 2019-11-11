@@ -17,6 +17,7 @@ Nevertheless, I've found some resources that provides Population projections at 
 - Sex
 - Race
 
+> Notice that this article maybe is not useful because it uses 5 "shared socioeconomic pathways". More on the arti
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MTk2NzM4OCwtNDY1MzI4NjhdfQ==
+eyJoaXN0b3J5IjpbLTU2NDA0OTgwOSwtNDY1MzI4NjhdfQ==
 -->
