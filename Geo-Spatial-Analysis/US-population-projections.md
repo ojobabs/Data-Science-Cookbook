@@ -11,6 +11,8 @@ In summary, there is no official U.S. Census Bureau population projections at Co
 
 > Note: Don't confuse the 50-years estimates from the American Community Survey (ACS) that also Claritas provides. [Here](https://www.census.gov/programs-surveys/acs/guidance/estimates.html) you can read that this is just 60 months of collected asta from, for example, 2014-2018. But these data are no forecasted data. This is only for the current time. You can read more about that [here](https://www.census.gov/data/developers/data-sets/acs-5year.html).
 
+There are, by the way, population projections at State level, but in this case, are the states who realese those projections.
+
 Here you have the main page for U.S. Census population projections:
 - [Population Projections](https://www.census.gov/programs-surveys/popproj.html)
 
@@ -42,5 +44,5 @@ Here you have another company doing something similar:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjU5OTk3NzIsLTQ2NTMyODY4XX0=
+eyJoaXN0b3J5IjpbLTQ3NTU2ODc2NywtNDY1MzI4NjhdfQ==
 -->
