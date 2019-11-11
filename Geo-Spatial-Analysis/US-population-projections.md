@@ -11,8 +11,8 @@ In summary, there is no official U.S. Census Bureau population projections at Co
 
 > Note: Don't confuse the 50-years estimates from the American Community Survey (ACS) that also Claritas provides. [Here](https://www.census.gov/programs-surveys/acs/guidance/estimates.html) you can read that this is just 60 months of collected asta from, for example, 2014-2018. But these data are no forecasted data. This is only for the current time. You can read more about that [here](https://www.census.gov/data/developers/data-sets/acs-5year.html).
 
-Nevertheless, I've found some resources that provides Population projections at County level.
+Nevertheless, I've found some resources that provides Population projections at County level. I've fond the following article [Population projections for U.S. counties by age, sex, and race controlled to shared socioeconomic pathway](https://www.nature.com/articles/sdata20195#ref17), recently published on Nature that provide population estimations at County level
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NTMyODY4XX0=
+eyJoaXN0b3J5IjpbMjAwMDQxMjQzOCwtNDY1MzI4NjhdfQ==
 -->
