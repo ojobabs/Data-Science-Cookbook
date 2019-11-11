@@ -25,9 +25,15 @@ The article provides R code, the data:
 
 To download the data, download the zip file `SSP+asrc.zip` file. This a large file.
 
-On the article [Comparing Artificial Neural Network and Cohort-Component Models for Population Forecasts](https://pdfs.semanticscholar.org/e637/df4fbac34e35c08a42bbb9838ca56f804fd3.pdf), we used for the Shark Tank competition in NYL, maybe there is 
+On the article [Comparing Artificial Neural Network and Cohort-Component Models for Population Forecasts](https://pdfs.semanticscholar.org/e637/df4fbac34e35c08a42bbb9838ca56f804fd3.pdf), we used for the Shark Tank competition in NYL, maybe there is more data. But I'am afraid that it is a County level but only for one State and not country while.
+
+Finally, there is a company that sell projections at County level:
+
+[http://proximityone.com/demographics2060.htm](http://proximityone.com/demographics2060.htm)
+
+ 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk2MTE4MDA3LC00NjUzMjg2OF19
+eyJoaXN0b3J5IjpbMTM4MzA4MDY2NSwtNDY1MzI4NjhdfQ==
 -->
