@@ -23,7 +23,11 @@ The article provides R code, the data:
 
 - [https://osf.io/9ynfc/](https://osf.io/9ynfc/)
 
-To download the data, download the zip file SSP+asrc.zip
+To download the data, download the zip file `SSP+asrc.zip` file. This a large file.
+
+On the article [Comparing Artificial Neural Network and Cohort-Component Models for Population Forecasts](https://pdfs.semanticscholar.org/e637/df4fbac34e35c08a42bbb9838ca56f804fd3.pdf), we used for the Shark Tank competition in NYL, maybe there is 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTE5MTY1MTksLTQ2NTMyODY4XX0=
+eyJoaXN0b3J5IjpbNTk2MTE4MDA3LC00NjUzMjg2OF19
 -->
