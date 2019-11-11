@@ -44,10 +44,12 @@ Here you have another company doing something similar:
 - [https://doc.arcgis.com/en/esri-demographics/data/updated-demographics.htm](https://doc.arcgis.com/en/esri-demographics/data/updated-demographics.htm)
 - [http://downloads.esri.com/esri_content_doc/dbl/us/Variable_List-Esri_2019_and_2024_Updated_Demographics.pdf](http://downloads.esri.com/esri_content_doc/dbl/us/Variable_List-Esri_2019_and_2024_Updated_Demographics.pdf)
 
-It seems that the above **update demographic** product is part of the Data coming with ESRI Arc
+It seems that the above **update demographic** product is part of the Data coming with ESRI ArcGIS Pro
+
+- [https://doc.arcgis.com/en/esri-demographics/data/us-intro.htm#ESRI_SECTION1_9594A4690F884581AEB4B7031A00946C](https://doc.arcgis.com/en/esri-demographics/data/us-intro.htm#ESRI_SECTION1_9594A4690F884581AEB4B7031A00946C)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzc1NDc0NjIsLTQ3NTU2ODc2NywtND
+eyJoaXN0b3J5IjpbLTExNDU5MzY3MDgsLTQ3NTU2ODc2NywtND
 Y1MzI4NjhdfQ==
 -->
