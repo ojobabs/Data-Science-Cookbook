@@ -17,7 +17,13 @@ Nevertheless, I've found some resources that provides Population projections at 
 - Sex
 - Race
 
-> Notice that this article maybe is not useful because it uses 5 "shared socioeconomic pathways". More on the arti
+> Notice that this article maybe is not useful because it uses 5 "shared socioeconomic pathways". More on the article.
+
+The article provides R code, the data:
+
+- [https://osf.io/9ynfc/](https://osf.io/9ynfc/)
+
+To download the data, download the zip file SSP+asrc.zip
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDA0OTgwOSwtNDY1MzI4NjhdfQ==
+eyJoaXN0b3J5IjpbLTE5NTE5MTY1MTksLTQ2NTMyODY4XX0=
 -->
