@@ -8,7 +8,7 @@
 ### .bash_profile to execute Python code using Anaconda, PySpark and Scala on the remote server
 
 ```bash
-# .bash_profile
+# .bash_profile marcos
 
 # Get the aliases and functions
 if [ -f ~/.bashrc ]; then
@@ -145,6 +145,6 @@ plt.savefig('../imgs/go.png')
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5Njc0NDE3LC0yMDg3NjI5ODMwLC0xMj
-gwNjY5MDQ4XX0=
+eyJoaXN0b3J5IjpbLTc3MjMzNjA3MCw4MDk2NzQ0MTcsLTIwOD
+c2Mjk4MzAsLTEyODA2NjkwNDhdfQ==
 -->
