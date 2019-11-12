@@ -13,6 +13,24 @@ To run a PySpark script on the remote Linux (Hadoop) environment you need write 
  $ spark-submit name_of_program.py
  ```
 
+### The header part to write PySpark code from Atom on the remote server must be like that
+
+```python
+<![endif]-->
+
+### Import Modules & Read Data ###
+
+from pyspark import SQLContext
+from pyspark import SparkConf, SparkContext
+from pyspark.sql import HiveContext, Row
+from pyspark.sql.functions import col
+from pyspark.sql.functions import udf, col, lit, countDistinct, monotonically_increasing_id
+from pyspark.sql.types import LongType, StringType
+from subprocess import (PIPE, Popen)
+conf = (SparkConf().setAppName("cdsa123"))
+sc = SparkContext(conf=conf)
+sqlContext = HiveContext(sc)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE2NjM5NzExXX0=
+eyJoaXN0b3J5IjpbMjAwNTEwMDA3Nyw1MTY2Mzk3MTFdfQ==
 -->
