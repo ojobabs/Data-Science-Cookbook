@@ -80,10 +80,14 @@ Some information about solving the optimal location problem from a supervised an
 - [Data.gov](https://www.data.gov/)
 - [U.S. Census Bureau](https://www.census.gov/)
 - [QGIS: Downloading and Preparing U.S. Census Bureau Data](http://lib.dr.iastate.edu/cgi/viewcontent.cgi?article=1131&context=extension_pubs)
+
+### Satellite images
+
+- [7 TOP FREE SATELLITE IMAGERY SOURCES IN 2019](https://eos.com/blog/7-top-free-satellite-imagery-sources-in-2019/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDgyNzUyNzcsOTI5MjYwMjM5LDExOT
-E2MDgzNTMsLTI3MDM5ODUxMCwtODk3Mzg2OTE3LC0xMDk1NzE3
-MDQwLDIwOTQ5ODUxMTYsLTIwODIzMjY4MjAsNDE4NzU4ODQ1LD
-E0MDI1NDAwMDAsLTE1MjI3MTA2NjAsLTE2MTM5ODMzNzQsLTI0
-MDQzNDQ0NV19
+eyJoaXN0b3J5IjpbLTE1ODEzMDgzNzIsLTEzNDgyNzUyNzcsOT
+I5MjYwMjM5LDExOTE2MDgzNTMsLTI3MDM5ODUxMCwtODk3Mzg2
+OTE3LC0xMDk1NzE3MDQwLDIwOTQ5ODUxMTYsLTIwODIzMjY4Mj
+AsNDE4NzU4ODQ1LDE0MDI1NDAwMDAsLTE1MjI3MTA2NjAsLTE2
+MTM5ODMzNzQsLTI0MDQzNDQ0NV19
 -->
