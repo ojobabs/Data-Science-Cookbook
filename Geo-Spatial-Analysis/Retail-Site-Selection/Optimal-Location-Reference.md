@@ -13,8 +13,11 @@
 
 ### New references
 
-- [Retail Site Selection: A New, Innovative Model for Retail Development - Cornell Real Estate Review](https://scholarship.sha.cornell.edu/cgi/viewcontent.cgi?article=1163&context=crer)
-- [Selection of Retail Shops Based on Spatial Accessibility and Hybrid BP Neural Network](https://www.researchgate.net/publication/325427358_Site_Selection_of_Retail_Shops_Based_on_Spatial_Accessibility_and_Hybrid_BP_Neural_Network))
+The search term used on Google search page is: "retail site selection"
+
+
+- [Retail Site Selection: A New, Innovative Model for Retail Development - Cornell Real Estate Review](https://scholarship.sha.cornell.edu/cgi/viewcontent.cgi?article=1163&context=crer). It is possible to download the paper. I keep a copy of the pdf.
+- [Selection of Retail Shops Based on Spatial Accessibility and Hybrid BP Neural Network](https://www.researchgate.net/publication/325427358_Site_Selection_of_Retail_Shops_Based_on_Spatial_Accessibility_and_Hybrid_BP_Neural_Network). It is possible to download the paper. I keep a copy of the pdf.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIxNjk5NTUwLC0xMjYwODY3Mzg4XX0=
+eyJoaXN0b3J5IjpbLTYzODQxODUxMCwtMTI2MDg2NzM4OF19
 -->
