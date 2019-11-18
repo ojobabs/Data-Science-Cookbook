@@ -11,6 +11,11 @@
 - [https://www.researchgate.net/publication/256972259_The_retail_site_location_decision_process_using_GIS_and_the_analytical_hierarchy_process](https://www.researchgate.net/publication/256972259_The_retail_site_location_decision_process_using_GIS_and_the_analytical_hierarchy_process)
 - [https://www.fastcompany.com/3034792/how-fast-food-chains-pick-their-next-location](https://www.fastcompany.com/3034792/how-fast-food-chains-pick-their-next-location)
 
+### On ESRI materials
+- Chapter 10 of [Spatial-Analytics-ArcGIS-Eric-Pimpler](https://www.amazon.com/Spatial-Analytics-ArcGIS-Eric-Pimpler/dp/1787122581/ref=sr_1_1?keywords=spatial+analytics+with+arcgis&qid=1574095298&sr=8-1).
+- Chapter 8 of 
+
+
 ### New references
 
 The search term used on Google search page is: _retail site selection_
@@ -26,7 +31,8 @@ The search term used on Google search page is: _retail site selection_
 - [https://spatial.ai/](https://spatial.ai/)
 - [The Ultimate Guide to Retail Site Selection](https://www.buxtonco.com/blog/the-ultimate-guide-to-retail-site-selection)
 - [GIS Analysis—The New Approach to Retail Site Selection](https://www.tradeandindustrydev.com/industry/retail/gis-analysis%E2%80%94-new-approach-retail-site-selection-8065)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODAyMDE5LDY2MzEzNzYxOSwtNjM5MT
+eyJoaXN0b3J5IjpbNDExNzEwMzg3LDY2MzEzNzYxOSwtNjM5MT
 czODI2LC0xMjYwODY3Mzg4XX0=
 -->
