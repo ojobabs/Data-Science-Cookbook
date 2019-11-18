@@ -10,6 +10,11 @@
 - [https://hackernoon.com/location-analytics-and-retail-friends-at-last-ea20829fc5a6](https://hackernoon.com/location-analytics-and-retail-friends-at-last-ea20829fc5a6)
 - [https://www.researchgate.net/publication/256972259_The_retail_site_location_decision_process_using_GIS_and_the_analytical_hierarchy_process](https://www.researchgate.net/publication/256972259_The_retail_site_location_decision_process_using_GIS_and_the_analytical_hierarchy_process)
 - [https://www.fastcompany.com/3034792/how-fast-food-chains-pick-their-next-location](https://www.fastcompany.com/3034792/how-fast-food-chains-pick-their-next-location)
+
+### New references
+
+- [Retail Site Selection: A New, Innovative Model for Retail Development - Cornell Real Estate Review](https://scholarship.sha.cornell.edu/cgi/viewcontent.cgi?article=1163&context=crer)
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjA4NjczODhdfQ==
+eyJoaXN0b3J5IjpbMTUxMzE1NDgxMSwtMTI2MDg2NzM4OF19
 -->
