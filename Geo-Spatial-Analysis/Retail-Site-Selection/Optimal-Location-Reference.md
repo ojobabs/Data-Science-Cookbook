@@ -13,7 +13,7 @@
 
 ### On ESRI materials
 - Chapter 10 of [Spatial-Analytics-ArcGIS-Eric-Pimpler](https://www.amazon.com/Spatial-Analytics-ArcGIS-Eric-Pimpler/dp/1787122581/ref=sr_1_1?keywords=spatial+analytics+with+arcgis&qid=1574095298&sr=8-1).
-- Chapter 8 of 
+- Chapter 8 of [GIS-Tutorial-Marketing-Tutorials](https://www.amazon.com/GIS-Tutorial-Marketing-Tutorials/dp/1589480791). Slides: [Chapter8](http://web.pdx.edu/~jduh/courses/GISMarketing/Chapter8.pdf)
 
 
 ### New references
@@ -33,6 +33,6 @@ The search term used on Google search page is: _retail site selection_
 - [GIS Analysis—The New Approach to Retail Site Selection](https://www.tradeandindustrydev.com/industry/retail/gis-analysis%E2%80%94-new-approach-retail-site-selection-8065)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDExNzEwMzg3LDY2MzEzNzYxOSwtNjM5MT
-czODI2LC0xMjYwODY3Mzg4XX0=
+eyJoaXN0b3J5IjpbMjA5Mjc3NTM1MSw0MTE3MTAzODcsNjYzMT
+M3NjE5LC02MzkxNzM4MjYsLTEyNjA4NjczODhdfQ==
 -->
