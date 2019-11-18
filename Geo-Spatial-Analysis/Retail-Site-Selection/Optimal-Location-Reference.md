@@ -22,7 +22,8 @@ The search term used on Google search page is: _retail site selection_
 - [Geospatial Analytics in Retail Site Selection and Sales Prediction](https://www.researchgate.net/publication/323983905_Geospatial_Analytics_in_Retail_Site_Selection_and_Sales_Prediction). It is possible to download the paper. I keep a copy of the pdf.
 - [Predictive and Prescriptive Analytics for Location Selection of Add-on Retail Products](https://arxiv.org/abs/1804.01182). It is possible to download the paper. I keep a copy of the pdf.\
 - [Location Analytics for Optimal Business Retail Site Selection](https://link.springer.com/chapter/10.1007/978-3-319-95162-1_27)
+- [The 10 Common Mistakes in Retail Site Selection](https://www.pb.com/docs/US/Software/Industry-Pages/Retail/Location-Analysis-Strategy/PDFs/The-10-Common-Mistakes-In-Retail-Site-Selection-Whitepaper.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYzMTM3NjE5LC02MzkxNzM4MjYsLTEyNj
-A4NjczODhdfQ==
+eyJoaXN0b3J5IjpbMTA0ODk5MzM5NCw2NjMxMzc2MTksLTYzOT
+E3MzgyNiwtMTI2MDg2NzM4OF19
 -->
