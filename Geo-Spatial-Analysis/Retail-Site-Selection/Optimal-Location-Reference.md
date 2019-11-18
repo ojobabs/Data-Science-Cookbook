@@ -19,9 +19,10 @@ The search term used on Google search page is: _retail site selection_
 - [Retail Site Selection: A New, Innovative Model for Retail Development - Cornell Real Estate Review](https://scholarship.sha.cornell.edu/cgi/viewcontent.cgi?article=1163&context=crer). It is possible to download the paper. I keep a copy of the pdf.
 - [Intelligent site selection for bricks-and-mortar stores](https://www.researchgate.net/publication/335447956_Intelligent_site_selection_for_bricks-and-mortar_stores). It is possible to download the full pdf. I keep a copy of the pdf.
 - [Selection of Retail Shops Based on Spatial Accessibility and Hybrid BP Neural Network](https://www.researchgate.net/publication/325427358_Site_Selection_of_Retail_Shops_Based_on_Spatial_Accessibility_and_Hybrid_BP_Neural_Network). It is possible to download the paper. I keep a copy of the pdf.
-- # Retail Site Selection And Geographic Information Systems
+- [Retail Site Selection And Geographic Information Systems](https://www.researchgate.net/publication/288029105_Retail_Site_Selection_And_Geographic_Information_Systems). It is possible to download the paper. I keep a copy of the pdf.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU4ODkxMzEwLC0xMjYwODY3Mzg4XX0=
+eyJoaXN0b3J5IjpbLTEzNzIzNTcwNDcsLTEyNjA4NjczODhdfQ
+==
 -->
