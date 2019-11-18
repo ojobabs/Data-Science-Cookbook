@@ -20,9 +20,9 @@ The search term used on Google search page is: _retail site selection_
 - [Intelligent site selection for bricks-and-mortar stores](https://www.researchgate.net/publication/335447956_Intelligent_site_selection_for_bricks-and-mortar_stores). It is possible to download the full pdf. I keep a copy of the pdf.
 - [Selection of Retail Shops Based on Spatial Accessibility and Hybrid BP Neural Network](https://www.researchgate.net/publication/325427358_Site_Selection_of_Retail_Shops_Based_on_Spatial_Accessibility_and_Hybrid_BP_Neural_Network). It is possible to download the paper. I keep a copy of the pdf.
 - [Retail Site Selection And Geographic Information Systems](https://www.researchgate.net/publication/288029105_Retail_Site_Selection_And_Geographic_Information_Systems). It is possible to download the paper. I keep a copy of the pdf.
+- [Geospatial Analytics in Retail Site Selection and Sales Prediction](https://www.researchgate.net/publication/323983905_Geospatial_Analytics_in_Retail_Site_Selection_and_Sales_Prediction). It is possible to download the paper. I keep a copy of the pdf.
 
-
+- Predictive and Prescriptive Analytics for Location Selection of Add-on Retail Products
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzIzNTcwNDcsLTEyNjA4NjczODhdfQ
-==
+eyJoaXN0b3J5IjpbMTQ1NDk5Mjk3MSwtMTI2MDg2NzM4OF19
 -->
