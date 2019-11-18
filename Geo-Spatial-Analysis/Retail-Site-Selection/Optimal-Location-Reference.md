@@ -20,7 +20,9 @@ The search term used on Google search page is: _retail site selection_
 - [Selection of Retail Shops Based on Spatial Accessibility and Hybrid BP Neural Network](https://www.researchgate.net/publication/325427358_Site_Selection_of_Retail_Shops_Based_on_Spatial_Accessibility_and_Hybrid_BP_Neural_Network). It is possible to download the paper. I keep a copy of the pdf.
 - [Retail Site Selection And Geographic Information Systems](https://www.researchgate.net/publication/288029105_Retail_Site_Selection_And_Geographic_Information_Systems). It is possible to download the paper. I keep a copy of the pdf.
 - [Geospatial Analytics in Retail Site Selection and Sales Prediction](https://www.researchgate.net/publication/323983905_Geospatial_Analytics_in_Retail_Site_Selection_and_Sales_Prediction). It is possible to download the paper. I keep a copy of the pdf.
-- [Predictive and Prescriptive Analytics for Location Selection of Add-on Retail Products](https://arxiv.org/abs/1804.01182). It is possible to download the paper. I keep a copy of the pdf.
+- [Predictive and Prescriptive Analytics for Location Selection of Add-on Retail Products](https://arxiv.org/abs/1804.01182). It is possible to download the paper. I keep a copy of the pdf.\
+- [Location Analytics for Optimal Business Retail Site Selection](https://link.springer.com/chapter/10.1007/978-3-319-95162-1_27)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTE3MzgyNiwtMTI2MDg2NzM4OF19
+eyJoaXN0b3J5IjpbNjYzMTM3NjE5LC02MzkxNzM4MjYsLTEyNj
+A4NjczODhdfQ==
 -->
