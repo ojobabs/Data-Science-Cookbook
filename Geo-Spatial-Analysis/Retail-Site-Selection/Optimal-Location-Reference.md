@@ -14,7 +14,7 @@
 ### New references
 
 - [Retail Site Selection: A New, Innovative Model for Retail Development - Cornell Real Estate Review](https://scholarship.sha.cornell.edu/cgi/viewcontent.cgi?article=1163&context=crer)
-- 
+- [Site Selection of Retail Shops Based on Spatial Accessibility and Hybrid BP Neural Network](file:///C:/Users/t93kqi0/Downloads/ijgi-07-00202.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMzE1NDgxMSwtMTI2MDg2NzM4OF19
+eyJoaXN0b3J5IjpbMjAxNDUzODk5MiwtMTI2MDg2NzM4OF19
 -->
