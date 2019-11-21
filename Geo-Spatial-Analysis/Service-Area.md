@@ -14,6 +14,12 @@ We can use the following link to automate the process for all GOs by using ArcPy
 By the way, you can now use on QGIS network analysis by using this tool:
 
 - [QNEAT3](https://root676.github.io/)
+
+[https://www.youtube.com/watch?v=CnSAIJUQo9M](https://www.youtube.com/watch?v=CnSAIJUQo9M)
+
+[https://www.youtube.com/watch?v=hKP8yH-LeaM](https://www.youtube.com/watch?v=hKP8yH-LeaM)
+
+[https://pro.arcgis.com/en/pro-app/help/analysis/networks/what-is-network-analyst-.htm](https://pro.arcgis.com/en/pro-app/help/analysis/networks/what-is-network-analyst-.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njg0MjA5MTNdfQ==
+eyJoaXN0b3J5IjpbMTU3MzU5NDI5Nl19
 -->
