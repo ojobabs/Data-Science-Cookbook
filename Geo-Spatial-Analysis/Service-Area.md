@@ -11,7 +11,9 @@ We can use the following link to automate the process for all GOs by using ArcPy
 
 - [Automate Network Analyst workflows](https://pro.arcgis.com/en/pro-app/help/analysis/networks/automating-workflows.htm)
 
-By the way, you can now use on QGIS
+By the way, you can now use on QGIS network analysis by using this tool:
+
+- [QNEAT3](https://root676.github.io/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDU1MDgwXX0=
+eyJoaXN0b3J5IjpbLTE2Njg0MjA5MTNdfQ==
 -->
