@@ -10,6 +10,8 @@ The geospatial report is nothing more than a services area definition. Here an e
 We can use the following link to automate the process for all GOs by using ArcPy:
 
 - [Automate Network Analyst workflows](https://pro.arcgis.com/en/pro-app/help/analysis/networks/automating-workflows.htm)
+
+By the way, you can now use on QGIS
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTg3MDE3OF19
+eyJoaXN0b3J5IjpbLTI2NDU1MDgwXX0=
 -->
