@@ -478,9 +478,13 @@ or short string:
 ```python
 changedTypedf = joindf.withColumn("label", joindf["show"].cast("double"))
 ```
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MTM0Nzc5OCwyMDAxMDI5NDU2LC0xMD
-IyMDA4NDEsLTU2ODc3MDk5NCwtMTY2MzY4OTg2LC0xNjYxNzA2
-ODY0LDIwNDg0NTkxNTcsNjk4ODI0NzI0LC01MTcwNTE5NjEsLT
-EyMTI4OTI0NiwtMjAwNzI1MTMwNV19
+eyJoaXN0b3J5IjpbOTY3MDMzNjk4LC04NzEzNDc3OTgsMjAwMT
+AyOTQ1NiwtMTAyMjAwODQxLC01Njg3NzA5OTQsLTE2NjM2ODk4
+NiwtMTY2MTcwNjg2NCwyMDQ4NDU5MTU3LDY5ODgyNDcyNCwtNT
+E3MDUxOTYxLC0xMjEyODkyNDYsLTIwMDcyNTEzMDVdfQ==
 -->
