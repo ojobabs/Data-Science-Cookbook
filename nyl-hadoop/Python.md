@@ -144,7 +144,38 @@ go.plot()
 plt.savefig('../imgs/go.png')
 
 ```
+
+## Import libraries on remote server
+
+```python
+# Import modules
+from pathlib import Path
+import warnings
+import pandas as pd
+import numpy as np
+import matplotlib
+matplotlib.use('agg')
+import matplotlib.pyplot as plt
+warnings.filterwarnings('ignore')
+from pathlib import Path
+
+# Load the datasets
+
+data_folder = Path("../data/")
+
+mat02 = data_folder / "mat02.csv"
+
+# Loading matc02
+
+mat02 = pd.read_csv(mat02)
+
+#print(mat02)
+
+#print(len(mat02))
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjY0MDU4MDcsODA5Njc0NDE3LC0yMD
-g3NjI5ODMwLC0xMjgwNjY5MDQ4XX0=
+eyJoaXN0b3J5IjpbMTQzNzY1ODY0MSwtMTQyNjQwNTgwNyw4MD
+k2NzQ0MTcsLTIwODc2Mjk4MzAsLTEyODA2NjkwNDhdfQ==
 -->
