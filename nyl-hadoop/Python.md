@@ -149,14 +149,14 @@ plt.savefig('../imgs/go.png')
 
 ```python
 # Import modules
-from pathlib import Path
-import warnings
 import pandas as pd
 import numpy as np
 import matplotlib
 matplotlib.use('agg')
 import matplotlib.pyplot as plt
+import warnings
 warnings.filterwarnings('ignore')
+from pathlib import Path
 from pathlib import Path
 
 # Load the datasets
@@ -169,13 +169,13 @@ mat02 = data_folder / "mat02.csv"
 
 mat02 = pd.read_csv(mat02)
 
-#print(mat02)
+print(mat02)
 
-#print(len(mat02))
+print(len(mat02))
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzY1ODY0MSwtMTQyNjQwNTgwNyw4MD
-k2NzQ0MTcsLTIwODc2Mjk4MzAsLTEyODA2NjkwNDhdfQ==
+eyJoaXN0b3J5IjpbLTE0MDA5NTUxODksLTE0MjY0MDU4MDcsOD
+A5Njc0NDE3LC0yMDg3NjI5ODMwLC0xMjgwNjY5MDQ4XX0=
 -->
