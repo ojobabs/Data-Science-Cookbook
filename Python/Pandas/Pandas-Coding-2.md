@@ -585,8 +585,9 @@ df['DataFrame Column'] = pd.to_numeric(df['DataFrame Column'])
 Reference: [String-to-integer-dataframe](https://datatofish.com/string-to-integer-dataframe/)
 
 [https://stackoverflow.com/questions/17950374/converting-a-column-within-pandas-dataframe-from-int-to-string](https://stackoverflow.com/questions/17950374/converting-a-column-within-pandas-dataframe-from-int-to-string)
+[https://cmdlinetips.com/2018/02/how-to-subset-pandas-dataframe-based-on-values-of-a-column/](https://cmdlinetips.com/2018/02/how-to-subset-pandas-dataframe-based-on-values-of-a-column/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTkyNTY2NzcsLTE2NzM3ODUxODIsLT
+eyJoaXN0b3J5IjpbLTE3MzI1MTQ0MTYsLTE2NzM3ODUxODIsLT
 IzNzA2NzY4MCwyNDk4NTM1NTUsMTY0NDI4MjY4NiwzNTI3MjA1
 MTUsMjU3OTY5MTE3LDE2MzM2MDc5NjYsMTI1MDc1NzkzOSwtMj
 A2MzQ2OTI0NSwtMTA3NjA1ODM1LC01MzM2NjgwNjIsODc2MzE2
