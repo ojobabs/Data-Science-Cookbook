@@ -569,12 +569,25 @@ WN|PA|19055|A|51\n', '000001026||FRANKLYN|D|RICKER||438 BEAGLE RD||BLISSFIELD|MI
 [t93kqi0@ha20p0014rs src]
 ```
 - [read-first-n-lines-of-a-file-in-python](https://stackoverflow.com/questions/1767513/read-first-n-lines-of-a-file-in-python)
+
+### How to Convert String to Integer in Pandas DataFrame
+
+In this guide, I’ll show you two methods to convert a string into an integer in pandas DataFrame:
+
+**(1) The astype(int) method:**
+```python
+df['DataFrame Column'] = df['DataFrame Column'].astype(int)
+```
+**(2) The to_numeric method:**
+```python
+df['DataFrame Column'] = pd.to_numeric(df['DataFrame Column'])
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzM3ODUxODIsLTIzNzA2NzY4MCwyND
-k4NTM1NTUsMTY0NDI4MjY4NiwzNTI3MjA1MTUsMjU3OTY5MTE3
-LDE2MzM2MDc5NjYsMTI1MDc1NzkzOSwtMjA2MzQ2OTI0NSwtMT
-A3NjA1ODM1LC01MzM2NjgwNjIsODc2MzE2ODIsNTUzNzEyOTEz
-LC0xMjAwOTk0OTU5LC0xMTc1MzgyMzI5LDg4NTYyODk1NSw3Mz
-E0NTU1MSwxMDY5ODk3MTc3LDExNTQzNTI5OTEsLTg4NzkyOTAw
+eyJoaXN0b3J5IjpbLTE0NjA1NjMxMywtMTY3Mzc4NTE4MiwtMj
+M3MDY3NjgwLDI0OTg1MzU1NSwxNjQ0MjgyNjg2LDM1MjcyMDUx
+NSwyNTc5NjkxMTcsMTYzMzYwNzk2NiwxMjUwNzU3OTM5LC0yMD
+YzNDY5MjQ1LC0xMDc2MDU4MzUsLTUzMzY2ODA2Miw4NzYzMTY4
+Miw1NTM3MTI5MTMsLTEyMDA5OTQ5NTksLTExNzUzODIzMjksOD
+g1NjI4OTU1LDczMTQ1NTUxLDEwNjk4OTcxNzcsMTE1NDM1Mjk5
 MV19
 -->
