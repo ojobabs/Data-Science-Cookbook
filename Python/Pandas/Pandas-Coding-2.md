@@ -582,12 +582,13 @@ df['DataFrame Column'] = df['DataFrame Column'].astype(int)
 ```python
 df['DataFrame Column'] = pd.to_numeric(df['DataFrame Column'])
 ```
+Reference: [String-to-integer-dataframe](https://datatofish.com/string-to-integer-dataframe/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjA1NjMxMywtMTY3Mzc4NTE4MiwtMj
-M3MDY3NjgwLDI0OTg1MzU1NSwxNjQ0MjgyNjg2LDM1MjcyMDUx
-NSwyNTc5NjkxMTcsMTYzMzYwNzk2NiwxMjUwNzU3OTM5LC0yMD
-YzNDY5MjQ1LC0xMDc2MDU4MzUsLTUzMzY2ODA2Miw4NzYzMTY4
-Miw1NTM3MTI5MTMsLTEyMDA5OTQ5NTksLTExNzUzODIzMjksOD
-g1NjI4OTU1LDczMTQ1NTUxLDEwNjk4OTcxNzcsMTE1NDM1Mjk5
-MV19
+eyJoaXN0b3J5IjpbLTI3NDQwNDg4LC0xNjczNzg1MTgyLC0yMz
+cwNjc2ODAsMjQ5ODUzNTU1LDE2NDQyODI2ODYsMzUyNzIwNTE1
+LDI1Nzk2OTExNywxNjMzNjA3OTY2LDEyNTA3NTc5MzksLTIwNj
+M0NjkyNDUsLTEwNzYwNTgzNSwtNTMzNjY4MDYyLDg3NjMxNjgy
+LDU1MzcxMjkxMywtMTIwMDk5NDk1OSwtMTE3NTM4MjMyOSw4OD
+U2Mjg5NTUsNzMxNDU1NTEsMTA2OTg5NzE3NywxMTU0MzUyOTkx
+XX0=
 -->
