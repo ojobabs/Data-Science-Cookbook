@@ -583,12 +583,14 @@ df['DataFrame Column'] = df['DataFrame Column'].astype(int)
 df['DataFrame Column'] = pd.to_numeric(df['DataFrame Column'])
 ```
 Reference: [String-to-integer-dataframe](https://datatofish.com/string-to-integer-dataframe/)
+
+[https://stackoverflow.com/questions/17950374/converting-a-column-within-pandas-dataframe-from-int-to-string](https://stackoverflow.com/questions/17950374/converting-a-column-within-pandas-dataframe-from-int-to-string)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NDQwNDg4LC0xNjczNzg1MTgyLC0yMz
-cwNjc2ODAsMjQ5ODUzNTU1LDE2NDQyODI2ODYsMzUyNzIwNTE1
-LDI1Nzk2OTExNywxNjMzNjA3OTY2LDEyNTA3NTc5MzksLTIwNj
-M0NjkyNDUsLTEwNzYwNTgzNSwtNTMzNjY4MDYyLDg3NjMxNjgy
-LDU1MzcxMjkxMywtMTIwMDk5NDk1OSwtMTE3NTM4MjMyOSw4OD
-U2Mjg5NTUsNzMxNDU1NTEsMTA2OTg5NzE3NywxMTU0MzUyOTkx
-XX0=
+eyJoaXN0b3J5IjpbLTE5OTkyNTY2NzcsLTE2NzM3ODUxODIsLT
+IzNzA2NzY4MCwyNDk4NTM1NTUsMTY0NDI4MjY4NiwzNTI3MjA1
+MTUsMjU3OTY5MTE3LDE2MzM2MDc5NjYsMTI1MDc1NzkzOSwtMj
+A2MzQ2OTI0NSwtMTA3NjA1ODM1LC01MzM2NjgwNjIsODc2MzE2
+ODIsNTUzNzEyOTEzLC0xMjAwOTk0OTU5LC0xMTc1MzgyMzI5LD
+g4NTYyODk1NSw3MzE0NTU1MSwxMDY5ODk3MTc3LDExNTQzNTI5
+OTFdfQ==
 -->
