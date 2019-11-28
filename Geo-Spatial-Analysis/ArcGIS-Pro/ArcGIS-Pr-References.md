@@ -14,11 +14,12 @@
 
 ### Business Analyst
 
-- # Business Analyst Tools in ArcGIS Pro
+- [# What is Business Analyst for ArcGIS Pro?](https://pro.arcgis.com/en/pro-app/help/analysis/business-analyst/what-is-business-analyst-pro.htm)
+- [Business Analyst Tools in ArcGIS Pro](https://community.esri.com/community/commercial/blog/2019/06/04/business-analyst-tools-in-arcgis-pro)
 
 ### Service Areas
 
 - [Service area analysis layer](https://pro.arcgis.com/en/pro-app/help/analysis/networks/service-area-analysis-layer.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NjEwMzY1MywtMTAwMzAzMzY3MV19
+eyJoaXN0b3J5IjpbMTgyODE3ODMxNSwtMTAwMzAzMzY3MV19
 -->
