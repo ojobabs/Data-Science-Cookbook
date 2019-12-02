@@ -19,7 +19,16 @@ Use `Ctrl` + `H` to open the Replace page. Then use `Regular expressions` and pu
 
 ### How to convert from a row to column and from column to row
 
+#### From Column to Row:
+
 - From column to row: `CTRL` + `A` selects all. Then `CTRL` + `J` aligns them in a row.
+
+#### From Row to Column:
+
+Example:
+
+
+
 - Fro row to column: Go to Search, Find, Replace. Find `(.)`, Replace `$1\n`, SearchMode: `Regular Expression`, Direction `Down`.
 
 ### How to remove blank lines in a file
@@ -50,7 +59,7 @@ This will replace each field by the same with single quotes arround it.
 
 ### [How to delete all lines in a document which has a specific text](https://notepad-plus-plus.org/community/topic/12814/how-to-delete-all-lines-in-a-document-which-has-a-specific-text)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NTU0Njk2NywtNTc3OTA3NDE3LDEzND
-U3MzA5OTMsLTQzNzE2NDY2MywtMTMyNjc5NjQ3NSw1MTU3MTQ3
-NF19
+eyJoaXN0b3J5IjpbLTYyODQwMjYyMSwxNDY1NTQ2OTY3LC01Nz
+c5MDc0MTcsMTM0NTczMDk5MywtNDM3MTY0NjYzLC0xMzI2Nzk2
+NDc1LDUxNTcxNDc0XX0=
 -->
