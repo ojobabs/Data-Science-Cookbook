@@ -17,7 +17,7 @@ To run a PySpark script on the remote Linux (Hadoop) environment you need write 
 
 ```python
 ### import modules ###
-
+# I think you don't need this first line:
 from pyspark import SQLContext, HiveContext, SparkConf, SparkContext
 
 ### Import Modules & Read Data ###
@@ -34,6 +34,6 @@ sc = SparkContext(conf=conf)
 sqlContext = HiveContext(sc)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDk5MTM5MCwyMDA1MTAwMDc3LDUxNj
-YzOTcxMV19
+eyJoaXN0b3J5IjpbLTExNTUyMjM1NTcsMjAwNTEwMDA3Nyw1MT
+Y2Mzk3MTFdfQ==
 -->
