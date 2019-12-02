@@ -31,7 +31,7 @@ Let's say we have something like this:
 ['marketer_id', 'calendar_year', 'calendar_date', 'registered_edt']
 ```
 
-- Go to Search, Find, Replace. Find `,`, Replace `$1\n`, SearchMode: `Regular Expression`. The Find: `,` represent the comma on 
+- Go to Search, Find, Replace. Find `,`, Replace `$1\n`, SearchMode: `Regular Expression`. The Find: `,` represent the comma on the above list, it is the separator we want to use. 
 
 ### How to remove blank lines in a file
 
@@ -61,7 +61,7 @@ This will replace each field by the same with single quotes arround it.
 
 ### [How to delete all lines in a document which has a specific text](https://notepad-plus-plus.org/community/topic/12814/how-to-delete-all-lines-in-a-document-which-has-a-specific-text)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MjI4ODIxLDE0NjU1NDY5NjcsLTU3Nz
-kwNzQxNywxMzQ1NzMwOTkzLC00MzcxNjQ2NjMsLTEzMjY3OTY0
-NzUsNTE1NzE0NzRdfQ==
+eyJoaXN0b3J5IjpbMjA3NjI0MDY5MiwxNDY1NTQ2OTY3LC01Nz
+c5MDc0MTcsMTM0NTczMDk5MywtNDM3MTY0NjYzLC0xMzI2Nzk2
+NDc1LDUxNTcxNDc0XX0=
 -->
