@@ -4,7 +4,9 @@
 
 ### Clip Tool
 
-- [How to Clip a Data Layer in ArcMap 10]([https://www.youtube.com/watch?v=6UF0l8Ly2U4](https://www.youtube.com/watch?v=6UF0l8Ly2U4))
+The `Input Features` must be the larger layer. 
+
+- [How to Clip a Data Layer in ArcMap 10](https://www.youtube.com/watch?v=6UF0l8Ly2U4)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzAwNTcyMzhdfQ==
+eyJoaXN0b3J5IjpbNjY2MTcxMjNdfQ==
 -->
