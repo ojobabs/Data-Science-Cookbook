@@ -9,7 +9,7 @@
 - [How to uninstall Atom Windows (Step-by-step guide with screenshots)]([https://windowsreport.com/uninstall-atom-windows/](https://windowsreport.com/uninstall-atom-windows/))
 The following YouTube video is fantastic. This is maybe the best reference for setting up a simple Python environment for Atom:
 - [Setting up a Python Development Environment in Atom](https://www.youtube.com/watch?v=DjEuROpsvp4)
-> The above training video mentions the following packages: **script**, 
+> The above training video mentions the following packages: **script**, **autocomplete_pytyon**
 
 Other resources I used for the above steps:
 
@@ -44,7 +44,7 @@ Issue about rendering Latex or Katex on Ipython on GitLab:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzczNjYxNiwyODM3NTY2NjYsOTU3Nz
-A1NjIyLC0xMjMzMTIxNDc3LC0yNzE4NTE1OTMsLTE2Nzg2Njg0
-NF19
+eyJoaXN0b3J5IjpbMTY2MDA2NzcwLC01OTM3MzY2MTYsMjgzNz
+U2NjY2LDk1NzcwNTYyMiwtMTIzMzEyMTQ3NywtMjcxODUxNTkz
+LC0xNjc4NjY4NDRdfQ==
 -->
