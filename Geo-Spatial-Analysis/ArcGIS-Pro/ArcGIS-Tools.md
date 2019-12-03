@@ -10,7 +10,9 @@ The `Input Features` must be the larger layer. The following video explain that 
 
 ### Export data in geodatabase: Export a feature layer to a shapefile
 
-To export a feature layer that is part of a geodatabase to a shapefile outside of the geodatabase, go to 
+To export a feature layer that is part of a geodatabase to a shapefile outside of the geodatabase, go to Catalog, select the feature layer to export, and then select export and then select `Feature Class(es) To Shapefile(s)`.
+
+- [Export data in a geodatabase](https://pro.arcgis.com/en/pro-app/help/data/geodatabases/overview/export-data.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2ODkxODMzNSwtMTA5OTI4OTc0OF19
+eyJoaXN0b3J5IjpbMTU5MTQyNzY0NiwtMTA5OTI4OTc0OF19
 -->
