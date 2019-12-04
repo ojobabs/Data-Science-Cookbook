@@ -17,7 +17,7 @@ To run on the cluster mode you need to use:
 
 `/nyl/apps/spark2/current/bin/spark-submit --master yarn --deploy-mode cluster script_name.py`
 
-> Note that the first approach by using `spark-submit` you are running on local mode. On local mode you can see on the terminal the output of the 
+> Note that the first approach by using `spark-submit` you are running on local mode. On local mode you can see on the terminal the output of the run code. By using the cluster mode, you cannot see the output of the execution. 
 
 ### The header part to write PySpark code from Atom on the remote server must be like that
 
@@ -40,6 +40,6 @@ sc = SparkContext(conf=conf)
 sqlContext = HiveContext(sc)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NDc1MTAwNSwyMDA1MTAwMDc3LDUxNj
-YzOTcxMV19
+eyJoaXN0b3J5IjpbNzM0NjE2NzU3LDIwMDUxMDAwNzcsNTE2Nj
+M5NzExXX0=
 -->
