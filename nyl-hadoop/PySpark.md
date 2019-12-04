@@ -13,11 +13,11 @@ To run a PySpark script on the remote Linux (Hadoop) environment you need write 
  $ spark-submit name_of_program.py
  ```
 
-To run on the cluster you need to use:
+To run on the cluster mode you need to use:
 
 `/nyl/apps/spark2/current/bin/spark-submit --master yarn --deploy-mode cluster script_name.py`
 
-> Note that 
+> Note that the first approach 
 
 ### The header part to write PySpark code from Atom on the remote server must be like that
 
@@ -40,6 +40,6 @@ sc = SparkContext(conf=conf)
 sqlContext = HiveContext(sc)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg1NDI3OTQsMjAwNTEwMDA3Nyw1MTY2Mz
-k3MTFdfQ==
+eyJoaXN0b3J5IjpbMTA4NjUxNDI4OCwyMDA1MTAwMDc3LDUxNj
+YzOTcxMV19
 -->
