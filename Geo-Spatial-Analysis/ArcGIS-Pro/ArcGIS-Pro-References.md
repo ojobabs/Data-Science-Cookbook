@@ -20,6 +20,10 @@
 ### Service Areas
 
 - [Service area analysis layer](https://pro.arcgis.com/en/pro-app/help/analysis/networks/service-area-analysis-layer.htm)
+
+### Spatial Outliers Detection
+
+- [Identifying patterns in spatial information: a survey of methods](https://www-users.cs.umn.edu/~shekhar/talk/2011/sdm_wiley2011.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMjM0MzczNl19
+eyJoaXN0b3J5IjpbLTE1NDMxNjQ5NTddfQ==
 -->
