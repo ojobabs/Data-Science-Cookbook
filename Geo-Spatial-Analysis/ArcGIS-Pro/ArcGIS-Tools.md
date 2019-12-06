@@ -23,7 +23,8 @@ There are two approaches to get the block groups within the calculated service a
 
 By using select by local we have the operators `intersect`, `are within` or `are completely within` to select block groups that intersect with the service are or are withing the service area.
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTYzOTI0MzksMTU5MTQyNzY0NiwtMT
-A5OTI4OTc0OF19
+eyJoaXN0b3J5IjpbMTg0Nzg5MzQ5NSwtMTcxNjM5MjQzOSwxNT
+kxNDI3NjQ2LC0xMDk5Mjg5NzQ4XX0=
 -->
