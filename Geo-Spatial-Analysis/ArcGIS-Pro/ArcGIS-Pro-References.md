@@ -28,8 +28,8 @@
 ### Density-Based Clustering
 
 - [HDBSCAN, Fast Density Based Clustering, the How and the Why - John Healy - Pydata 2019](https://www.youtube.com/watch?v=dGsxd67IFiU)
-- [https://www.geeksforgeeks.org/dbscan-clustering-in-ml-density-based-clustering/](https://www.geeksforgeeks.org/dbscan-clustering-in-ml-density-based-clustering/)
-- # 
+- [DBSCAN Clustering in ML | Density based clustering](https://www.geeksforgeeks.org/dbscan-clustering-in-ml-density-based-clustering/)
+- [# Density-Based Clustering]([https://blog.dominodatalab.com/topology-and-density-based-clustering/](https://blog.dominodatalab.com/topology-and-density-based-clustering/))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NzIyMjAyNF19
+eyJoaXN0b3J5IjpbOTQ2NTAzMzE3XX0=
 -->
