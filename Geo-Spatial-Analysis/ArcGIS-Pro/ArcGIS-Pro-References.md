@@ -27,10 +27,11 @@
 
 ### Density-Based Clustering
 
+- [# How Density-based Clustering works]([https://pro.arcgis.com/en/pro-app/tool-reference/spatial-statistics/how-density-based-clustering-works.htm](https://pro.arcgis.com/en/pro-app/tool-reference/spatial-statistics/how-density-based-clustering-works.htm))
 - [HDBSCAN, Fast Density Based Clustering, the How and the Why - John Healy - Pydata 2019](https://www.youtube.com/watch?v=dGsxd67IFiU)
 - [DBSCAN Clustering in ML | Density based clustering](https://www.geeksforgeeks.org/dbscan-clustering-in-ml-density-based-clustering/)
 - [Density-Based Clustering - Domino Blog]([https://blog.dominodatalab.com/topology-and-density-based-clustering/](https://blog.dominodatalab.com/topology-and-density-based-clustering/))
 - [Brian Kent: Density Based Clustering in Python]([https://www.youtube.com/watch?v=5cOhL4B5waU](https://www.youtube.com/watch?v=5cOhL4B5waU))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzU0NDU5MzJdfQ==
+eyJoaXN0b3J5IjpbMTc1OTc2NzkwMiwtMTE3NTQ0NTkzMl19
 -->
