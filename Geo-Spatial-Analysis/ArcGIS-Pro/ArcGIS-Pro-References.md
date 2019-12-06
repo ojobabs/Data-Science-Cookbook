@@ -24,6 +24,12 @@
 ### Spatial Outliers Detection
 
 - [Identifying patterns in spatial information: a survey of methods](https://www-users.cs.umn.edu/~shekhar/talk/2011/sdm_wiley2011.pdf)
+
+### Density-Based Clustering
+
+- [HDBSCAN, Fast Density Based Clustering, the How and the Why - John Healy - Pydata 2019](https://www.youtube.com/watch?v=dGsxd67IFiU)
+- [https://www.geeksforgeeks.org/dbscan-clustering-in-ml-density-based-clustering/](https://www.geeksforgeeks.org/dbscan-clustering-in-ml-density-based-clustering/)
+- # 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDMxNjQ5NTddfQ==
+eyJoaXN0b3J5IjpbLTg4NzIyMjAyNF19
 -->
