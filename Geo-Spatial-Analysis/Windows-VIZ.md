@@ -13,7 +13,13 @@
 
 First, you need to open the task manager on the remote computer using “Ctrl-Shift-Esc”
 
-Then on the 
+Then on then, File -> New Task Run and write:
+
+`explorer.exe `
+
+Tun run again explorer.
+
+[No Desktop Icons No Start Menu or No Taskbar Fix](https://www.youtube.com/watch?v=C49-P_oyDBw)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MzA4ODgyNF19
+eyJoaXN0b3J5IjpbLTE1OTAxNTYxNjddfQ==
 -->
