@@ -12,7 +12,11 @@ for row in cursor:
     print(row)
 ```
 
+### Create a cursor
 
+```python
+cursor = arcpy.da.SearchCursor(fc, ['OBJECTID', 'SOURCE_ID', 'CLUSTER_ID'])
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgwMzYyNzddfQ==
+eyJoaXN0b3J5IjpbLTE1MDgzMzQ4ODMsODgwMzYyNzddfQ==
 -->
