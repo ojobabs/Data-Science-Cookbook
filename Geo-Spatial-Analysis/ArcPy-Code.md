@@ -141,8 +141,8 @@ Deleted row [257, -1, 0.0, 0.0016212826972500116, 0, 0.0, -1]
 Deleted row [287, -1, 0.0, 0.4678036009205707, 0, 0.0, -1]
 Deleted row [300, -1, 0.0, 0.9469689202718985, 0, 0.0, -1]
 ```
-The feature `agent_add_D21_HDBSCAN_4` class is going to update automatically. So, the rows are going to be removed. The above output are those rows that have been removed. 
+The feature `agent_add_D21_HDBSCAN_4` class is going to update automatically. So, the rows are going to be removed. The above output are those rows that have been removed. Notice how this time we used `arcpy.da.UpdateCursor`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MzY1NDcxMiwyMDc0NTA2ODc1LDg4MD
-M2Mjc3XX0=
+eyJoaXN0b3J5IjpbOTYxNDY4Mjk1LDIwNzQ1MDY4NzUsODgwMz
+YyNzddfQ==
 -->
