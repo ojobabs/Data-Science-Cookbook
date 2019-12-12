@@ -97,7 +97,9 @@ Output
 (6, 5, 1.0, 0.0, 1, 0.09670983111632385, 5)
 ```
 
-### 
+### Use a SQL query to delete some rows
+
+Let's use a SQL query to delete all rows with `CLUSTER_ID = -1`:
 
 ```python
 # Purpose: Use a SQL query to select specifi c records.
@@ -140,6 +142,6 @@ Deleted row [287, -1, 0.0, 0.4678036009205707, 0, 0.0, -1]
 Deleted row [300, -1, 0.0, 0.9469689202718985, 0, 0.0, -1]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NjI5MTA4MywyMDc0NTA2ODc1LDg4MD
+eyJoaXN0b3J5IjpbMTcwNjc4Mjc1MCwyMDc0NTA2ODc1LDg4MD
 M2Mjc3XX0=
 -->
