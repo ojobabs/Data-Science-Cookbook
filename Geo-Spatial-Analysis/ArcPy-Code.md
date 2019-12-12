@@ -17,6 +17,25 @@ for row in cursor:
 ```python
 cursor = arcpy.da.SearchCursor(fc, ['OBJECTID', 'SOURCE_ID', 'CLUSTER_ID'])
 ```
+
+### Get an individual row
+
+```python
+row = cursor.next() # Get an individual row.
+row
+```
+Output
+```
+(1,1,2)
+```
+```python
+row[0]
+row[1]
+row[2]
+```
+O
+
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDgzMzQ4ODMsODgwMzYyNzddfQ==
+eyJoaXN0b3J5IjpbLTEyMDE5MjY2MTMsODgwMzYyNzddfQ==
 -->
