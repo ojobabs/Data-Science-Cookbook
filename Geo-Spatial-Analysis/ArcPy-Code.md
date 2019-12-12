@@ -3,13 +3,12 @@
 
 # ArcPy Notes
 
-### Create a search cursor using an SQL expression
+## Coursor 
 
 ```python
-cursor = arcpy.da.SearchCursor(fc, ('OBJECTID', 'Shape', 'SOURCE_ID', 'CLUSTER_ID', 'PROB', 'OUTLIER', 'EXEMPLAR', 'STABILITY', 'COLOR_ID'), """"CLUSTER_ID" <> -1""")
+import arcpy, traceback
 
-for row in cursor:
-    print(row)
+fc = "agent_add_D21_HDBSCAN_3"
 ```
 
 ### Create a cursor
@@ -42,11 +41,24 @@ Output
 
 ### List all columns
 
-```
+```python
 cursor = arcpy.da.SearchCursor( fc, '*')
 cursor.fields
+```
+Output
+```
+('OBJECTID',
+ 'Shape',
+ 'SOURCE_ID',
+ 'CLUSTER_ID',
+ 'PROB',
+ 'OUTLIER',
+ 'EXEMPLAR',
+ 'STABILITY',
+ 'COLOR_ID')
+```
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MTAxNjcxOCw4ODAzNjI3N119
+eyJoaXN0b3J5IjpbMjA3NDUwNjg3NSw4ODAzNjI3N119
 -->
