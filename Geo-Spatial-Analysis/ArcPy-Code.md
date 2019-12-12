@@ -58,7 +58,46 @@ Output
  'COLOR_ID')
 ```
 
-### 
+### Print the columns of non-geometry non-OID type fields
+
+```python
+# Purpose: Print the names of the non-geometry non-OID type
+# fields in the input fi le and the value of these
+# fields for each record.
+# Usage: No script arguments required.
+import arcpy
+def excludeFields(table, types=[]):
+    '''Return a list of fi elds minus those with
+       specifi ed fi eld types'''
+    fieldNames = []
+    fds = arcpy.ListFields(table)
+    for f in fds:
+        if f.type not in types:
+            fieldNames.append(f.name)
+    return fieldNames
+
+fc =  "agent_add_D21_HDBSCAN_3"
+excludeTypes = ['Geometry', 'OID']
+fields = excludeFields(fc, excludeTypes)
+
+with arcpy.da.SearchCursor(fc, fields) as cursor:
+    print(cursor.fields)
+    for row in cursor:
+        print(row)
+del cursor
+```
+Output
+
+```
+('SOURCE_ID', 'CLUSTER_ID', 'PROB', 'OUTLIER', 'EXEMPLAR', 'STABILITY', 'COLOR_ID')
+(1, 2, 0.13966654011486504, 0.860333459885135, 0, 0.10807001979793433, 2)
+(2, 3, 1.0, 0.2651596113994749, 0, 0.15219890050512608, 3)
+(3, 3, 1.0, 0.0, 1, 0.15219890050512608, 3)
+(4, 2, 0.31609223743405734, 0.6839077625659427, 0, 0.10807001979793433, 2)
+(5, 3, 0.18904310607590302, 0.810956893924097, 0, 0.15219890050512608, 3)
+(6, 5, 1.0, 0.0, 1, 0.09670983111632385, 5)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NDUwNjg3NSw4ODAzNjI3N119
+eyJoaXN0b3J5IjpbLTk4NDg5MTkyNywyMDc0NTA2ODc1LDg4MD
+M2Mjc3XX0=
 -->
