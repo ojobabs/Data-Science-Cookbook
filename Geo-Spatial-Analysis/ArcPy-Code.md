@@ -102,7 +102,7 @@ Output
 Let's use a SQL query to delete all rows with `CLUSTER_ID = -1`:
 
 ```python
-# Purpose: Use a SQL query to select specifi c records.
+#  Purpose: Use a SQL query to remove those records with CLUSTER_ID = -1.
 # Usage: No script arguments needed.
 import arcpy, traceback
 fc = "agent_add_D21_HDBSCAN_4"
@@ -143,6 +143,6 @@ Deleted row [300, -1, 0.0, 0.9469689202718985, 0, 0.0, -1]
 ```
 The feature `agent_add_D21_HDBSCAN_4` class is going to update automatically. So, the rows are going to be removed. The above output are those rows that have been removed. Notice how this time we used `arcpy.da.UpdateCursor`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYxNDY4Mjk1LDIwNzQ1MDY4NzUsODgwMz
-YyNzddfQ==
+eyJoaXN0b3J5IjpbLTE0NjI5MTY0NTEsOTYxNDY4Mjk1LDIwNz
+Q1MDY4NzUsODgwMzYyNzddfQ==
 -->
