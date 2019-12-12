@@ -33,9 +33,20 @@ row[0]
 row[1]
 row[2]
 ```
-O
+Output
+```
+1
+1
+2
+```
+
+### List all columns
+
+```
+cursor = arcpy.da.SearchCursor( fc, '*')
+cursor.fields
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDE5MjY2MTMsODgwMzYyNzddfQ==
+eyJoaXN0b3J5IjpbMTM3MTAxNjcxOCw4ODAzNjI3N119
 -->
