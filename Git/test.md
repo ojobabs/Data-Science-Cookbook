@@ -105,9 +105,15 @@ For example, Figure 5 demonstrates the following steps:
 
 >**Caution**
 >You can only check out a branch if the  _current working directory_  has no uncommitted changes. This means you will need to  `commit`  any changes to the current branch before you  `checkout`  another branch. If you want to “save” your changes but don’t want to commit to them, you can use git’s ability to temporarily  **stash**[a](https://learning.oreilly.com/library/view/Programming+Skills+for+Data+Science:+Start+Writing+Code+to+Wrangle,+Analyze,+and+Visualize+Data+with+R,+First+Edition/9780135159071/ch20.xhtml#ch20sbfn1a)  changes.
+>[a](https://learning.oreilly.com/library/view/Programming+Skills+for+Data+Science:+Start+Writing+Code+to+Wrangle,+Analyze,+and+Visualize+Data+with+R,+First+Edition/9780135159071/ch20.xhtml#ch20sbfn1)[https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning](https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning)
 
-[a](https://learning.oreilly.com/library/view/Programming+Skills+for+Data+Science:+Start+Writing+Code+to+Wrangle,+Analyze,+and+Visualize+Data+with+R,+First+Edition/9780135159071/ch20.xhtml#ch20sbfn1)[https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning](https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning)
+Finally, you can delete a branch using  `git branch -d BRANCH_NAME`. Note that this command will give you a warning if you might lose work; be sure to read the output message!
+
+Taken together, these commands will allow you to develop different aspects of your project  _in parallel_. The next section discusses how to bring these lines of development together.
+
+> **Tip**
+>You can also use the  `git checkout BRANCH_NAME FILE_NAME`  command to checkout an individual file from a particular branch. This will load the file directly into the current working directory as a file change,  _replacing_  the current version of the file (`git`  will not merge the two versions of the file together)! This is identical to checking out a file from a past commit (as described in  [Chapter 3](https://learning.oreilly.com/library/view/Programming+Skills+for+Data+Science:+Start+Writing+Code+to+Wrangle,+Analyze,+and+Visualize+Data+with+R,+First+Edition/9780135159071/ch03.xhtml#ch03)), just using a branch name instead of a commit hash.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2OTUzNTQ1LC0xNDg0MjUzMzkyLDIwOD
-I1MDc3NThdfQ==
+eyJoaXN0b3J5IjpbMTU5NTYxNzYzNywtMTQ4NDI1MzM5MiwyMD
+gyNTA3NzU4XX0=
 -->
