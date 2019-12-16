@@ -56,7 +56,13 @@ For example, you can switch to the `experiment` branch with the following comman
 git checkout experiment
 ```
 _Checking out_ a branch doesn’t actually create a new commit! All it does is change the `HEAD` so that it now refers to the latest commit of the target branch (the alternate timeline). `**HEAD**` is just an alias for “the most recent commit on the current branch.” It lets you talk about the most recent commit generically, rather than needing to use a particular _commit hash_.
+
+You can confirm that the branch has changed by running the `git branch` command and looking for the asterisk (`*`), as shown in Figure 3:
+
+[fig03]
+
+**Figure 3**: Using `git` commands on the command line to display the current branch (`git branch`), and create and checkout a new branch called `experiment` (`git checkout -b experiment`).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTE1Mjg2MDAsLTE0ODQyNTMzOTIsMj
-A4MjUwNzc1OF19
+eyJoaXN0b3J5IjpbLTI2MjkxNDE0MiwtMTQ4NDI1MzM5MiwyMD
+gyNTA3NzU4XX0=
 -->
