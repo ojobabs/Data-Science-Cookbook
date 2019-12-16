@@ -318,11 +318,22 @@ Once everyone has been added to the GitLab repository, _each team member_ will n
 
 [fig10]
 
-**Figure 10**: With the centralized workflow, each collaborator clones the same repository from GitHub. All users must have _write permissions_ to this repository in order to `push` their changes to it.
+**Figure 10**: With the centralized workflow, each collaborator clones the same repository from GitLab. All users must have _write permissions_ to this repository in order to `push` their changes to it.
 
-When you are contributing to the same repository along with multiple other people, it’s important to ensure that you are working on the most up-to-date version of the code. This means that you will regularly have to _pull changes_ from GitHub that your team members may have committed. As a result, developing code with the centralized workflow follows these steps:
+When you are contributing to the same repository along with multiple other people, it’s important to ensure that you are working on the most up-to-date version of the code. This means that you will regularly have to _pull changes_ from GitLab that your team members may have committed. As a result, developing code with the centralized workflow follows these steps:
+
+1. To begin your work session, `pull` in the latest changes from GitLab. For example:
+```bash
+# Pull latest changes from `origin` (GitLab's) `master` branch
+# You could specify a different branch as appropriate
+git pull origin master
+```
+2. Do your work, making changes to the code. Remember to `add` and `commit` your work each time you make notable progress!
+3. Once you are satisfied with your changes and want to share them with your team, you’ll need to upload the changes back to GitHub. But note that if someone pushes a commit to GitHub _before you push your own changes_, you will need to integrate those changes into your code (and test them!) before doing your own `push` up to GitHub. Thus you’ll want to first `pull` down any changes that have been made in the interim (there may not be any) so that you are up to date and ready to `push`:
+```bash
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1OTAzMzQzMSwtMzQ4OTA1NDc0LC0xNj
+eyJoaXN0b3J5IjpbLTM2NDc5Mzg0NiwtMzQ4OTA1NDc0LC0xNj
 U3MTQwNjExLC0xOTg2MTU5MDE5LDE1NDI1Mjc5NjMsLTEwNTEw
 MzgxOSwtMTQ4NDI1MzM5MiwyMDgyNTA3NzU4XX0=
 -->
