@@ -378,7 +378,7 @@ git commit -m "Add progress on new vis feature"
 # enabling tracking
 git push -u origin new-chart
 ```
-4. After talking to Ada, Bebe decides to help finish up the feature. She checks out the feature branch and makes some changes, then pushes them back to GitHub:
+4. After talking to Ada, Bebe decides to help finish up the feature. She checks out the feature branch and makes some changes, then pushes them back to GitLab:
 ```bash
 # Use `git fetch` to "download" commits from GitHub, without merging
 # This makes the remote branch available locally
@@ -396,8 +396,15 @@ git commit -m "Add more progress on feature"
 git push
 ```
 The **git fetch** command will “download” commits and branches from GitLab (but without merging them); it is used to get access to branches that were created after the repo was originally cloned. Note that `git pull` is actually a shortcut for a `git fetch` followed by a `git merge`!
+
+5. Ada then downloads Bebe’s changes to her (Ada’s) machine:
+```bash
+# Download and merge changes from the `new-chart` branch on GitHub
+# to the current branch
+git pull origin new-chart
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODM5NzI4NDEsLTM0ODkwNTQ3NCwtMT
-Y1NzE0MDYxMSwtMTk4NjE1OTAxOSwxNTQyNTI3OTYzLC0xMDUx
-MDM4MTksLTE0ODQyNTMzOTIsMjA4MjUwNzc1OF19
+eyJoaXN0b3J5IjpbMTI0NzkxODc4MCwtMzQ4OTA1NDc0LC0xNj
+U3MTQwNjExLC0xOTg2MTU5MDE5LDE1NDI1Mjc5NjMsLTEwNTEw
+MzgxOSwtMTQ4NDI1MzM5MiwyMDgyNTA3NzU4XX0=
 -->
