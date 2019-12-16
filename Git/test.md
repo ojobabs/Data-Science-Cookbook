@@ -159,7 +159,11 @@ If you perform a merge between two branches that have different commits that edi
 `git` is just a simple computer program, and has no way of knowing which version of the conflicting code it should keep—is the `master` version or the `experiment` version better? Since `git` can’t determine which version of the code to keep, it stops the merge in the middle and forces you to choose what code is correct _manually_.
 
 To resolve the merge conflict, you will need to edit the files (code) to pick which version to keep. `git`  adds special characters (e.g., `<<<<<<<<`) to the files to indicate where it encountered a conflict (and thus where you need to make a decision about which code to keep), as shown in Figure 8.
+
+[Fig08]
+
+Figure 20.8 A merge conflict as shown in Atom. You can select the version of the code you wish to keep by clicking one of the Use me buttons, or edit the code in the file directly.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTUzNzQ1MCwtMTA1MTAzODE5LC0xND
+eyJoaXN0b3J5IjpbMjEzODY1NTMwOSwtMTA1MTAzODE5LC0xND
 g0MjUzMzkyLDIwODI1MDc3NThdfQ==
 -->
