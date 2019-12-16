@@ -346,9 +346,17 @@ git push origin master
 ```
 Remember that when you `pull` in changes, `git` is really merging the remote branch with your local one, which may result in a merge conflict you need to resolve; be sure to fix the conflict and then mark it as resolved. (The `--no-edit` argument used with `git commit` tells `git` to use the default commit message, instead of specifying your own with the `-m` option.)
 
+While this strategy of working on a single `master` branch may suffice for small teams and projects, you can spend less time merging commits from different team members if your team instead uses a dedicated feature branch for each feature they work on.
 
+### 3.2 Using Feature Branches in the Centralized Workflow
+
+The centralized workflow supports the use of feature branches for development (often referred to as the _feature branch workflow_). This is similar to the procedure for working with feature branches described previously. The only additional complexity is that you must `push` and `pull` multiple branches to GitLab so that multiple people can work on the same feature.
+
+>**Remember**
+
+In the feature branch workflow, each branch is for a different feature,  _not_  a different developer! This means that a developer can work on multiple different features, and a feature can be worked on by multiple developers.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NjgxMDU0OCwtMzQ4OTA1NDc0LC0xNj
+eyJoaXN0b3J5IjpbMjEwNTA2NzI4OSwtMzQ4OTA1NDc0LC0xNj
 U3MTQwNjExLC0xOTg2MTU5MDE5LDE1NDI1Mjc5NjMsLTEwNTEw
 MzgxOSwtMTQ4NDI1MzM5MiwyMDgyNTA3NzU4XX0=
 -->
