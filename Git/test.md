@@ -353,10 +353,25 @@ While this strategy of working on a single `master` branch may suffice for small
 The centralized workflow supports the use of feature branches for development (often referred to as the _feature branch workflow_). This is similar to the procedure for working with feature branches described previously. The only additional complexity is that you must `push` and `pull` multiple branches to GitLab so that multiple people can work on the same feature.
 
 >**Remember**
+>In the feature branch workflow, each branch is for a different feature,  _not_  a different developer! This means that a developer can work on multiple different features, and a feature can be worked on by multiple developers.
 
-In the feature branch workflow, each branch is for a different feature,  _not_  a different developer! This means that a developer can work on multiple different features, and a feature can be worked on by multiple developers.
+As an example of this workflow, consider the collaboration on a feature occurring between two developers, Ada and Bebe:
+
+1. Ada decides to add a new feature to the code, a snazzy visualization. She creates a new feature branch off of `master`:
+
+```bash
+# Double-check that the current branch is the `master` branch
+git checkout master
+
+# Create and switch to a new feature branch (called `new-chart`)
+git checkout -b new-chart
+```
+2. Ada does some work on this feature, and then commits that work when she’s satisfied with it:
+```bash
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNTA2NzI4OSwtMzQ4OTA1NDc0LC0xNj
-U3MTQwNjExLC0xOTg2MTU5MDE5LDE1NDI1Mjc5NjMsLTEwNTEw
-MzgxOSwtMTQ4NDI1MzM5MiwyMDgyNTA3NzU4XX0=
+eyJoaXN0b3J5IjpbLTE3NzI3MzE5NzEsLTM0ODkwNTQ3NCwtMT
+Y1NzE0MDYxMSwtMTk4NjE1OTAxOSwxNTQyNTI3OTYzLC0xMDUx
+MDM4MTksLTE0ODQyNTMzOTIsMjA4MjUwNzc1OF19
 -->
