@@ -302,11 +302,11 @@ The use of feature branches helps isolate progress on different elements of a pr
 
 ## 3. COLLABORATION USING THE CENTRALIZED WORKFLOW
 
-This section describes a model for working with multiple collaborators on the same project, coordinating and sharing work through GitLab. In particular, it focuses on the  **centralized workflow,** in which all collaborators use a single repository on GitHub. This workflow can be extended to support the use of feature branches (in which each feature is developed on a different branch) as described in  Section 2 —the only additional change is that multiple people can work on each feature! Using the centralized workflow involves configuring a shared repository on GitHub, and managing changes across multiple contributors.
+This section describes a model for working with multiple collaborators on the same project, coordinating and sharing work through GitLab. In particular, it focuses on the  **centralized workflow,**1 in which all collaborators use a single repository on GitHub. This workflow can be extended to support the use of feature branches (in which each feature is developed on a different branch) as described in  Section 2 —the only additional change is that multiple people can work on each feature! Using the centralized workflow involves configuring a shared repository on GitHub, and managing changes across multiple contributors.
 
-**Atlassian: Centralized Workflow:**  [https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow](https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow)
+[1] **Atlassian: Centralized Workflow:**  [https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow](https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwODcwNzA1MSwtMTk4NjE1OTAxOSwxNT
-QyNTI3OTYzLC0xMDUxMDM4MTksLTE0ODQyNTMzOTIsMjA4MjUw
-Nzc1OF19
+eyJoaXN0b3J5IjpbLTE2NTcxNDA2MTEsLTE5ODYxNTkwMTksMT
+U0MjUyNzk2MywtMTA1MTAzODE5LC0xNDg0MjUzMzkyLDIwODI1
+MDc3NThdfQ==
 -->
