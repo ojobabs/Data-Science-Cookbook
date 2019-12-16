@@ -137,8 +137,12 @@ The `merge` command will (in effect) walk through each line of code in the two v
 
 In effect, merging will take the commits from another branch and insert them into the history of the current branch. This is illustrated in Figure 6:
 
-[]
+[fig06]
+
+**Figure 6**: Merging an `experiment` branch into the `master` branch. The committed changes from the `experiment` branch (labeled C and D) are inserted into the `master` branch’s history, while also remaining present in the `experiment` branch.
+
+Note that the `git merge` command will merge `OTHER_BRANCH` into the branch you are currently on. For example, if you want to take the changes from your `experiment` branch and merge them into your `master` branch, you will need to first `checkout` your `master` branch, and merge in the changes from the `experiment` branch.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MTAzOTMxMSwtMTQ4NDI1MzM5MiwyMD
+eyJoaXN0b3J5IjpbMjEwMzk3MTc3NywtMTQ4NDI1MzM5MiwyMD
 gyNTA3NzU4XX0=
 -->
