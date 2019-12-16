@@ -145,7 +145,9 @@ Note that the `git merge` command will merge `OTHER_BRANCH` into the branch you 
 
 > **Caution**
 > If something goes wrong, don’t panic and close your command shell! Instead, take a breath and look up how to fix the problem you’ve encountered (e.g., how to exit  _vim_). As always, if you’re unsure why something isn’t working with git, use  `git status`  to check the current status and to determine which steps to do next.
+
+If the two branches have not edited the same line of code, `git` will stitch the files together seamlessly and you can move forward with your development. Otherwise, you will have to resolve any _conflict_ that occurs as part of your merge.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTcwMjg2LC0xNDg0MjUzMzkyLDIwOD
-I1MDc3NThdfQ==
+eyJoaXN0b3J5IjpbLTEwNTEwMzgxOSwtMTQ4NDI1MzM5MiwyMD
+gyNTA3NzU4XX0=
 -->
