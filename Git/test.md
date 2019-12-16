@@ -329,11 +329,26 @@ When you are contributing to the same repository along with multiple other peopl
 git pull origin master
 ```
 2. Do your work, making changes to the code. Remember to `add` and `commit` your work each time you make notable progress!
-3. Once you are satisfied with your changes and want to share them with your team, you’ll need to upload the changes back to GitHub. But note that if someone pushes a commit to GitHub _before you push your own changes_, you will need to integrate those changes into your code (and test them!) before doing your own `push` up to GitHub. Thus you’ll want to first `pull` down any changes that have been made in the interim (there may not be any) so that you are up to date and ready to `push`:
+3. Once you are satisfied with your changes and want to share them with your team, you’ll need to upload the changes back to GitLab. But note that if someone pushes a commit to GitHub _before you push your own changes_, you will need to integrate those changes into your code (and test them!) before doing your own `push` up to GitLab. Thus you’ll want to first `pull` down any changes that have been made in the interim (there may not be any) so that you are up to date and ready to `push`:
 ```bash
+# Pull latest changes from `origin` (GitHub's) `master` branch
+# You could specify a different branch as appropriate
+git pull origin master
+
+# In case of a merge conflict, fix the changes
+# Once fixed, add and commit the changes (using default commit message)
+git add .
+git commit --no-edit
+
+# Push changes to `origin` (GitHub's) `master` branch
+# You could specify a different branch as appropriate
+git push origin master
 ```
+Remember that when you `pull` in changes, `git` is really merging the remote branch with your local one, which may result in a merge conflict you need to resolve; be sure to fix the conflict and then mark it as resolved. (The `--no-edit` argument used with `git commit` tells `git` to use the default commit message, instead of specifying your own with the `-m` option.)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDc5Mzg0NiwtMzQ4OTA1NDc0LC0xNj
+eyJoaXN0b3J5IjpbMTQ5NjgxMDU0OCwtMzQ4OTA1NDc0LC0xNj
 U3MTQwNjExLC0xOTg2MTU5MDE5LDE1NDI1Mjc5NjMsLTEwNTEw
 MzgxOSwtMTQ4NDI1MzM5MiwyMDgyNTA3NzU4XX0=
 -->
