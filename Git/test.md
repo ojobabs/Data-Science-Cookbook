@@ -131,7 +131,14 @@ git checkout master
 git merge experiment
 ```
 The `merge` command will (in effect) walk through each line of code in the two versions of the files, looking for any differences. Changes to each line of code in the _incoming_ branch will then be applied to the equivalent line in the current branch, so that the current version of the files contains all of the incoming changes. For example, if the `experiment` branch included a commit that added a new code statement to a file at line 5, changed the code statement at line 9, and deleted the code statement at line 13, then `git` would add the new line 5 to the file (pushing everything else down), change the code statement that was at line 9, and delete the code statement that was at line 13. `git` will automatically “stitch” together the two versions of the files so that the current version contains _all_ of the changes.
+
+> **Tip**
+>When merging, think about where you want the code to “end up”—that is the branch you want to checkout and merge into!
+
+In effect, merging will take the commits from another branch and insert them into the history of the current branch. This is illustrated in Figure 6:
+
+[]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njk4MTc4MjQsLTE0ODQyNTMzOTIsMj
-A4MjUwNzc1OF19
+eyJoaXN0b3J5IjpbLTM0MTAzOTMxMSwtMTQ4NDI1MzM5MiwyMD
+gyNTA3NzU4XX0=
 -->
