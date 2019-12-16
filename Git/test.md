@@ -311,8 +311,10 @@ This section describes a model for working with multiple collaborators on the sa
 The centralized workflow uses a single repository stored on GitLab—that is, every single member of the collaboration team will  `push`  and  `pull`  to the same GitLab repo. However, since each repository needs to be created under a particular account, a  _single member_  of the team will need to create that repository (e.g., by clicking the  _“New”_  button on the “Repositories” tab on the GitLab web portal).
 
 To make sure everyone is able to  `push`  to the repository, whoever creates the repo will need to add the other team members as collaborators. They can do this under the  _“Settings”_  tab of the repo’s web portal page, as shown in Figure 9. (The creator will want to give all team members “write” access so they can  `push`  changes to the repo.)
+
+Once everyone has been added to the GitLab repository, _each team member_ will need to `clone` the repository to their local machines to work on the code individually, as shown in Figure 10. Collaborators can then `push` any changes they make to the central repository, and `pull` any changes made by others.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNzkwOTY2NiwtMTY1NzE0MDYxMSwtMT
+eyJoaXN0b3J5IjpbLTM0ODkwNTQ3NCwtMTY1NzE0MDYxMSwtMT
 k4NjE1OTAxOSwxNTQyNTI3OTYzLC0xMDUxMDM4MTksLTE0ODQy
 NTMzOTIsMjA4MjUwNzc1OF19
 -->
