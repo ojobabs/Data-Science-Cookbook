@@ -235,8 +235,8 @@ You often want to create an association between your local branch with the remot
 # The -u creates an association between the local and remote branches
 git push -u origin BRANCH_NAME
 ```
-This causes your local branch to “track” the one on GitHub. Then when you run a command such as `git status`, it will tell you whether one repo has more commits than the other. Tracking will be remembered once set up, so you only need to use the `-u` option _once_. It is best to do this the first time you push a local branch to GitHub.
+This causes your local branch to “track” the one on GitLab. Then when you run a command such as `git status`, it will tell you whether one repo has more commits than the other. Tracking will be remembered once set up, so you only need to use the `-u` option _once_. It is best to do this the first time you push a local branch to GitLab.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMDAzODc3LDE1NDI1Mjc5NjMsLTEwNT
-EwMzgxOSwtMTQ4NDI1MzM5MiwyMDgyNTA3NzU4XX0=
+eyJoaXN0b3J5IjpbLTE5ODYxNTkwMTksMTU0MjUyNzk2MywtMT
+A1MTAzODE5LC0xNDg0MjUzMzkyLDIwODI1MDc3NThdfQ==
 -->
