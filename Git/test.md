@@ -302,11 +302,11 @@ The use of feature branches helps isolate progress on different elements of a pr
 
 ## 3. COLLABORATION USING THE CENTRALIZED WORKFLOW
 
-This section describes a model for working with multiple collaborators on the same project, coordinating and sharing work through GitLab. In particular, it focuses on the  **centralized workflow,**[1](https://learning.oreilly.com/library/view/Programming+Skills+for+Data+Science:+Start+Writing+Code+to+Wrangle,+Analyze,+and+Visualize+Data+with+R,+First+Edition/9780135159071/ch20.xhtml#ch20fn1)  in which all collaborators use a single repository on GitHub. This workflow can be extended to support the use of feature branches (in which each feature is developed on a different branch) as described in  [Section 20.2](https://learning.oreilly.com/library/view/Programming+Skills+for+Data+Science:+Start+Writing+Code+to+Wrangle,+Analyze,+and+Visualize+Data+with+R,+First+Edition/9780135159071/ch20.xhtml#sec20_2)—the only additional change is that multiple people can work on each feature! Using the centralized workflow involves configuring a shared repository on GitHub, and managing changes across multiple contributors.
+This section describes a model for working with multiple collaborators on the same project, coordinating and sharing work through GitLab. In particular, it focuses on the  **centralized workflow,** in which all collaborators use a single repository on GitHub. This workflow can be extended to support the use of feature branches (in which each feature is developed on a different branch) as described in  Section 2 —the only additional change is that multiple people can work on each feature! Using the centralized workflow involves configuring a shared repository on GitHub, and managing changes across multiple contributors.
 
-[1](https://learning.oreilly.com/library/view/Programming+Skills+for+Data+Science:+Start+Writing+Code+to+Wrangle,+Analyze,+and+Visualize+Data+with+R,+First+Edition/9780135159071/ch20.xhtml#ch20fn1a)**Atlassian: Centralized Workflow:**  [https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow](https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow)
+**Atlassian: Centralized Workflow:**  [https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow](https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMjE1ODE1NSwtMTk4NjE1OTAxOSwxNT
+eyJoaXN0b3J5IjpbMTgwODcwNzA1MSwtMTk4NjE1OTAxOSwxNT
 QyNTI3OTYzLC0xMDUxMDM4MTksLTE0ODQyNTMzOTIsMjA4MjUw
 Nzc1OF19
 -->
