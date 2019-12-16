@@ -62,7 +62,19 @@ You can confirm that the branch has changed by running the `git branch` command 
 [fig03]
 
 **Figure 3**: Using `git` commands on the command line to display the current branch (`git branch`), and create and checkout a new branch called `experiment` (`git checkout -b experiment`).
+
+Alternatively (and more commonly), you can create _and_ checkout a branch in a single step using the `-b` option with `git checkout`:
+
+```bash
+# Create and switch to a branch called BRANCH_NAME
+git checkout -b BRANCH_NAME
+```
+For example, to create and switch to a new branch called `experiment`, you would use the following command:
+
+```bash
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MjkxNDE0MiwtMTQ4NDI1MzM5MiwyMD
+eyJoaXN0b3J5IjpbMTM1NjA3MTc0MCwtMTQ4NDI1MzM5MiwyMD
 gyNTA3NzU4XX0=
 -->
