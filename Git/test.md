@@ -148,9 +148,14 @@ Note that the `git merge` command will merge `OTHER_BRANCH` into the branch you 
 
 If the two branches have not edited the same line of code, `git` will stitch the files together seamlessly and you can move forward with your development. Otherwise, you will have to resolve any _conflict_ that occurs as part of your merge.
 
+### 1.3. Merge conflicts
+
+If you perform a merge between two branches that have different commits that edit the _same lines of code_ the result will be a **merge conflict** (so called because the changes are in “conflict”), as demonstrated in Figure 7.
+
+[fig07]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTE0ODQ4MDEsLTEwNTEwMzgxOSwtMT
-Q4NDI1MzM5MiwyMDgyNTA3NzU4XX0=
+eyJoaXN0b3J5IjpbMTU4MTc4MTM2NywtMTA1MTAzODE5LC0xND
+g0MjUzMzkyLDIwODI1MDc3NThdfQ==
 -->
