@@ -72,9 +72,11 @@ git checkout -b BRANCH_NAME
 For example, to create and switch to a new branch called `experiment`, you would use the following command:
 
 ```bash
-
+# Create and switch to a new branch called `experiment`
+git checkout -b experiment
 ```
+This effectively does a `git branch BRANCH_NAME` followed by a `git checkout BRANCH_NAME`. This is the recommended way of creating new branches.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NjA3MTc0MCwtMTQ4NDI1MzM5MiwyMD
+eyJoaXN0b3J5IjpbLTcyNDA0MDI3MywtMTQ4NDI1MzM5MiwyMD
 gyNTA3NzU4XX0=
 -->
