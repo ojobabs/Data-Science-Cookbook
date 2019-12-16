@@ -195,8 +195,12 @@ This will complete the merge! Use `git status` to check that everything is clean
 
 ### 1.4. Merging from GitLab
 
+When you  `push`  to and  `pull`  from GitLab, what you’re actually doing is merging your commits with the ones on GitLab! Because GitLab won’t know which version of your files to keep, you will need to resolve all merge conflicts on your machine. This plays out in two ways:
 
+1.  You will  _not_  be able to  `push`  to GitLab if merging your commits  _into_  GitLab’s repo might cause a merge conflict.  `git`  will instead report an error, telling you that you need to  `pull`  changes first and make sure that your version is up to date. “Up to date” in this case means that you have downloaded and merged all the commits on your local machine, so there is no chance of divergent changes causing a merge conflict when you merge by pushing.
+    
+2.  Whenever you  `pull`  changes from GitHub, there may be a merge conflict. These are resolved in the exact same way as when merging local branches; that is, you need to edit the files to resolve the conflict, then  `add`  and  `commit`  the updated versions.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDU2MTgwMzMsLTEwNTEwMzgxOSwtMT
-Q4NDI1MzM5MiwyMDgyNTA3NzU4XX0=
+eyJoaXN0b3J5IjpbMzg0MjU4NDE5LC0xMDUxMDM4MTksLTE0OD
+QyNTMzOTIsMjA4MjUwNzc1OF19
 -->
