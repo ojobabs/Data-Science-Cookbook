@@ -82,7 +82,11 @@ Once you have checked out a particular branch, any new commits from that point o
 [fig04]
 
 **Figure 4**: Using `git` to commit to multiple branches. A hollow circle is used to represent where the next commit will be added to the history. Switching branches, as in figures (a), (d), and (f), will change the location of the `HEAD` (the commit that points to the hollow circle), while making new commits, as in figures (b), (c), and (e), will add new commits to the current branch.
+
+Importantly, checking out a branch will “reset” the files and code in the repo to whatever they looked like when you made the last commit on that branch; the code from the other branches’ versions is stored in the repo’s `.git` database. You can switch back and forth between branches and watch your code change!
+
+For example, [Figure 20.5] demonstrates the following steps:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjU3NzEyODcsLTE0ODQyNTMzOTIsMj
-A4MjUwNzc1OF19
+eyJoaXN0b3J5IjpbMzM3MjkzODk0LC0xNDg0MjUzMzkyLDIwOD
+I1MDc3NThdfQ==
 -->
