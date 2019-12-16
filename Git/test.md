@@ -112,8 +112,12 @@ Finally, you can delete a branch using  `git branch -d BRANCH_NAME`. Note that t
 Taken together, these commands will allow you to develop different aspects of your project  _in parallel_. The next section discusses how to bring these lines of development together.
 
 > **Tip**
->You can also use the  `git checkout BRANCH_NAME FILE_NAME`  command to checkout an individual file from a particular branch. This will load the file directly into the current working directory as a file change,  _replacing_  the current version of the file (`git`  will not merge the two versions of the file together)! This is identical to checking out a file from a past commit (as described in  [Chapter 3](https://learning.oreilly.com/library/view/Programming+Skills+for+Data+Science:+Start+Writing+Code+to+Wrangle,+Analyze,+and+Visualize+Data+with+R,+First+Edition/9780135159071/ch03.xhtml#ch03)), just using a branch name instead of a commit hash.
+>You can also use the  `git checkout BRANCH_NAME FILE_NAME`  command to checkout an individual file from a particular branch. This will load the file directly into the current working directory as a file change,  _replacing_  the current version of the file (`git`  will not merge the two versions of the file together)! This is identical to checking out a file from a past commit, just using a branch name instead of a commit hash.
+
+### 1.2. Merging Branches
+
+If you have changes (commits) spread across multiple branches, eventually you will want to combine those changes back into a single branch. This process is called **merging**: you “merge” the changes from one branch into another. You do this with the (surprise!) `**git merge**` command:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NTYxNzYzNywtMTQ4NDI1MzM5MiwyMD
-gyNTA3NzU4XX0=
+eyJoaXN0b3J5IjpbNjg3Mjg0ODU0LC0xNDg0MjUzMzkyLDIwOD
+I1MDc3NThdfQ==
 -->
