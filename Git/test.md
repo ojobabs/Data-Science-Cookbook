@@ -315,8 +315,14 @@ To make sure everyone is able to  `push`  to the repository, whoever creates the
 [fig09]
 
 Once everyone has been added to the GitLab repository, _each team member_ will need to `clone` the repository to their local machines to work on the code individually, as shown in Figure 10. Collaborators can then `push` any changes they make to the central repository, and `pull` any changes made by others.
+
+[fig10]
+
+**Figure 10**: With the centralized workflow, each collaborator clones the same repository from GitHub. All users must have _write permissions_ to this repository in order to `push` their changes to it.
+
+When you are contributing to the same repository along with multiple other people, it’s important to ensure that you are working on the most up-to-date version of the code. This means that you will regularly have to _pull changes_ from GitHub that your team members may have committed. As a result, developing code with the centralized workflow follows these steps:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTk1MjI2NDEsLTM0ODkwNTQ3NCwtMT
-Y1NzE0MDYxMSwtMTk4NjE1OTAxOSwxNTQyNTI3OTYzLC0xMDUx
-MDM4MTksLTE0ODQyNTMzOTIsMjA4MjUwNzc1OF19
+eyJoaXN0b3J5IjpbMTI1OTAzMzQzMSwtMzQ4OTA1NDc0LC0xNj
+U3MTQwNjExLC0xOTg2MTU5MDE5LDE1NDI1Mjc5NjMsLTEwNTEw
+MzgxOSwtMTQ4NDI1MzM5MiwyMDgyNTA3NzU4XX0=
 -->
