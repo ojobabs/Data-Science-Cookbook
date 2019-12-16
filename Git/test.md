@@ -253,9 +253,26 @@ git checkout master
 # Create and switch to a new feature branch (called `new-chart`)
 git checkout -b new-chart
 ```
-2.You then do your coding work while on this branch. Once you have completed some work, you would make a commit to add that progress:
+2. You then do your coding work while on this branch. Once you have completed some work, you would make a commit to add that progress:
+```bash
+# Add and commit changes to the current (`new-chart`) branch
+git add .
+git commit -m "Add progress on new vis feature"
+```
+3. Unfortunately, you may then realize that there is a bug in the `master` branch. To address this issue, you would switch back to the `master` branch, then create a _new branch_ to fix the bug:
+
+```bash
+# Switch from your `new-chart` branch back to `master`
+git checkout master
+
+# Create and switch to a new branch `bug-fix` to fix the bug
+git checkout -b bug-fix
+```
+(You would fix a bug on a separate branch if it was complex or involved multiple commits, in order to work on the fix separate from your regular work).
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NTIwMzc5LC0xOTg2MTU5MDE5LDE1ND
-I1Mjc5NjMsLTEwNTEwMzgxOSwtMTQ4NDI1MzM5MiwyMDgyNTA3
-NzU4XX0=
+eyJoaXN0b3J5IjpbLTIxMTQ0NDUxODEsLTE5ODYxNTkwMTksMT
+U0MjUyNzk2MywtMTA1MTAzODE5LC0xNDg0MjUzMzkyLDIwODI1
+MDc3NThdfQ==
 -->
