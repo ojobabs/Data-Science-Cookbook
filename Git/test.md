@@ -163,7 +163,34 @@ To resolve the merge conflict, you will need to edit the files (code) to pick wh
 [Fig08]
 
 Figure 20.8 A merge conflict as shown in Atom. You can select the version of the code you wish to keep by clicking one of the Use me buttons, or edit the code in the file directly.
+
+To resolve a merge conflict, you need to take the following steps:
+
+1.  Use  `git status`  to see which files have merge conflicts. Note that multiple files may have conflicts, and each file may have more than one conflict.
+    
+2.  Choose which version of the code to keep. You do this by editing the files (e.g., in RStudio or Atom). You can make these edits manually, though some IDEs (including Atom) provide buttons that let you directly choose a version of the code to keep (e.g., the “Use me” button in  [Figure 20.8](https://learning.oreilly.com/library/view/Programming+Skills+for+Data+Science:+Start+Writing+Code+to+Wrangle,+Analyze,+and+Visualize+Data+with+R,+First+Edition/9780135159071/ch20.xhtml#fig20_8)).
+    
+    Note that you can choose to keep the “original”  `HEAD`  version from the current branch, the “incoming” version from the other branch, or some combination thereof. Alternatively, you can replace the conflicting code with something new entirely! Think about what you want the “correct” version of the final code to be, and make it so. Remember to remove the  `<<<<<<<`  and  `=======`  and  `>>>>>>>`  characters; these are not legal code in any language.
+
+> **Tip**
+>When resolving a merge conflict, pretend that a cat walked across your keyboard and added a bunch of extra junk to your code. Your task is to fix your work and restore it to a clean, working state.  _Be sure to test your code to confirm that it continues to work after making these changes!_
+
+3. Once you are confident that the conflicts are all resolved and everything works as it should, follow the instructions shown by `git status` to `add` and `commit` the change you made to the code to resolve the conflict:
+
+```bash
+# Check current status: have you edited all conflicting files?
+git status
+
+# Add and commit all updated files
+git add .
+git commit -m "Resolve merge conflict"
+```
+This will complete the merge! Use `git status` to check that everything is clean again.
+
+Tip
+
+If you want to “cancel” a merge with a conflict (e.g., you initiated a merge, but you don’t want to go through with it because of various conflicts), you can cancel the merge process with the  `**git merge --abort**`  command.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzODY1NTMwOSwtMTA1MTAzODE5LC0xND
+eyJoaXN0b3J5IjpbMTg5ODE1MjYwNSwtMTA1MTAzODE5LC0xND
 g0MjUzMzkyLDIwODI1MDc3NThdfQ==
 -->
