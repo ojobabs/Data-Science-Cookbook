@@ -79,8 +79,10 @@ This effectively does a `git branch BRANCH_NAME` followed by a `git checkout BRA
 
 Once you have checked out a particular branch, any new commits from that point on will occur in the “alternate timeline,” without disturbing any other line of development. New commits will be “attached” to the `HEAD` (the most recent commit on the _current_ branch), while all other branches (e.g., `master`) will stay the same. If you use `git checkout` again, you can switch back to the other branch. This process is illustrated in Figure 4:
 
+[fig04]
 
+**Figure 4**: Using `git` to commit to multiple branches. A hollow circle is used to represent where the next commit will be added to the history. Switching branches, as in figures (a), (d), and (f), will change the location of the `HEAD` (the commit that points to the hollow circle), while making new commits, as in figures (b), (c), and (e), will add new commits to the current branch.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjAxNDAxOTAsLTE0ODQyNTMzOTIsMj
+eyJoaXN0b3J5IjpbLTIxMjU3NzEyODcsLTE0ODQyNTMzOTIsMj
 A4MjUwNzc1OF19
 -->
