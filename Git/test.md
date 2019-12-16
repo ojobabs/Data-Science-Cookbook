@@ -51,7 +51,12 @@ To switch to a different branch, you use the `git checkout` command
 git checkout BRANCH_NAME
 ```
 For example, you can switch to the `experiment` branch with the following command:
+```bash
+# Switch to the `experiment` branch
+git checkout experiment
+```
+_Checking out_ a branch doesn’t actually create a new commit! All it does is change the `HEAD` so that it now refers to the latest commit of the target branch (the alternate timeline). `**HEAD**` is just an alias for “the most recent commit on the current branch.” It lets you talk about the most recent commit generically, rather than needing to use a particular _commit hash_.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5Nzg1OTM2NSwtMTQ4NDI1MzM5MiwyMD
-gyNTA3NzU4XX0=
+eyJoaXN0b3J5IjpbLTE0NTE1Mjg2MDAsLTE0ODQyNTMzOTIsMj
+A4MjUwNzc1OF19
 -->
