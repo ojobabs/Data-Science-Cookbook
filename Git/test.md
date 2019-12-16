@@ -27,9 +27,17 @@ In addition to supporting single development lines, `git` supports a _nonlinear 
 
 All `git` repositories have at least one branch (line of development) where commits are made. By default, this branch is called `master`. You can view a list of current branches in the repo with the `**git branch**` command:
 
-
-
+```bash
+# See a list of current branches in the repo
+git branch
+```
+The line printed with the asterisk (`*`) is the “current branch” you’re on. You can use the same `git branch` command to create a _new_ branch:
+```bash
+# Create a new branch called BRANCH_NAME
+git branch BRANCH_NAME
+```
+This will create a new branch called `BRANCH_NAME` (replace `BRANCH_NAME` with whatever name you want; usually not in all caps). For example, you could create a branch called `experiment`:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMjA5ODEwMSwtMTQ4NDI1MzM5MiwyMD
+eyJoaXN0b3J5IjpbMTM0NjYzMTQ3MiwtMTQ4NDI1MzM5MiwyMD
 gyNTA3NzU4XX0=
 -->
