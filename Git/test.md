@@ -201,7 +201,7 @@ When you  `push`  to and  `pull`  from GitLab, what you’re actually doing is m
     
 2.  Whenever you  `pull`  changes from GitLab, there may be a merge conflict. These are resolved in the exact same way as when merging local branches; that is, you need to edit the files to resolve the conflict, then  `add`  and  `commit`  the updated versions.
 
-Thus, when working with GitHub (and especially with multiple people), you will need to perform the following steps to upload your changes:
+Thus, when working with GitLab (and especially with multiple people), you will need to perform the following steps to upload your changes:
 
 1.  `pull`  (download) any changes you don’t have
     
@@ -210,26 +210,26 @@ Thus, when working with GitHub (and especially with multiple people), you will n
 3.  `push`  (upload) your merged set of changes
     
 
-Of course, because GitHub repositories are repos just like the ones on your local machine, they can have branches as well. You gain access to any  _remote_  branches when you  `clone`  a repo; you can see a list of them with  `git branch -a`  (using the “**a**ll” option).
+Of course, because GitLab repositories are repos just like the ones on your local machine, they can have branches as well. You gain access to any  _remote_  branches when you  `clone`  a repo; you can see a list of them with  `git branch -a`  (using the “**a**ll” option).
 
-If you create a new branch on your local machine, it is possible to push that branch to GitHub, creating a mirroring branch on the remote repo (which usually has the alias name  `origin`). You do this by specifying the branch in the  `git push`  command:
+If you create a new branch on your local machine, it is possible to push that branch to GitLab, creating a mirroring branch on the remote repo (which usually has the alias name  `origin`). You do this by specifying the branch in the  `git push`  command:
 
 ```bash
 # Push the current branch to the BRANCH_NAME branch on the `origin`
-# remote (GitHub)
+# remote (GitLab)
 git push origin BRANCH_NAME
 ```
-where `BRANCH_NAME` is the name of the branch you are currently on (and thus want to push to GitHub). For example, you could push the `experiment` branch to GitHub with the following command:
+where `BRANCH_NAME` is the name of the branch you are currently on (and thus want to push to GitLab). For example, you could push the `experiment` branch to GitLab with the following command:
 
 ```bash
 # Make sure you are on the `experiment` branch
 git checkout experiment
 
-# Push the current branch to the `experiment` branch on GitHub
+# Push the current branch to the `experiment` branch on GitLab
 git push origin experiment
 ```
 
-You often want to create an association between your local branch with the remote one on GitHub. You can establish this relationship by including the `-u` option in your push:
+You often want to create an association between your local branch with the remote one on GitLab. You can establish this relationship by including the `-u` option in your push:
 ```bash
 # Push to the BRANCH_NAME branch on origin, enabling remote tracking
 # The -u creates an association between the local and remote branches
@@ -237,6 +237,6 @@ git push -u origin BRANCH_NAME
 ```
 This causes your local branch to “track” the one on GitHub. Then when you run a command such as `git status`, it will tell you whether one repo has more commits than the other. Tracking will be remembered once set up, so you only need to use the `-u` option _once_. It is best to do this the first time you push a local branch to GitHub.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI5NjUxNTg5LDE1NDI1Mjc5NjMsLTEwNT
+eyJoaXN0b3J5IjpbMTEyMDAzODc3LDE1NDI1Mjc5NjMsLTEwNT
 EwMzgxOSwtMTQ4NDI1MzM5MiwyMDgyNTA3NzU4XX0=
 -->
