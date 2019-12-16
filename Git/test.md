@@ -298,9 +298,9 @@ git checkout master
 # Merge in changes from the `new-chart` branch
 git merge new-chart
 ```
-The use of feature branches helps isolate progress on different elements of a project, reducing the need for repeated merging (and the resultant conflicts) of half-finished features and creating an organized project history. Note that feature branches can be used as part of either the _centralized workflow_ (see [Section 20.3](https://learning.oreilly.com/library/view/Programming+Skills+for+Data+Science:+Start+Writing+Code+to+Wrangle,+Analyze,+and+Visualize+Data+with+R,+First+Edition/9780135159071/ch20.xhtml#sec20_3)) or the _forking workflow_ (see [Section 20.4](https://learning.oreilly.com/library/view/Programming+Skills+for+Data+Science:+Start+Writing+Code+to+Wrangle,+Analyze,+and+Visualize+Data+with+R,+First+Edition/9780135159071/ch20.xhtml#sec20_4)).
+The use of feature branches helps isolate progress on different elements of a project, reducing the need for repeated merging (and the resultant conflicts) of half-finished features and creating an organized project history. Note that feature branches can be used as part of either the _centralized workflow_ (see Section 3) or the _forking workflow_ (see Section 4).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU5NzQ3MjcyLC0xOTg2MTU5MDE5LDE1ND
-I1Mjc5NjMsLTEwNTEwMzgxOSwtMTQ4NDI1MzM5MiwyMDgyNTA3
-NzU4XX0=
+eyJoaXN0b3J5IjpbLTc4MDEzOTg2MSwtMTk4NjE1OTAxOSwxNT
+QyNTI3OTYzLC0xMDUxMDM4MTksLTE0ODQyNTMzOTIsMjA4MjUw
+Nzc1OF19
 -->
