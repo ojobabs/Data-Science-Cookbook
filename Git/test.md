@@ -403,8 +403,9 @@ The **git fetch** command will “download” commits and branches from GitLab (
 # to the current branch
 git pull origin new-chart
 ```
+6. Ada decides the feature is finished, and merges it back into `master`. But first, she makes sure she has the latest version of the `master` code:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NzkxODc4MCwtMzQ4OTA1NDc0LC0xNj
-U3MTQwNjExLC0xOTg2MTU5MDE5LDE1NDI1Mjc5NjMsLTEwNTEw
-MzgxOSwtMTQ4NDI1MzM5MiwyMDgyNTA3NzU4XX0=
+eyJoaXN0b3J5IjpbNDA0Mjg0NTMyLC0zNDg5MDU0NzQsLTE2NT
+cxNDA2MTEsLTE5ODYxNTkwMTksMTU0MjUyNzk2MywtMTA1MTAz
+ODE5LC0xNDg0MjUzMzkyLDIwODI1MDc3NThdfQ==
 -->
