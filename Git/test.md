@@ -37,7 +37,21 @@ The line printed with the asterisk (`*`) is the “current branch” you’re on
 git branch BRANCH_NAME
 ```
 This will create a new branch called `BRANCH_NAME` (replace `BRANCH_NAME` with whatever name you want; usually not in all caps). For example, you could create a branch called `experiment`:
+
+```bash
+# Create a new branch called `experiment`
+git branch experiment
+```
+If you run `git branch` again, you will see that this _hasn’t actually changed what branch you’re on_. In fact, all you have done is create a new branch that _starts_ at the current commit!
+
+To switch to a different branch, you use the `git checkout` command
+
+```bash
+# Switch to the BRANCH_NAME branch
+git checkout BRANCH_NAME
+```
+For example, you can switch to the `experiment` branch with the following command:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NjYzMTQ3MiwtMTQ4NDI1MzM5MiwyMD
+eyJoaXN0b3J5IjpbLTQ5Nzg1OTM2NSwtMTQ4NDI1MzM5MiwyMD
 gyNTA3NzU4XX0=
 -->
