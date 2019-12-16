@@ -76,7 +76,11 @@ For example, to create and switch to a new branch called `experiment`, you would
 git checkout -b experiment
 ```
 This effectively does a `git branch BRANCH_NAME` followed by a `git checkout BRANCH_NAME`. This is the recommended way of creating new branches.
+
+Once you have checked out a particular branch, any new commits from that point on will occur in the “alternate timeline,” without disturbing any other line of development. New commits will be “attached” to the `HEAD` (the most recent commit on the _current_ branch), while all other branches (e.g., `master`) will stay the same. If you use `git checkout` again, you can switch back to the other branch. This process is illustrated in Figure 4:
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNDA0MDI3MywtMTQ4NDI1MzM5MiwyMD
-gyNTA3NzU4XX0=
+eyJoaXN0b3J5IjpbLTEwNjAxNDAxOTAsLTE0ODQyNTMzOTIsMj
+A4MjUwNzc1OF19
 -->
