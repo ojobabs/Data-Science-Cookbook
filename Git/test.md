@@ -243,8 +243,19 @@ The main benefit of branches is that they allow you (and others) to simultaneous
 The goal when organizing projects into feature branches is that the  `master`  branch should always contain “**production-level**” code: valid, completely working code that you could deploy or publish (read: give to your boss or teacher) at a whim. All feature branches branch off of  `master`, and are allowed to contain temporary or even broken code (since they are still in development). This way there is always a “working” (if incomplete) copy of the code (`master`), and development can be kept  isolated and considered independent of the whole. Note that this organization is similar to how the earlier example uses an  `experiment`  branch.
 
 Using feature branches works like this:
+
+1. You decide to add a new feature to the project: a snazzy visualization. You create a new feature branch off of `master` to isolate this work:
+
+```bash
+# Make sure you are on the `master` branch
+git checkout master
+
+# Create and switch to a new feature branch (called `new-chart`)
+git checkout -b new-chart
+```
+2.You then do your coding work while on this branch. Once you have completed some work, you would make a commit to add that progress:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg3NzIyNTc5LC0xOTg2MTU5MDE5LDE1ND
+eyJoaXN0b3J5IjpbMTY0NTIwMzc5LC0xOTg2MTU5MDE5LDE1ND
 I1Mjc5NjMsLTEwNTEwMzgxOSwtMTQ4NDI1MzM5MiwyMDgyNTA3
 NzU4XX0=
 -->
