@@ -117,7 +117,21 @@ Taken together, these commands will allow you to develop different aspects of yo
 ### 1.2. Merging Branches
 
 If you have changes (commits) spread across multiple branches, eventually you will want to combine those changes back into a single branch. This process is called **merging**: you “merge” the changes from one branch into another. You do this with the (surprise!) `**git merge**` command:
+
+```bash
+# Merge OTHER_BRANCH into the current branch
+git merge OTHER_BRANCH
+```
+For example, you can merge the `experiment` branch into the `master` branch as follows:
+```bash
+# Make sure you are on the `master` branch
+git checkout master
+
+# Merge the `experiment` branch into the current (`master`) branch
+git merge experiment
+```
+The `merge` command will (in effect) walk through each line of code in the two versions of the files, looking for any differences. Changes to each line of code in the _incoming_ branch will then be applied to the equivalent line in the current branch, so that the current version of the files contains all of the incoming changes. For example, if the `experiment` branch included a commit that added a new code statement to a file at line 5, changed the code statement at line 9, and deleted the code statement at line 13, then `git` would add the new line 5 to the file (pushing everything else down), change the code statement that was at line 9, and delete the code statement that was at line 13. `git` will automatically “stitch” together the two versions of the files so that the current version contains _all_ of the changes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg3Mjg0ODU0LC0xNDg0MjUzMzkyLDIwOD
-I1MDc3NThdfQ==
+eyJoaXN0b3J5IjpbLTE4Njk4MTc4MjQsLTE0ODQyNTMzOTIsMj
+A4MjUwNzc1OF19
 -->
