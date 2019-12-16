@@ -154,8 +154,9 @@ If you perform a merge between two branches that have different commits that edi
 
 [fig07]
 
+**Figure 7**: A merge conflict as shown in the command shell.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MTc4MTM2NywtMTA1MTAzODE5LC0xND
-g0MjUzMzkyLDIwODI1MDc3NThdfQ==
+eyJoaXN0b3J5IjpbLTQ4NzMyODkxLC0xMDUxMDM4MTksLTE0OD
+QyNTMzOTIsMjA4MjUwNzc1OF19
 -->
