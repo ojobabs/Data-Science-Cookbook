@@ -85,8 +85,29 @@ Once you have checked out a particular branch, any new commits from that point o
 
 Importantly, checking out a branch will “reset” the files and code in the repo to whatever they looked like when you made the last commit on that branch; the code from the other branches’ versions is stored in the repo’s `.git` database. You can switch back and forth between branches and watch your code change!
 
-For example, [Figure 20.5] demonstrates the following steps:
+For example, Figure 5 demonstrates the following steps:
+
+1.  `git status`: Check the status of your project. This confirms that the repo is on the  `master`  branch.
+    
+2.  `git checkout -b experiment`: Create and checkout a new branch,  `experiment`. This code will  _branch off_  of the  `master`  branch.
+    
+3.  Make an update to the file in a text editor (still on the  `experiment`  branch).
+    
+4.  `git commit -am "Update README"`: This will  `add`  and  `commit`  the changes (as a single command)! This commit is made  _only_  to the  `experiment`  branch; it exists in that timeline.
+    
+5.  `git checkout master`: Switch back to the  `master`  branch. The file switches to show the latest version of the  `master`  branch.
+    
+6.  `git checkout experiment`: Switch back to the  `experiment`  branch. The file switches to show the latest version of the  `experiment`  branch.
+
+[fig05]
+
+**Figure 5**: Switching branches allows you to work on multiple versions of the code simultaneously.
+
+>**Caution**
+>You can only check out a branch if the  _current working directory_  has no uncommitted changes. This means you will need to  `commit`  any changes to the current branch before you  `checkout`  another branch. If you want to “save” your changes but don’t want to commit to them, you can use git’s ability to temporarily  **stash**[a](https://learning.oreilly.com/library/view/Programming+Skills+for+Data+Science:+Start+Writing+Code+to+Wrangle,+Analyze,+and+Visualize+Data+with+R,+First+Edition/9780135159071/ch20.xhtml#ch20sbfn1a)  changes.
+
+[a](https://learning.oreilly.com/library/view/Programming+Skills+for+Data+Science:+Start+Writing+Code+to+Wrangle,+Analyze,+and+Visualize+Data+with+R,+First+Edition/9780135159071/ch20.xhtml#ch20sbfn1)[https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning](https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM3MjkzODk0LC0xNDg0MjUzMzkyLDIwOD
+eyJoaXN0b3J5IjpbMTM2OTUzNTQ1LC0xNDg0MjUzMzkyLDIwOD
 I1MDc3NThdfQ==
 -->
