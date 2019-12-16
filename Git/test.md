@@ -310,9 +310,9 @@ This section describes a model for working with multiple collaborators on the sa
 
 The centralized workflow uses a single repository stored on GitLab—that is, every single member of the collaboration team will  `push`  and  `pull`  to the same GitLab repo. However, since each repository needs to be created under a particular account, a  _single member_  of the team will need to create that repository (e.g., by clicking the  _“New”_  button on the “Repositories” tab on the GitLab web portal).
 
-To make sure everyone is able to  `push`  to the repository, whoever creates the repo will need to add the other team members as collaborators.[2](https://learning.oreilly.com/library/view/Programming+Skills+for+Data+Science:+Start+Writing+Code+to+Wrangle,+Analyze,+and+Visualize+Data+with+R,+First+Edition/9780135159071/ch20.xhtml#ch20fn2)  They can do this under the  _“Settings”_  tab of the repo’s web portal page, as shown in  [Figure 20.9](https://learning.oreilly.com/library/view/Programming+Skills+for+Data+Science:+Start+Writing+Code+to+Wrangle,+Analyze,+and+Visualize+Data+with+R,+First+Edition/9780135159071/ch20.xhtml#fig20_9). (The creator will want to give all team members “write” access so they can  `push`  changes to the repo.)
+To make sure everyone is able to  `push`  to the repository, whoever creates the repo will need to add the other team members as collaborators. They can do this under the  _“Settings”_  tab of the repo’s web portal page, as shown in Figure 9. (The creator will want to give all team members “write” access so they can  `push`  changes to the repo.)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTk2OTgxMTksLTE2NTcxNDA2MTEsLT
-E5ODYxNTkwMTksMTU0MjUyNzk2MywtMTA1MTAzODE5LC0xNDg0
-MjUzMzkyLDIwODI1MDc3NThdfQ==
+eyJoaXN0b3J5IjpbLTUxNzkwOTY2NiwtMTY1NzE0MDYxMSwtMT
+k4NjE1OTAxOSwxNTQyNTI3OTYzLC0xMDUxMDM4MTksLTE0ODQy
+NTMzOTIsMjA4MjUwNzc1OF19
 -->
