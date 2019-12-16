@@ -269,10 +269,38 @@ git checkout master
 git checkout -b bug-fix
 ```
 (You would fix a bug on a separate branch if it was complex or involved multiple commits, in order to work on the fix separate from your regular work).
+4. After fixing the bug on the `bug-fix`  _branch_, you would `add` and `commit` those changes, then checkout the `master` branch to merge the fix back into `master`:
+```bash
+# Add and commit changes that fix the bug (on the `bug-fix` branch)
+git add .
+git commit -m "Fix the bug"
 
+# Switch to the `master` branch
+git checkout master
 
+# Merge the changes from `bug-fix` into the current (`master`) branch
+git merge bug-fix
+```
+Now that you have fixed the bug (and merged the changes into `master`), you can get back to developing the visualization (on the `new-chart` branch). When it is complete, you will `add` and `commit` those changes, then checkout the `master` branch to merge the visualization code back into `master`:
+``` bash
+# Switch back to the `new-chart` branch from the `master` branch
+git checkout new-chart
+
+# Work on the new chart...
+
+# After doing some work, add and commit the changes
+git add .
+git commit -m "Finish new visualization"
+
+# Switch back to the `master` branch
+git checkout master
+
+# Merge in changes from the `new-chart` branch
+git merge new-chart
+```
+The use of feature branches helps isolate progress on different elements of a project, reducing the need for repeated merging (and the resultant conflicts) of half-finished features and creating an organized project history. Note that feature branches can be used as part of either the _centralized workflow_ (see [Section 20.3](https://learning.oreilly.com/library/view/Programming+Skills+for+Data+Science:+Start+Writing+Code+to+Wrangle,+Analyze,+and+Visualize+Data+with+R,+First+Edition/9780135159071/ch20.xhtml#sec20_3)) or the _forking workflow_ (see [Section 20.4](https://learning.oreilly.com/library/view/Programming+Skills+for+Data+Science:+Start+Writing+Code+to+Wrangle,+Analyze,+and+Visualize+Data+with+R,+First+Edition/9780135159071/ch20.xhtml#sec20_4)).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTQ0NDUxODEsLTE5ODYxNTkwMTksMT
-U0MjUyNzk2MywtMTA1MTAzODE5LC0xNDg0MjUzMzkyLDIwODI1
-MDc3NThdfQ==
+eyJoaXN0b3J5IjpbMzU5NzQ3MjcyLC0xOTg2MTU5MDE5LDE1ND
+I1Mjc5NjMsLTEwNTEwMzgxOSwtMTQ4NDI1MzM5MiwyMDgyNTA3
+NzU4XX0=
 -->
