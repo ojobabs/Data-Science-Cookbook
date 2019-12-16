@@ -368,10 +368,19 @@ git checkout -b new-chart
 ```
 2. Ada does some work on this feature, and then commits that work when she’s satisfied with it:
 ```bash
-
+# Add and commit changes to the current (`new-chart`) branch
+git add .
+git commit -m "Add progress on new vis feature"
 ```
+3. Happy with her work, Ada decide to takes a break. She pushes her feature branch to GitLab to back it up (and so her team can also contribute to it):
+```bash
+# Push to a new branch on `origin` (GitHub) called `new-chart`,
+# enabling tracking
+git push -u origin new-chart
+```
+4. After talking to Ada, Bebe decides to help finish up the feature. She checks out the feature branch and makes some changes, then pushes them back to GitHub:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzI3MzE5NzEsLTM0ODkwNTQ3NCwtMT
-Y1NzE0MDYxMSwtMTk4NjE1OTAxOSwxNTQyNTI3OTYzLC0xMDUx
-MDM4MTksLTE0ODQyNTMzOTIsMjA4MjUwNzc1OF19
+eyJoaXN0b3J5IjpbMjAwMDM0MjAwOCwtMzQ4OTA1NDc0LC0xNj
+U3MTQwNjExLC0xOTg2MTU5MDE5LDE1NDI1Mjc5NjMsLTEwNTEw
+MzgxOSwtMTQ4NDI1MzM5MiwyMDgyNTA3NzU4XX0=
 -->
