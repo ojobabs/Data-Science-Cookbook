@@ -236,7 +236,15 @@ You often want to create an association between your local branch with the remot
 git push -u origin BRANCH_NAME
 ```
 This causes your local branch to “track” the one on GitLab. Then when you run a command such as `git status`, it will tell you whether one repo has more commits than the other. Tracking will be remembered once set up, so you only need to use the `-u` option _once_. It is best to do this the first time you push a local branch to GitLab.
+
+## 2. DEVELOPING PROJECTS USING FEATURE BRANCHES
+The main benefit of branches is that they allow you (and others) to simultaneously work on different aspects of the code without disturbing the main code base. Such development is best organized by separating your work across different  **feature branches**—branches that are each dedicated to a different  **feature**  (capability or part) of the project. For example, you might have one branch called  `new-chart`  that focuses on adding a complex visualization, or another branch called  `experimental-analysis`  that tries a bold new approach to processing the data. Importantly, each branch is based on a feature of the project, not a particular person: a single developer could be working on multiple feature branches, and multiple developers could collaborate on a single feature branch (more on this later).
+
+The goal when organizing projects into feature branches is that the  `master`  branch should always contain “**production-level**” code: valid, completely working code that you could deploy or publish (read: give to your boss or teacher) at a whim. All feature branches branch off of  `master`, and are allowed to contain temporary or even broken code (since they are still in development). This way there is always a “working” (if incomplete) copy of the code (`master`), and development can be kept  isolated and considered independent of the whole. Note that this organization is similar to how the earlier example uses an  `experiment`  branch.
+
+Using feature branches works like this:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODYxNTkwMTksMTU0MjUyNzk2MywtMT
-A1MTAzODE5LC0xNDg0MjUzMzkyLDIwODI1MDc3NThdfQ==
+eyJoaXN0b3J5IjpbMjg3NzIyNTc5LC0xOTg2MTU5MDE5LDE1ND
+I1Mjc5NjMsLTEwNTEwMzgxOSwtMTQ4NDI1MzM5MiwyMDgyNTA3
+NzU4XX0=
 -->
