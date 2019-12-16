@@ -404,8 +404,26 @@ The **git fetch** command will “download” commits and branches from GitLab (
 git pull origin new-chart
 ```
 6. Ada decides the feature is finished, and merges it back into `master`. But first, she makes sure she has the latest version of the `master` code:
+```bash
+# Switch to the `master` branch, and download any changes
+git checkout master
+git pull
+
+# Merge the feature branch into the master branch (locally)
+git merge new-chart
+# Fix any merge conflicts!
+# Add and commit these fixes (if necessary)
+
+# Push the updated `master` code back to GitHub
+git push
+```
+7. Now that the feature has been successfully added to the project, Ada can delete the feature branch (using `git branch -d new-chart`). She can delete GitHub’s version of the branch through the web portal interface (recommended), or by using `git push origin -d new-chart`.
+
+This kind of workflow is very common and effective for supporting collaboration. Moreover, as projects grow in size, you may need to start being more organized about how and when you create feature branches. For example, the **Git Flow**[3]  model organizes feature branches around product releases, and is a popular starting point for large collaborative projects.
+
+[3] **Git Flow: A successful Git branching model:**  [http://nvie.com/posts/a-successful-git-branching-model/](http://nvie.com/posts/a-successful-git-branching-model/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA0Mjg0NTMyLC0zNDg5MDU0NzQsLTE2NT
-cxNDA2MTEsLTE5ODYxNTkwMTksMTU0MjUyNzk2MywtMTA1MTAz
-ODE5LC0xNDg0MjUzMzkyLDIwODI1MDc3NThdfQ==
+eyJoaXN0b3J5IjpbLTEyMjI3MzE4MjksLTM0ODkwNTQ3NCwtMT
+Y1NzE0MDYxMSwtMTk4NjE1OTAxOSwxNTQyNTI3OTYzLC0xMDUx
+MDM4MTksLTE0ODQyNTMzOTIsMjA4MjUwNzc1OF19
 -->
