@@ -142,7 +142,10 @@ In effect, merging will take the commits from another branch and insert them int
 **Figure 6**: Merging an `experiment` branch into the `master` branch. The committed changes from the `experiment` branch (labeled C and D) are inserted into the `master` branch’s history, while also remaining present in the `experiment` branch.
 
 Note that the `git merge` command will merge `OTHER_BRANCH` into the branch you are currently on. For example, if you want to take the changes from your `experiment` branch and merge them into your `master` branch, you will need to first `checkout` your `master` branch, and merge in the changes from the `experiment` branch.
+
+> **Caution**
+> If something goes wrong, don’t panic and close your command shell! Instead, take a breath and look up how to fix the problem you’ve encountered (e.g., how to exit  _vim_). As always, if you’re unsure why something isn’t working with git, use  `git status`  to check the current status and to determine which steps to do next.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMzk3MTc3NywtMTQ4NDI1MzM5MiwyMD
-gyNTA3NzU4XX0=
+eyJoaXN0b3J5IjpbLTE5NTcwMjg2LC0xNDg0MjUzMzkyLDIwOD
+I1MDc3NThdfQ==
 -->
