@@ -187,10 +187,16 @@ git commit -m "Resolve merge conflict"
 ```
 This will complete the merge! Use `git status` to check that everything is clean again.
 
-Tip
+> **Tip**
+>If you want to “cancel” a merge with a conflict (e.g., you initiated a merge, but you don’t want to go through with it because of various conflicts), you can cancel the merge process with the  `**git merge --abort**`  command.
 
-If you want to “cancel” a merge with a conflict (e.g., you initiated a merge, but you don’t want to go through with it because of various conflicts), you can cancel the merge process with the  `**git merge --abort**`  command.
+>**Remember**
+>_Merge conflicts are expected_. You didn’t do something wrong if one occurs! Don’t worry about getting merge conflicts or try to avoid them: just resolve the conflict, fix the “bug” that has appeared, and move on with your life.
+
+### 1.4. Merging from GitLab
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5ODE1MjYwNSwtMTA1MTAzODE5LC0xND
-g0MjUzMzkyLDIwODI1MDc3NThdfQ==
+eyJoaXN0b3J5IjpbLTEyNDU2MTgwMzMsLTEwNTEwMzgxOSwtMT
+Q4NDI1MzM5MiwyMDgyNTA3NzU4XX0=
 -->
