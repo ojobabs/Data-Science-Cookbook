@@ -12,8 +12,10 @@
 
 ## Intro
 
-It seems that the `arcpy.mapping` module it is useful when you create only one map manually, using the GUI tool, and then by using `arcpy.mapping`, you can modify that map document programmatically. Therefore, you need to develop a first map manually for a G
+It seems that the `arcpy.mapping` module it is useful when you create only one map manually, using the GUI tool, and then by using `arcpy.mapping`, you can modify that map document programmatically. Therefore, you need to develop a first map manually for a GO office and then, automate for the remaining more than 100 offices.
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1Mzc0MTc0XX0=
+eyJoaXN0b3J5IjpbNTI2OTA0MzY5XX0=
 -->
