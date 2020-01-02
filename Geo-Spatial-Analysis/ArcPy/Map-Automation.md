@@ -14,8 +14,8 @@
 
 It seems that the `arcpy.mapping` module it is useful when you create only one map manually, using the GUI tool, and then by using `arcpy.mapping`, you can modify that map document programmatically. Therefore, you need to develop a first map manually for a GO office and then, automate for the remaining more than 100 offices. The following map from [2] is clear about this approach:
 
-> - [Python Scripting for Map Automation - ESRI - 4 hours - free - ArcMap](https://www.esri.com/training/catalog/57630437851d31e02a43f210/python-scripting-for-map-automation/)
-
+>_...The arcpy.mapping module has been created to automate map management and output (printing and exporting) workflows. The provided functions focus on modifying existing map layers and layout elements and are not designed as a complete map compilation system. ArcMap is the recommended system for creating new map documents and authoring map layers and layouts. However, the layer and layout element modification capabilities of arcpy.mapping allow for the creation of map products by modifying the contents of map documents. Being successful in these workflows requires careful map authoring of layers and page layout elements so that they are easily used with your scripts._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTc5MDQ5MzFdfQ==
+eyJoaXN0b3J5IjpbLTEwMTA1NTI3MDEsLTIwMTc5MDQ5MzFdfQ
+==
 -->
