@@ -29,12 +29,14 @@ What we need is a Map Book, a series of pdfs with a map in each PDF page.
 
 The objective of `arcpy.mapping` is to simplify the scripting experience. Within your map document, you have many components, or objects, which you can access and change. The map document and the objects you work with inside the map, such as a north arrow or data frame, **must be created before running your script**. After you have created these objects, you can access and work with them through `arcpy.mapping`.
 
-In the following example, a map document named `Schools.mxd` located in the `C:\Maps` folder is accessed through the `arcpy.mapping.MapDocument` class. All the properties and methods associated with the MapDocument object are assigned to the variable mxd:
+In the following example, a map document named `Schools.mxd` located in the `C:\Maps` folder is accessed through the `arcpy.mapping.MapDocument` class. All the properties and methods associated with the `MapDocument` object are assigned to the variable `mxd`:
 
 ```Python
 mxd = arcpy.mapping.MapDocument(r"C:\Maps\Schools.mxd")
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDI2MTU2MTMsLTEyNTE2NTU4MDMsMT
-YwNTkwODcwNiw2NjQzNDY3MTIsLTIwMTc5MDQ5MzFdfQ==
+eyJoaXN0b3J5IjpbMzYyMTY0MDMxLC0xMjUxNjU1ODAzLDE2MD
+U5MDg3MDYsNjY0MzQ2NzEyLC0yMDE3OTA0OTMxXX0=
 -->
