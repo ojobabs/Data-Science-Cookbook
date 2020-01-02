@@ -38,7 +38,12 @@ mxd = arcpy.mapping.MapDocument(r"C:\Maps\Schools.mxd")
 While the map document **cannot be created** with `arcpy.mapping`, you can use your script to access the map document and the objects it contains.
 
 Now you can update the Author property and save your map document using the following code:
+
+```Python
+mxd.author = "GIS Department"
+mxd.save()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NzUyNTg4OCwtMTI1MTY1NTgwMywxNj
+eyJoaXN0b3J5IjpbLTg1NjM4MzUwMywtMTI1MTY1NTgwMywxNj
 A1OTA4NzA2LDY2NDM0NjcxMiwtMjAxNzkwNDkzMV19
 -->
