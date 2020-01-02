@@ -18,8 +18,8 @@ It seems that the `arcpy.mapping` module it is useful when you create only one m
 
 Note: the above paragraph comes from the section: _The purpose of `arcpy.mapping` and typical script scenarios_.
 
-What we need is s
+What we need is a Map Book, a series of pdfs with a map in each PDF page. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MDMxNDM4Myw2NjQzNDY3MTIsLTIwMT
+eyJoaXN0b3J5IjpbMTYwNTkwODcwNiw2NjQzNDY3MTIsLTIwMT
 c5MDQ5MzFdfQ==
 -->
