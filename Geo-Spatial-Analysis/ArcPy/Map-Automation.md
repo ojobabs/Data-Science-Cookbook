@@ -12,8 +12,8 @@
 
 ## Intro
 
-It seems that the `arcpy.mapping` module 
+It seems that the `arcpy.mapping` module it is useful when you create only one map manually, using the GUI tool, and then by using `arcpy.mapping`, you can modify that map document programmatically. Therefore, you need to develop a first map manually for a G
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NDU5ODQzOF19
+eyJoaXN0b3J5IjpbNDc1Mzc0MTc0XX0=
 -->
