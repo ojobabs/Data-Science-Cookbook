@@ -5,7 +5,7 @@
 
 # ArcPy Map Automation Notes
 
-
+Training 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxODE2MDQ1MF19
+eyJoaXN0b3J5IjpbODUzMjc4NjQwXX0=
 -->
