@@ -17,6 +17,9 @@ It seems that the `arcpy.mapping` module it is useful when you create only one m
 >_...The arcpy.mapping module has been created to automate map management and output (printing and exporting) workflows. The provided functions focus on modifying existing map layers and layout elements and are not designed as a complete map compilation system. ArcMap is the recommended system for creating **new map documents** and authoring map layers and layouts. However, the layer and layout element modification capabilities of `arcpy.mapping` allow for the creation of map products by modifying the contents of map documents. Being successful in these workflows requires careful map authoring of layers and page layout elements so that they are easily used with your scripts._
 
 Note: the above paragraph comes from the section: _The purpose of `arcpy.mapping` and typical script scenarios_.
+
+What we need is s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY0MzQ2NzEyLC0yMDE3OTA0OTMxXX0=
+eyJoaXN0b3J5IjpbMTE4MDMxNDM4Myw2NjQzNDY3MTIsLTIwMT
+c5MDQ5MzFdfQ==
 -->
