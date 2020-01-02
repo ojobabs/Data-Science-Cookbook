@@ -35,8 +35,10 @@ In the following example, a map document named `Schools.mxd` located in the `C:\
 mxd = arcpy.mapping.MapDocument(r"C:\Maps\Schools.mxd")
 ```
 
+While the map document **cannot be created** with `arcpy.mapping`, you can use your script to access the map document and the objects it contains.
 
+Now you can update the Author property and save your map document using the following code:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYyMTY0MDMxLC0xMjUxNjU1ODAzLDE2MD
-U5MDg3MDYsNjY0MzQ2NzEyLC0yMDE3OTA0OTMxXX0=
+eyJoaXN0b3J5IjpbMTQ1NzUyNTg4OCwtMTI1MTY1NTgwMywxNj
+A1OTA4NzA2LDY2NDM0NjcxMiwtMjAxNzkwNDkzMV19
 -->
