@@ -21,7 +21,16 @@ It seems that the `arcpy.mapping` module it is useful when you create only one m
 Note: the above paragraph comes from the section: _The purpose of `arcpy.mapping` and typical script scenarios_.
 
 What we need is a Map Book, a series of pdfs with a map in each PDF page. 
+
+
+
+
+### Working with objects in the map document
+
+The objective of `arcpy.mapping` is to simplify the scripting experience. Within your map document, you have many components, or objects, which you can access and change. The map document and the objects you work with inside the map, such as a north arrow or data frame, **must be created before running your script**. After you have created these objects, you can access and work with them through `arcpy.mapping`.
+
+In the following example, a map document named `Schools.mxd` located in the `C:\Maps` folder is accessed through the `arcpy.mapping.MapDocument` class. All the properties and methods associated with the MapDocument object are assigned to the variable mxd:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTE2NTU4MDMsMTYwNTkwODcwNiw2Nj
-QzNDY3MTIsLTIwMTc5MDQ5MzFdfQ==
+eyJoaXN0b3J5IjpbLTgyMDgwMTM5OCwtMTI1MTY1NTgwMywxNj
+A1OTA4NzA2LDY2NDM0NjcxMiwtMjAxNzkwNDkzMV19
 -->
