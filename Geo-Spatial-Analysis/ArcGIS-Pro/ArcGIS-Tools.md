@@ -23,14 +23,14 @@ There are two approaches to get the block groups within the calculated service a
 
 By using select by local we have the operators `intersect`, `are within` or `are completely within` to select block groups that intersect with the service are or are withing the service area.
 
-### Density-based Clustering: DBSCAN
+### Density-based Clustering: DBSCAN, HDBSCAN and OPTICS
 
 - [Denisty-based Clustering in ArcGIS PRO](https://pro.arcgis.com/en/pro-app/tool-reference/spatial-statistics/densitybasedclustering.htm)
 - [How density-based clustering works ArcGIS Pro](https://pro.arcgis.com/en/pro-app/tool-reference/spatial-statistics/how-density-based-clustering-works.htm)
 - [A clear explanation of DBSCAN on YouTube](https://www.youtube.com/watch?v=6jl9KkmgDIw)
 - [Another clear explanation of DBSCAN on YouTube](https://www.youtube.com/watch?v=sKRUfsc8zp4)
-- [Brian Kent: Density Based Clustering in Python](https://www.youtube.com/watch?v=5cOhL4B5waU). This person has an interesting master or phd thes
+- [Brian Kent: Density Based Clustering in Python](https://www.youtube.com/watch?v=5cOhL4B5waU). This person has an interesting master or phd thesis about density based clustering 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDY1MjA1MiwxODQ3ODkzNDk1LC0xNz
+eyJoaXN0b3J5IjpbLTc5NjI4MTIxNCwxODQ3ODkzNDk1LC0xNz
 E2MzkyNDM5LDE1OTE0Mjc2NDYsLTEwOTkyODk3NDhdfQ==
 -->
