@@ -29,8 +29,8 @@ By using select by local we have the operators `intersect`, `are within` or `are
 - [How density-based clustering works ArcGIS Pro](https://pro.arcgis.com/en/pro-app/tool-reference/spatial-statistics/how-density-based-clustering-works.htm)
 - [A clear explanation of DBSCAN on YouTube](https://www.youtube.com/watch?v=6jl9KkmgDIw)
 - [Another clear explanation of DBSCAN on YouTube](https://www.youtube.com/watch?v=sKRUfsc8zp4)
-- [Brian Kent: Density Based Clustering in Python](https://www.youtube.com/watch?v=5cOhL4B5waU). This person has an interesting master or phd thesis about density based clustering 
+- [Brian Kent: Density Based Clustering in Python](https://www.youtube.com/watch?v=5cOhL4B5waU). This person has an interesting master or phd thesis about density based clustering [here](https://www.cmu.edu/dietrich/psychology/cognitiveaxon/documents/kent_dissertation.pdf). Also, he wrote some python packages. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NjI4MTIxNCwxODQ3ODkzNDk1LC0xNz
+eyJoaXN0b3J5IjpbLTk5NTY5ODE0MiwxODQ3ODkzNDk1LC0xNz
 E2MzkyNDM5LDE1OTE0Mjc2NDYsLTEwOTkyODk3NDhdfQ==
 -->
