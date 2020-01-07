@@ -35,9 +35,9 @@ By using select by local we have the operators `intersect`, `are within` or `are
 
 Aim: once we have the local market polygone obtained by using the Network Analysis tool, we need to translate that polygone into a standard geography - block group level. To to this there are at least two options:
 
-1. 
+1. First, we can download from the U.S. Census Bureau the block-group geometry  shapefiles for each State and then 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYxMjE1Njg4LC0yNzc3MTk1OSwtOTk1Nj
-k4MTQyLDE4NDc4OTM0OTUsLTE3MTYzOTI0MzksMTU5MTQyNzY0
-NiwtMTA5OTI4OTc0OF19
+eyJoaXN0b3J5IjpbLTE3MTkwNzYxNTEsNzYxMjE1Njg4LC0yNz
+c3MTk1OSwtOTk1Njk4MTQyLDE4NDc4OTM0OTUsLTE3MTYzOTI0
+MzksMTU5MTQyNzY0NiwtMTA5OTI4OTc0OF19
 -->
