@@ -33,9 +33,11 @@ By using select by local we have the operators `intersect`, `are within` or `are
 
 ### Transfer local market to a standard geography (block-group)
 
-Aim: once we have the local market 
+Aim: once we have the local market polygone obtained by using the Network Analysis tool, we need to translate that polygone into a standard geography - block group level. To to this there are at least two options:
+
+1. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NzEwMDMwMCwtMjc3NzE5NTksLTk5NT
-Y5ODE0MiwxODQ3ODkzNDk1LC0xNzE2MzkyNDM5LDE1OTE0Mjc2
-NDYsLTEwOTkyODk3NDhdfQ==
+eyJoaXN0b3J5IjpbNzYxMjE1Njg4LC0yNzc3MTk1OSwtOTk1Nj
+k4MTQyLDE4NDc4OTM0OTUsLTE3MTYzOTI0MzksMTU5MTQyNzY0
+NiwtMTA5OTI4OTc0OF19
 -->
