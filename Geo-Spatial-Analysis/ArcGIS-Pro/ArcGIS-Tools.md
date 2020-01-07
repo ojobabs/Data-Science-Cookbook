@@ -36,9 +36,10 @@ By using select by local we have the operators `intersect`, `are within` or `are
 Aim: once we have the local market polygone obtained by using the Network Analysis tool, we need to translate that polygone into a standard geography - block group level. To to this there are at least two options:
 
 1. First, we can download from the U.S. Census Bureau the block-group geometry  shapefiles for each State and then doing a spatial join or something link that
+2. The ideal tool is . But as you can see [here]([https://pro.arcgis.com/en/pro-app/get-started/whats-new-in-arcgis-pro-2-3.htm](https://pro.arcgis.com/en/pro-app/get-started/whats-new-in-arcgis-pro-2-3.htm)) only exist on 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODgyNTM4NzMsLTE3MTkwNzYxNTEsNz
-YxMjE1Njg4LC0yNzc3MTk1OSwtOTk1Njk4MTQyLDE4NDc4OTM0
-OTUsLTE3MTYzOTI0MzksMTU5MTQyNzY0NiwtMTA5OTI4OTc0OF
-19
+eyJoaXN0b3J5IjpbMTU1ODI2Mzk5NiwtMTA4ODI1Mzg3MywtMT
+cxOTA3NjE1MSw3NjEyMTU2ODgsLTI3NzcxOTU5LC05OTU2OTgx
+NDIsMTg0Nzg5MzQ5NSwtMTcxNjM5MjQzOSwxNTkxNDI3NjQ2LC
+0xMDk5Mjg5NzQ4XX0=
 -->
