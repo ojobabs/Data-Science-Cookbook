@@ -35,13 +35,14 @@ By using select by local we have the operators `intersect`, `are within` or `are
 
 Aim: once we have the local market polygone obtained by using the Network Analysis tool, we need to translate that polygone into a standard geography - block group level. To to this there are at least two options:
 
+1. Use the [Enrich Layer](https://pro.arcgis.com/en/pro-app/tool-reference/analysis/enrich-layer.htm) tool.  
 1. First, we can download from the U.S. Census Bureau the block-group geometry  shapefiles for each State and then doing a spatial join or something link that get the right shapefile.
 2. The ideal tool is [Generate Geographies from Overlay]([https://pro.arcgis.com/en/pro-app/tool-reference/business-analyst/generate-geographies-from-overlay.htm](https://pro.arcgis.com/en/pro-app/tool-reference/business-analyst/generate-geographies-from-overlay.htm)) . But as you can see [here]([https://pro.arcgis.com/en/pro-app/get-started/whats-new-in-arcgis-pro-2-3.htm](https://pro.arcgis.com/en/pro-app/get-started/whats-new-in-arcgis-pro-2-3.htm)) only exist on ArcGIS Pro 2.3. Our current version is 2.2.3. 
 3. There is another option, using the [ArcGIS Living Atlas of the World](https://livingatlas.arcgis.com/en/browse/#d=2&q=%22ACS%20Population%20Variables%20-%20Boundaries%22), but the [available layer](https://www.arcgis.com/home/item.html?id=f430d25bf03744edbb1579e18c4bf6b8) doesn't come at Block-Group level.
 2. The ideal tool is . But as you can see [here]([https://pro.arcgis.com/en/pro-app/get-started/whats-new-in-arcgis-pro-2-3.htm](https://pro.arcgis.com/en/pro-app/get-started/whats-new-in-arcgis-pro-2-3.htm)) only exist on 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NTczMTcyNywxMTM2MTc5NDQsLTEwOD
-gyNTM4NzMsLTE3MTkwNzYxNTEsNzYxMjE1Njg4LC0yNzc3MTk1
-OSwtOTk1Njk4MTQyLDE4NDc4OTM0OTUsLTE3MTYzOTI0MzksMT
-U5MTQyNzY0NiwtMTA5OTI4OTc0OF19
+eyJoaXN0b3J5IjpbLTQwMTk2NDIwOCwxMDc1NzMxNzI3LDExMz
+YxNzk0NCwtMTA4ODI1Mzg3MywtMTcxOTA3NjE1MSw3NjEyMTU2
+ODgsLTI3NzcxOTU5LC05OTU2OTgxNDIsMTg0Nzg5MzQ5NSwtMT
+cxNjM5MjQzOSwxNTkxNDI3NjQ2LC0xMDk5Mjg5NzQ4XX0=
 -->
