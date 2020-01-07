@@ -31,9 +31,11 @@ By using select by local we have the operators `intersect`, `are within` or `are
 - [Another clear explanation of DBSCAN on YouTube](https://www.youtube.com/watch?v=sKRUfsc8zp4)
 - [Brian Kent: Density Based Clustering in Python](https://www.youtube.com/watch?v=5cOhL4B5waU). This person has an interesting master or phd thesis about density based clustering [here](https://www.cmu.edu/dietrich/psychology/cognitiveaxon/documents/kent_dissertation.pdf). Also, he wrote some python packages. 
 
-### Transfer local market to a standard geography (block-grup)
+### Transfer local market to a standard geography (block-group)
+
+Aim: once we have the local market 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NzcxOTU5LC05OTU2OTgxNDIsMTg0Nz
-g5MzQ5NSwtMTcxNjM5MjQzOSwxNTkxNDI3NjQ2LC0xMDk5Mjg5
-NzQ4XX0=
+eyJoaXN0b3J5IjpbLTM5NzEwMDMwMCwtMjc3NzE5NTksLTk5NT
+Y5ODE0MiwxODQ3ODkzNDk1LC0xNzE2MzkyNDM5LDE1OTE0Mjc2
+NDYsLTEwOTkyODk3NDhdfQ==
 -->
