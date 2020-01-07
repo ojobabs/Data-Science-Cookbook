@@ -44,6 +44,8 @@ Aim: once we have the local market polygone obtained by using the Network Analys
 
 The aggregation method is block groups. 
 
+Apparently, it is work. Let's automate the code to get the driving time by population density plot. 
+
 Reference: 
 - [https://www.opendatanetwork.com/](https://www.opendatanetwork.com/)
 
@@ -52,7 +54,7 @@ Reference:
 4. There is another option, using the [ArcGIS Living Atlas of the World](https://livingatlas.arcgis.com/en/browse/#d=2&q=%22ACS%20Population%20Variables%20-%20Boundaries%22), but the [available layer](https://www.arcgis.com/home/item.html?id=f430d25bf03744edbb1579e18c4bf6b8) doesn't come at Block-Group level.
 5. The ideal tool is . But as you can see [here]([https://pro.arcgis.com/en/pro-app/get-started/whats-new-in-arcgis-pro-2-3.htm](https://pro.arcgis.com/en/pro-app/get-started/whats-new-in-arcgis-pro-2-3.htm)) only exist on 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyNjE0OTM2LDEwNzU3MzE3MjcsMTEzNj
+eyJoaXN0b3J5IjpbNjI3NDE4MDM2LDEwNzU3MzE3MjcsMTEzNj
 E3OTQ0LC0xMDg4MjUzODczLC0xNzE5MDc2MTUxLDc2MTIxNTY4
 OCwtMjc3NzE5NTksLTk5NTY5ODE0MiwxODQ3ODkzNDk1LC0xNz
 E2MzkyNDM5LDE1OTE0Mjc2NDYsLTEwOTkyODk3NDhdfQ==
