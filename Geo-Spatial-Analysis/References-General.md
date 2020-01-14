@@ -9,6 +9,12 @@
 - [Merging Zip Codes with Census Data](https://verstaresearch.com/blog/merging-zip-codes-with-census-data/)
 - [HUD USPS ZIP CODE CROSSWALK FILES](https://www.huduser.gov/portal/datasets/usps_crosswalk.html#data)
 
+### Understanding Geographic Identifiers (GEOIDs)
+
+To understand how to identify each standar area type (State, County, County Subdivision, 
+Places, Census Tract, Block Group and Block) in the U.S take a look to [this](https://www.census.gov/programs-surveys/geography/guidance/geo-identifiers.html).
+
+
 ### GIS analysis using Python
 
 - [Introduction to Geospatial Data in Python](https://www.datacamp.com/community/tutorials/geospatial-data-python)
@@ -85,9 +91,9 @@ Some information about solving the optimal location problem from a supervised an
 
 - [7 TOP FREE SATELLITE IMAGERY SOURCES IN 2019](https://eos.com/blog/7-top-free-satellite-imagery-sources-in-2019/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODEzMDgzNzIsLTEzNDgyNzUyNzcsOT
-I5MjYwMjM5LDExOTE2MDgzNTMsLTI3MDM5ODUxMCwtODk3Mzg2
-OTE3LC0xMDk1NzE3MDQwLDIwOTQ5ODUxMTYsLTIwODIzMjY4Mj
-AsNDE4NzU4ODQ1LDE0MDI1NDAwMDAsLTE1MjI3MTA2NjAsLTE2
-MTM5ODMzNzQsLTI0MDQzNDQ0NV19
+eyJoaXN0b3J5IjpbLTkzMjY1ODkzMSwtMTU4MTMwODM3MiwtMT
+M0ODI3NTI3Nyw5MjkyNjAyMzksMTE5MTYwODM1MywtMjcwMzk4
+NTEwLC04OTczODY5MTcsLTEwOTU3MTcwNDAsMjA5NDk4NTExNi
+wtMjA4MjMyNjgyMCw0MTg3NTg4NDUsMTQwMjU0MDAwMCwtMTUy
+MjcxMDY2MCwtMTYxMzk4MzM3NCwtMjQwNDM0NDQ1XX0=
 -->
