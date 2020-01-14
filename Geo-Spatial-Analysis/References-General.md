@@ -16,7 +16,15 @@ Places, Census Tract, Block Group and Block) in the U.S take a look to [this](ht
 
 ### Number of Census Tracts and Block-Groups in the U.S
 
-In the U.S there are 211,267 block-groups and 
+In the U.S there are:
+
+- 8,200,000 blocks
+- 211,267 block-groups
+- 66,000 census tracts
+More information [here
+
+![](https://current360.com/wp-content/uploads/2011/09/research101.jpg)
+
 
 ### GIS analysis using Python
 
@@ -94,7 +102,7 @@ Some information about solving the optimal location problem from a supervised an
 
 - [7 TOP FREE SATELLITE IMAGERY SOURCES IN 2019](https://eos.com/blog/7-top-free-satellite-imagery-sources-in-2019/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzg3NDk1NDUsLTkzMjY1ODkzMSwtMT
+eyJoaXN0b3J5IjpbLTE5MjA4NDk0ODYsLTkzMjY1ODkzMSwtMT
 U4MTMwODM3MiwtMTM0ODI3NTI3Nyw5MjkyNjAyMzksMTE5MTYw
 ODM1MywtMjcwMzk4NTEwLC04OTczODY5MTcsLTEwOTU3MTcwND
 AsMjA5NDk4NTExNiwtMjA4MjMyNjgyMCw0MTg3NTg4NDUsMTQw
