@@ -14,6 +14,9 @@
 To understand how to identify each standar area type (State, County, County Subdivision, 
 Places, Census Tract, Block Group and Block) in the U.S take a look to [this](https://www.census.gov/programs-surveys/geography/guidance/geo-identifiers.html).
 
+### Number of Census Tracts and Block-Groups in the U.S
+
+In the U.S there are 211,267 block-groups and 
 
 ### GIS analysis using Python
 
@@ -91,9 +94,10 @@ Some information about solving the optimal location problem from a supervised an
 
 - [7 TOP FREE SATELLITE IMAGERY SOURCES IN 2019](https://eos.com/blog/7-top-free-satellite-imagery-sources-in-2019/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMjY1ODkzMSwtMTU4MTMwODM3MiwtMT
-M0ODI3NTI3Nyw5MjkyNjAyMzksMTE5MTYwODM1MywtMjcwMzk4
-NTEwLC04OTczODY5MTcsLTEwOTU3MTcwNDAsMjA5NDk4NTExNi
-wtMjA4MjMyNjgyMCw0MTg3NTg4NDUsMTQwMjU0MDAwMCwtMTUy
-MjcxMDY2MCwtMTYxMzk4MzM3NCwtMjQwNDM0NDQ1XX0=
+eyJoaXN0b3J5IjpbLTEzNzg3NDk1NDUsLTkzMjY1ODkzMSwtMT
+U4MTMwODM3MiwtMTM0ODI3NTI3Nyw5MjkyNjAyMzksMTE5MTYw
+ODM1MywtMjcwMzk4NTEwLC04OTczODY5MTcsLTEwOTU3MTcwND
+AsMjA5NDk4NTExNiwtMjA4MjMyNjgyMCw0MTg3NTg4NDUsMTQw
+MjU0MDAwMCwtMTUyMjcxMDY2MCwtMTYxMzk4MzM3NCwtMjQwND
+M0NDQ1XX0=
 -->
