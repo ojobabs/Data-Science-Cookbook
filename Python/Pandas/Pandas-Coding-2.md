@@ -601,12 +601,28 @@ PSYCLE_Premier_CY['county_gcode'] = PSYCLE_Premier_CY['county_gcode'].str[:6]
 
 ### [Converting a column within pandas dataframe from int to string](https://stackoverflow.com/questions/17950374/converting-a-column-within-pandas-dataframe-from-int-to-string)
 
+### Remove an item from a list in Python (clear, pop, remove, del)
+
+In Python, use  `list`  methods  `clear()`,  `pop()`, and  `remove()`  to remove items from a list. It is also possible to delete items using  `del`  statement by specifying a position or range with an index or slice.
+
+-   Remove all items:  `clear()`
+-   Remove an item by index and get its value:  `pop()`
+-   Remove an item by value:  `remove()`
+-   Remove items by index or slice:  `del`
+
+You can find specific examples here:
+
+[https://note.nkmk.me/en/python-list-clear-pop-remove-del/](https://note.nkmk.me/en/python-list-clear-pop-remove-del/)
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY4NjQ5Mjk3LC0xNzMyNTE0NDE2LC0xNj
-czNzg1MTgyLC0yMzcwNjc2ODAsMjQ5ODUzNTU1LDE2NDQyODI2
-ODYsMzUyNzIwNTE1LDI1Nzk2OTExNywxNjMzNjA3OTY2LDEyNT
-A3NTc5MzksLTIwNjM0NjkyNDUsLTEwNzYwNTgzNSwtNTMzNjY4
-MDYyLDg3NjMxNjgyLDU1MzcxMjkxMywtMTIwMDk5NDk1OSwtMT
-E3NTM4MjMyOSw4ODU2Mjg5NTUsNzMxNDU1NTEsMTA2OTg5NzE3
-N119
+eyJoaXN0b3J5IjpbLTE2NjYwNzE1ODEsODY4NjQ5Mjk3LC0xNz
+MyNTE0NDE2LC0xNjczNzg1MTgyLC0yMzcwNjc2ODAsMjQ5ODUz
+NTU1LDE2NDQyODI2ODYsMzUyNzIwNTE1LDI1Nzk2OTExNywxNj
+MzNjA3OTY2LDEyNTA3NTc5MzksLTIwNjM0NjkyNDUsLTEwNzYw
+NTgzNSwtNTMzNjY4MDYyLDg3NjMxNjgyLDU1MzcxMjkxMywtMT
+IwMDk5NDk1OSwtMTE3NTM4MjMyOSw4ODU2Mjg5NTUsNzMxNDU1
+NTFdfQ==
 -->
