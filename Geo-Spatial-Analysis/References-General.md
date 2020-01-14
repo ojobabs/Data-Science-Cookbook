@@ -21,6 +21,8 @@ In the U.S there are:
 - 8,200,000 blocks
 - 211,267 block-groups
 - 66,000 census tracts
+- 3,007 counties
+
 More information [here]([https://current360.com/research-101-census-tracts-vs-census-block-groups/](https://current360.com/research-101-census-tracts-vs-census-block-groups/)).
 
 ![](https://current360.com/wp-content/uploads/2011/09/research101.jpg)
@@ -103,10 +105,10 @@ Some information about solving the optimal location problem from a supervised an
 
 - [7 TOP FREE SATELLITE IMAGERY SOURCES IN 2019](https://eos.com/blog/7-top-free-satellite-imagery-sources-in-2019/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MDQ1NTE4MiwtOTMyNjU4OTMxLC0xNT
-gxMzA4MzcyLC0xMzQ4Mjc1Mjc3LDkyOTI2MDIzOSwxMTkxNjA4
-MzUzLC0yNzAzOTg1MTAsLTg5NzM4NjkxNywtMTA5NTcxNzA0MC
-wyMDk0OTg1MTE2LC0yMDgyMzI2ODIwLDQxODc1ODg0NSwxNDAy
-NTQwMDAwLC0xNTIyNzEwNjYwLC0xNjEzOTgzMzc0LC0yNDA0Mz
-Q0NDVdfQ==
+eyJoaXN0b3J5IjpbMTQ1OTAxMTA3LC01NjA0NTUxODIsLTkzMj
+Y1ODkzMSwtMTU4MTMwODM3MiwtMTM0ODI3NTI3Nyw5MjkyNjAy
+MzksMTE5MTYwODM1MywtMjcwMzk4NTEwLC04OTczODY5MTcsLT
+EwOTU3MTcwNDAsMjA5NDk4NTExNiwtMjA4MjMyNjgyMCw0MTg3
+NTg4NDUsMTQwMjU0MDAwMCwtMTUyMjcxMDY2MCwtMTYxMzk4Mz
+M3NCwtMjQwNDM0NDQ1XX0=
 -->
