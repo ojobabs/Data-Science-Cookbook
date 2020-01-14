@@ -586,12 +586,23 @@ Reference: [String-to-integer-dataframe](https://datatofish.com/string-to-intege
 
 [https://stackoverflow.com/questions/17950374/converting-a-column-within-pandas-dataframe-from-int-to-string](https://stackoverflow.com/questions/17950374/converting-a-column-within-pandas-dataframe-from-int-to-string)
 [https://cmdlinetips.com/2018/02/how-to-subset-pandas-dataframe-based-on-values-of-a-column/](https://cmdlinetips.com/2018/02/how-to-subset-pandas-dataframe-based-on-values-of-a-column/)
+
+### [Pandas make new column from string slice of another column](https://stackoverflow.com/questions/25789445/pandas-make-new-column-from-string-slice-of-another-column)
+
+```python
+# Create a new column wit the first 5 digits in comp_gcode
+# The first 5 digits represents the county
+# First transform comp_code into string
+PSYCLE_Premier_CY['county_gcode'] = PSYCLE_Premier_CY['comp_gcode'].apply(str)
+# Second get the firt 5 digits from the string
+PSYCLE_Premier_CY['county_gcode'] = PSYCLE_Premier_CY['county_gcode'].str[:6]
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzI1MTQ0MTYsLTE2NzM3ODUxODIsLT
-IzNzA2NzY4MCwyNDk4NTM1NTUsMTY0NDI4MjY4NiwzNTI3MjA1
-MTUsMjU3OTY5MTE3LDE2MzM2MDc5NjYsMTI1MDc1NzkzOSwtMj
-A2MzQ2OTI0NSwtMTA3NjA1ODM1LC01MzM2NjgwNjIsODc2MzE2
-ODIsNTUzNzEyOTEzLC0xMjAwOTk0OTU5LC0xMTc1MzgyMzI5LD
-g4NTYyODk1NSw3MzE0NTU1MSwxMDY5ODk3MTc3LDExNTQzNTI5
-OTFdfQ==
+eyJoaXN0b3J5IjpbLTExNTc0NTEyMTQsLTE3MzI1MTQ0MTYsLT
+E2NzM3ODUxODIsLTIzNzA2NzY4MCwyNDk4NTM1NTUsMTY0NDI4
+MjY4NiwzNTI3MjA1MTUsMjU3OTY5MTE3LDE2MzM2MDc5NjYsMT
+I1MDc1NzkzOSwtMjA2MzQ2OTI0NSwtMTA3NjA1ODM1LC01MzM2
+NjgwNjIsODc2MzE2ODIsNTUzNzEyOTEzLC0xMjAwOTk0OTU5LC
+0xMTc1MzgyMzI5LDg4NTYyODk1NSw3MzE0NTU1MSwxMDY5ODk3
+MTc3XX0=
 -->
