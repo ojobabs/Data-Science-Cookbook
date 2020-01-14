@@ -612,17 +612,25 @@ In Python, use  `list`  methods  `clear()`,  `pop()`, and  `remove()`  to remove
 
 You can find specific examples here:
 
-[https://note.nkmk.me/en/python-list-clear-pop-remove-del/](https://note.nkmk.me/en/python-list-clear-pop-remove-del/)
+[python-list-clear-pop-remove-del](https://note.nkmk.me/en/python-list-clear-pop-remove-del/)
+
+One example:
+
+```python
+# Remove the county_gcode column from the list
+all_cols.remove('county_gcode')
+```
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjYwNzE1ODEsODY4NjQ5Mjk3LC0xNz
-MyNTE0NDE2LC0xNjczNzg1MTgyLC0yMzcwNjc2ODAsMjQ5ODUz
-NTU1LDE2NDQyODI2ODYsMzUyNzIwNTE1LDI1Nzk2OTExNywxNj
-MzNjA3OTY2LDEyNTA3NTc5MzksLTIwNjM0NjkyNDUsLTEwNzYw
-NTgzNSwtNTMzNjY4MDYyLDg3NjMxNjgyLDU1MzcxMjkxMywtMT
-IwMDk5NDk1OSwtMTE3NTM4MjMyOSw4ODU2Mjg5NTUsNzMxNDU1
-NTFdfQ==
+eyJoaXN0b3J5IjpbLTc5OTg3MTk1Miw4Njg2NDkyOTcsLTE3Mz
+I1MTQ0MTYsLTE2NzM3ODUxODIsLTIzNzA2NzY4MCwyNDk4NTM1
+NTUsMTY0NDI4MjY4NiwzNTI3MjA1MTUsMjU3OTY5MTE3LDE2Mz
+M2MDc5NjYsMTI1MDc1NzkzOSwtMjA2MzQ2OTI0NSwtMTA3NjA1
+ODM1LC01MzM2NjgwNjIsODc2MzE2ODIsNTUzNzEyOTEzLC0xMj
+AwOTk0OTU5LC0xMTc1MzgyMzI5LDg4NTYyODk1NSw3MzE0NTU1
+MV19
 -->
