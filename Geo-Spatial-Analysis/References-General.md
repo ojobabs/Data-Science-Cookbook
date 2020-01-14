@@ -25,7 +25,7 @@ More information [here]([https://current360.com/research-101-census-tracts-vs-ce
 
 ![](https://current360.com/wp-content/uploads/2011/09/research101.jpg)
 
-[https://www2.census.gov/geo/pdfs/reference/geodiagram.pdf?#](https://www2.census.gov/geo/pdfs/reference/geodiagram.pdf?#)
+[Standard Hierarchy of Census Geographic Entities](https://www2.census.gov/geo/pdfs/reference/geodiagram.pdf?#)
 
 ### GIS analysis using Python
 
@@ -103,10 +103,10 @@ Some information about solving the optimal location problem from a supervised an
 
 - [7 TOP FREE SATELLITE IMAGERY SOURCES IN 2019](https://eos.com/blog/7-top-free-satellite-imagery-sources-in-2019/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQ1ODI5NzgsLTkzMjY1ODkzMSwtMT
-U4MTMwODM3MiwtMTM0ODI3NTI3Nyw5MjkyNjAyMzksMTE5MTYw
-ODM1MywtMjcwMzk4NTEwLC04OTczODY5MTcsLTEwOTU3MTcwND
-AsMjA5NDk4NTExNiwtMjA4MjMyNjgyMCw0MTg3NTg4NDUsMTQw
-MjU0MDAwMCwtMTUyMjcxMDY2MCwtMTYxMzk4MzM3NCwtMjQwND
-M0NDQ1XX0=
+eyJoaXN0b3J5IjpbLTU2MDQ1NTE4MiwtOTMyNjU4OTMxLC0xNT
+gxMzA4MzcyLC0xMzQ4Mjc1Mjc3LDkyOTI2MDIzOSwxMTkxNjA4
+MzUzLC0yNzAzOTg1MTAsLTg5NzM4NjkxNywtMTA5NTcxNzA0MC
+wyMDk0OTg1MTE2LC0yMDgyMzI2ODIwLDQxODc1ODg0NSwxNDAy
+NTQwMDAwLC0xNTIyNzEwNjYwLC0xNjEzOTgzMzc0LC0yNDA0Mz
+Q0NDVdfQ==
 -->
