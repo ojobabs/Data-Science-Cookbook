@@ -17,7 +17,7 @@ I used the above references to write a backup batch script for a Windows virtual
 > **Note**: Avoid using the option "Run with the highest privileges" when using Windows task scheduler. Otherwise, the system cannot open shared drives linke this one `X:\CDSA Data Management\ESRI\backup\%BackupName_1%.zip`. 
 
 ```batch
-@echo off
+::@echo off
 
 :: run backup.py to export geodatabase as XML document
 "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\python.exe" "C:\Users\T93KQI0\Documents\Projects\Geospatial-Analysis\src\backup.py"
@@ -45,8 +45,11 @@ copy "C:\Users\T93KQI0\Documents\ArcGIS\Projects\testproject02\testproject02.apr
 :: Retention policy: delete all files older than one month
 
 ForFiles /p "X:\CDSA Data Management\ESRI\backup" /s /d -30 /c "cmd /c del @file"
+
+PAUSE
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTY3NTczNTIsNzAzODA4MjQ1LDE2Mj
-YzMTUyMzEsMTAyNDMzMzU1OCwtNTg2MTgxOTE3XX0=
+eyJoaXN0b3J5IjpbLTkxNzI4MDk0MiwtMTI5Njc1NzM1Miw3MD
+M4MDgyNDUsMTYyNjMxNTIzMSwxMDI0MzMzNTU4LC01ODYxODE5
+MTddfQ==
 -->
