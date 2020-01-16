@@ -10,8 +10,8 @@
 - [Batch-file-to-copy-files-from-one-folder-to-another-folder](https://stackoverflow.com/questions/986447/batch-file-to-copy-files-from-one-folder-to-another-folder)
 - [Generate a Backup File with Timestamp using a Batch Script](https://datatofish.com/backup-file-timestamp/)
 - [How to schedule a Batch File to run automatically in Windows 10](https://www.thewindowsclub.com/how-to-schedule-batch-file-run-automatically-windows-7)
-- 
+- [How To Delete Files Older Than X Days in Windows 10](https://winaero.com/blog/delete-files-older-x-days/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjU0ODI3OTAsMTYyNjMxNTIzMSwxMD
-I0MzMzNTU4LC01ODYxODE5MTddfQ==
+eyJoaXN0b3J5IjpbMTYzOTc1NDI1OCwxNjI2MzE1MjMxLDEwMj
+QzMzM1NTgsLTU4NjE4MTkxN119
 -->
