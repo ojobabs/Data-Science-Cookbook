@@ -2,8 +2,9 @@
 
 # Batch Scripting Notes
 
-- # [Difference between Batch and Bash files](https://stackoverflow.com/questions/5079180/difference-between-batch-and-bash-files)
+- [Difference between Batch and Bash files](https://stackoverflow.com/questions/5079180/difference-between-batch-and-bash-files)
+- [Batch Script Tutorial](https://www.tutorialspoint.com/batch_script/index.htm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDU2Njg4ODVdfQ==
+eyJoaXN0b3J5IjpbLTE4NDk3ODgxMzBdfQ==
 -->
