@@ -14,6 +14,8 @@
 
 I used the above references to write a backup batch script for a Windows virtual machine:
 
+> **Note**: Avoid using the option "Run with the highest privileges" when using Wind
+
 ```batch
 @echo off
 
@@ -45,6 +47,6 @@ copy "C:\Users\T93KQI0\Documents\ArcGIS\Projects\testproject02\testproject02.apr
 ForFiles /p "X:\CDSA Data Management\ESRI\backup" /s /d -30 /c "cmd /c del @file"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAzODA4MjQ1LDE2MjYzMTUyMzEsMTAyND
-MzMzU1OCwtNTg2MTgxOTE3XX0=
+eyJoaXN0b3J5IjpbNDUxMTA1NzIyLDcwMzgwODI0NSwxNjI2Mz
+E1MjMxLDEwMjQzMzM1NTgsLTU4NjE4MTkxN119
 -->
