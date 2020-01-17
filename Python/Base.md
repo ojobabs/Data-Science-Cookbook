@@ -44,7 +44,9 @@ import sklearn
 print(sklearn.__version__)
 ```
 [reference](https://medium.com/@rakshithvasudev/finding-the-version-of-the-python-package-is-very-easy-1db1a3271d88)
+
+### [Concatenate backslash on python](https://stackoverflow.com/questions/22792113/concatenate-backslash-on-python)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTUyNDM5NjQsLTI1NDU0ODQwNywtMT
-c1OTE0MDMyOF19
+eyJoaXN0b3J5IjpbLTE0Nzk4MTMxMzQsLTE5OTUyNDM5NjQsLT
+I1NDU0ODQwNywtMTc1OTE0MDMyOF19
 -->
