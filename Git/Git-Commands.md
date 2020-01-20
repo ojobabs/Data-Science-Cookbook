@@ -348,6 +348,12 @@ You can undo  `git add`  before commit with
 git reset <file>
 ```
 
+### [How to clone all remote branches in Git?](https://stackoverflow.com/questions/67699/how-to-clone-all-remote-branches-in-git)
+
+```bash
+
+```
+
 
 
 
@@ -355,9 +361,9 @@ git reset <file>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg5ODI3NzA2LDUzODg4NzQ2NCwtMTY0ND
-k0MTg5MSwxMDI4NzMwNDk4LC0xMDE3NjgzNDkzLDE3MzYxMDQw
-NjgsMjAxOTI3OTM4NiwyMDE5Mjc5Mzg2LDE2MDE4MTY5NzEsLT
-EzMDIxNTI2NTAsLTE5MjU3MDg0NjAsLTEwNTEzMjU3NDcsMjA0
-MDI2NzYwOSwyNDI2ODk3MzNdfQ==
+eyJoaXN0b3J5IjpbMTA5NTQ5NDk0MSw0ODk4Mjc3MDYsNTM4OD
+g3NDY0LC0xNjQ0OTQxODkxLDEwMjg3MzA0OTgsLTEwMTc2ODM0
+OTMsMTczNjEwNDA2OCwyMDE5Mjc5Mzg2LDIwMTkyNzkzODYsMT
+YwMTgxNjk3MSwtMTMwMjE1MjY1MCwtMTkyNTcwODQ2MCwtMTA1
+MTMyNTc0NywyMDQwMjY3NjA5LDI0MjY4OTczM119
 -->
