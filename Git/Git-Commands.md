@@ -342,6 +342,16 @@ $ git checkout name_of_branch
 
 ### [How do I undo 'git add' before commit?](https://stackoverflow.com/questions/348170/how-do-i-undo-git-add-before-commit)
 
+If you have many remote branches that you want to fetch at once, do:
+
+```
+$ git pull --all
+
+```
+
+Now you can checkout any branch as you need to, without hitting the remote repository.
+
+
 You can undo  `git add`  before commit with
 
 ```bash
@@ -443,7 +453,7 @@ $ gitk --all &
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDY3MDU0MDUsNDg5ODI3NzA2LDUzOD
+eyJoaXN0b3J5IjpbLTExNTY5ODgwNTcsNDg5ODI3NzA2LDUzOD
 g4NzQ2NCwtMTY0NDk0MTg5MSwxMDI4NzMwNDk4LC0xMDE3Njgz
 NDkzLDE3MzYxMDQwNjgsMjAxOTI3OTM4NiwyMDE5Mjc5Mzg2LD
 E2MDE4MTY5NzEsLTEzMDIxNTI2NTAsLTE5MjU3MDg0NjAsLTEw
