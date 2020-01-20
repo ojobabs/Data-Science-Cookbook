@@ -10,6 +10,10 @@ Output:
 git version 1.8.3.1
 ```
 
+### Git 
+
+[https://en.wikipedia.org/wiki/Git](https://en.wikipedia.org/wiki/Git)
+
 ### Git global setup
 
 ```bash
@@ -463,9 +467,9 @@ $ gitk --all &
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUwMjAwNDgsNDg5ODI3NzA2LDUzODg4Nz
-Q2NCwtMTY0NDk0MTg5MSwxMDI4NzMwNDk4LC0xMDE3NjgzNDkz
-LDE3MzYxMDQwNjgsMjAxOTI3OTM4NiwyMDE5Mjc5Mzg2LDE2MD
-E4MTY5NzEsLTEzMDIxNTI2NTAsLTE5MjU3MDg0NjAsLTEwNTEz
-MjU3NDcsMjA0MDI2NzYwOSwyNDI2ODk3MzNdfQ==
+eyJoaXN0b3J5IjpbLTE0OTUzNzU5NjQsNDg5ODI3NzA2LDUzOD
+g4NzQ2NCwtMTY0NDk0MTg5MSwxMDI4NzMwNDk4LC0xMDE3Njgz
+NDkzLDE3MzYxMDQwNjgsMjAxOTI3OTM4NiwyMDE5Mjc5Mzg2LD
+E2MDE4MTY5NzEsLTEzMDIxNTI2NTAsLTE5MjU3MDg0NjAsLTEw
+NTEzMjU3NDcsMjA0MDI2NzYwOSwyNDI2ODk3MzNdfQ==
 -->
