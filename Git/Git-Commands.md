@@ -10,9 +10,12 @@ Output:
 git version 1.8.3.1
 ```
 
-### Git 
-
 [https://en.wikipedia.org/wiki/Git](https://en.wikipedia.org/wiki/Git)
+
+
+### Git Documentation for 1.8.3.1
+
+[https://git-scm.com/docs/git/1.8.3.1](https://git-scm.com/docs/git/1.8.3.1)
 
 ### Git global setup
 
@@ -467,9 +470,9 @@ $ gitk --all &
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTUzNzU5NjQsNDg5ODI3NzA2LDUzOD
-g4NzQ2NCwtMTY0NDk0MTg5MSwxMDI4NzMwNDk4LC0xMDE3Njgz
-NDkzLDE3MzYxMDQwNjgsMjAxOTI3OTM4NiwyMDE5Mjc5Mzg2LD
-E2MDE4MTY5NzEsLTEzMDIxNTI2NTAsLTE5MjU3MDg0NjAsLTEw
-NTEzMjU3NDcsMjA0MDI2NzYwOSwyNDI2ODk3MzNdfQ==
+eyJoaXN0b3J5IjpbMTI5NTM4MzkwOSw0ODk4Mjc3MDYsNTM4OD
+g3NDY0LC0xNjQ0OTQxODkxLDEwMjg3MzA0OTgsLTEwMTc2ODM0
+OTMsMTczNjEwNDA2OCwyMDE5Mjc5Mzg2LDIwMTkyNzkzODYsMT
+YwMTgxNjk3MSwtMTMwMjE1MjY1MCwtMTkyNTcwODQ2MCwtMTA1
+MTMyNTc0NywyMDQwMjY3NjA5LDI0MjY4OTczM119
 -->
