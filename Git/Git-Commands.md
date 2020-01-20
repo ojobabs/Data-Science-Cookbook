@@ -350,8 +350,90 @@ git reset <file>
 
 ### [How to clone all remote branches in Git?](https://stackoverflow.com/questions/67699/how-to-clone-all-remote-branches-in-git)
 
-```bash
+4445
 
+[](https://stackoverflow.com/posts/72156/timeline "Timeline")
+
+First, clone a remote  [Git](http://en.wikipedia.org/wiki/Git_%28software%29)  repository and  [cd](http://en.wikipedia.org/wiki/Cd_%28command%29)  into it:
+
+```bash
+$ git clone git://example.com/myproject
+$ cd myproject
+
+```
+
+Next, look at the local branches in your repository:
+
+```bash
+$ git branch
+* master
+
+```
+
+But there are other branches hiding in your repository! You can see these using the  `-a`  flag:
+
+```bash
+$ git branch -a
+* master
+  remotes/origin/HEAD
+  remotes/origin/master
+  remotes/origin/v1.0-stable
+  remotes/origin/experimental
+
+```
+
+If you just want to take a quick peek at an upstream branch, you can check it out directly:
+
+```bash
+$ git checkout origin/experimental
+
+```
+
+But if you want to work on that branch, you'll need to create a local tracking branch which is done automatically by:
+
+```bash
+$ git checkout experimental
+
+```
+
+and you will see
+
+```bash
+Branch experimental set up to track remote branch experimental from origin.
+Switched to a new branch 'experimental'
+
+```
+
+That last line throws some people: "New branch" - huh? What it really means is that the branch is taken from the index and created locally for you. The  _previous_  line is actually more informative as it tells you that the branch is being set up to track the remote branch, which usually means the origin/branch_name branch
+
+Now, if you look at your local branches, this is what you'll see:
+
+```bash
+$ git branch
+* experimental
+  master
+
+```
+
+You can actually track more than one remote repository using  `git remote`.
+
+```bash
+$ git remote add win32 git://example.com/users/joe/myproject-win32-port
+$ git branch -a
+* master
+  remotes/origin/HEAD
+  remotes/origin/master
+  remotes/origin/v1.0-stable
+  remotes/origin/experimental
+  remotes/win32/master
+  remotes/win32/new-widgets
+
+```
+
+At this point, things are getting pretty crazy, so run  `gitk`  to see what's going on:
+
+```bash
+$ gitk --all &
 ```
 
 
@@ -361,9 +443,9 @@ git reset <file>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NTQ5NDk0MSw0ODk4Mjc3MDYsNTM4OD
-g3NDY0LC0xNjQ0OTQxODkxLDEwMjg3MzA0OTgsLTEwMTc2ODM0
-OTMsMTczNjEwNDA2OCwyMDE5Mjc5Mzg2LDIwMTkyNzkzODYsMT
-YwMTgxNjk3MSwtMTMwMjE1MjY1MCwtMTkyNTcwODQ2MCwtMTA1
-MTMyNTc0NywyMDQwMjY3NjA5LDI0MjY4OTczM119
+eyJoaXN0b3J5IjpbLTE1MDY3MDU0MDUsNDg5ODI3NzA2LDUzOD
+g4NzQ2NCwtMTY0NDk0MTg5MSwxMDI4NzMwNDk4LC0xMDE3Njgz
+NDkzLDE3MzYxMDQwNjgsMjAxOTI3OTM4NiwyMDE5Mjc5Mzg2LD
+E2MDE4MTY5NzEsLTEzMDIxNTI2NTAsLTE5MjU3MDg0NjAsLTEw
+NTEzMjU3NDcsMjA0MDI2NzYwOSwyNDI2ODk3MzNdfQ==
 -->
