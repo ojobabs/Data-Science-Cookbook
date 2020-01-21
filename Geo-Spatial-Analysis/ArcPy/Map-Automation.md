@@ -104,7 +104,7 @@ But this list the maps objects without showing the name. To do that we can use l
 ```python
 print([map.name for map in aprx.listMaps()])
 ```
-Output:
+Output:**strong text**
 ```
 ['Overview Map', 'Main Map']
 ```
@@ -139,7 +139,7 @@ The Overview Map currently has no layers,
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MTkwNzY1MSwzMzQ1NDU3Myw0OTA2OT
-cwMjUsLTEyNTE2NTU4MDMsMTYwNTkwODcwNiw2NjQzNDY3MTIs
-LTIwMTc5MDQ5MzFdfQ==
+eyJoaXN0b3J5IjpbMjAzNjc3Mjg5NywtODkxOTA3NjUxLDMzND
+U0NTczLDQ5MDY5NzAyNSwtMTI1MTY1NTgwMywxNjA1OTA4NzA2
+LDY2NDM0NjcxMiwtMjAxNzkwNDkzMV19
 -->
