@@ -83,13 +83,13 @@ Output:
 ```
 Main Map
 ```
-
+Let's insert a new basemap using the ribbon. 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDUxNzI0NiwzMzQ1NDU3Myw0OTA2OT
+eyJoaXN0b3J5IjpbMTI3MjIzMzMyNSwzMzQ1NDU3Myw0OTA2OT
 cwMjUsLTEyNTE2NTU4MDMsMTYwNTkwODcwNiw2NjQzNDY3MTIs
 LTIwMTc5MDQ5MzFdfQ==
 -->
