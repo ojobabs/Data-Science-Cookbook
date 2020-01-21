@@ -95,6 +95,10 @@ Notice that the catalog pane has a Map folder. Here we have the two mpas. The `a
 ```python
 print(aprx.listMaps())
 ```
+output:
+```
+[<arcpy._mp.Map object at 0x000000000032CDE6D8>, <arcpy._mp.Map object at 0x000000000032CDE8D8>]
+```
 
 
 
@@ -104,7 +108,7 @@ print(aprx.listMaps())
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4OTk1NjU5LDMzNDU0NTczLDQ5MDY5Nz
-AyNSwtMTI1MTY1NTgwMywxNjA1OTA4NzA2LDY2NDM0NjcxMiwt
-MjAxNzkwNDkzMV19
+eyJoaXN0b3J5IjpbLTEyNDgwMjk4MDAsMzM0NTQ1NzMsNDkwNj
+k3MDI1LC0xMjUxNjU1ODAzLDE2MDU5MDg3MDYsNjY0MzQ2NzEy
+LC0yMDE3OTA0OTMxXX0=
 -->
