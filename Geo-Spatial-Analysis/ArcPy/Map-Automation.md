@@ -47,8 +47,13 @@ mxd.save()
 ```
 
 ### New notes about `arcpy.mp`
+
+References:
+
+- [ArcGIS Pro Python reference](https://pro.arcgis.com/en/pro-app/arcpy/main/arcgis-pro-arcpy-reference.htm)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxODcyNzM2NCw0OTA2OTcwMjUsLTEyNT
-E2NTU4MDMsMTYwNTkwODcwNiw2NjQzNDY3MTIsLTIwMTc5MDQ5
-MzFdfQ==
+eyJoaXN0b3J5IjpbLTEwMzAzNDk0NDIsNDkwNjk3MDI1LC0xMj
+UxNjU1ODAzLDE2MDU5MDg3MDYsNjY0MzQ2NzEyLC0yMDE3OTA0
+OTMxXX0=
 -->
