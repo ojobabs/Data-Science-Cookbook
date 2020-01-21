@@ -83,13 +83,17 @@ Output:
 ```
 Main Map
 ```
-Let's insert a new basemap using the ribbon. 
+Let's insert a new basemap using the ribbon. Now the new basemap is active. We can rename the basemap:
+
+```python
+aprx.activeMap.name = "Overview "
+```
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MjIzMzMyNSwzMzQ1NDU3Myw0OTA2OT
+eyJoaXN0b3J5IjpbMTUyNDgwNzYwMywzMzQ1NDU3Myw0OTA2OT
 cwMjUsLTEyNTE2NTU4MDMsMTYwNTkwODcwNiw2NjQzNDY3MTIs
 LTIwMTc5MDQ5MzFdfQ==
 -->
