@@ -54,9 +54,13 @@ References:
 
 When using the Python window inside ArcGIS Pro, you don't need to import `arcpy`. 
 
-Let's create and arcp
+Let's create an `aprx` project from the current project:
+
+```python
+aprx = arcpy.mp.ArcGISProject()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMTAyMjcxMSw0OTA2OTcwMjUsLTEyNT
-E2NTU4MDMsMTYwNTkwODcwNiw2NjQzNDY3MTIsLTIwMTc5MDQ5
-MzFdfQ==
+eyJoaXN0b3J5IjpbMzM0NTQ1NzMsNDkwNjk3MDI1LC0xMjUxNj
+U1ODAzLDE2MDU5MDg3MDYsNjY0MzQ2NzEyLC0yMDE3OTA0OTMx
+XX0=
 -->
