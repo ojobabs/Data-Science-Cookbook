@@ -84,16 +84,18 @@ Output:
 Main Map
 ```
 Let's insert a new basemap using the ribbon. Now the new basemap is active. We can rename the basemap:
-
 ```python
-aprx.activeMap.name = "Overview "
+aprx.activeMap.name = "Overview Map"
 ```
+The active basemap has been renamed. 
+
+The `activeMap` property is read only. So, we cannot use `arcpy` to chan
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNDgwNzYwMywzMzQ1NDU3Myw0OTA2OT
-cwMjUsLTEyNTE2NTU4MDMsMTYwNTkwODcwNiw2NjQzNDY3MTIs
-LTIwMTc5MDQ5MzFdfQ==
+eyJoaXN0b3J5IjpbODA4MzI5NzY5LDMzNDU0NTczLDQ5MDY5Nz
+AyNSwtMTI1MTY1NTgwMywxNjA1OTA4NzA2LDY2NDM0NjcxMiwt
+MjAxNzkwNDkzMV19
 -->
