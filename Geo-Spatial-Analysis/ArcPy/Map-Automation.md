@@ -60,9 +60,9 @@ Let's create an `aprx` project from the current project:
 aprx = arcpy.mp.ArcGISProject("CURRENT")
 ```
 
-A property of `aprx` is 
+A property of `aprx` is the active map that returns a map object. And a property of a map is its name. So, we can print the name for the active map for this project. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0Njc5ODM2NiwzMzQ1NDU3Myw0OTA2OT
-cwMjUsLTEyNTE2NTU4MDMsMTYwNTkwODcwNiw2NjQzNDY3MTIs
-LTIwMTc5MDQ5MzFdfQ==
+eyJoaXN0b3J5IjpbLTE5MDQ0MDc1MzQsMzM0NTQ1NzMsNDkwNj
+k3MDI1LC0xMjUxNjU1ODAzLDE2MDU5MDg3MDYsNjY0MzQ2NzEy
+LC0yMDE3OTA0OTMxXX0=
 -->
