@@ -116,9 +116,10 @@ Now that we have a map object named `mainMap`, we can use it a base map method t
 ```python
 mainMap.addBasemap("Light Gray Canvas")
 ```
-Now, if you open the Main Map you can see that the basemap now is light gray canvas. 
+We will be over the map that was active. So, to see the change we made to the Main Map view we need to click its tab. Now, if you open the Main Map you can see that the basemap now is light gray canvas. 
 
-We will be over the map that was 
+To find the names of all other available base maps use the ribbon. 
+
 
 
 
@@ -130,7 +131,7 @@ We will be over the map that was
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODc2MTAyNDgsMzM0NTQ1NzMsNDkwNj
-k3MDI1LC0xMjUxNjU1ODAzLDE2MDU5MDg3MDYsNjY0MzQ2NzEy
-LC0yMDE3OTA0OTMxXX0=
+eyJoaXN0b3J5IjpbMTE1NzEzNTkwMCwzMzQ1NDU3Myw0OTA2OT
+cwMjUsLTEyNTE2NTU4MDMsMTYwNTkwODcwNiw2NjQzNDY3MTIs
+LTIwMTc5MDQ5MzFdfQ==
 -->
