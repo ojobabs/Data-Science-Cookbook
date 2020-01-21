@@ -113,7 +113,7 @@ To look for a map in the list of maps using its name, and to create a map object
 ```python
 mainMap = aprx.listMaps("Main Map")[0]
 ```
-Now that we have a map object named `mainMap`, we can use it a base map method to 
+Now that we have a map object named `mainMap`, we can use it a base map method to change the basemap to a light gray canvas. 
 
 
 
@@ -124,7 +124,7 @@ Now that we have a map object named `mainMap`, we can use it a base map method t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NjMyNjk2NCwzMzQ1NDU3Myw0OTA2OT
+eyJoaXN0b3J5IjpbLTM4NjY2NjgzMywzMzQ1NDU3Myw0OTA2OT
 cwMjUsLTEyNTE2NTU4MDMsMTYwNTkwODcwNiw2NjQzNDY3MTIs
 LTIwMTc5MDQ5MzFdfQ==
 -->
