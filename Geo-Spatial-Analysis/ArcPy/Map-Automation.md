@@ -72,11 +72,24 @@ Map
 We can rename the active map:
 
 ```python
+aprx.activeMap.name = "Main Map"
+```
+Now you can see that the name of the active map changed to "Main Map" instead of "Map".
 
+```python
+print(aprx.activeMap.name)
+```
+Output:
+```
+Main Map
 ```
 
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODkxNTg5ODAsMzM0NTQ1NzMsNDkwNj
-k3MDI1LC0xMjUxNjU1ODAzLDE2MDU5MDg3MDYsNjY0MzQ2NzEy
-LC0yMDE3OTA0OTMxXX0=
+eyJoaXN0b3J5IjpbLTI2MDUxNzI0NiwzMzQ1NDU3Myw0OTA2OT
+cwMjUsLTEyNTE2NTU4MDMsMTYwNTkwODcwNiw2NjQzNDY3MTIs
+LTIwMTc5MDQ5MzFdfQ==
 -->
