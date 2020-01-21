@@ -102,7 +102,11 @@ output:
 But this list the maps objects without showing the name. To do that we can use list comprehension:
 
 ```python
-
+print([map.name for map in aprx.listMaps()])
+```
+Output:
+```
+['Overview Map', 'Main Map']
 ```
 
 
@@ -112,8 +116,9 @@ But this list the maps objects without showing the name. To do that we can use l
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTE4MDUzNDIsMzM0NTQ1NzMsNDkwNj
-k3MDI1LC0xMjUxNjU1ODAzLDE2MDU5MDg3MDYsNjY0MzQ2NzEy
-LC0yMDE3OTA0OTMxXX0=
+eyJoaXN0b3J5IjpbMTI5MTE1NjgwNSwzMzQ1NDU3Myw0OTA2OT
+cwMjUsLTEyNTE2NTU4MDMsMTYwNTkwODcwNiw2NjQzNDY3MTIs
+LTIwMTc5MDQ5MzFdfQ==
 -->
