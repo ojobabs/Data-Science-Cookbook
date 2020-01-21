@@ -65,9 +65,18 @@ A property of `aprx` is the active map that returns a map object. And a property
 ```python
 print(aprx.activeMap.name)
 ```
+Output:
+```
+Map
+```
+We can rename the active map:
+
+```python
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTAwOTY3NjQsMzM0NTQ1NzMsNDkwNj
+eyJoaXN0b3J5IjpbLTExODkxNTg5ODAsMzM0NTQ1NzMsNDkwNj
 k3MDI1LC0xMjUxNjU1ODAzLDE2MDU5MDg3MDYsNjY0MzQ2NzEy
 LC0yMDE3OTA0OTMxXX0=
 -->
