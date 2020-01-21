@@ -111,7 +111,7 @@ Output:
 To look for a map in the list of maps using its name, and to create a map object to work with, we can  use a search to support wildcards and an index. 
 
 ```python
-mainMap = aprx.listMaps("Main Map"
+mainMap = aprx.listMaps("Main Map")[0]
 ```
 
 
@@ -124,7 +124,7 @@ mainMap = aprx.listMaps("Main Map"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjQ2NzIxMiwzMzQ1NDU3Myw0OTA2OT
-cwMjUsLTEyNTE2NTU4MDMsMTYwNTkwODcwNiw2NjQzNDY3MTIs
-LTIwMTc5MDQ5MzFdfQ==
+eyJoaXN0b3J5IjpbLTEwNzI0ODk0MjEsMzM0NTQ1NzMsNDkwNj
+k3MDI1LC0xMjUxNjU1ODAzLDE2MDU5MDg3MDYsNjY0MzQ2NzEy
+LC0yMDE3OTA0OTMxXX0=
 -->
