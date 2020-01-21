@@ -462,17 +462,17 @@ At this point, things are getting pretty crazy, so run  `gitk`  to see what's go
 ```bash
 $ gitk --all &
 ```
-
-
+### [How to move git commits from one branch to another](https://www.spkaa.com/blog/how-to-move-git-commits-from-one-branch-to-another/)
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NTM4MzkwOSw0ODk4Mjc3MDYsNTM4OD
-g3NDY0LC0xNjQ0OTQxODkxLDEwMjg3MzA0OTgsLTEwMTc2ODM0
-OTMsMTczNjEwNDA2OCwyMDE5Mjc5Mzg2LDIwMTkyNzkzODYsMT
-YwMTgxNjk3MSwtMTMwMjE1MjY1MCwtMTkyNTcwODQ2MCwtMTA1
-MTMyNTc0NywyMDQwMjY3NjA5LDI0MjY4OTczM119
+eyJoaXN0b3J5IjpbLTEzNTM0NjcyNjQsMTI5NTM4MzkwOSw0OD
+k4Mjc3MDYsNTM4ODg3NDY0LC0xNjQ0OTQxODkxLDEwMjg3MzA0
+OTgsLTEwMTc2ODM0OTMsMTczNjEwNDA2OCwyMDE5Mjc5Mzg2LD
+IwMTkyNzkzODYsMTYwMTgxNjk3MSwtMTMwMjE1MjY1MCwtMTky
+NTcwODQ2MCwtMTA1MTMyNTc0NywyMDQwMjY3NjA5LDI0MjY4OT
+czM119
 -->
