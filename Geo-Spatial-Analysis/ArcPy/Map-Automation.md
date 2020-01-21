@@ -99,6 +99,11 @@ output:
 ```
 [<arcpy._mp.Map object at 0x000000000032CDE6D8>, <arcpy._mp.Map object at 0x000000000032CDE8D8>]
 ```
+But this list the maps objects without showing the name. To do that we can use list comprehension:
+
+```python
+
+```
 
 
 
@@ -108,7 +113,7 @@ output:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDgwMjk4MDAsMzM0NTQ1NzMsNDkwNj
+eyJoaXN0b3J5IjpbLTIwMTE4MDUzNDIsMzM0NTQ1NzMsNDkwNj
 k3MDI1LC0xMjUxNjU1ODAzLDE2MDU5MDg3MDYsNjY0MzQ2NzEy
 LC0yMDE3OTA0OTMxXX0=
 -->
