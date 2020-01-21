@@ -89,13 +89,15 @@ aprx.activeMap.name = "Overview Map"
 ```
 The active basemap has been renamed. 
 
-The `activeMap` property is read only. So, we cannot use `arcpy` to chan
+The `activeMap` property is read only. So, we cannot use `arcpy` to change which map is active. 
+
+Notice that the catalog pane has a Map folder. Here we have the two mpas. There is a me
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA4MzI5NzY5LDMzNDU0NTczLDQ5MDY5Nz
-AyNSwtMTI1MTY1NTgwMywxNjA1OTA4NzA2LDY2NDM0NjcxMiwt
-MjAxNzkwNDkzMV19
+eyJoaXN0b3J5IjpbLTE2NzEyMzU3NTEsMzM0NTQ1NzMsNDkwNj
+k3MDI1LC0xMjUxNjU1ODAzLDE2MDU5MDg3MDYsNjY0MzQ2NzEy
+LC0yMDE3OTA0OTMxXX0=
 -->
