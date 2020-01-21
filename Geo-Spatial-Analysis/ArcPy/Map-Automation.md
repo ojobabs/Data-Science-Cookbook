@@ -124,7 +124,7 @@ We can create, for example, a second map object for the Overview Map and change 
 ```python
 overviewMap = aprx.listMaps("Overview Map")[0]
 ```
-T
+The Overview Map currently has no layers, 
 
 
 
@@ -139,7 +139,7 @@ T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNDQ3OTA5NCwzMzQ1NDU3Myw0OTA2OT
+eyJoaXN0b3J5IjpbLTg5MTkwNzY1MSwzMzQ1NDU3Myw0OTA2OT
 cwMjUsLTEyNTE2NTU4MDMsMTYwNTkwODcwNiw2NjQzNDY3MTIs
 LTIwMTc5MDQ5MzFdfQ==
 -->
