@@ -108,6 +108,8 @@ Output:
 ```
 ['Overview Map', 'Main Map']
 ```
+To look for a map in the list of maps using its name, and to create a map object to work with, we can  use a search to support wildcards and an index. 
+
 
 
 
@@ -118,7 +120,7 @@ Output:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MTE1NjgwNSwzMzQ1NDU3Myw0OTA2OT
+eyJoaXN0b3J5IjpbLTMxNDIxNzUzOSwzMzQ1NDU3Myw0OTA2OT
 cwMjUsLTEyNTE2NTU4MDMsMTYwNTkwODcwNiw2NjQzNDY3MTIs
 LTIwMTc5MDQ5MzFdfQ==
 -->
