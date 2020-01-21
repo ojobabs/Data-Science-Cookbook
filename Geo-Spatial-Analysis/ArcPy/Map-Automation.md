@@ -45,7 +45,10 @@ Now you can update the Author property and save your map document using the foll
 mxd.author = "GIS Department"
 mxd.save()
 ```
+
+### New notes about `arcpy.mp`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkwNjk3MDI1LC0xMjUxNjU1ODAzLDE2MD
-U5MDg3MDYsNjY0MzQ2NzEyLC0yMDE3OTA0OTMxXX0=
+eyJoaXN0b3J5IjpbMTMxODcyNzM2NCw0OTA2OTcwMjUsLTEyNT
+E2NTU4MDMsMTYwNTkwODcwNiw2NjQzNDY3MTIsLTIwMTc5MDQ5
+MzFdfQ==
 -->
