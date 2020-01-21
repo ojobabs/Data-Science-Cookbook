@@ -109,11 +109,17 @@ Output:
 ['Overview Map', 'Main Map']
 ```
 To look for a map in the list of maps using its name, and to create a map object to work with, we can  use a search to support wildcards and an index. 
-
 ```python
 mainMap = aprx.listMaps("Main Map")[0]
 ```
 Now that we have a map object named `mainMap`, we can use it a base map method to change the basemap to a light gray canvas. 
+```python
+mainMap.addBasemap("Light Gray Canvas")
+```
+Now, if you open the Main Map you can see that the basemap now is light gray canvas. 
+
+We will be over the map that was 
+
 
 
 
@@ -124,7 +130,7 @@ Now that we have a map object named `mainMap`, we can use it a base map method t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NjY2NjgzMywzMzQ1NDU3Myw0OTA2OT
-cwMjUsLTEyNTE2NTU4MDMsMTYwNTkwODcwNiw2NjQzNDY3MTIs
-LTIwMTc5MDQ5MzFdfQ==
+eyJoaXN0b3J5IjpbLTE1ODc2MTAyNDgsMzM0NTQ1NzMsNDkwNj
+k3MDI1LC0xMjUxNjU1ODAzLDE2MDU5MDg3MDYsNjY0MzQ2NzEy
+LC0yMDE3OTA0OTMxXX0=
 -->
