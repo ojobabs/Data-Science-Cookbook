@@ -366,6 +366,8 @@ Even if the maps in the map frames are in different projections, you can see tha
 
 I would like to do is to copy the country's liar from the map into the mind map and use it to get the scent of a particular country and then use the extent of that country to set the extent of the mine map.
 
+There might be other methods to do this but I'll show you the coding pattern that I either using China as my example.
+
 
 
 
@@ -376,11 +378,11 @@ I would like to do is to copy the country's liar from the map into the mind map 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE1NDI2NzYxLDE0NzQzNTQ1MDUsOTMyND
-EyNjEyLDE2NjQ5OTg1OTMsLTU2NDUyMDIxMiw0MzkwODQ1MDYs
-LTE4MDkxNjg0OTMsLTQ3NzkyOTY5LDcyNTU3OTcxMSwtMTYyMj
-k4NDQ5OCwyMDI0OTU0Njk3LDE1NjE2MjQxMTIsMTU4NDYyNTU2
-OCw1NzkyNTc5MDksMTY4NTMyNjIzMCwxOTI1MzQzNDgsOTAyMD
-EzNDc5LC0xNjgwOTYxMjcwLC00ODYxMDg0MTYsLTEyMjc0NDYx
-NjhdfQ==
+eyJoaXN0b3J5IjpbMTg4NjYzOTQ3NSwxNDc0MzU0NTA1LDkzMj
+QxMjYxMiwxNjY0OTk4NTkzLC01NjQ1MjAyMTIsNDM5MDg0NTA2
+LC0xODA5MTY4NDkzLC00Nzc5Mjk2OSw3MjU1Nzk3MTEsLTE2Mj
+I5ODQ0OTgsMjAyNDk1NDY5NywxNTYxNjI0MTEyLDE1ODQ2MjU1
+NjgsNTc5MjU3OTA5LDE2ODUzMjYyMzAsMTkyNTM0MzQ4LDkwMj
+AxMzQ3OSwtMTY4MDk2MTI3MCwtNDg2MTA4NDE2LC0xMjI3NDQ2
+MTY4XX0=
 -->
