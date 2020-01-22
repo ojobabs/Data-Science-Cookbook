@@ -268,6 +268,10 @@ S51MapFrame.name = "S51MapFrameMain"
 
 I would now like to use code to start moving and resizing the `S51MapFrame` map frame on my layout. But before doing that I need to know where the anchor point is for the map frame. This cannot be done using code. So go the contents pane and right click the `S51MapFrameMain` to open  properties. Got to the placement tab, and there we can see nine little squares that indicate the possible anchor points with the lower left one colored in blue to indicate its position. I laid the anchor points lower left. But if I had wanted to change it then I could have done so by clicking on one of the alternative anchor points. At the moment, the lower left corner of the main map frame is at 25 millimeters in from the left edge of the last page and 25 millimeters up from the bottom. I move on the format map frame pane over to the left using code so that I can see the properties change.
 
+keep open the properties windows to see how the values change with code. 
+
+I want to make some more room at the bottom of the layout for some other map elements like an overview
+
 
 
 
@@ -280,11 +284,11 @@ I would now like to use code to start moving and resizing the `S51MapFrame` map 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTU0MzMxODMsNTc5MjU3OTA5LDE2OD
-UzMjYyMzAsMTkyNTM0MzQ4LDkwMjAxMzQ3OSwtMTY4MDk2MTI3
-MCwtNDg2MTA4NDE2LC0xMjI3NDQ2MTY4LC0yMDM0OTg2Nzk2LC
-0xOTM2OTUzNjIyLC0xMjI1NTQ2NDIxLC0xNTY2MDEzMzYxLDIw
-MzY3NzI4OTcsLTg5MTkwNzY1MSwzMzQ1NDU3Myw0OTA2OTcwMj
-UsLTEyNTE2NTU4MDMsMTYwNTkwODcwNiw2NjQzNDY3MTIsLTIw
-MTc5MDQ5MzFdfQ==
+eyJoaXN0b3J5IjpbLTQzNjE1NjY1Myw1NzkyNTc5MDksMTY4NT
+MyNjIzMCwxOTI1MzQzNDgsOTAyMDEzNDc5LC0xNjgwOTYxMjcw
+LC00ODYxMDg0MTYsLTEyMjc0NDYxNjgsLTIwMzQ5ODY3OTYsLT
+E5MzY5NTM2MjIsLTEyMjU1NDY0MjEsLTE1NjYwMTMzNjEsMjAz
+Njc3Mjg5NywtODkxOTA3NjUxLDMzNDU0NTczLDQ5MDY5NzAyNS
+wtMTI1MTY1NTgwMywxNjA1OTA4NzA2LDY2NDM0NjcxMiwtMjAx
+NzkwNDkzMV19
 -->
