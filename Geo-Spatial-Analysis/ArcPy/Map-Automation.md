@@ -362,6 +362,8 @@ In this lecture I'll try to give an idea of what you can and cannot do without P
 
 Whenever I have overview map I want to be able to show a rectangle that represents the current extent of the mine map.  To do this are ArcGIS pro can use the extent indicators. `arcpy` cannot be used to insert an extend indicator. And so we will do that by clicking on the map frame in the layout and use the insert tab on the ribbon to choose an extent indicator for the Main map from. The extent indicator it's hard to say so I'll use a different symbol to make it stand out. I can use code for this. So use a ribbon to click the format tab under map frame. Change the line color to red and 2 points. 
 
+Even if the maps in the map frames are in different projections, you can see that the red rectangle on the overview map corresponds to the extent that in the Main Map frame. 
+
 
 
 
@@ -372,11 +374,11 @@ Whenever I have overview map I want to be able to show a rectangle that represen
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3NjE3NzQ0LDE0NzQzNTQ1MDUsOTMyND
-EyNjEyLDE2NjQ5OTg1OTMsLTU2NDUyMDIxMiw0MzkwODQ1MDYs
-LTE4MDkxNjg0OTMsLTQ3NzkyOTY5LDcyNTU3OTcxMSwtMTYyMj
-k4NDQ5OCwyMDI0OTU0Njk3LDE1NjE2MjQxMTIsMTU4NDYyNTU2
-OCw1NzkyNTc5MDksMTY4NTMyNjIzMCwxOTI1MzQzNDgsOTAyMD
-EzNDc5LC0xNjgwOTYxMjcwLC00ODYxMDg0MTYsLTEyMjc0NDYx
-NjhdfQ==
+eyJoaXN0b3J5IjpbLTgzMjcwOTIwMSwxNDc0MzU0NTA1LDkzMj
+QxMjYxMiwxNjY0OTk4NTkzLC01NjQ1MjAyMTIsNDM5MDg0NTA2
+LC0xODA5MTY4NDkzLC00Nzc5Mjk2OSw3MjU1Nzk3MTEsLTE2Mj
+I5ODQ0OTgsMjAyNDk1NDY5NywxNTYxNjI0MTEyLDE1ODQ2MjU1
+NjgsNTc5MjU3OTA5LDE2ODUzMjYyMzAsMTkyNTM0MzQ4LDkwMj
+AxMzQ3OSwtMTY4MDk2MTI3MCwtNDg2MTA4NDE2LC0xMjI3NDQ2
+MTY4XX0=
 -->
