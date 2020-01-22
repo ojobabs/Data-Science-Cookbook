@@ -360,6 +360,7 @@ aprx.save()
 ### 49. Zooming Using Camera and Extent Classes in ArcGIS Pro
 In this lecture I'll try to give an idea of what you can and cannot do without Python and `arcpy` when it comes to manipulating camera and extent objects.
 
+Whenever I have overview map I want to be able to show a rectangle that represents the current extent of the mine map.  To do this are ArcGIS pro use as the extent indicators of power cannot be used to in
 
 
 
@@ -371,11 +372,11 @@ In this lecture I'll try to give an idea of what you can and cannot do without P
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NDM1NDUwNSw5MzI0MTI2MTIsMTY2ND
-k5ODU5MywtNTY0NTIwMjEyLDQzOTA4NDUwNiwtMTgwOTE2ODQ5
-MywtNDc3OTI5NjksNzI1NTc5NzExLC0xNjIyOTg0NDk4LDIwMj
-Q5NTQ2OTcsMTU2MTYyNDExMiwxNTg0NjI1NTY4LDU3OTI1Nzkw
-OSwxNjg1MzI2MjMwLDE5MjUzNDM0OCw5MDIwMTM0NzksLTE2OD
-A5NjEyNzAsLTQ4NjEwODQxNiwtMTIyNzQ0NjE2OCwtMjAzNDk4
-Njc5Nl19
+eyJoaXN0b3J5IjpbLTU5MTcxNjExOCwxNDc0MzU0NTA1LDkzMj
+QxMjYxMiwxNjY0OTk4NTkzLC01NjQ1MjAyMTIsNDM5MDg0NTA2
+LC0xODA5MTY4NDkzLC00Nzc5Mjk2OSw3MjU1Nzk3MTEsLTE2Mj
+I5ODQ0OTgsMjAyNDk1NDY5NywxNTYxNjI0MTEyLDE1ODQ2MjU1
+NjgsNTc5MjU3OTA5LDE2ODUzMjYyMzAsMTkyNTM0MzQ4LDkwMj
+AxMzQ3OSwtMTY4MDk2MTI3MCwtNDg2MTA4NDE2LC0xMjI3NDQ2
+MTY4XX0=
 -->
