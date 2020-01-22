@@ -252,7 +252,11 @@ Let's create now a layout object. We have only one layout for now so, it is easy
 lyt = aprx.listLayouts()[0]
 ```
 
-Now we can list the elements methods of the layout object to create a map frame object which I'll call `
+Now we can list the elements methods of the layout object to create a map frame object which I'll call `S51MapFrame`. Again, there is only one map frame
+
+```python
+S51MapFrame = 
+```
 
 
 
@@ -266,7 +270,7 @@ Now we can list the elements methods of the layout object to create a map frame 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NDUwMzYxOCwxNjg1MzI2MjMwLDE5Mj
+eyJoaXN0b3J5IjpbMTQ3MDc5ODY2NiwxNjg1MzI2MjMwLDE5Mj
 UzNDM0OCw5MDIwMTM0NzksLTE2ODA5NjEyNzAsLTQ4NjEwODQx
 NiwtMTIyNzQ0NjE2OCwtMjAzNDk4Njc5NiwtMTkzNjk1MzYyMi
 wtMTIyNTU0NjQyMSwtMTU2NjAxMzM2MSwyMDM2NzcyODk3LC04
