@@ -232,6 +232,8 @@ Output
 <arcpy._mp.Layer object at 0x000000006A9AD358>
 ```
 
+## Lesson 
+
 
 
 
@@ -244,7 +246,7 @@ Output
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTA4MTI2NiwtMTIyNzQ0NjE2OCwtMj
+eyJoaXN0b3J5IjpbMTE0MjkyMzgxMCwtMTIyNzQ0NjE2OCwtMj
 AzNDk4Njc5NiwtMTkzNjk1MzYyMiwtMTIyNTU0NjQyMSwtMTU2
 NjAxMzM2MSwyMDM2NzcyODk3LC04OTE5MDc2NTEsMzM0NTQ1Nz
 MsNDkwNjk3MDI1LC0xMjUxNjU1ODAzLDE2MDU5MDg3MDYsNjY0
