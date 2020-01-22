@@ -364,9 +364,7 @@ Whenever I have overview map I want to be able to show a rectangle that represen
 
 Even if the maps in the map frames are in different projections, you can see that the red rectangle on the overview map corresponds to the extent that in the Main Map frame. 
 
-I would like to do is to copy the office layer from the map into the mind map and use it to get the scent of a particular country and then use the extent of that country to set the extent of the mine map.
-
-There might be other methods to do this but I'll show you the coding pattern that I either using China as my example.
+Let's now use the office layer on the Overview Map to query and get only S51 office and all satellite office under it. 
 
 ```python
 # Create an object OfficeslayerOverviewMap for the office layer on the Overview Map
@@ -385,11 +383,11 @@ OfficeslayerOverviewMap.definitionQuery = "USER_ou_cd LIKE 'S51%'"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTE0ODUyNiwtMTE2NzQzNzYxNSwxOD
-g2NjM5NDc1LDE0NzQzNTQ1MDUsOTMyNDEyNjEyLDE2NjQ5OTg1
-OTMsLTU2NDUyMDIxMiw0MzkwODQ1MDYsLTE4MDkxNjg0OTMsLT
-Q3NzkyOTY5LDcyNTU3OTcxMSwtMTYyMjk4NDQ5OCwyMDI0OTU0
-Njk3LDE1NjE2MjQxMTIsMTU4NDYyNTU2OCw1NzkyNTc5MDksMT
-Y4NTMyNjIzMCwxOTI1MzQzNDgsOTAyMDEzNDc5LC0xNjgwOTYx
-MjcwXX0=
+eyJoaXN0b3J5IjpbLTE4MjM3MTk4ODcsLTExNjc0Mzc2MTUsMT
+g4NjYzOTQ3NSwxNDc0MzU0NTA1LDkzMjQxMjYxMiwxNjY0OTk4
+NTkzLC01NjQ1MjAyMTIsNDM5MDg0NTA2LC0xODA5MTY4NDkzLC
+00Nzc5Mjk2OSw3MjU1Nzk3MTEsLTE2MjI5ODQ0OTgsMjAyNDk1
+NDY5NywxNTYxNjI0MTEyLDE1ODQ2MjU1NjgsNTc5MjU3OTA5LD
+E2ODUzMjYyMzAsMTkyNTM0MzQ4LDkwMjAxMzQ3OSwtMTY4MDk2
+MTI3MF19
 -->
