@@ -379,7 +379,7 @@ Now, we can use the `getLayerExtend()` method of the main map frame to get
 ```python
 # Create an object LocalMarketlayerS51Map layer 
 LocalMarketlayerS51Map = S51Map.listLayers("Polygons_Pop_Den_S51")[0]
-# Use getLay
+# Use getLayerExtent
 selGOExtent = S51MapFrame.getLayerExtent(LocalMarketlayerS51Map)
 print(selGOExtent)
 ```
@@ -394,11 +394,11 @@ Output
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjg4MjM1NzgsLTExNTk1MzYwMDQsNz
-M1OTk3MTkwLC0xMTY3NDM3NjE1LDE4ODY2Mzk0NzUsMTQ3NDM1
-NDUwNSw5MzI0MTI2MTIsMTY2NDk5ODU5MywtNTY0NTIwMjEyLD
-QzOTA4NDUwNiwtMTgwOTE2ODQ5MywtNDc3OTI5NjksNzI1NTc5
-NzExLC0xNjIyOTg0NDk4LDIwMjQ5NTQ2OTcsMTU2MTYyNDExMi
-wxNTg0NjI1NTY4LDU3OTI1NzkwOSwxNjg1MzI2MjMwLDE5MjUz
-NDM0OF19
+eyJoaXN0b3J5IjpbODU5ODU4MTkxLC0xMTU5NTM2MDA0LDczNT
+k5NzE5MCwtMTE2NzQzNzYxNSwxODg2NjM5NDc1LDE0NzQzNTQ1
+MDUsOTMyNDEyNjEyLDE2NjQ5OTg1OTMsLTU2NDUyMDIxMiw0Mz
+kwODQ1MDYsLTE4MDkxNjg0OTMsLTQ3NzkyOTY5LDcyNTU3OTcx
+MSwtMTYyMjk4NDQ5OCwyMDI0OTU0Njk3LDE1NjE2MjQxMTIsMT
+U4NDYyNTU2OCw1NzkyNTc5MDksMTY4NTMyNjIzMCwxOTI1MzQz
+NDhdfQ==
 -->
