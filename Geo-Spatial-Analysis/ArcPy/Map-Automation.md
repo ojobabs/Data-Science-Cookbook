@@ -270,7 +270,12 @@ I would now like to use code to start moving and resizing the `S51MapFrame` map 
 
 keep open the properties windows to see how the values change with code. 
 
-I want to make some more room at the bottom of the layout for some other map elements like an overview map and so I'll set the element position y property of the main map frame to be 50.
+I want to make some more room at the bottom of the layout for some other map elements like an overview map and so I'll set the element position y property of the main map frame to be 45.
+
+```python
+S51MapFrame.elementPositionY = 45
+```
+
 
 
 
@@ -284,7 +289,7 @@ I want to make some more room at the bottom of the layout for some other map ele
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODI0MjQ1MzcsNTc5MjU3OTA5LDE2OD
+eyJoaXN0b3J5IjpbLTEzMzk5NTE1MDUsNTc5MjU3OTA5LDE2OD
 UzMjYyMzAsMTkyNTM0MzQ4LDkwMjAxMzQ3OSwtMTY4MDk2MTI3
 MCwtNDg2MTA4NDE2LC0xMjI3NDQ2MTY4LC0yMDM0OTg2Nzk2LC
 0xOTM2OTUzNjIyLC0xMjI1NTQ2NDIxLC0xNTY2MDEzMzYxLDIw
