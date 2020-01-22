@@ -403,6 +403,7 @@ The main map frame border is is just a little too close to the local market bord
 ```python
 S51MapFrame.camera.scale = S51MapFrame.camera.scale*1.05
 ```
+Now we can export to PDF or other formats the map:
 
 
 
@@ -412,11 +413,11 @@ S51MapFrame.camera.scale = S51MapFrame.camera.scale*1.05
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNzM1ODgyNiwxNDg1MzkzNTEyLDMyMT
-k5NDk4MiwtMTE1OTUzNjAwNCw3MzU5OTcxOTAsLTExNjc0Mzc2
-MTUsMTg4NjYzOTQ3NSwxNDc0MzU0NTA1LDkzMjQxMjYxMiwxNj
-Y0OTk4NTkzLC01NjQ1MjAyMTIsNDM5MDg0NTA2LC0xODA5MTY4
-NDkzLC00Nzc5Mjk2OSw3MjU1Nzk3MTEsLTE2MjI5ODQ0OTgsMj
-AyNDk1NDY5NywxNTYxNjI0MTEyLDE1ODQ2MjU1NjgsNTc5MjU3
-OTA5XX0=
+eyJoaXN0b3J5IjpbLTE5MjE0MzA3NzksMTQ4NTM5MzUxMiwzMj
+E5OTQ5ODIsLTExNTk1MzYwMDQsNzM1OTk3MTkwLC0xMTY3NDM3
+NjE1LDE4ODY2Mzk0NzUsMTQ3NDM1NDUwNSw5MzI0MTI2MTIsMT
+Y2NDk5ODU5MywtNTY0NTIwMjEyLDQzOTA4NDUwNiwtMTgwOTE2
+ODQ5MywtNDc3OTI5NjksNzI1NTc5NzExLC0xNjIyOTg0NDk4LD
+IwMjQ5NTQ2OTcsMTU2MTYyNDExMiwxNTg0NjI1NTY4LDU3OTI1
+NzkwOV19
 -->
