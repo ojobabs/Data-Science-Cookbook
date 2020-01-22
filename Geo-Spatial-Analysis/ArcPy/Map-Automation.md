@@ -389,7 +389,9 @@ Output
 ```
 The four numbers are in matters of the WTS 1984 web Mercator auxilary sphere and they represent the X-Min, Y-Min, X-Max and Y-Max of the rectangle surrounding the local market polygon Polygons_Pop_Den_S51 for S51 GO. 
 
-We use those four numbers by referring to them as so GO extent to change the extent of the mind map frame. To do that, we we need to use a camera object although we are only using today a property is a camera
+We use those four numbers by referring to them as so GO extent to change the extent of the mind map frame. To do that, we we need to use a camera object although we are only using today a property is a camera 2D.
+
+_"Extend is not a direct property of the Camera object because it is not an explicit property but rather a deriv"_
 
 
 
@@ -397,11 +399,11 @@ We use those four numbers by referring to them as so GO extent to change the ext
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjU3NTk5MDUsLTExNTk1MzYwMDQsNz
-M1OTk3MTkwLC0xMTY3NDM3NjE1LDE4ODY2Mzk0NzUsMTQ3NDM1
-NDUwNSw5MzI0MTI2MTIsMTY2NDk5ODU5MywtNTY0NTIwMjEyLD
-QzOTA4NDUwNiwtMTgwOTE2ODQ5MywtNDc3OTI5NjksNzI1NTc5
-NzExLC0xNjIyOTg0NDk4LDIwMjQ5NTQ2OTcsMTU2MTYyNDExMi
-wxNTg0NjI1NTY4LDU3OTI1NzkwOSwxNjg1MzI2MjMwLDE5MjUz
-NDM0OF19
+eyJoaXN0b3J5IjpbLTc3NTQ3NTYyNywtMTE1OTUzNjAwNCw3Mz
+U5OTcxOTAsLTExNjc0Mzc2MTUsMTg4NjYzOTQ3NSwxNDc0MzU0
+NTA1LDkzMjQxMjYxMiwxNjY0OTk4NTkzLC01NjQ1MjAyMTIsND
+M5MDg0NTA2LC0xODA5MTY4NDkzLC00Nzc5Mjk2OSw3MjU1Nzk3
+MTEsLTE2MjI5ODQ0OTgsMjAyNDk1NDY5NywxNTYxNjI0MTEyLD
+E1ODQ2MjU1NjgsNTc5MjU3OTA5LDE2ODUzMjYyMzAsMTkyNTM0
+MzQ4XX0=
 -->
