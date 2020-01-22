@@ -404,7 +404,14 @@ The main map frame border is is just a little too close to the local market bord
 S51MapFrame.camera.scale = S51MapFrame.camera.scale*1.05
 ```
 Now we can export to PDF or other formats the map:
-
+```python
+lyt.exportToPNG(r"C:\Users\T93KQI0\Documents\Projects\Geospatial-Analysis\maps\MapAutoS51Test.png")
+```
+Output 
+```
+'C:\\Users\\T93KQI0\\Documents\\Projects\\Geospatial-Analysis\\maps\\MapAutoS51Test.png'
+```
+You can find the image on the expected folder. 
 
 
 
@@ -413,11 +420,11 @@ Now we can export to PDF or other formats the map:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjE0MzA3NzksMTQ4NTM5MzUxMiwzMj
-E5OTQ5ODIsLTExNTk1MzYwMDQsNzM1OTk3MTkwLC0xMTY3NDM3
-NjE1LDE4ODY2Mzk0NzUsMTQ3NDM1NDUwNSw5MzI0MTI2MTIsMT
-Y2NDk5ODU5MywtNTY0NTIwMjEyLDQzOTA4NDUwNiwtMTgwOTE2
-ODQ5MywtNDc3OTI5NjksNzI1NTc5NzExLC0xNjIyOTg0NDk4LD
-IwMjQ5NTQ2OTcsMTU2MTYyNDExMiwxNTg0NjI1NTY4LDU3OTI1
-NzkwOV19
+eyJoaXN0b3J5IjpbLTU5Njk3NDUxMiwtMTkyMTQzMDc3OSwxND
+g1MzkzNTEyLDMyMTk5NDk4MiwtMTE1OTUzNjAwNCw3MzU5OTcx
+OTAsLTExNjc0Mzc2MTUsMTg4NjYzOTQ3NSwxNDc0MzU0NTA1LD
+kzMjQxMjYxMiwxNjY0OTk4NTkzLC01NjQ1MjAyMTIsNDM5MDg0
+NTA2LC0xODA5MTY4NDkzLC00Nzc5Mjk2OSw3MjU1Nzk3MTEsLT
+E2MjI5ODQ0OTgsMjAyNDk1NDY5NywxNTYxNjI0MTEyLDE1ODQ2
+MjU1NjhdfQ==
 -->
