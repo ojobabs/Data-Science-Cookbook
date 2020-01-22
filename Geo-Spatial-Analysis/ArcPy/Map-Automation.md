@@ -319,6 +319,7 @@ OverviewMap.addDataFromPath(lyrFile)
 
 > So you can clone layouts, so can develop the code and using the ribbon for one and then create multiple copies, change the name ...
 
+> As you can watch on the next lesson, we can use query to select go offices or even different local markets. Maybe the best approach is to create only one map with all G
 
 
 
@@ -331,7 +332,7 @@ OverviewMap.addDataFromPath(lyrFile)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTA1NDg0NzksLTE4MDkxNjg0OTMsLT
+eyJoaXN0b3J5IjpbLTEzMDE5NTMwMjEsLTE4MDkxNjg0OTMsLT
 Q3NzkyOTY5LDcyNTU3OTcxMSwtMTYyMjk4NDQ5OCwyMDI0OTU0
 Njk3LDE1NjE2MjQxMTIsMTU4NDYyNTU2OCw1NzkyNTc5MDksMT
 Y4NTMyNjIzMCwxOTI1MzQzNDgsOTAyMDEzNDc5LC0xNjgwOTYx
