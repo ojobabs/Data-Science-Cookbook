@@ -270,7 +270,7 @@ I would now like to use code to start moving and resizing the `S51MapFrame` map 
 
 keep open the properties windows to see how the values change with code. 
 
-I want to make some more room at the bottom of the layout for some other map elements like an overview
+I want to make some more room at the bottom of the layout for some other map elements like an overview map and so I'll set the element position y property of the main map frame to be 50.
 
 
 
@@ -284,11 +284,11 @@ I want to make some more room at the bottom of the layout for some other map ele
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjE1NjY1Myw1NzkyNTc5MDksMTY4NT
-MyNjIzMCwxOTI1MzQzNDgsOTAyMDEzNDc5LC0xNjgwOTYxMjcw
-LC00ODYxMDg0MTYsLTEyMjc0NDYxNjgsLTIwMzQ5ODY3OTYsLT
-E5MzY5NTM2MjIsLTEyMjU1NDY0MjEsLTE1NjYwMTMzNjEsMjAz
-Njc3Mjg5NywtODkxOTA3NjUxLDMzNDU0NTczLDQ5MDY5NzAyNS
-wtMTI1MTY1NTgwMywxNjA1OTA4NzA2LDY2NDM0NjcxMiwtMjAx
-NzkwNDkzMV19
+eyJoaXN0b3J5IjpbLTE4ODI0MjQ1MzcsNTc5MjU3OTA5LDE2OD
+UzMjYyMzAsMTkyNTM0MzQ4LDkwMjAxMzQ3OSwtMTY4MDk2MTI3
+MCwtNDg2MTA4NDE2LC0xMjI3NDQ2MTY4LC0yMDM0OTg2Nzk2LC
+0xOTM2OTUzNjIyLC0xMjI1NTQ2NDIxLC0xNTY2MDEzMzYxLDIw
+MzY3NzI4OTcsLTg5MTkwNzY1MSwzMzQ1NDU3Myw0OTA2OTcwMj
+UsLTEyNTE2NTU4MDMsMTYwNTkwODcwNiw2NjQzNDY3MTIsLTIw
+MTc5MDQ5MzFdfQ==
 -->
