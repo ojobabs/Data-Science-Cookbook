@@ -374,7 +374,7 @@ OfficeslayerOverviewMap.definitionQuery = "USER_ou_cd LIKE 'S51%'"
 ```
 The key point is that now on the layout you can see on the Overview map only those two offices under S51 GO. But on the main map, you can still see all GOs. 
 
-
+Now, we can use the `getLayerExtend()` method of the main map frame to 
 
 
 
@@ -383,11 +383,11 @@ The key point is that now on the layout you can see on the Overview map only tho
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1OTk3MTkwLC0xMTY3NDM3NjE1LDE4OD
-Y2Mzk0NzUsMTQ3NDM1NDUwNSw5MzI0MTI2MTIsMTY2NDk5ODU5
-MywtNTY0NTIwMjEyLDQzOTA4NDUwNiwtMTgwOTE2ODQ5MywtND
-c3OTI5NjksNzI1NTc5NzExLC0xNjIyOTg0NDk4LDIwMjQ5NTQ2
-OTcsMTU2MTYyNDExMiwxNTg0NjI1NTY4LDU3OTI1NzkwOSwxNj
-g1MzI2MjMwLDE5MjUzNDM0OCw5MDIwMTM0NzksLTE2ODA5NjEy
-NzBdfQ==
+eyJoaXN0b3J5IjpbLTExNTk1MzYwMDQsNzM1OTk3MTkwLC0xMT
+Y3NDM3NjE1LDE4ODY2Mzk0NzUsMTQ3NDM1NDUwNSw5MzI0MTI2
+MTIsMTY2NDk5ODU5MywtNTY0NTIwMjEyLDQzOTA4NDUwNiwtMT
+gwOTE2ODQ5MywtNDc3OTI5NjksNzI1NTc5NzExLC0xNjIyOTg0
+NDk4LDIwMjQ5NTQ2OTcsMTU2MTYyNDExMiwxNTg0NjI1NTY4LD
+U3OTI1NzkwOSwxNjg1MzI2MjMwLDE5MjUzNDM0OCw5MDIwMTM0
+NzldfQ==
 -->
