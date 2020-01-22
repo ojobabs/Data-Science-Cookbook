@@ -244,7 +244,7 @@ The map element type, that provides the link between which view of the map appea
 
 The first element that I place on my layout will be the S57 map and this cannot be done using code. On the ribbon, insert, then map frame, then S51, the one on the right.
 
-Now that we have a layout and a data
+Now that we have a layout and a data frame on it we can start using `arcpy`. 
 
 
 
@@ -258,10 +258,10 @@ Now that we have a layout and a data
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTM0MzQ4LDkwMjAxMzQ3OSwtMTY4MD
-k2MTI3MCwtNDg2MTA4NDE2LC0xMjI3NDQ2MTY4LC0yMDM0OTg2
-Nzk2LC0xOTM2OTUzNjIyLC0xMjI1NTQ2NDIxLC0xNTY2MDEzMz
-YxLDIwMzY3NzI4OTcsLTg5MTkwNzY1MSwzMzQ1NDU3Myw0OTA2
-OTcwMjUsLTEyNTE2NTU4MDMsMTYwNTkwODcwNiw2NjQzNDY3MT
-IsLTIwMTc5MDQ5MzFdfQ==
+eyJoaXN0b3J5IjpbMTY4NTMyNjIzMCwxOTI1MzQzNDgsOTAyMD
+EzNDc5LC0xNjgwOTYxMjcwLC00ODYxMDg0MTYsLTEyMjc0NDYx
+NjgsLTIwMzQ5ODY3OTYsLTE5MzY5NTM2MjIsLTEyMjU1NDY0Mj
+EsLTE1NjYwMTMzNjEsMjAzNjc3Mjg5NywtODkxOTA3NjUxLDMz
+NDU0NTczLDQ5MDY5NzAyNSwtMTI1MTY1NTgwMywxNjA1OTA4Nz
+A2LDY2NDM0NjcxMiwtMjAxNzkwNDkzMV19
 -->
