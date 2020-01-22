@@ -131,13 +131,16 @@ The Overview Map currently has no layers,
 
 ```Python
 # Add local market layer to the S51Map
+lyrFile = r"C:\Users\T93KQI0\Documents\ArcGIS\Projects\Local_Market_Map_Auto_01\Local_Market_Map_Auto_01.gdb\Polygons_Pop_Den_S51"
 S51Map.addDataFromPath(lyrFile)
 ```
 Output
 ```
 <arcpy._mp.Layer object at 0x00000000298E8E80>
 ````
-lyrFile = r"C:\Users\T93KQI0\Documents\ArcGIS\Projects\Local_Market_Map_Auto_01\Local_Market_Map_Auto_01.gdb\marketers_S51"
+
+```Python
+lyrFiler="C:\Users\T93KQI0\Documents\ArcGIS\Projects\Local_Market_Map_Auto_01\Local_Market_Map_Auto_01.gdb\marketers_S51"
 # Add local market layer to the S51Map
 S51Map.addDataFromPath(lyrFile)
 <arcpy._mp.Layer object at 0x00000000723701D0>
@@ -159,7 +162,7 @@ S51Map.addDataFromPath(lyrFile)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkwMDkxMTAsMjAzNjc3Mjg5NywtODkxOT
-A3NjUxLDMzNDU0NTczLDQ5MDY5NzAyNSwtMTI1MTY1NTgwMywx
-NjA1OTA4NzA2LDY2NDM0NjcxMiwtMjAxNzkwNDkzMV19
+eyJoaXN0b3J5IjpbMTMyNTA0OTMyNSwyMDM2NzcyODk3LC04OT
+E5MDc2NTEsMzM0NTQ1NzMsNDkwNjk3MDI1LC0xMjUxNjU1ODAz
+LDE2MDU5MDg3MDYsNjY0MzQ2NzEyLC0yMDE3OTA0OTMxXX0=
 -->
