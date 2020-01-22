@@ -266,7 +266,7 @@ Let's change the name of the map frame from `map frame` to `S51MapFrameMain`:
 S51MapFrame.name = "S51MapFrameMain"
 ```
 
-I would now like to use code to start moving and resizing the `S51MapFrame` map frame on my layout. But before doing that I need to know where the anchor point is for the map frame. This cannot be done using code. So go the contents pane and right click the `S51MapFrameMain` to open  properties. Got to the placement tab, and there we can see nine little squares that indicate the possible anchor points with the lower left one colored in blue to indicate its position or laid the anchor points lower left.
+I would now like to use code to start moving and resizing the `S51MapFrame` map frame on my layout. But before doing that I need to know where the anchor point is for the map frame. This cannot be done using code. So go the contents pane and right click the `S51MapFrameMain` to open  properties. Got to the placement tab, and there we can see nine little squares that indicate the possible anchor points with the lower left one colored in blue to indicate its position. I laid the anchor points lower left. But if I had wanted to change it then I could have done so by clicking on one of the alternative anchor points. At the moment, the lower left corner of the main map frame is at 25 millimeters in from the left
 
 
 
@@ -280,11 +280,11 @@ I would now like to use code to start moving and resizing the `S51MapFrame` map 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NDIxODgxOSw1NzkyNTc5MDksMTY4NT
-MyNjIzMCwxOTI1MzQzNDgsOTAyMDEzNDc5LC0xNjgwOTYxMjcw
-LC00ODYxMDg0MTYsLTEyMjc0NDYxNjgsLTIwMzQ5ODY3OTYsLT
-E5MzY5NTM2MjIsLTEyMjU1NDY0MjEsLTE1NjYwMTMzNjEsMjAz
-Njc3Mjg5NywtODkxOTA3NjUxLDMzNDU0NTczLDQ5MDY5NzAyNS
-wtMTI1MTY1NTgwMywxNjA1OTA4NzA2LDY2NDM0NjcxMiwtMjAx
-NzkwNDkzMV19
+eyJoaXN0b3J5IjpbNzIwNzA2MjA2LDU3OTI1NzkwOSwxNjg1Mz
+I2MjMwLDE5MjUzNDM0OCw5MDIwMTM0NzksLTE2ODA5NjEyNzAs
+LTQ4NjEwODQxNiwtMTIyNzQ0NjE2OCwtMjAzNDk4Njc5NiwtMT
+kzNjk1MzYyMiwtMTIyNTU0NjQyMSwtMTU2NjAxMzM2MSwyMDM2
+NzcyODk3LC04OTE5MDc2NTEsMzM0NTQ1NzMsNDkwNjk3MDI1LC
+0xMjUxNjU1ODAzLDE2MDU5MDg3MDYsNjY0MzQ2NzEyLC0yMDE3
+OTA0OTMxXX0=
 -->
