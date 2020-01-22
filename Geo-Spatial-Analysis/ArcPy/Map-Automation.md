@@ -340,7 +340,13 @@ I'll change his name to be `OverviewMap` map frame.
 ```python
 OverviewMapFrame.name = "Overview Map Frame"
 ```
-I'd like to place the lower right corner of this map frame 15 millimeters in from the right hand page to the page and 15 millimeters up from the bottom. First are trying is anchor point to the lower right by opening the properties of the "Overview Map Frame" map frame. We can see that it's position Y is 25 millimeters but 115 millimeters. So I'll set that using code
+I'd like to place the lower right corner of this map frame 15 millimeters in from the right hand page to the page and 15 millimeters up from the bottom. First are trying is anchor point to the lower right by opening the properties of the "Overview Map Frame" map frame. We can see that it's position Y is 25 millimeters but 115 millimeters. So I'll set that using code. 
+```python
+OverviewMapFrame.elementPositionY = 15
+```
+To work out with 50 millimeters from the right hand it is also tracked that from the page width of the layout. 
+
+
 
 
 
@@ -354,11 +360,11 @@ I'd like to place the lower right corner of this map frame 15 millimeters in fro
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk5NDYzODI2LDkzMjQxMjYxMiwxNjY0OT
-k4NTkzLC01NjQ1MjAyMTIsNDM5MDg0NTA2LC0xODA5MTY4NDkz
-LC00Nzc5Mjk2OSw3MjU1Nzk3MTEsLTE2MjI5ODQ0OTgsMjAyND
-k1NDY5NywxNTYxNjI0MTEyLDE1ODQ2MjU1NjgsNTc5MjU3OTA5
-LDE2ODUzMjYyMzAsMTkyNTM0MzQ4LDkwMjAxMzQ3OSwtMTY4MD
-k2MTI3MCwtNDg2MTA4NDE2LC0xMjI3NDQ2MTY4LC0yMDM0OTg2
-Nzk2XX0=
+eyJoaXN0b3J5IjpbMTk4NTU2NTA2Niw5MzI0MTI2MTIsMTY2ND
+k5ODU5MywtNTY0NTIwMjEyLDQzOTA4NDUwNiwtMTgwOTE2ODQ5
+MywtNDc3OTI5NjksNzI1NTc5NzExLC0xNjIyOTg0NDk4LDIwMj
+Q5NTQ2OTcsMTU2MTYyNDExMiwxNTg0NjI1NTY4LDU3OTI1Nzkw
+OSwxNjg1MzI2MjMwLDE5MjUzNDM0OCw5MDIwMTM0NzksLTE2OD
+A5NjEyNzAsLTQ4NjEwODQxNiwtMTIyNzQ0NjE2OCwtMjAzNDk4
+Njc5Nl19
 -->
