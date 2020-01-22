@@ -319,7 +319,7 @@ OverviewMap.addDataFromPath(lyrFile)
 
 > So you can clone layouts, so can develop the code and using the ribbon for one and then create multiple copies, change the name ...
 
-> As you can watch on the next lesson, we can use query to select go offices or even different local markets. Maybe the best approach is to create only one map with all GOs there and then use a query to select each GO...this approach won't work because GO local market are independent polygons. It it better to add different layers, each GO local market to the same layout and then create the map for each different GO. So, we can a unique default map and a unique layout and then include there the layers we want ...this is the right approach. So, you can have a Main map (link on the video) and an Overview map (like on the video) and just loop through each every layer we need to add every time to create each GO map.  
+> **Best approach to automate map creation**:  add different layers, each GO local market to the same layout and then create the map for each different GO. So, we can a unique default map and a unique layout and then include there the layers we want ...this is the right approach. So, you can have a Main map (link on the video) and an Overview map (like on the video) and just loop through each every layer we need to add every time to create each GO map.  
 
 
 
@@ -332,11 +332,11 @@ OverviewMap.addDataFromPath(lyrFile)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM5MDg0NTA2LC0xODA5MTY4NDkzLC00Nz
-c5Mjk2OSw3MjU1Nzk3MTEsLTE2MjI5ODQ0OTgsMjAyNDk1NDY5
-NywxNTYxNjI0MTEyLDE1ODQ2MjU1NjgsNTc5MjU3OTA5LDE2OD
-UzMjYyMzAsMTkyNTM0MzQ4LDkwMjAxMzQ3OSwtMTY4MDk2MTI3
-MCwtNDg2MTA4NDE2LC0xMjI3NDQ2MTY4LC0yMDM0OTg2Nzk2LC
-0xOTM2OTUzNjIyLC0xMjI1NTQ2NDIxLC0xNTY2MDEzMzYxLDIw
-MzY3NzI4OTddfQ==
+eyJoaXN0b3J5IjpbLTk3NjA3NTg4Nyw0MzkwODQ1MDYsLTE4MD
+kxNjg0OTMsLTQ3NzkyOTY5LDcyNTU3OTcxMSwtMTYyMjk4NDQ5
+OCwyMDI0OTU0Njk3LDE1NjE2MjQxMTIsMTU4NDYyNTU2OCw1Nz
+kyNTc5MDksMTY4NTMyNjIzMCwxOTI1MzQzNDgsOTAyMDEzNDc5
+LC0xNjgwOTYxMjcwLC00ODYxMDg0MTYsLTEyMjc0NDYxNjgsLT
+IwMzQ5ODY3OTYsLTE5MzY5NTM2MjIsLTEyMjU1NDY0MjEsLTE1
+NjYwMTMzNjFdfQ==
 -->
