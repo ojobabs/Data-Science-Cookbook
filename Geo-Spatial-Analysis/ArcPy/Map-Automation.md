@@ -240,7 +240,7 @@ let's see what you can and cannot do with `arcpy.md` when you are working with l
 
 A layout is a white page of pager where you can put multiple layers to create your final map. You can add multiple layouts to your project and each layout can include multiple maps.
 
-There are formats that can be applyi
+There are formats that can be applied to multipple layouts too.
 
 
 
@@ -254,10 +254,10 @@ There are formats that can be applyi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI0NDczNjUxLDkwMjAxMzQ3OSwtMTY4MD
-k2MTI3MCwtNDg2MTA4NDE2LC0xMjI3NDQ2MTY4LC0yMDM0OTg2
-Nzk2LC0xOTM2OTUzNjIyLC0xMjI1NTQ2NDIxLC0xNTY2MDEzMz
-YxLDIwMzY3NzI4OTcsLTg5MTkwNzY1MSwzMzQ1NDU3Myw0OTA2
-OTcwMjUsLTEyNTE2NTU4MDMsMTYwNTkwODcwNiw2NjQzNDY3MT
-IsLTIwMTc5MDQ5MzFdfQ==
+eyJoaXN0b3J5IjpbLTYyMTgxODQxMSw5MDIwMTM0NzksLTE2OD
+A5NjEyNzAsLTQ4NjEwODQxNiwtMTIyNzQ0NjE2OCwtMjAzNDk4
+Njc5NiwtMTkzNjk1MzYyMiwtMTIyNTU0NjQyMSwtMTU2NjAxMz
+M2MSwyMDM2NzcyODk3LC04OTE5MDc2NTEsMzM0NTQ1NzMsNDkw
+Njk3MDI1LC0xMjUxNjU1ODAzLDE2MDU5MDg3MDYsNjY0MzQ2Nz
+EyLC0yMDE3OTA0OTMxXX0=
 -->
