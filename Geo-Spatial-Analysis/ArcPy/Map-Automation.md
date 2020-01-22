@@ -349,6 +349,10 @@ To work out with 50 millimeters from the right hand it is also tracked that from
 OverviewMapFrame.elementPositionX = lyt.pageWidth - 15
 ```
 Now make that "Overview Map Frame" map frame be 80 millimeters wide and 50 millimeters high
+```python
+OverviewMapFrame.elementWidth = 80
+OverviewMapFrame.elementHeight = 40
+```
 
 
 
@@ -362,7 +366,7 @@ Now make that "Overview Map Frame" map frame be 80 millimeters wide and 50 milli
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MDAzMTAzOSw5MzI0MTI2MTIsMTY2ND
+eyJoaXN0b3J5IjpbLTYyMzYxNzcwMiw5MzI0MTI2MTIsMTY2ND
 k5ODU5MywtNTY0NTIwMjEyLDQzOTA4NDUwNiwtMTgwOTE2ODQ5
 MywtNDc3OTI5NjksNzI1NTc5NzExLC0xNjIyOTg0NDk4LDIwMj
 Q5NTQ2OTcsMTU2MTYyNDExMiwxNTg0NjI1NTY4LDU3OTI1Nzkw
