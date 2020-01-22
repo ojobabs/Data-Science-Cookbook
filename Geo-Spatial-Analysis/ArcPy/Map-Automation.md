@@ -200,12 +200,18 @@ Output
 
 Let's add layers to S57 map. You don't need to active S57 map to add layers to this map. 
 
-> Adding layers from `ServiceArea_S51`
+> Adding layers from `ServiceArea_S51` it is not possible.
 
-```
+```python
 lyrFile = r"C:\Users\T93KQI0\Documents\ArcGIS\Projects\Local_Market_Map_Auto_01\Local_Market_Map_Auto_01.gdb\Polygons_Pop_Den_S57"
 S57Map.addDataFromPath(lyrFile)
+```
+Output
+```
 <arcpy._mp.Layer object at 0x000000002A82DA90>
+```
+
+```python
 lyrFile = r"C:\Users\T93KQI0\Documents\ArcGIS\Projects\Local_Market_Map_Auto_01\Local_Market_Map_Auto_01.gdb\marketers_S57"
 S57Map.addDataFromPath(lyrFile)
 <arcpy._mp.Layer object at 0x000000006A9AD630>
@@ -226,8 +232,8 @@ S57Map.addDataFromPath(lyrFile)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzY5NTM2MjIsLTEyMjU1NDY0MjEsLT
-E1NjYwMTMzNjEsMjAzNjc3Mjg5NywtODkxOTA3NjUxLDMzNDU0
-NTczLDQ5MDY5NzAyNSwtMTI1MTY1NTgwMywxNjA1OTA4NzA2LD
-Y2NDM0NjcxMiwtMjAxNzkwNDkzMV19
+eyJoaXN0b3J5IjpbLTIwMzQ5ODY3OTYsLTE5MzY5NTM2MjIsLT
+EyMjU1NDY0MjEsLTE1NjYwMTMzNjEsMjAzNjc3Mjg5NywtODkx
+OTA3NjUxLDMzNDU0NTczLDQ5MDY5NzAyNSwtMTI1MTY1NTgwMy
+wxNjA1OTA4NzA2LDY2NDM0NjcxMiwtMjAxNzkwNDkzMV19
 -->
