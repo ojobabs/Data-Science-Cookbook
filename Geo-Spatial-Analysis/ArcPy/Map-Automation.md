@@ -286,7 +286,7 @@ and I would also like to leave some room on the right hand side of the layout. S
 S51MapFrame.elementHeight = 150
 ```
 
-
+I would like a second frame on my layout but first I'll close the format frame pane. 
 
 
 
@@ -303,11 +303,11 @@ S51MapFrame.elementHeight = 150
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzE0ODk3MjIsMTU4NDYyNTU2OCw1Nz
-kyNTc5MDksMTY4NTMyNjIzMCwxOTI1MzQzNDgsOTAyMDEzNDc5
-LC0xNjgwOTYxMjcwLC00ODYxMDg0MTYsLTEyMjc0NDYxNjgsLT
-IwMzQ5ODY3OTYsLTE5MzY5NTM2MjIsLTEyMjU1NDY0MjEsLTE1
-NjYwMTMzNjEsMjAzNjc3Mjg5NywtODkxOTA3NjUxLDMzNDU0NT
-czLDQ5MDY5NzAyNSwtMTI1MTY1NTgwMywxNjA1OTA4NzA2LDY2
-NDM0NjcxMl19
+eyJoaXN0b3J5IjpbMTE2NjE0NzM1NiwxNTg0NjI1NTY4LDU3OT
+I1NzkwOSwxNjg1MzI2MjMwLDE5MjUzNDM0OCw5MDIwMTM0Nzks
+LTE2ODA5NjEyNzAsLTQ4NjEwODQxNiwtMTIyNzQ0NjE2OCwtMj
+AzNDk4Njc5NiwtMTkzNjk1MzYyMiwtMTIyNTU0NjQyMSwtMTU2
+NjAxMzM2MSwyMDM2NzcyODk3LC04OTE5MDc2NTEsMzM0NTQ1Nz
+MsNDkwNjk3MDI1LC0xMjUxNjU1ODAzLDE2MDU5MDg3MDYsNjY0
+MzQ2NzEyXX0=
 -->
