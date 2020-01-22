@@ -290,8 +290,13 @@ I would like a second frame on my layout but first I'll close the format frame p
 
 I will create a new map to create an overview map we can use as a second map on the layout. I need to use the ribbon to add a new map. Let's rename the new map.
 
+We can list all maps:
 
-
+```python
+# List all maps names
+print([map.name for map in aprx.listMaps()])
+['Map', 'S51', 'S57']
+```
 
 
 
@@ -305,11 +310,11 @@ I will create a new map to create an overview map we can use as a second map on 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzOTAwNDUyMCwxNTYxNjI0MTEyLDE1OD
-Q2MjU1NjgsNTc5MjU3OTA5LDE2ODUzMjYyMzAsMTkyNTM0MzQ4
-LDkwMjAxMzQ3OSwtMTY4MDk2MTI3MCwtNDg2MTA4NDE2LC0xMj
-I3NDQ2MTY4LC0yMDM0OTg2Nzk2LC0xOTM2OTUzNjIyLC0xMjI1
-NTQ2NDIxLC0xNTY2MDEzMzYxLDIwMzY3NzI4OTcsLTg5MTkwNz
-Y1MSwzMzQ1NDU3Myw0OTA2OTcwMjUsLTEyNTE2NTU4MDMsMTYw
-NTkwODcwNl19
+eyJoaXN0b3J5IjpbMzY1NjI0MTA1LDE1NjE2MjQxMTIsMTU4ND
+YyNTU2OCw1NzkyNTc5MDksMTY4NTMyNjIzMCwxOTI1MzQzNDgs
+OTAyMDEzNDc5LC0xNjgwOTYxMjcwLC00ODYxMDg0MTYsLTEyMj
+c0NDYxNjgsLTIwMzQ5ODY3OTYsLTE5MzY5NTM2MjIsLTEyMjU1
+NDY0MjEsLTE1NjYwMTMzNjEsMjAzNjc3Mjg5NywtODkxOTA3Nj
+UxLDMzNDU0NTczLDQ5MDY5NzAyNSwtMTI1MTY1NTgwMywxNjA1
+OTA4NzA2XX0=
 -->
