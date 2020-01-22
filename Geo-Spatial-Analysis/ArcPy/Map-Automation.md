@@ -396,6 +396,10 @@ We use those four numbers by referring to them as so GO extent to change the ext
 > _"Camera positions do not store extent properties, but from an X, Y location and a scale, extend is derived"_
 
 In therms of the code that sounds more complicated than it is in practice because all we need to do to zoom the mind map frame to the GO local market is to use a camera object of the main map frame to set the extent. 
+```python
+S51MapFrame.camera.setExtent(selGOExtent)
+```
+The main map frame border is is just a little too close to the local market border, so use a scale property 
 
 
 
@@ -404,11 +408,11 @@ In therms of the code that sounds more complicated than it is in practice becaus
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIxOTk0OTgyLC0xMTU5NTM2MDA0LDczNT
-k5NzE5MCwtMTE2NzQzNzYxNSwxODg2NjM5NDc1LDE0NzQzNTQ1
-MDUsOTMyNDEyNjEyLDE2NjQ5OTg1OTMsLTU2NDUyMDIxMiw0Mz
-kwODQ1MDYsLTE4MDkxNjg0OTMsLTQ3NzkyOTY5LDcyNTU3OTcx
-MSwtMTYyMjk4NDQ5OCwyMDI0OTU0Njk3LDE1NjE2MjQxMTIsMT
-U4NDYyNTU2OCw1NzkyNTc5MDksMTY4NTMyNjIzMCwxOTI1MzQz
-NDhdfQ==
+eyJoaXN0b3J5IjpbLTc5MzY5NTQxOCwzMjE5OTQ5ODIsLTExNT
+k1MzYwMDQsNzM1OTk3MTkwLC0xMTY3NDM3NjE1LDE4ODY2Mzk0
+NzUsMTQ3NDM1NDUwNSw5MzI0MTI2MTIsMTY2NDk5ODU5MywtNT
+Y0NTIwMjEyLDQzOTA4NDUwNiwtMTgwOTE2ODQ5MywtNDc3OTI5
+NjksNzI1NTc5NzExLC0xNjIyOTg0NDk4LDIwMjQ5NTQ2OTcsMT
+U2MTYyNDExMiwxNTg0NjI1NTY4LDU3OTI1NzkwOSwxNjg1MzI2
+MjMwXX0=
 -->
