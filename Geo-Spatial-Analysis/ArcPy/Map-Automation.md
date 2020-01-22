@@ -306,6 +306,10 @@ OverviewMap.name = "Overview"
 ```
 > Note that following the above code, we can create multiple maps using the ribbon, `Map`, `Map1`, `Map2`, ... . `Map100`, and then use code to rename all of then with the right and unique name. The same for the layouts. 
 
+Now on the overview map we can add the location of each GO office. 
+
+
+
 
 
 
@@ -317,7 +321,7 @@ OverviewMap.name = "Overview"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MDM0MTc2MywtMTYyMjk4NDQ5OCwyMD
+eyJoaXN0b3J5IjpbMTA4MzE4ODkyMywtMTYyMjk4NDQ5OCwyMD
 I0OTU0Njk3LDE1NjE2MjQxMTIsMTU4NDYyNTU2OCw1NzkyNTc5
 MDksMTY4NTMyNjIzMCwxOTI1MzQzNDgsOTAyMDEzNDc5LC0xNj
 gwOTYxMjcwLC00ODYxMDg0MTYsLTEyMjc0NDYxNjgsLTIwMzQ5
