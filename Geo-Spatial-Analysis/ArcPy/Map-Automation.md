@@ -129,7 +129,7 @@ The Overview Map currently has no layers,
 
 ###  My project
 
-- So far I am not sure if you can create maps automatically or you need to create each map using the ribbon.
+- So far I am not sure if you can create maps automatically or you need to create each map using the ribbon. 
 - For whatever the reason, I cannot use Atom to add layers to the map. 
 
 ```python
@@ -244,7 +244,7 @@ Output
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NDIwMDQ0OCwtMTIyNzQ0NjE2OCwtMj
+eyJoaXN0b3J5IjpbLTg4NTA4MTI2NiwtMTIyNzQ0NjE2OCwtMj
 AzNDk4Njc5NiwtMTkzNjk1MzYyMiwtMTIyNTU0NjQyMSwtMTU2
 NjAxMzM2MSwyMDM2NzcyODk3LC04OTE5MDc2NTEsMzM0NTQ1Nz
 MsNDkwNjk3MDI1LC0xMjUxNjU1ODAzLDE2MDU5MDg3MDYsNjY0
