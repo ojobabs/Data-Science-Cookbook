@@ -374,8 +374,19 @@ OfficeslayerOverviewMap.definitionQuery = "USER_ou_cd LIKE 'S51%'"
 ```
 The key point is that now on the layout you can see on the Overview map only those two offices under S51 GO. But on the main map, you can still see all GOs. 
 
-Now, we can use the `getLayerExtend()` method of the main map frame to 
+Now, we can use the `getLayerExtend()` method of the main map frame to get 
 
+```python
+# Create an object LocalMarketlayerS51Map layer 
+LocalMarketlayerS51Map = S51Map.listLayers("Polygons_Pop_Den_S51")[0]
+# Use getLay
+selGOExtent = S51MapFrame.getLayerExtent(LocalMarketlayerS51Map)
+print(selGOExtent)
+```
+Output
+```
+-122.569960077332 47.0373275286685 -121.825988570668 48.0845399663317 NaN NaN NaN NaN
+```
 
 
 
@@ -383,11 +394,11 @@ Now, we can use the `getLayerExtend()` method of the main map frame to
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTk1MzYwMDQsNzM1OTk3MTkwLC0xMT
-Y3NDM3NjE1LDE4ODY2Mzk0NzUsMTQ3NDM1NDUwNSw5MzI0MTI2
-MTIsMTY2NDk5ODU5MywtNTY0NTIwMjEyLDQzOTA4NDUwNiwtMT
-gwOTE2ODQ5MywtNDc3OTI5NjksNzI1NTc5NzExLC0xNjIyOTg0
-NDk4LDIwMjQ5NTQ2OTcsMTU2MTYyNDExMiwxNTg0NjI1NTY4LD
-U3OTI1NzkwOSwxNjg1MzI2MjMwLDE5MjUzNDM0OCw5MDIwMTM0
-NzldfQ==
+eyJoaXN0b3J5IjpbLTE1Mjg4MjM1NzgsLTExNTk1MzYwMDQsNz
+M1OTk3MTkwLC0xMTY3NDM3NjE1LDE4ODY2Mzk0NzUsMTQ3NDM1
+NDUwNSw5MzI0MTI2MTIsMTY2NDk5ODU5MywtNTY0NTIwMjEyLD
+QzOTA4NDUwNiwtMTgwOTE2ODQ5MywtNDc3OTI5NjksNzI1NTc5
+NzExLC0xNjIyOTg0NDk4LDIwMjQ5NTQ2OTcsMTU2MTYyNDExMi
+wxNTg0NjI1NTY4LDU3OTI1NzkwOSwxNjg1MzI2MjMwLDE5MjUz
+NDM0OF19
 -->
