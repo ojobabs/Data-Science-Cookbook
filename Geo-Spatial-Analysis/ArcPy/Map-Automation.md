@@ -368,6 +368,13 @@ I would like to do is to copy the country's liar from the map into the mind map 
 
 There might be other methods to do this but I'll show you the coding pattern that I either using China as my example.
 
+```python
+# Create an object OfficeslayerOverviewMap for the office layer on the Overview Map
+OfficeslayerOverviewMap = OverviewMap.listLayers("offices_all_Geocoded")[0]
+# 
+OfficeslayerOverviewMap.definitionQuery = "USER_ou_cd LIKE 'S51%'"
+```
+
 
 
 
@@ -378,11 +385,11 @@ There might be other methods to do this but I'll show you the coding pattern tha
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjc0Mzc2MTUsMTg4NjYzOTQ3NSwxND
-c0MzU0NTA1LDkzMjQxMjYxMiwxNjY0OTk4NTkzLC01NjQ1MjAy
-MTIsNDM5MDg0NTA2LC0xODA5MTY4NDkzLC00Nzc5Mjk2OSw3Mj
-U1Nzk3MTEsLTE2MjI5ODQ0OTgsMjAyNDk1NDY5NywxNTYxNjI0
-MTEyLDE1ODQ2MjU1NjgsNTc5MjU3OTA5LDE2ODUzMjYyMzAsMT
-kyNTM0MzQ4LDkwMjAxMzQ3OSwtMTY4MDk2MTI3MCwtNDg2MTA4
-NDE2XX0=
+eyJoaXN0b3J5IjpbNzgxODg5NDE4LC0xMTY3NDM3NjE1LDE4OD
+Y2Mzk0NzUsMTQ3NDM1NDUwNSw5MzI0MTI2MTIsMTY2NDk5ODU5
+MywtNTY0NTIwMjEyLDQzOTA4NDUwNiwtMTgwOTE2ODQ5MywtND
+c3OTI5NjksNzI1NTc5NzExLC0xNjIyOTg0NDk4LDIwMjQ5NTQ2
+OTcsMTU2MTYyNDExMiwxNTg0NjI1NTY4LDU3OTI1NzkwOSwxNj
+g1MzI2MjMwLDE5MjUzNDM0OCw5MDIwMTM0NzksLTE2ODA5NjEy
+NzBdfQ==
 -->
