@@ -413,6 +413,11 @@ Output
 ```
 You can find the image on the expected folder. 
 
+If we need to create a folder, we can do it with `arcpy`
+```python
+arcpy.management.CreateFolder(r"C:\Users\T93KQI0\Documents", "PDFs")
+```
+
 
 
 
@@ -420,11 +425,11 @@ You can find the image on the expected folder.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5Njk3NDUxMiwtMTkyMTQzMDc3OSwxND
-g1MzkzNTEyLDMyMTk5NDk4MiwtMTE1OTUzNjAwNCw3MzU5OTcx
-OTAsLTExNjc0Mzc2MTUsMTg4NjYzOTQ3NSwxNDc0MzU0NTA1LD
-kzMjQxMjYxMiwxNjY0OTk4NTkzLC01NjQ1MjAyMTIsNDM5MDg0
-NTA2LC0xODA5MTY4NDkzLC00Nzc5Mjk2OSw3MjU1Nzk3MTEsLT
-E2MjI5ODQ0OTgsMjAyNDk1NDY5NywxNTYxNjI0MTEyLDE1ODQ2
-MjU1NjhdfQ==
+eyJoaXN0b3J5IjpbLTEyMDI4NDEyNTQsLTU5Njk3NDUxMiwtMT
+kyMTQzMDc3OSwxNDg1MzkzNTEyLDMyMTk5NDk4MiwtMTE1OTUz
+NjAwNCw3MzU5OTcxOTAsLTExNjc0Mzc2MTUsMTg4NjYzOTQ3NS
+wxNDc0MzU0NTA1LDkzMjQxMjYxMiwxNjY0OTk4NTkzLC01NjQ1
+MjAyMTIsNDM5MDg0NTA2LC0xODA5MTY4NDkzLC00Nzc5Mjk2OS
+w3MjU1Nzk3MTEsLTE2MjI5ODQ0OTgsMjAyNDk1NDY5NywxNTYx
+NjI0MTEyXX0=
 -->
