@@ -127,27 +127,42 @@ overviewMap = aprx.listMaps("Overview Map")[0]
 The Overview Map currently has no layers, 
 
 
-### 
+###  
 
 ```python
 aprx = arcpy.mp.ArcGISProject("CURRENT")
 print(aprx.activeMap.name)
+```
+Output 
+```
 Map1
+```
+
+```python
 aprx.activeMap.name = "S51"
 # check name of active map
 print(aprx.activeMap.name)
+```
+Output 
+```
 S51
+```
+
+```python
 # Rename second map
 aprx.activeMap.name = "Map2"
 aprx.activeMap.name = "S57"
 # List all maps names
 print([map.name for map in aprx.listMaps()])
+```
+Output
+```
 ['S51', 'S57']
+```
+```Python
 # Create a map object to work with
 S51Map = aprx.listMaps("S51")[0]
 ```
-
-
 
 ### Add layers to a map
 
@@ -193,7 +208,7 @@ Output
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwMjUxNzUwLDIwMzY3NzI4OTcsLTg5MT
+eyJoaXN0b3J5IjpbNDgyNDEzOTMxLDIwMzY3NzI4OTcsLTg5MT
 kwNzY1MSwzMzQ1NDU3Myw0OTA2OTcwMjUsLTEyNTE2NTU4MDMs
 MTYwNTkwODcwNiw2NjQzNDY3MTIsLTIwMTc5MDQ5MzFdfQ==
 -->
