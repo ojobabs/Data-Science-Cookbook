@@ -126,6 +126,26 @@ overviewMap = aprx.listMaps("Overview Map")[0]
 ```
 The Overview Map currently has no layers, 
 
+### Add layers to a map
+
+
+```Python
+# Add local market layer to the S51Map
+S51Map.addDataFromPath(lyrFile)
+```
+Output
+```
+<arcpy._mp.Layer object at 0x00000000298E8E80>
+````
+lyrFile = r"C:\Users\T93KQI0\Documents\ArcGIS\Projects\Local_Market_Map_Auto_01\Local_Market_Map_Auto_01.gdb\marketers_S51"
+# Add local market layer to the S51Map
+S51Map.addDataFromPath(lyrFile)
+<arcpy._mp.Layer object at 0x00000000723701D0>
+lyrFile = r"C:\Users\T93KQI0\Documents\ArcGIS\Projects\Local_Market_Map_Auto_01\Local_Market_Map_Auto_01.gdb\offices_all_Geocoded"
+# Add local market layer to the S51Map
+S51Map.addDataFromPath(lyrFile)
+<arcpy._mp.Layer object at 0x00000000770B3518>
+```
 
 
 
@@ -139,7 +159,7 @@ The Overview Map currently has no layers,
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNjc3Mjg5NywtODkxOTA3NjUxLDMzND
-U0NTczLDQ5MDY5NzAyNSwtMTI1MTY1NTgwMywxNjA1OTA4NzA2
-LDY2NDM0NjcxMiwtMjAxNzkwNDkzMV19
+eyJoaXN0b3J5IjpbNjkwMDkxMTAsMjAzNjc3Mjg5NywtODkxOT
+A3NjUxLDMzNDU0NTczLDQ5MDY5NzAyNSwtMTI1MTY1NTgwMywx
+NjA1OTA4NzA2LDY2NDM0NjcxMiwtMjAxNzkwNDkzMV19
 -->
