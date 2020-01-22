@@ -299,9 +299,10 @@ print([map.name for map in aprx.listMaps()])
 ```
 Let's change the name:
 
-```pyho
-# Create a map object to work with S51Map = aprx.listMaps("S51")[0]
-
+```python
+# Create a overview map object to work with 
+OverviewMap = aprx.listMaps("Map")[0]
+```
 
 
 
@@ -315,7 +316,7 @@ Let's change the name:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NzUzMTgwMSwtMTYyMjk4NDQ5OCwyMD
+eyJoaXN0b3J5IjpbLTY5OTc3OTk0NywtMTYyMjk4NDQ5OCwyMD
 I0OTU0Njk3LDE1NjE2MjQxMTIsMTU4NDYyNTU2OCw1NzkyNTc5
 MDksMTY4NTMyNjIzMCwxOTI1MzQzNDgsOTAyMDEzNDc5LC0xNj
 gwOTYxMjcwLC00ODYxMDg0MTYsLTEyMjc0NDYxNjgsLTIwMzQ5
