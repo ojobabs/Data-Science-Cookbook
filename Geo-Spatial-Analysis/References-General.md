@@ -4,10 +4,7 @@
 > Written with [StackEdit](https://stackedit.io/).
 # Geo-Spatial General References
 
-###
-
-[Spatial Data Science Conference.com/2019/index.html#2019videos](https://spatial-data-science-conference.com/2019/index.html#2019videos)
-
+### [Spatial Data Science Conference 2019 videos](https://spatial-data-science-conference.com/2019/index.html#2019videos)
 
 ### Merging ZIP codes with Census Tracts
 
@@ -111,10 +108,10 @@ Some information about solving the optimal location problem from a supervised an
 
 - [7 TOP FREE SATELLITE IMAGERY SOURCES IN 2019](https://eos.com/blog/7-top-free-satellite-imagery-sources-in-2019/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNTM4MzY5MSwxNDU5MDExMDcsLTU2MD
-Q1NTE4MiwtOTMyNjU4OTMxLC0xNTgxMzA4MzcyLC0xMzQ4Mjc1
-Mjc3LDkyOTI2MDIzOSwxMTkxNjA4MzUzLC0yNzAzOTg1MTAsLT
-g5NzM4NjkxNywtMTA5NTcxNzA0MCwyMDk0OTg1MTE2LC0yMDgy
-MzI2ODIwLDQxODc1ODg0NSwxNDAyNTQwMDAwLC0xNTIyNzEwNj
-YwLC0xNjEzOTgzMzc0LC0yNDA0MzQ0NDVdfQ==
+eyJoaXN0b3J5IjpbLTE0MjMzMjAwMzAsMTQ1OTAxMTA3LC01Nj
+A0NTUxODIsLTkzMjY1ODkzMSwtMTU4MTMwODM3MiwtMTM0ODI3
+NTI3Nyw5MjkyNjAyMzksMTE5MTYwODM1MywtMjcwMzk4NTEwLC
+04OTczODY5MTcsLTEwOTU3MTcwNDAsMjA5NDk4NTExNiwtMjA4
+MjMyNjgyMCw0MTg3NTg4NDUsMTQwMjU0MDAwMCwtMTUyMjcxMD
+Y2MCwtMTYxMzk4MzM3NCwtMjQwNDM0NDQ1XX0=
 -->
