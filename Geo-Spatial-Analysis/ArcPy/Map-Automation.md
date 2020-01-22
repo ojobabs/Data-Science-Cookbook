@@ -198,6 +198,16 @@ Output
 <arcpy._mp.Layer object at 0x00000000770B3518>
 ```
 
+```
+lyrFile = r"C:\Users\T93KQI0\Documents\ArcGIS\Projects\Local_Market_Map_Auto_01\Local_Market_Map_Auto_01.gdb\Polygons_Pop_Den_S57"
+S57Map.addDataFromPath(lyrFile)
+<arcpy._mp.Layer object at 0x000000002A82DA90>
+lyrFile = r"C:\Users\T93KQI0\Documents\ArcGIS\Projects\Local_Market_Map_Auto_01\Local_Market_Map_Auto_01.gdb\marketers_S57"
+S57Map.addDataFromPath(lyrFile)
+<arcpy._mp.Layer object at 0x000000006A9AD630>
+lyrFile = r"C:\Users\T93KQI0\Documents\ArcGIS\Projects\Local_Market_Map_Auto_01\Local_Market_Map_Auto_01.gdb\offices_all_Geocoded"
+S57Map.addDataFromPath(lyrFile)
+<arcpy._mp.Layer object at 0x000000006A9AD358>
 
 
 
@@ -212,8 +222,8 @@ Output
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNzUxMzM5LC0xNTY2MDEzMzYxLDIwMz
-Y3NzI4OTcsLTg5MTkwNzY1MSwzMzQ1NDU3Myw0OTA2OTcwMjUs
-LTEyNTE2NTU4MDMsMTYwNTkwODcwNiw2NjQzNDY3MTIsLTIwMT
-c5MDQ5MzFdfQ==
+eyJoaXN0b3J5IjpbLTE5OTg1OTk4MTUsLTE1NjYwMTMzNjEsMj
+AzNjc3Mjg5NywtODkxOTA3NjUxLDMzNDU0NTczLDQ5MDY5NzAy
+NSwtMTI1MTY1NTgwMywxNjA1OTA4NzA2LDY2NDM0NjcxMiwtMj
+AxNzkwNDkzMV19
 -->
