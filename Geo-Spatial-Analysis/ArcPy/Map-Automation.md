@@ -260,8 +260,7 @@ S51MapFrame = lyt.listElements('MAPFRAME_ELEMENT')[0]
 ```
 I used it in an interactive map frame element to return only map frame elements because there are many different types of elements and objects that may be found in a layout like legends, text, arrows, scrollbars, etc. 
 
--
-
+I would now like to use code to start moving and resizing the `S51MapFrame` map frame on my layout.
 
 
 
@@ -275,11 +274,11 @@ I used it in an interactive map frame element to return only map frame elements 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc5MjU3OTA5LDE2ODUzMjYyMzAsMTkyNT
-M0MzQ4LDkwMjAxMzQ3OSwtMTY4MDk2MTI3MCwtNDg2MTA4NDE2
-LC0xMjI3NDQ2MTY4LC0yMDM0OTg2Nzk2LC0xOTM2OTUzNjIyLC
-0xMjI1NTQ2NDIxLC0xNTY2MDEzMzYxLDIwMzY3NzI4OTcsLTg5
-MTkwNzY1MSwzMzQ1NDU3Myw0OTA2OTcwMjUsLTEyNTE2NTU4MD
-MsMTYwNTkwODcwNiw2NjQzNDY3MTIsLTIwMTc5MDQ5MzFdfQ==
-
+eyJoaXN0b3J5IjpbLTE4ODM3MjUxMzgsNTc5MjU3OTA5LDE2OD
+UzMjYyMzAsMTkyNTM0MzQ4LDkwMjAxMzQ3OSwtMTY4MDk2MTI3
+MCwtNDg2MTA4NDE2LC0xMjI3NDQ2MTY4LC0yMDM0OTg2Nzk2LC
+0xOTM2OTUzNjIyLC0xMjI1NTQ2NDIxLC0xNTY2MDEzMzYxLDIw
+MzY3NzI4OTcsLTg5MTkwNzY1MSwzMzQ1NDU3Myw0OTA2OTcwMj
+UsLTEyNTE2NTU4MDMsMTYwNTkwODcwNiw2NjQzNDY3MTIsLTIw
+MTc5MDQ5MzFdfQ==
 -->
