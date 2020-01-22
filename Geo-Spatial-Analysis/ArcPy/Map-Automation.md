@@ -399,7 +399,7 @@ In therms of the code that sounds more complicated than it is in practice becaus
 ```python
 S51MapFrame.camera.setExtent(selGOExtent)
 ```
-The main map frame border is is just a little too close to the local market border, so use a scale property 
+The main map frame border is is just a little too close to the local market border, so use a scale property of the map frame camera object to multiply by 1.05 
 
 
 
@@ -408,11 +408,11 @@ The main map frame border is is just a little too close to the local market bord
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MzY5NTQxOCwzMjE5OTQ5ODIsLTExNT
-k1MzYwMDQsNzM1OTk3MTkwLC0xMTY3NDM3NjE1LDE4ODY2Mzk0
-NzUsMTQ3NDM1NDUwNSw5MzI0MTI2MTIsMTY2NDk5ODU5MywtNT
-Y0NTIwMjEyLDQzOTA4NDUwNiwtMTgwOTE2ODQ5MywtNDc3OTI5
-NjksNzI1NTc5NzExLC0xNjIyOTg0NDk4LDIwMjQ5NTQ2OTcsMT
-U2MTYyNDExMiwxNTg0NjI1NTY4LDU3OTI1NzkwOSwxNjg1MzI2
-MjMwXX0=
+eyJoaXN0b3J5IjpbOTgwMzQxODQxLDMyMTk5NDk4MiwtMTE1OT
+UzNjAwNCw3MzU5OTcxOTAsLTExNjc0Mzc2MTUsMTg4NjYzOTQ3
+NSwxNDc0MzU0NTA1LDkzMjQxMjYxMiwxNjY0OTk4NTkzLC01Nj
+Q1MjAyMTIsNDM5MDg0NTA2LC0xODA5MTY4NDkzLC00Nzc5Mjk2
+OSw3MjU1Nzk3MTEsLTE2MjI5ODQ0OTgsMjAyNDk1NDY5NywxNT
+YxNjI0MTEyLDE1ODQ2MjU1NjgsNTc5MjU3OTA5LDE2ODUzMjYy
+MzBdfQ==
 -->
