@@ -372,7 +372,7 @@ OfficeslayerOverviewMap = OverviewMap.listLayers("offices_all_Geocoded")[0]
 # Apply a query to get S51 GO and all satellite offcies
 OfficeslayerOverviewMap.definitionQuery = "USER_ou_cd LIKE 'S51%'"
 ```
-
+The key point is that now on the layout you can see on the Overview map only those two offices under S51 GO. But on the main map, you can still see all GOs. 
 
 
 
@@ -383,11 +383,11 @@ OfficeslayerOverviewMap.definitionQuery = "USER_ou_cd LIKE 'S51%'"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjM3MTk4ODcsLTExNjc0Mzc2MTUsMT
-g4NjYzOTQ3NSwxNDc0MzU0NTA1LDkzMjQxMjYxMiwxNjY0OTk4
-NTkzLC01NjQ1MjAyMTIsNDM5MDg0NTA2LC0xODA5MTY4NDkzLC
-00Nzc5Mjk2OSw3MjU1Nzk3MTEsLTE2MjI5ODQ0OTgsMjAyNDk1
-NDY5NywxNTYxNjI0MTEyLDE1ODQ2MjU1NjgsNTc5MjU3OTA5LD
-E2ODUzMjYyMzAsMTkyNTM0MzQ4LDkwMjAxMzQ3OSwtMTY4MDk2
-MTI3MF19
+eyJoaXN0b3J5IjpbNzM1OTk3MTkwLC0xMTY3NDM3NjE1LDE4OD
+Y2Mzk0NzUsMTQ3NDM1NDUwNSw5MzI0MTI2MTIsMTY2NDk5ODU5
+MywtNTY0NTIwMjEyLDQzOTA4NDUwNiwtMTgwOTE2ODQ5MywtND
+c3OTI5NjksNzI1NTc5NzExLC0xNjIyOTg0NDk4LDIwMjQ5NTQ2
+OTcsMTU2MTYyNDExMiwxNTg0NjI1NTY4LDU3OTI1NzkwOSwxNj
+g1MzI2MjMwLDE5MjUzNDM0OCw5MDIwMTM0NzksLTE2ODA5NjEy
+NzBdfQ==
 -->
