@@ -234,6 +234,7 @@ Output
 
 ## Lesson 48 Working with Layout and Map Frame classes
 
+let's see what you can and cannot do with `arcpy.md` when you are working with layouts and map frame objects. 
 
 
 
@@ -247,7 +248,7 @@ Output
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4OTI5NzU4NSwtMTIyNzQ0NjE2OCwtMj
+eyJoaXN0b3J5IjpbLTQ4NjEwODQxNiwtMTIyNzQ0NjE2OCwtMj
 AzNDk4Njc5NiwtMTkzNjk1MzYyMiwtMTIyNTU0NjQyMSwtMTU2
 NjAxMzM2MSwyMDM2NzcyODk3LC04OTE5MDc2NTEsMzM0NTQ1Nz
 MsNDkwNjk3MDI1LC0xMjUxNjU1ODAzLDE2MDU5MDg3MDYsNjY0
