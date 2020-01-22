@@ -309,9 +309,9 @@ OverviewMap.name = "Overview"
 Now on the overview map we can add the location of each GO office. 
 
 ```python
-# Add local market layer to the S51Map
-lyrFile = r"C:\Users\T93KQI0\Documents\ArcGIS\Projects\Local_Market_Map_Auto_01\Local_Market_Map_Auto_01.gdb\Polygons_Pop_Den_S51"
-S51Map.addDataFromPath(lyrFile)
+# Add local market layer to the OverviewMap
+lyrFile = r"C:\Users\T93KQI0\Documents\ArcGIS\Projects\Local_Market_Map_Auto_01\Local_Market_Map_Auto_01.gdb\offices_all_Geocoded"
+OverviewMap.addDataFromPath(lyrFile)
 ```
 
 
@@ -325,11 +325,11 @@ S51Map.addDataFromPath(lyrFile)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NDI3NTg4OCwtMTYyMjk4NDQ5OCwyMD
-I0OTU0Njk3LDE1NjE2MjQxMTIsMTU4NDYyNTU2OCw1NzkyNTc5
-MDksMTY4NTMyNjIzMCwxOTI1MzQzNDgsOTAyMDEzNDc5LC0xNj
-gwOTYxMjcwLC00ODYxMDg0MTYsLTEyMjc0NDYxNjgsLTIwMzQ5
-ODY3OTYsLTE5MzY5NTM2MjIsLTEyMjU1NDY0MjEsLTE1NjYwMT
-MzNjEsMjAzNjc3Mjg5NywtODkxOTA3NjUxLDMzNDU0NTczLDQ5
-MDY5NzAyNV19
+eyJoaXN0b3J5IjpbNzI1NTc5NzExLC0xNjIyOTg0NDk4LDIwMj
+Q5NTQ2OTcsMTU2MTYyNDExMiwxNTg0NjI1NTY4LDU3OTI1Nzkw
+OSwxNjg1MzI2MjMwLDE5MjUzNDM0OCw5MDIwMTM0NzksLTE2OD
+A5NjEyNzAsLTQ4NjEwODQxNiwtMTIyNzQ0NjE2OCwtMjAzNDk4
+Njc5NiwtMTkzNjk1MzYyMiwtMTIyNTU0NjQyMSwtMTU2NjAxMz
+M2MSwyMDM2NzcyODk3LC04OTE5MDc2NTEsMzM0NTQ1NzMsNDkw
+Njk3MDI1XX0=
 -->
