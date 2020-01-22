@@ -141,7 +141,7 @@ Output
 
 ```python
 # Add agents to S51Map
-lyrFile="C:\Users\T93KQI0\Documents\ArcGIS\Projects\Local_Market_Map_Auto_01\Local_Market_Map_Auto_01.gdb\marketers_S51"
+lyrFile=r"C:\Users\T93KQI0\Documents\ArcGIS\Projects\Local_Market_Map_Auto_01\Local_Market_Map_Auto_01.gdb\marketers_S51"
 S51Map.addDataFromPath(lyrFile)
 ```
 Output
@@ -150,9 +150,12 @@ Output
 ```
 
 ```python
+# Add office location layer to the S51Map
 lyrFile = r"C:\Users\T93KQI0\Documents\ArcGIS\Projects\Local_Market_Map_Auto_01\Local_Market_Map_Auto_01.gdb\offices_all_Geocoded"
-# Add local market layer to the S51Map
 S51Map.addDataFromPath(lyrFile)
+```
+Output
+```
 <arcpy._mp.Layer object at 0x00000000770B3518>
 ```
 
@@ -168,7 +171,7 @@ S51Map.addDataFromPath(lyrFile)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNDkyNzIyMSwyMDM2NzcyODk3LC04OT
-E5MDc2NTEsMzM0NTQ1NzMsNDkwNjk3MDI1LC0xMjUxNjU1ODAz
-LDE2MDU5MDg3MDYsNjY0MzQ2NzEyLC0yMDE3OTA0OTMxXX0=
+eyJoaXN0b3J5IjpbNjY2MzM2MTM4LDIwMzY3NzI4OTcsLTg5MT
+kwNzY1MSwzMzQ1NDU3Myw0OTA2OTcwMjUsLTEyNTE2NTU4MDMs
+MTYwNTkwODcwNiw2NjQzNDY3MTIsLTIwMTc5MDQ5MzFdfQ==
 -->
