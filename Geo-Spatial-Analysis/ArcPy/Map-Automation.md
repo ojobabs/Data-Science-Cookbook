@@ -260,7 +260,11 @@ S51MapFrame = lyt.listElements('MAPFRAME_ELEMENT')[0]
 ```
 I used it in an interactive map frame element to return only map frame elements because there are many different types of elements and objects that may be found in a layout like legends, text, arrows, scrollbars, etc. 
 
-Let's c
+Let's change the name of the map frame from `map frame` to `S51MapFrameMain`: 
+
+```python
+S51MapFrame.name = "S51MapFrameMain"
+```
 
 I would now like to use code to start moving and resizing the `S51MapFrame` map frame on my layout. But before doing that I need to know where the anchor point is for the map frame. This cannot be done using code. So go the contents pane and right click the main frame to open Eye-Openers properties.
 
@@ -276,11 +280,11 @@ I would now like to use code to start moving and resizing the `S51MapFrame` map 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMjIzMjk3LDU3OTI1NzkwOSwxNjg1Mz
-I2MjMwLDE5MjUzNDM0OCw5MDIwMTM0NzksLTE2ODA5NjEyNzAs
-LTQ4NjEwODQxNiwtMTIyNzQ0NjE2OCwtMjAzNDk4Njc5NiwtMT
-kzNjk1MzYyMiwtMTIyNTU0NjQyMSwtMTU2NjAxMzM2MSwyMDM2
-NzcyODk3LC04OTE5MDc2NTEsMzM0NTQ1NzMsNDkwNjk3MDI1LC
-0xMjUxNjU1ODAzLDE2MDU5MDg3MDYsNjY0MzQ2NzEyLC0yMDE3
-OTA0OTMxXX0=
+eyJoaXN0b3J5IjpbMTEzNDA1NzAwMSw1NzkyNTc5MDksMTY4NT
+MyNjIzMCwxOTI1MzQzNDgsOTAyMDEzNDc5LC0xNjgwOTYxMjcw
+LC00ODYxMDg0MTYsLTEyMjc0NDYxNjgsLTIwMzQ5ODY3OTYsLT
+E5MzY5NTM2MjIsLTEyMjU1NDY0MjEsLTE1NjYwMTMzNjEsMjAz
+Njc3Mjg5NywtODkxOTA3NjUxLDMzNDU0NTczLDQ5MDY5NzAyNS
+wtMTI1MTY1NTgwMywxNjA1OTA4NzA2LDY2NDM0NjcxMiwtMjAx
+NzkwNDkzMV19
 -->
