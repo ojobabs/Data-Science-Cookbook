@@ -166,6 +166,8 @@ S51Map = aprx.listMaps("S51")[0]
 
 ### Add layers to a map
 
+The layers are added at the bottom. So, first you need to add the layer you one at the bottom, for example the local market, then the agents and then the GO office
+
 ```python
 # Add local market layer to the S51Map
 lyrFile = r"C:\Users\T93KQI0\Documents\ArcGIS\Projects\Local_Market_Map_Auto_01\Local_Market_Map_Auto_01.gdb\Polygons_Pop_Den_S51"
@@ -208,7 +210,7 @@ Output
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgyNDEzOTMxLDIwMzY3NzI4OTcsLTg5MT
-kwNzY1MSwzMzQ1NDU3Myw0OTA2OTcwMjUsLTEyNTE2NTU4MDMs
-MTYwNTkwODcwNiw2NjQzNDY3MTIsLTIwMTc5MDQ5MzFdfQ==
+eyJoaXN0b3J5IjpbLTE4MDk4Njc4MzAsMjAzNjc3Mjg5NywtOD
+kxOTA3NjUxLDMzNDU0NTczLDQ5MDY5NzAyNSwtMTI1MTY1NTgw
+MywxNjA1OTA4NzA2LDY2NDM0NjcxMiwtMjAxNzkwNDkzMV19
 -->
