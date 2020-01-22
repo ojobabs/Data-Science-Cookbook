@@ -246,10 +246,10 @@ The first element that I place on my layout will be the S57 map and this cannot 
 
 Now that we have a layout and a data frame on it we can start using `arcpy`. 
 
-Let's create now a layout object:
+Let's create now a layout object. We have only one layout for now so, it is easy:
 
 ```python
-
+lyt = aprx.listLayouts()[0]
 ```
 
 
@@ -263,12 +263,14 @@ Let's create now a layout object:
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgxMDc5NTQxLDE2ODUzMjYyMzAsMTkyNT
-M0MzQ4LDkwMjAxMzQ3OSwtMTY4MDk2MTI3MCwtNDg2MTA4NDE2
-LC0xMjI3NDQ2MTY4LC0yMDM0OTg2Nzk2LC0xOTM2OTUzNjIyLC
-0xMjI1NTQ2NDIxLC0xNTY2MDEzMzYxLDIwMzY3NzI4OTcsLTg5
-MTkwNzY1MSwzMzQ1NDU3Myw0OTA2OTcwMjUsLTEyNTE2NTU4MD
-MsMTYwNTkwODcwNiw2NjQzNDY3MTIsLTIwMTc5MDQ5MzFdfQ==
+eyJoaXN0b3J5IjpbMTc0OTM2ODQ2OCwxNjg1MzI2MjMwLDE5Mj
+UzNDM0OCw5MDIwMTM0NzksLTE2ODA5NjEyNzAsLTQ4NjEwODQx
+NiwtMTIyNzQ0NjE2OCwtMjAzNDk4Njc5NiwtMTkzNjk1MzYyMi
+wtMTIyNTU0NjQyMSwtMTU2NjAxMzM2MSwyMDM2NzcyODk3LC04
+OTE5MDc2NTEsMzM0NTQ1NzMsNDkwNjk3MDI1LC0xMjUxNjU1OD
+AzLDE2MDU5MDg3MDYsNjY0MzQ2NzEyLC0yMDE3OTA0OTMxXX0=
 
 -->
