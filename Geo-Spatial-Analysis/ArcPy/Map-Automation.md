@@ -320,7 +320,7 @@ Next, I changed the symbol by using the ribbon. I am using a house symbol to rep
 **Min 7:08 on video**
 
 > **Best approach to automate map creation**:  use  a unique default map and a unique default layout and then include there the layers we want . The loop through each layer. So, you can have a Main map (link on the video) and an Overview map (like on the video) and just loop through each every layer we need to add every time to create each GO map.  
-> Update: probably, this above approach won
+> Update: probably, this above approach won't work because we need to add the Map Frame (the actual map) to the layout by using the ribbon. There is no way to use code for this. 
 
 Now, by using the ribbon, we can add the OverviewMap 
 
@@ -334,7 +334,7 @@ Now, by using the ribbon, we can add the OverviewMap
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNTU1NjQ2NSwtNTY0NTIwMjEyLDQzOT
+eyJoaXN0b3J5IjpbMTY2NDk5ODU5MywtNTY0NTIwMjEyLDQzOT
 A4NDUwNiwtMTgwOTE2ODQ5MywtNDc3OTI5NjksNzI1NTc5NzEx
 LC0xNjIyOTg0NDk4LDIwMjQ5NTQ2OTcsMTU2MTYyNDExMiwxNT
 g0NjI1NTY4LDU3OTI1NzkwOSwxNjg1MzI2MjMwLDE5MjUzNDM0
