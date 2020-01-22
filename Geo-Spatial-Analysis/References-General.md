@@ -3,6 +3,12 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 # Geo-Spatial General References
+
+###
+
+[Spatial Data Science Conference.com/2019/index.html#2019videos](https://spatial-data-science-conference.com/2019/index.html#2019videos)
+
+
 ### Merging ZIP codes with Census Tracts
 
 - [United States ZIP codes.org](https://www.unitedstateszipcodes.org/) At the bottom of the page there is a section called   [Downloadable ZIP Code List](https://www.unitedstateszipcodes.org/zip-code-database/) from where it is possible to download the full US data base, that is, all zip codes and their equivalent counties and the centroid (lat and long) for each zip code.
@@ -105,10 +111,10 @@ Some information about solving the optimal location problem from a supervised an
 
 - [7 TOP FREE SATELLITE IMAGERY SOURCES IN 2019](https://eos.com/blog/7-top-free-satellite-imagery-sources-in-2019/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1OTAxMTA3LC01NjA0NTUxODIsLTkzMj
-Y1ODkzMSwtMTU4MTMwODM3MiwtMTM0ODI3NTI3Nyw5MjkyNjAy
-MzksMTE5MTYwODM1MywtMjcwMzk4NTEwLC04OTczODY5MTcsLT
-EwOTU3MTcwNDAsMjA5NDk4NTExNiwtMjA4MjMyNjgyMCw0MTg3
-NTg4NDUsMTQwMjU0MDAwMCwtMTUyMjcxMDY2MCwtMTYxMzk4Mz
-M3NCwtMjQwNDM0NDQ1XX0=
+eyJoaXN0b3J5IjpbMTczNTM4MzY5MSwxNDU5MDExMDcsLTU2MD
+Q1NTE4MiwtOTMyNjU4OTMxLC0xNTgxMzA4MzcyLC0xMzQ4Mjc1
+Mjc3LDkyOTI2MDIzOSwxMTkxNjA4MzUzLC0yNzAzOTg1MTAsLT
+g5NzM4NjkxNywtMTA5NTcxNzA0MCwyMDk0OTg1MTE2LC0yMDgy
+MzI2ODIwLDQxODc1ODg0NSwxNDAyNTQwMDAwLC0xNTIyNzEwNj
+YwLC0xNjEzOTgzMzc0LC0yNDA0MzQ0NDVdfQ==
 -->
