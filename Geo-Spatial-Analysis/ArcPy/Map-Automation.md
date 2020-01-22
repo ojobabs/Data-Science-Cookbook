@@ -214,11 +214,20 @@ Output
 ```python
 lyrFile = r"C:\Users\T93KQI0\Documents\ArcGIS\Projects\Local_Market_Map_Auto_01\Local_Market_Map_Auto_01.gdb\marketers_S57"
 S57Map.addDataFromPath(lyrFile)
+```
+Output 
+```
 <arcpy._mp.Layer object at 0x000000006A9AD630>
+```
+
+```python
 lyrFile = r"C:\Users\T93KQI0\Documents\ArcGIS\Projects\Local_Market_Map_Auto_01\Local_Market_Map_Auto_01.gdb\offices_all_Geocoded"
 S57Map.addDataFromPath(lyrFile)
+```
+Output
+```
 <arcpy._mp.Layer object at 0x000000006A9AD358>
-
+```
 
 
 
@@ -232,8 +241,9 @@ S57Map.addDataFromPath(lyrFile)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzQ5ODY3OTYsLTE5MzY5NTM2MjIsLT
-EyMjU1NDY0MjEsLTE1NjYwMTMzNjEsMjAzNjc3Mjg5NywtODkx
-OTA3NjUxLDMzNDU0NTczLDQ5MDY5NzAyNSwtMTI1MTY1NTgwMy
-wxNjA1OTA4NzA2LDY2NDM0NjcxMiwtMjAxNzkwNDkzMV19
+eyJoaXN0b3J5IjpbLTEyMjc0NDYxNjgsLTIwMzQ5ODY3OTYsLT
+E5MzY5NTM2MjIsLTEyMjU1NDY0MjEsLTE1NjYwMTMzNjEsMjAz
+Njc3Mjg5NywtODkxOTA3NjUxLDMzNDU0NTczLDQ5MDY5NzAyNS
+wtMTI1MTY1NTgwMywxNjA1OTA4NzA2LDY2NDM0NjcxMiwtMjAx
+NzkwNDkzMV19
 -->
