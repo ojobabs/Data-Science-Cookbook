@@ -358,7 +358,7 @@ Let's save the current project:
 aprx.save()
 ```
 ### 49. Zooming Using Camera and Extent Classes in ArcGIS Pro
-
+In this lecture I'll try to give an idea of what you can and cannot do without Python and `arcpy` when it comes to manipulating camera and extent objects.
 
 
 
@@ -371,7 +371,7 @@ aprx.save()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4Njg2MDk5OCw5MzI0MTI2MTIsMTY2ND
+eyJoaXN0b3J5IjpbMTQ3NDM1NDUwNSw5MzI0MTI2MTIsMTY2ND
 k5ODU5MywtNTY0NTIwMjEyLDQzOTA4NDUwNiwtMTgwOTE2ODQ5
 MywtNDc3OTI5NjksNzI1NTc5NzExLC0xNjIyOTg0NDk4LDIwMj
 Q5NTQ2OTcsMTU2MTYyNDExMiwxNTg0NjI1NTY4LDU3OTI1Nzkw
