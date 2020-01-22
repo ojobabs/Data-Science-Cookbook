@@ -246,6 +246,12 @@ The first element that I place on my layout will be the S57 map and this cannot 
 
 Now that we have a layout and a data frame on it we can start using `arcpy`. 
 
+Let's create now a layout object:
+
+```python
+
+```
+
 
 
 
@@ -258,10 +264,11 @@ Now that we have a layout and a data frame on it we can start using `arcpy`.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NTMyNjIzMCwxOTI1MzQzNDgsOTAyMD
-EzNDc5LC0xNjgwOTYxMjcwLC00ODYxMDg0MTYsLTEyMjc0NDYx
-NjgsLTIwMzQ5ODY3OTYsLTE5MzY5NTM2MjIsLTEyMjU1NDY0Mj
-EsLTE1NjYwMTMzNjEsMjAzNjc3Mjg5NywtODkxOTA3NjUxLDMz
-NDU0NTczLDQ5MDY5NzAyNSwtMTI1MTY1NTgwMywxNjA1OTA4Nz
-A2LDY2NDM0NjcxMiwtMjAxNzkwNDkzMV19
+eyJoaXN0b3J5IjpbMjgxMDc5NTQxLDE2ODUzMjYyMzAsMTkyNT
+M0MzQ4LDkwMjAxMzQ3OSwtMTY4MDk2MTI3MCwtNDg2MTA4NDE2
+LC0xMjI3NDQ2MTY4LC0yMDM0OTg2Nzk2LC0xOTM2OTUzNjIyLC
+0xMjI1NTQ2NDIxLC0xNTY2MDEzMzYxLDIwMzY3NzI4OTcsLTg5
+MTkwNzY1MSwzMzQ1NDU3Myw0OTA2OTcwMjUsLTEyNTE2NTU4MD
+MsMTYwNTkwODcwNiw2NjQzNDY3MTIsLTIwMTc5MDQ5MzFdfQ==
+
 -->
