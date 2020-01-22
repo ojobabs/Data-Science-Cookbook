@@ -242,7 +242,9 @@ A layout is a white page of pager where you can put multiple layers to create yo
 
 The map element type, that provides the link between which view of the map appears on each layout is called **map frame**.
 
-The first element that I place on my layout will be the S57 map and this cannot be done using code. On the ribbon, insert, then map frame 
+The first element that I place on my layout will be the S57 map and this cannot be done using code. On the ribbon, insert, then map frame, then S51, the one on the right.
+
+Now that we have a layout and a data
 
 
 
@@ -256,7 +258,7 @@ The first element that I place on my layout will be the S57 map and this cannot 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg4NzU3MDMzLDkwMjAxMzQ3OSwtMTY4MD
+eyJoaXN0b3J5IjpbMTkyNTM0MzQ4LDkwMjAxMzQ3OSwtMTY4MD
 k2MTI3MCwtNDg2MTA4NDE2LC0xMjI3NDQ2MTY4LC0yMDM0OTg2
 Nzk2LC0xOTM2OTUzNjIyLC0xMjI1NTQ2NDIxLC0xNTY2MDEzMz
 YxLDIwMzY3NzI4OTcsLTg5MTkwNzY1MSwzMzQ1NDU3Myw0OTA2
