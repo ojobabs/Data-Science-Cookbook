@@ -238,9 +238,9 @@ let's see what you can and cannot do with `arcpy.md` when you are working with l
 
 `arcpy` can not be used to insert a layout, so, we need to use we need to use the ribbon. Insert a layout. 
 
-A layout is a white page of pager where you can put multiple layers to create your final map. You can add multiple layouts to your project and each layout can include multiple maps.
+A layout is a white page of pager where you can put multiple layers to create your final map. You can add multiple layouts to your project and each layout can include multiple maps. These multiple maps can appear in multiple layouts too. 
 
-There are formats that can be applied to multipple layouts too.
+The map element type, that provides the link between which view of the map appears 
 
 
 
@@ -254,7 +254,7 @@ There are formats that can be applied to multipple layouts too.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTgxODQxMSw5MDIwMTM0NzksLTE2OD
+eyJoaXN0b3J5IjpbMTQyOTkzNjIwOCw5MDIwMTM0NzksLTE2OD
 A5NjEyNzAsLTQ4NjEwODQxNiwtMTIyNzQ0NjE2OCwtMjAzNDk4
 Njc5NiwtMTkzNjk1MzYyMiwtMTIyNTU0NjQyMSwtMTU2NjAxMz
 M2MSwyMDM2NzcyODk3LC04OTE5MDc2NTEsMzM0NTQ1NzMsNDkw
