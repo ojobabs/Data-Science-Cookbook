@@ -258,7 +258,7 @@ Now we can list the elements methods of the layout object to create a map frame 
 lyt = aprx.listLayouts()[0]
 S51MapFrame = lyt.listElements('MAPFRAME_ELEMENT')[0]
 ```
-
+I used it in an interactive map frame element to return only map frame elements because there are many
 
 
 
@@ -273,11 +273,11 @@ S51MapFrame = lyt.listElements('MAPFRAME_ELEMENT')[0]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzk3MzA2NywxNjg1MzI2MjMwLDE5Mj
-UzNDM0OCw5MDIwMTM0NzksLTE2ODA5NjEyNzAsLTQ4NjEwODQx
-NiwtMTIyNzQ0NjE2OCwtMjAzNDk4Njc5NiwtMTkzNjk1MzYyMi
-wtMTIyNTU0NjQyMSwtMTU2NjAxMzM2MSwyMDM2NzcyODk3LC04
-OTE5MDc2NTEsMzM0NTQ1NzMsNDkwNjk3MDI1LC0xMjUxNjU1OD
-AzLDE2MDU5MDg3MDYsNjY0MzQ2NzEyLC0yMDE3OTA0OTMxXX0=
+eyJoaXN0b3J5IjpbMzMwMDgwMTQ1LDE2ODUzMjYyMzAsMTkyNT
+M0MzQ4LDkwMjAxMzQ3OSwtMTY4MDk2MTI3MCwtNDg2MTA4NDE2
+LC0xMjI3NDQ2MTY4LC0yMDM0OTg2Nzk2LC0xOTM2OTUzNjIyLC
+0xMjI1NTQ2NDIxLC0xNTY2MDEzMzYxLDIwMzY3NzI4OTcsLTg5
+MTkwNzY1MSwzMzQ1NDU3Myw0OTA2OTcwMjUsLTEyNTE2NTU4MD
+MsMTYwNTkwODcwNiw2NjQzNDY3MTIsLTIwMTc5MDQ5MzFdfQ==
 
 -->
