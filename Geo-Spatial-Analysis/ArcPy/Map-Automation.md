@@ -298,12 +298,13 @@ print([map.name for map in aprx.listMaps()])
 ['Map', 'S51', 'S57']
 ```
 Let's change the name:
-
 ```python
 # Create a overview map object to work with 
 OverviewMap = aprx.listMaps("Map")[0]
+# Change the name of the map
+OverviewMap.name = "Overview"
 ```
-
+> Note that following the above code, w
 
 
 
@@ -316,11 +317,11 @@ OverviewMap = aprx.listMaps("Map")[0]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5OTc3OTk0NywtMTYyMjk4NDQ5OCwyMD
-I0OTU0Njk3LDE1NjE2MjQxMTIsMTU4NDYyNTU2OCw1NzkyNTc5
-MDksMTY4NTMyNjIzMCwxOTI1MzQzNDgsOTAyMDEzNDc5LC0xNj
-gwOTYxMjcwLC00ODYxMDg0MTYsLTEyMjc0NDYxNjgsLTIwMzQ5
-ODY3OTYsLTE5MzY5NTM2MjIsLTEyMjU1NDY0MjEsLTE1NjYwMT
-MzNjEsMjAzNjc3Mjg5NywtODkxOTA3NjUxLDMzNDU0NTczLDQ5
-MDY5NzAyNV19
+eyJoaXN0b3J5IjpbNzg1NDk4NjI4LC0xNjIyOTg0NDk4LDIwMj
+Q5NTQ2OTcsMTU2MTYyNDExMiwxNTg0NjI1NTY4LDU3OTI1Nzkw
+OSwxNjg1MzI2MjMwLDE5MjUzNDM0OCw5MDIwMTM0NzksLTE2OD
+A5NjEyNzAsLTQ4NjEwODQxNiwtMTIyNzQ0NjE2OCwtMjAzNDk4
+Njc5NiwtMTkzNjk1MzYyMiwtMTIyNTU0NjQyMSwtMTU2NjAxMz
+M2MSwyMDM2NzcyODk3LC04OTE5MDc2NTEsMzM0NTQ1NzMsNDkw
+Njk3MDI1XX0=
 -->
