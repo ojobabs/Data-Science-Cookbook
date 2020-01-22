@@ -255,7 +255,8 @@ lyt = aprx.listLayouts()[0]
 Now we can list the elements methods of the layout object to create a map frame object which I'll call `S51MapFrame`. Again, there is only one map frame so we can use index 0. 
 
 ```python
-S51MapFrame = 
+lyt = aprx.listLayouts()[0]
+S51MapFrame = lyt.listElements('MAPFRAME_ELEMENT')[0]
 ```
 
 
@@ -269,8 +270,10 @@ S51MapFrame =
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNzY5OTM0NywxNjg1MzI2MjMwLDE5Mj
+eyJoaXN0b3J5IjpbLTUzNzk3MzA2NywxNjg1MzI2MjMwLDE5Mj
 UzNDM0OCw5MDIwMTM0NzksLTE2ODA5NjEyNzAsLTQ4NjEwODQx
 NiwtMTIyNzQ0NjE2OCwtMjAzNDk4Njc5NiwtMTkzNjk1MzYyMi
 wtMTIyNTU0NjQyMSwtMTU2NjAxMzM2MSwyMDM2NzcyODk3LC04
