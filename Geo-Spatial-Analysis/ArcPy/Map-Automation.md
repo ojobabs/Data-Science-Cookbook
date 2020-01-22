@@ -286,7 +286,7 @@ and I would also like to leave some room on the right hand side of the layout. S
 S51MapFrame.elementHeight = 150
 ```
 
-I would like a second frame on my layout but first I'll close the format frame pane. 
+I would like a second frame on my layout but first I'll close the format frame pane. I will insert a new map frame. 
 
 
 
@@ -303,7 +303,7 @@ I would like a second frame on my layout but first I'll close the format frame p
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NjE0NzM1NiwxNTg0NjI1NTY4LDU3OT
+eyJoaXN0b3J5IjpbMTU2MTYyNDExMiwxNTg0NjI1NTY4LDU3OT
 I1NzkwOSwxNjg1MzI2MjMwLDE5MjUzNDM0OCw5MDIwMTM0Nzks
 LTE2ODA5NjEyNzAsLTQ4NjEwODQxNiwtMTIyNzQ0NjE2OCwtMj
 AzNDk4Njc5NiwtMTkzNjk1MzYyMiwtMTIyNTU0NjQyMSwtMTU2
