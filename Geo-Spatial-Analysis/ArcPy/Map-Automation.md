@@ -319,7 +319,7 @@ OverviewMap.addDataFromPath(lyrFile)
 
 > So you can clone layouts, so can develop the code and using the ribbon for one and then create multiple copies, change the name ...
 
-> As you can watch on the next lesson, we can use query to select go offices or even different local markets. Maybe the best approach is to create only one map with all G
+> As you can watch on the next lesson, we can use query to select go offices or even different local markets. Maybe the best approach is to create only one map with all GOs there and then use a query to select each GO...this approach won't work because GO local market are independent polygons. It it better to add different layers, each GO local market to the same layout and then create the map for each di
 
 
 
@@ -332,7 +332,7 @@ OverviewMap.addDataFromPath(lyrFile)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDE5NTMwMjEsLTE4MDkxNjg0OTMsLT
+eyJoaXN0b3J5IjpbLTIwMDE1NzQ4MzIsLTE4MDkxNjg0OTMsLT
 Q3NzkyOTY5LDcyNTU3OTcxMSwtMTYyMjk4NDQ5OCwyMDI0OTU0
 Njk3LDE1NjE2MjQxMTIsMTU4NDYyNTU2OCw1NzkyNTc5MDksMT
 Y4NTMyNjIzMCwxOTI1MzQzNDgsOTAyMDEzNDc5LC0xNjgwOTYx
