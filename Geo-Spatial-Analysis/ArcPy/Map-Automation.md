@@ -315,6 +315,8 @@ OverviewMap.addDataFromPath(lyrFile)
 ```
 > Maybe we can create a square around the query we are working to signal where is our GO office.  
 
+Next, I changed the symbol by using the ribbon. I am using a house symbol to represent. Also, I added the GO code using the ribbon too. 
+
 **Min 7:08 on video**
 
 > So you can clone layouts, so can develop the code and using the ribbon for one and then create multiple copies, change the name ...
@@ -332,11 +334,11 @@ OverviewMap.addDataFromPath(lyrFile)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDUyMDIxMiw0MzkwODQ1MDYsLTE4MD
-kxNjg0OTMsLTQ3NzkyOTY5LDcyNTU3OTcxMSwtMTYyMjk4NDQ5
-OCwyMDI0OTU0Njk3LDE1NjE2MjQxMTIsMTU4NDYyNTU2OCw1Nz
-kyNTc5MDksMTY4NTMyNjIzMCwxOTI1MzQzNDgsOTAyMDEzNDc5
-LC0xNjgwOTYxMjcwLC00ODYxMDg0MTYsLTEyMjc0NDYxNjgsLT
-IwMzQ5ODY3OTYsLTE5MzY5NTM2MjIsLTEyMjU1NDY0MjEsLTE1
-NjYwMTMzNjFdfQ==
+eyJoaXN0b3J5IjpbLTE0NDA4NjkzMDcsLTU2NDUyMDIxMiw0Mz
+kwODQ1MDYsLTE4MDkxNjg0OTMsLTQ3NzkyOTY5LDcyNTU3OTcx
+MSwtMTYyMjk4NDQ5OCwyMDI0OTU0Njk3LDE1NjE2MjQxMTIsMT
+U4NDYyNTU2OCw1NzkyNTc5MDksMTY4NTMyNjIzMCwxOTI1MzQz
+NDgsOTAyMDEzNDc5LC0xNjgwOTYxMjcwLC00ODYxMDg0MTYsLT
+EyMjc0NDYxNjgsLTIwMzQ5ODY3OTYsLTE5MzY5NTM2MjIsLTEy
+MjU1NDY0MjFdfQ==
 -->
