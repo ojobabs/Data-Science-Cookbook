@@ -280,7 +280,11 @@ I'd also like to move it a bit to the left. So I'll set the L and in position X 
 ```python
 S51MapFrame.elementPositionX = 15
 ```
-and I would also like to leave some room on the right hand side of the layout. So I will reduce the element width of the net frame to 175.
+and I would also like to leave some room on the right hand side of the layout. So I will reduce the element width of the map frame to 150.
+
+```python
+S51MapFrame.elementHeight = 150
+```
 
 
 
@@ -297,11 +301,11 @@ and I would also like to leave some room on the right hand side of the layout. S
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjE5MzU0MDIsMTU4NDYyNTU2OCw1Nz
-kyNTc5MDksMTY4NTMyNjIzMCwxOTI1MzQzNDgsOTAyMDEzNDc5
-LC0xNjgwOTYxMjcwLC00ODYxMDg0MTYsLTEyMjc0NDYxNjgsLT
-IwMzQ5ODY3OTYsLTE5MzY5NTM2MjIsLTEyMjU1NDY0MjEsLTE1
-NjYwMTMzNjEsMjAzNjc3Mjg5NywtODkxOTA3NjUxLDMzNDU0NT
-czLDQ5MDY5NzAyNSwtMTI1MTY1NTgwMywxNjA1OTA4NzA2LDY2
-NDM0NjcxMl19
+eyJoaXN0b3J5IjpbNzEzNDQ2NzYyLDE1ODQ2MjU1NjgsNTc5Mj
+U3OTA5LDE2ODUzMjYyMzAsMTkyNTM0MzQ4LDkwMjAxMzQ3OSwt
+MTY4MDk2MTI3MCwtNDg2MTA4NDE2LC0xMjI3NDQ2MTY4LC0yMD
+M0OTg2Nzk2LC0xOTM2OTUzNjIyLC0xMjI1NTQ2NDIxLC0xNTY2
+MDEzMzYxLDIwMzY3NzI4OTcsLTg5MTkwNzY1MSwzMzQ1NDU3My
+w0OTA2OTcwMjUsLTEyNTE2NTU4MDMsMTYwNTkwODcwNiw2NjQz
+NDY3MTJdfQ==
 -->
