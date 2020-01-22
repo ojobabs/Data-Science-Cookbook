@@ -275,7 +275,7 @@ I want to make some more room at the bottom of the layout for some other map ele
 ```python
 S51MapFrame.elementPositionY = 45
 ```
-
+I'd also like to move it a bit to the left. So I'll set the L and in position X property of the main map frame to be 15
 
 
 
@@ -289,7 +289,7 @@ S51MapFrame.elementPositionY = 45
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzk5NTE1MDUsNTc5MjU3OTA5LDE2OD
+eyJoaXN0b3J5IjpbLTEwMjc0MDA3ODYsNTc5MjU3OTA5LDE2OD
 UzMjYyMzAsMTkyNTM0MzQ4LDkwMjAxMzQ3OSwtMTY4MDk2MTI3
 MCwtNDg2MTA4NDE2LC0xMjI3NDQ2MTY4LC0yMDM0OTg2Nzk2LC
 0xOTM2OTUzNjIyLC0xMjI1NTQ2NDIxLC0xNTY2MDEzMzYxLDIw
