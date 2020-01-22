@@ -389,13 +389,15 @@ Output
 ```
 The four numbers are in matters of the WTS 1984 web Mercator auxilary sphere and they represent the X-Min, Y-Min, X-Max and Y-Max of the rectangle surrounding the local market polygon Polygons_Pop_Den_S51 for S51 GO. 
 
+We use those four numbers by referring to them as so GO extent to change the extent of the mind map frame. To do that, we we need to use a camera object although we are only using today a property is a camera
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQ4NzQ1NzEsLTExNTk1MzYwMDQsNz
+eyJoaXN0b3J5IjpbLTE1MjU3NTk5MDUsLTExNTk1MzYwMDQsNz
 M1OTk3MTkwLC0xMTY3NDM3NjE1LDE4ODY2Mzk0NzUsMTQ3NDM1
 NDUwNSw5MzI0MTI2MTIsMTY2NDk5ODU5MywtNTY0NTIwMjEyLD
 QzOTA4NDUwNiwtMTgwOTE2ODQ5MywtNDc3OTI5NjksNzI1NTc5
