@@ -325,7 +325,10 @@ Next, I changed the symbol by using the ribbon. I am using a house symbol to rep
 Now, by using the ribbon, we can add the `OverviewMap`. 
 
 Let's create a map frame object first for the `OverviewMap`:
-
+```python
+lyt = aprx.listLayouts()[0]
+S51MapFrame = lyt.listElements('MAPFRAME_ELEMENT')[0]
+```
 
 
 
@@ -338,11 +341,11 @@ Let's create a map frame object first for the `OverviewMap`:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MDQxODgxMiwxNjY0OTk4NTkzLC01Nj
-Q1MjAyMTIsNDM5MDg0NTA2LC0xODA5MTY4NDkzLC00Nzc5Mjk2
-OSw3MjU1Nzk3MTEsLTE2MjI5ODQ0OTgsMjAyNDk1NDY5NywxNT
-YxNjI0MTEyLDE1ODQ2MjU1NjgsNTc5MjU3OTA5LDE2ODUzMjYy
-MzAsMTkyNTM0MzQ4LDkwMjAxMzQ3OSwtMTY4MDk2MTI3MCwtND
-g2MTA4NDE2LC0xMjI3NDQ2MTY4LC0yMDM0OTg2Nzk2LC0xOTM2
-OTUzNjIyXX0=
+eyJoaXN0b3J5IjpbLTEwMTU0Njg1ODksMTY2NDk5ODU5MywtNT
+Y0NTIwMjEyLDQzOTA4NDUwNiwtMTgwOTE2ODQ5MywtNDc3OTI5
+NjksNzI1NTc5NzExLC0xNjIyOTg0NDk4LDIwMjQ5NTQ2OTcsMT
+U2MTYyNDExMiwxNTg0NjI1NTY4LDU3OTI1NzkwOSwxNjg1MzI2
+MjMwLDE5MjUzNDM0OCw5MDIwMTM0NzksLTE2ODA5NjEyNzAsLT
+Q4NjEwODQxNiwtMTIyNzQ0NjE2OCwtMjAzNDk4Njc5NiwtMTkz
+Njk1MzYyMl19
 -->
