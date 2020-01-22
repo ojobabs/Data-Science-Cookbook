@@ -328,6 +328,7 @@ Let's create a map frame object first for the `OverviewMap`:
 ```python
 OverviewMapFrame = lyt.listElements('MAPFRAME_ELEMENT',"Map Frame")[0]
 ```
+I use the current name of that map frame which is map frame as a wildcard to search for it in the list of map frame elements in the layout. To be sure I have the right map frame I'll use its visibility property to turn 
 
 
 
@@ -340,11 +341,11 @@ OverviewMapFrame = lyt.listElements('MAPFRAME_ELEMENT',"Map Frame")[0]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5Nzc2OTk4OSwxNjY0OTk4NTkzLC01Nj
-Q1MjAyMTIsNDM5MDg0NTA2LC0xODA5MTY4NDkzLC00Nzc5Mjk2
-OSw3MjU1Nzk3MTEsLTE2MjI5ODQ0OTgsMjAyNDk1NDY5NywxNT
-YxNjI0MTEyLDE1ODQ2MjU1NjgsNTc5MjU3OTA5LDE2ODUzMjYy
-MzAsMTkyNTM0MzQ4LDkwMjAxMzQ3OSwtMTY4MDk2MTI3MCwtND
-g2MTA4NDE2LC0xMjI3NDQ2MTY4LC0yMDM0OTg2Nzk2LC0xOTM2
-OTUzNjIyXX0=
+eyJoaXN0b3J5IjpbNTczNTY4NDU0LDE2NjQ5OTg1OTMsLTU2ND
+UyMDIxMiw0MzkwODQ1MDYsLTE4MDkxNjg0OTMsLTQ3NzkyOTY5
+LDcyNTU3OTcxMSwtMTYyMjk4NDQ5OCwyMDI0OTU0Njk3LDE1Nj
+E2MjQxMTIsMTU4NDYyNTU2OCw1NzkyNTc5MDksMTY4NTMyNjIz
+MCwxOTI1MzQzNDgsOTAyMDEzNDc5LC0xNjgwOTYxMjcwLC00OD
+YxMDg0MTYsLTEyMjc0NDYxNjgsLTIwMzQ5ODY3OTYsLTE5MzY5
+NTM2MjJdfQ==
 -->
