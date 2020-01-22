@@ -313,8 +313,7 @@ Now on the overview map we can add the location of each GO office.
 lyrFile = r"C:\Users\T93KQI0\Documents\ArcGIS\Projects\Local_Market_Map_Auto_01\Local_Market_Map_Auto_01.gdb\offices_all_Geocoded"
 OverviewMap.addDataFromPath(lyrFile)
 ```
-
-
+> Maybe we can create a square around the query we are working to signal where is our GO office.  
 
 
 
@@ -325,11 +324,11 @@ OverviewMap.addDataFromPath(lyrFile)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1NTc5NzExLC0xNjIyOTg0NDk4LDIwMj
-Q5NTQ2OTcsMTU2MTYyNDExMiwxNTg0NjI1NTY4LDU3OTI1Nzkw
-OSwxNjg1MzI2MjMwLDE5MjUzNDM0OCw5MDIwMTM0NzksLTE2OD
-A5NjEyNzAsLTQ4NjEwODQxNiwtMTIyNzQ0NjE2OCwtMjAzNDk4
-Njc5NiwtMTkzNjk1MzYyMiwtMTIyNTU0NjQyMSwtMTU2NjAxMz
-M2MSwyMDM2NzcyODk3LC04OTE5MDc2NTEsMzM0NTQ1NzMsNDkw
-Njk3MDI1XX0=
+eyJoaXN0b3J5IjpbLTExODc4ODIxODgsNzI1NTc5NzExLC0xNj
+IyOTg0NDk4LDIwMjQ5NTQ2OTcsMTU2MTYyNDExMiwxNTg0NjI1
+NTY4LDU3OTI1NzkwOSwxNjg1MzI2MjMwLDE5MjUzNDM0OCw5MD
+IwMTM0NzksLTE2ODA5NjEyNzAsLTQ4NjEwODQxNiwtMTIyNzQ0
+NjE2OCwtMjAzNDk4Njc5NiwtMTkzNjk1MzYyMiwtMTIyNTU0Nj
+QyMSwtMTU2NjAxMzM2MSwyMDM2NzcyODk3LC04OTE5MDc2NTEs
+MzM0NTQ1NzNdfQ==
 -->
