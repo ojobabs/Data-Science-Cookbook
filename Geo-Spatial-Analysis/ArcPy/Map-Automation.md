@@ -317,7 +317,7 @@ OverviewMap.addDataFromPath(lyrFile)
 
 **Min 7:08 on video**
 
-
+> So you can clone layouts, so can develop the code and using the ribbon for one and then create multiple copies, change the name ...
 
 
 
@@ -330,11 +330,11 @@ OverviewMap.addDataFromPath(lyrFile)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NzkyOTY5LDcyNTU3OTcxMSwtMTYyMj
-k4NDQ5OCwyMDI0OTU0Njk3LDE1NjE2MjQxMTIsMTU4NDYyNTU2
-OCw1NzkyNTc5MDksMTY4NTMyNjIzMCwxOTI1MzQzNDgsOTAyMD
-EzNDc5LC0xNjgwOTYxMjcwLC00ODYxMDg0MTYsLTEyMjc0NDYx
-NjgsLTIwMzQ5ODY3OTYsLTE5MzY5NTM2MjIsLTEyMjU1NDY0Mj
-EsLTE1NjYwMTMzNjEsMjAzNjc3Mjg5NywtODkxOTA3NjUxLDMz
-NDU0NTczXX0=
+eyJoaXN0b3J5IjpbLTE4MDkxNjg0OTMsLTQ3NzkyOTY5LDcyNT
+U3OTcxMSwtMTYyMjk4NDQ5OCwyMDI0OTU0Njk3LDE1NjE2MjQx
+MTIsMTU4NDYyNTU2OCw1NzkyNTc5MDksMTY4NTMyNjIzMCwxOT
+I1MzQzNDgsOTAyMDEzNDc5LC0xNjgwOTYxMjcwLC00ODYxMDg0
+MTYsLTEyMjc0NDYxNjgsLTIwMzQ5ODY3OTYsLTE5MzY5NTM2Mj
+IsLTEyMjU1NDY0MjEsLTE1NjYwMTMzNjEsMjAzNjc3Mjg5Nywt
+ODkxOTA3NjUxXX0=
 -->
