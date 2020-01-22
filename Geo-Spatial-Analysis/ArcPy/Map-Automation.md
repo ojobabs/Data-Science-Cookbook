@@ -391,7 +391,12 @@ The four numbers are in matters of the WTS 1984 web Mercator auxilary sphere and
 
 We use those four numbers by referring to them as so GO extent to change the extent of the mind map frame. To do that, we we need to use a camera object although we are only using today a property is a camera 2D.
 
-_"Extend is not a direct property of the Camera object because it is not an explicit property but rather a deriv"_
+> _"Extend is not a direct property of the Camera object because it is not an explicit property but rather a derived property"_
+
+> _"Camera positions do not store extent properties, but from an X, Y location and a scale, extend is derived"_
+
+
+
 
 
 
@@ -399,11 +404,11 @@ _"Extend is not a direct property of the Camera object because it is not an expl
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTQ3NTYyNywtMTE1OTUzNjAwNCw3Mz
-U5OTcxOTAsLTExNjc0Mzc2MTUsMTg4NjYzOTQ3NSwxNDc0MzU0
-NTA1LDkzMjQxMjYxMiwxNjY0OTk4NTkzLC01NjQ1MjAyMTIsND
-M5MDg0NTA2LC0xODA5MTY4NDkzLC00Nzc5Mjk2OSw3MjU1Nzk3
-MTEsLTE2MjI5ODQ0OTgsMjAyNDk1NDY5NywxNTYxNjI0MTEyLD
-E1ODQ2MjU1NjgsNTc5MjU3OTA5LDE2ODUzMjYyMzAsMTkyNTM0
-MzQ4XX0=
+eyJoaXN0b3J5IjpbOTQ0MTEyMjgxLC0xMTU5NTM2MDA0LDczNT
+k5NzE5MCwtMTE2NzQzNzYxNSwxODg2NjM5NDc1LDE0NzQzNTQ1
+MDUsOTMyNDEyNjEyLDE2NjQ5OTg1OTMsLTU2NDUyMDIxMiw0Mz
+kwODQ1MDYsLTE4MDkxNjg0OTMsLTQ3NzkyOTY5LDcyNTU3OTcx
+MSwtMTYyMjk4NDQ5OCwyMDI0OTU0Njk3LDE1NjE2MjQxMTIsMT
+U4NDYyNTU2OCw1NzkyNTc5MDksMTY4NTMyNjIzMCwxOTI1MzQz
+NDhdfQ==
 -->
