@@ -129,7 +129,8 @@ The Overview Map currently has no layers,
 
 ###  My project
 
-So far I am not sure if you can create maps automaticall or you need to create
+- So far I am not sure if you can create maps automatically or you need to create each map using the ribbon.
+- For whatever the reason, I cannot use Atom to add layers to the map. 
 
 ```python
 aprx = arcpy.mp.ArcGISProject("CURRENT")
@@ -243,7 +244,7 @@ Output
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0ODE4NjU5OSwtMTIyNzQ0NjE2OCwtMj
+eyJoaXN0b3J5IjpbMjA1NDIwMDQ0OCwtMTIyNzQ0NjE2OCwtMj
 AzNDk4Njc5NiwtMTkzNjk1MzYyMiwtMTIyNTU0NjQyMSwtMTU2
 NjAxMzM2MSwyMDM2NzcyODk3LC04OTE5MDc2NTEsMzM0NTQ1Nz
 MsNDkwNjk3MDI1LC0xMjUxNjU1ODAzLDE2MDU5MDg3MDYsNjY0
