@@ -327,7 +327,7 @@ Now, by using the ribbon, we can add the `OverviewMap`.
 Let's create a map frame object first for the `OverviewMap`:
 ```python
 lyt = aprx.listLayouts()[0]
-S51MapFrame = lyt.listElements('MAPFRAME_ELEMENT')[0]
+OverviewMapFrame = lyt.listElements('MAPFRAME_ELEMENT',"Map Frame")[0]
 ```
 
 
@@ -341,7 +341,7 @@ S51MapFrame = lyt.listElements('MAPFRAME_ELEMENT')[0]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTU0Njg1ODksMTY2NDk5ODU5MywtNT
+eyJoaXN0b3J5IjpbLTE1MzEyODgzNjQsMTY2NDk5ODU5MywtNT
 Y0NTIwMjEyLDQzOTA4NDUwNiwtMTgwOTE2ODQ5MywtNDc3OTI5
 NjksNzI1NTc5NzExLC0xNjIyOTg0NDk4LDIwMjQ5NTQ2OTcsMT
 U2MTYyNDExMiwxNTg0NjI1NTY4LDU3OTI1NzkwOSwxNjg1MzI2
