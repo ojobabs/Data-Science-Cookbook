@@ -288,7 +288,7 @@ S51MapFrame.elementHeight = 150
 
 I would like a second frame on my layout but first I'll close the format frame pane. I will insert a new map frame. 
 
-I will create a new map to create an overview map we can use as a second map on the layout. I need to use the ribbon to add a new map. Let's rename th
+I will create a new map to create an overview map we can use as a second map on the layout. I need to use the ribbon to add a new map. Let's rename the new map.
 
 
 
@@ -305,7 +305,7 @@ I will create a new map to create an overview map we can use as a second map on 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzODU0NzcyMywxNTYxNjI0MTEyLDE1OD
+eyJoaXN0b3J5IjpbMTQzOTAwNDUyMCwxNTYxNjI0MTEyLDE1OD
 Q2MjU1NjgsNTc5MjU3OTA5LDE2ODUzMjYyMzAsMTkyNTM0MzQ4
 LDkwMjAxMzQ3OSwtMTY4MDk2MTI3MCwtNDg2MTA4NDE2LC0xMj
 I3NDQ2MTY4LC0yMDM0OTg2Nzk2LC0xOTM2OTUzNjIyLC0xMjI1
