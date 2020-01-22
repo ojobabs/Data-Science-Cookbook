@@ -320,7 +320,7 @@ Next, I changed the symbol by using the ribbon. I am using a house symbol to rep
 **Min 7:08 on video**
 
 > **Best approach to automate map creation**:  use  a unique default map and a unique default layout and then include there the layers we want . The loop through each layer. So, you can have a Main map (link on the video) and an Overview map (like on the video) and just loop through each every layer we need to add every time to create each GO map.  
-> Update: probably, this above approach won't work because we need to add the Map Frame (the actual map) to the layout by using the ribbon. There is no way to use code for this. 
+> ~~Update: probably, this above approach won't work because we need to add the Map Frame (the actual map) to the layout by using the ribbon. There is no way to use code for this. ~~ It is going to work because if you change the layer on the main map it changes on the layout too.
 
 Now, by using the ribbon, we can add the `OverviewMap`. 
 
@@ -378,11 +378,11 @@ There might be other methods to do this but I'll show you the coding pattern tha
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NjYzOTQ3NSwxNDc0MzU0NTA1LDkzMj
-QxMjYxMiwxNjY0OTk4NTkzLC01NjQ1MjAyMTIsNDM5MDg0NTA2
-LC0xODA5MTY4NDkzLC00Nzc5Mjk2OSw3MjU1Nzk3MTEsLTE2Mj
-I5ODQ0OTgsMjAyNDk1NDY5NywxNTYxNjI0MTEyLDE1ODQ2MjU1
-NjgsNTc5MjU3OTA5LDE2ODUzMjYyMzAsMTkyNTM0MzQ4LDkwMj
-AxMzQ3OSwtMTY4MDk2MTI3MCwtNDg2MTA4NDE2LC0xMjI3NDQ2
-MTY4XX0=
+eyJoaXN0b3J5IjpbLTExNjc0Mzc2MTUsMTg4NjYzOTQ3NSwxND
+c0MzU0NTA1LDkzMjQxMjYxMiwxNjY0OTk4NTkzLC01NjQ1MjAy
+MTIsNDM5MDg0NTA2LC0xODA5MTY4NDkzLC00Nzc5Mjk2OSw3Mj
+U1Nzk3MTEsLTE2MjI5ODQ0OTgsMjAyNDk1NDY5NywxNTYxNjI0
+MTEyLDE1ODQ2MjU1NjgsNTc5MjU3OTA5LDE2ODUzMjYyMzAsMT
+kyNTM0MzQ4LDkwMjAxMzQ3OSwtMTY4MDk2MTI3MCwtNDg2MTA4
+NDE2XX0=
 -->
