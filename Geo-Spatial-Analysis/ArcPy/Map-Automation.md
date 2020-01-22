@@ -395,7 +395,7 @@ We use those four numbers by referring to them as so GO extent to change the ext
 
 > _"Camera positions do not store extent properties, but from an X, Y location and a scale, extend is derived"_
 
-
+In therms of the code that sounds more complicated than it is in practice because all we need to do to zoom the mind map frame to the GO local market is to use a camera object of the main map frame to set the extent. 
 
 
 
@@ -404,7 +404,7 @@ We use those four numbers by referring to them as so GO extent to change the ext
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ0MTEyMjgxLC0xMTU5NTM2MDA0LDczNT
+eyJoaXN0b3J5IjpbMzIxOTk0OTgyLC0xMTU5NTM2MDA0LDczNT
 k5NzE5MCwtMTE2NzQzNzYxNSwxODg2NjM5NDc1LDE0NzQzNTQ1
 MDUsOTMyNDEyNjEyLDE2NjQ5OTg1OTMsLTU2NDUyMDIxMiw0Mz
 kwODQ1MDYsLTE4MDkxNjg0OTMsLTQ3NzkyOTY5LDcyNTU3OTcx
