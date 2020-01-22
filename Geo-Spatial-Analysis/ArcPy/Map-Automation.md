@@ -319,10 +319,10 @@ Next, I changed the symbol by using the ribbon. I am using a house symbol to rep
 
 **Min 7:08 on video**
 
-> So you can clone layouts, so can develop the code and using the ribbon for one and then create multiple copies, change the name ...
-
 > **Best approach to automate map creation**:  use  a unique default map and a unique default layout and then include there the layers we want . The loop through each layer. So, you can have a Main map (link on the video) and an Overview map (like on the video) and just loop through each every layer we need to add every time to create each GO map.  
+> Update: probably, this above approach won
 
+Now, by using the ribbon, we can add the OverviewMap 
 
 
 
@@ -334,11 +334,11 @@ Next, I changed the symbol by using the ribbon. I am using a house symbol to rep
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA4NjkzMDcsLTU2NDUyMDIxMiw0Mz
-kwODQ1MDYsLTE4MDkxNjg0OTMsLTQ3NzkyOTY5LDcyNTU3OTcx
-MSwtMTYyMjk4NDQ5OCwyMDI0OTU0Njk3LDE1NjE2MjQxMTIsMT
-U4NDYyNTU2OCw1NzkyNTc5MDksMTY4NTMyNjIzMCwxOTI1MzQz
-NDgsOTAyMDEzNDc5LC0xNjgwOTYxMjcwLC00ODYxMDg0MTYsLT
-EyMjc0NDYxNjgsLTIwMzQ5ODY3OTYsLTE5MzY5NTM2MjIsLTEy
-MjU1NDY0MjFdfQ==
+eyJoaXN0b3J5IjpbMTgyNTU1NjQ2NSwtNTY0NTIwMjEyLDQzOT
+A4NDUwNiwtMTgwOTE2ODQ5MywtNDc3OTI5NjksNzI1NTc5NzEx
+LC0xNjIyOTg0NDk4LDIwMjQ5NTQ2OTcsMTU2MTYyNDExMiwxNT
+g0NjI1NTY4LDU3OTI1NzkwOSwxNjg1MzI2MjMwLDE5MjUzNDM0
+OCw5MDIwMTM0NzksLTE2ODA5NjEyNzAsLTQ4NjEwODQxNiwtMT
+IyNzQ0NjE2OCwtMjAzNDk4Njc5NiwtMTkzNjk1MzYyMiwtMTIy
+NTU0NjQyMV19
 -->
