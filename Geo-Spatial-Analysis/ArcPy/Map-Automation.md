@@ -127,7 +127,9 @@ overviewMap = aprx.listMaps("Overview Map")[0]
 The Overview Map currently has no layers, 
 
 
-###  
+###  My project
+
+So far I am not sure if you can create maps automaticall or you need to create
 
 ```python
 aprx = arcpy.mp.ArcGISProject("CURRENT")
@@ -241,9 +243,9 @@ Output
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjc0NDYxNjgsLTIwMzQ5ODY3OTYsLT
-E5MzY5NTM2MjIsLTEyMjU1NDY0MjEsLTE1NjYwMTMzNjEsMjAz
-Njc3Mjg5NywtODkxOTA3NjUxLDMzNDU0NTczLDQ5MDY5NzAyNS
-wtMTI1MTY1NTgwMywxNjA1OTA4NzA2LDY2NDM0NjcxMiwtMjAx
-NzkwNDkzMV19
+eyJoaXN0b3J5IjpbMTA0ODE4NjU5OSwtMTIyNzQ0NjE2OCwtMj
+AzNDk4Njc5NiwtMTkzNjk1MzYyMiwtMTIyNTU0NjQyMSwtMTU2
+NjAxMzM2MSwyMDM2NzcyODk3LC04OTE5MDc2NTEsMzM0NTQ1Nz
+MsNDkwNjk3MDI1LC0xMjUxNjU1ODAzLDE2MDU5MDg3MDYsNjY0
+MzQ2NzEyLC0yMDE3OTA0OTMxXX0=
 -->
