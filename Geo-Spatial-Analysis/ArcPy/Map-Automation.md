@@ -166,7 +166,7 @@ S51Map = aprx.listMaps("S51")[0]
 
 ### Add layers to a map
 
-The layers are added at the bottom. So, first you need to add the layer you one at the bottom, for example the local market, then the agents and then the GO office
+The layers are added at the bottom. So, first you need to add the layer you one at the bottom, for example the local market, then the agents and then the GO offices.
 
 ```python
 # Add local market layer to the S51Map
@@ -210,7 +210,7 @@ Output
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDk4Njc4MzAsMjAzNjc3Mjg5NywtOD
+eyJoaXN0b3J5IjpbLTE1NjYwMTMzNjEsMjAzNjc3Mjg5NywtOD
 kxOTA3NjUxLDMzNDU0NTczLDQ5MDY5NzAyNSwtMTI1MTY1NTgw
 MywxNjA1OTA4NzA2LDY2NDM0NjcxMiwtMjAxNzkwNDkzMV19
 -->
