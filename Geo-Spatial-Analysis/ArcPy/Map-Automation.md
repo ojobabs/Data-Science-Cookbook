@@ -236,6 +236,8 @@ Output
 
 let's see what you can and cannot do with `arcpy.md` when you are working with layouts and map frame objects. 
 
+`arcpy` can not be used to insert a layout, so, we need to use we need to use the ribbon. Insert a layout. 
+
 
 
 
@@ -248,9 +250,9 @@ let's see what you can and cannot do with `arcpy.md` when you are working with l
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NjEwODQxNiwtMTIyNzQ0NjE2OCwtMj
-AzNDk4Njc5NiwtMTkzNjk1MzYyMiwtMTIyNTU0NjQyMSwtMTU2
-NjAxMzM2MSwyMDM2NzcyODk3LC04OTE5MDc2NTEsMzM0NTQ1Nz
-MsNDkwNjk3MDI1LC0xMjUxNjU1ODAzLDE2MDU5MDg3MDYsNjY0
-MzQ2NzEyLC0yMDE3OTA0OTMxXX0=
+eyJoaXN0b3J5IjpbLTE2ODA5NjEyNzAsLTQ4NjEwODQxNiwtMT
+IyNzQ0NjE2OCwtMjAzNDk4Njc5NiwtMTkzNjk1MzYyMiwtMTIy
+NTU0NjQyMSwtMTU2NjAxMzM2MSwyMDM2NzcyODk3LC04OTE5MD
+c2NTEsMzM0NTQ1NzMsNDkwNjk3MDI1LC0xMjUxNjU1ODAzLDE2
+MDU5MDg3MDYsNjY0MzQ2NzEyLC0yMDE3OTA0OTMxXX0=
 -->
