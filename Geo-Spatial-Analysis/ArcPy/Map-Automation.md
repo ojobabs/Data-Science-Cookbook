@@ -258,7 +258,9 @@ Now we can list the elements methods of the layout object to create a map frame 
 lyt = aprx.listLayouts()[0]
 S51MapFrame = lyt.listElements('MAPFRAME_ELEMENT')[0]
 ```
-I used it in an interactive map frame element to return only map frame elements because there are many
+I used it in an interactive map frame element to return only map frame elements because there are many different types of elements and objects that may be found in a layout like legends, text, arrows, scrollbars, etc. 
+
+-
 
 
 
@@ -273,7 +275,7 @@ I used it in an interactive map frame element to return only map frame elements 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwMDgwMTQ1LDE2ODUzMjYyMzAsMTkyNT
+eyJoaXN0b3J5IjpbNTc5MjU3OTA5LDE2ODUzMjYyMzAsMTkyNT
 M0MzQ4LDkwMjAxMzQ3OSwtMTY4MDk2MTI3MCwtNDg2MTA4NDE2
 LC0xMjI3NDQ2MTY4LC0yMDM0OTg2Nzk2LC0xOTM2OTUzNjIyLC
 0xMjI1NTQ2NDIxLC0xNTY2MDEzMzYxLDIwMzY3NzI4OTcsLTg5
