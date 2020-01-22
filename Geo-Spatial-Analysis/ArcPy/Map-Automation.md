@@ -266,7 +266,7 @@ Let's change the name of the map frame from `map frame` to `S51MapFrameMain`:
 S51MapFrame.name = "S51MapFrameMain"
 ```
 
-I would now like to use code to start moving and resizing the `S51MapFrame` map frame on my layout. But before doing that I need to know where the anchor point is for the map frame. This cannot be done using code. So go the contents pane and right click the main frame to open Eye-Openers properties.
+I would now like to use code to start moving and resizing the `S51MapFrame` map frame on my layout. But before doing that I need to know where the anchor point is for the map frame. This cannot be done using code. So go the contents pane and right click the `S51MapFrameMain` to open  properties.
 
 
 
@@ -280,7 +280,7 @@ I would now like to use code to start moving and resizing the `S51MapFrame` map 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNDA1NzAwMSw1NzkyNTc5MDksMTY4NT
+eyJoaXN0b3J5IjpbMTY5MDcxMDQ1Miw1NzkyNTc5MDksMTY4NT
 MyNjIzMCwxOTI1MzQzNDgsOTAyMDEzNDc5LC0xNjgwOTYxMjcw
 LC00ODYxMDg0MTYsLTEyMjc0NDYxNjgsLTIwMzQ5ODY3OTYsLT
 E5MzY5NTM2MjIsLTEyMjU1NDY0MjEsLTE1NjYwMTMzNjEsMjAz
