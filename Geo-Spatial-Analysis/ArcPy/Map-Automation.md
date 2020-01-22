@@ -319,7 +319,7 @@ OverviewMap.addDataFromPath(lyrFile)
 
 > So you can clone layouts, so can develop the code and using the ribbon for one and then create multiple copies, change the name ...
 
-> **Best approach to automate map creation**:  add different layers, each GO local market to the same layout and then create the map for each different GO. So, we can a unique default map and a unique layout and then include there the layers we want ...this is the right approach. So, you can have a Main map (link on the video) and an Overview map (like on the video) and just loop through each every layer we need to add every time to create each GO map.  
+> **Best approach to automate map creation**:  use  a unique default map and a unique default layout and then include there the layers we want . The loop through each layer. So, you can have a Main map (link on the video) and an Overview map (like on the video) and just loop through each every layer we need to add every time to create each GO map.  
 
 
 
@@ -332,7 +332,7 @@ OverviewMap.addDataFromPath(lyrFile)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NjA3NTg4Nyw0MzkwODQ1MDYsLTE4MD
+eyJoaXN0b3J5IjpbLTU2NDUyMDIxMiw0MzkwODQ1MDYsLTE4MD
 kxNjg0OTMsLTQ3NzkyOTY5LDcyNTU3OTcxMSwtMTYyMjk4NDQ5
 OCwyMDI0OTU0Njk3LDE1NjE2MjQxMTIsMTU4NDYyNTU2OCw1Nz
 kyNTc5MDksMTY4NTMyNjIzMCwxOTI1MzQzNDgsOTAyMDEzNDc5
