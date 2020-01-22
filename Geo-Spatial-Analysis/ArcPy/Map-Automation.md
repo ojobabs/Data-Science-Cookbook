@@ -198,6 +198,7 @@ Output
 <arcpy._mp.Layer object at 0x00000000770B3518>
 ```
 
+
 ```
 lyrFile = r"C:\Users\T93KQI0\Documents\ArcGIS\Projects\Local_Market_Map_Auto_01\Local_Market_Map_Auto_01.gdb\Polygons_Pop_Den_S57"
 S57Map.addDataFromPath(lyrFile)
@@ -222,7 +223,7 @@ S57Map.addDataFromPath(lyrFile)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTg1OTk4MTUsLTE1NjYwMTMzNjEsMj
+eyJoaXN0b3J5IjpbLTEyMjU1NDY0MjEsLTE1NjYwMTMzNjEsMj
 AzNjc3Mjg5NywtODkxOTA3NjUxLDMzNDU0NTczLDQ5MDY5NzAy
 NSwtMTI1MTY1NTgwMywxNjA1OTA4NzA2LDY2NDM0NjcxMiwtMj
 AxNzkwNDkzMV19
