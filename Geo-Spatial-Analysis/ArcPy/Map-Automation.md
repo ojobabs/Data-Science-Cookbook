@@ -387,7 +387,7 @@ Output
 ```
 -122.569960077332 47.0373275286685 -121.825988570668 48.0845399663317 NaN NaN NaN NaN
 ```
-The four numbers are in matters of the WTS 1984 web Mercator auxilary sphere and they represent the X-Min, Y-Min, X-Max and Y-Max of the rectangle sur
+The four numbers are in matters of the WTS 1984 web Mercator auxilary sphere and they represent the X-Min, Y-Min, X-Max and Y-Max of the rectangle surrounding the local market polygon Polygons_Pop_Den_S51 for S51 GO. 
 
 
 
@@ -395,11 +395,11 @@ The four numbers are in matters of the WTS 1984 web Mercator auxilary sphere and
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyOTk0NzIwOCwtMTE1OTUzNjAwNCw3Mz
-U5OTcxOTAsLTExNjc0Mzc2MTUsMTg4NjYzOTQ3NSwxNDc0MzU0
-NTA1LDkzMjQxMjYxMiwxNjY0OTk4NTkzLC01NjQ1MjAyMTIsND
-M5MDg0NTA2LC0xODA5MTY4NDkzLC00Nzc5Mjk2OSw3MjU1Nzk3
-MTEsLTE2MjI5ODQ0OTgsMjAyNDk1NDY5NywxNTYxNjI0MTEyLD
-E1ODQ2MjU1NjgsNTc5MjU3OTA5LDE2ODUzMjYyMzAsMTkyNTM0
-MzQ4XX0=
+eyJoaXN0b3J5IjpbLTEwODQ4NzQ1NzEsLTExNTk1MzYwMDQsNz
+M1OTk3MTkwLC0xMTY3NDM3NjE1LDE4ODY2Mzk0NzUsMTQ3NDM1
+NDUwNSw5MzI0MTI2MTIsMTY2NDk5ODU5MywtNTY0NTIwMjEyLD
+QzOTA4NDUwNiwtMTgwOTE2ODQ5MywtNDc3OTI5NjksNzI1NTc5
+NzExLC0xNjIyOTg0NDk4LDIwMjQ5NTQ2OTcsMTU2MTYyNDExMi
+wxNTg0NjI1NTY4LDU3OTI1NzkwOSwxNjg1MzI2MjMwLDE5MjUz
+NDM0OF19
 -->
