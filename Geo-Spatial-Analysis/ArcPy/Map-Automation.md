@@ -238,6 +238,8 @@ let's see what you can and cannot do with `arcpy.md` when you are working with l
 
 `arcpy` can not be used to insert a layout, so, we need to use we need to use the ribbon. Insert a layout. 
 
+A layout is a white page of pager where you can put multiple layers to create your final map.
+
 
 
 
@@ -250,9 +252,10 @@ let's see what you can and cannot do with `arcpy.md` when you are working with l
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODA5NjEyNzAsLTQ4NjEwODQxNiwtMT
-IyNzQ0NjE2OCwtMjAzNDk4Njc5NiwtMTkzNjk1MzYyMiwtMTIy
-NTU0NjQyMSwtMTU2NjAxMzM2MSwyMDM2NzcyODk3LC04OTE5MD
-c2NTEsMzM0NTQ1NzMsNDkwNjk3MDI1LC0xMjUxNjU1ODAzLDE2
-MDU5MDg3MDYsNjY0MzQ2NzEyLC0yMDE3OTA0OTMxXX0=
+eyJoaXN0b3J5IjpbOTAyMDEzNDc5LC0xNjgwOTYxMjcwLC00OD
+YxMDg0MTYsLTEyMjc0NDYxNjgsLTIwMzQ5ODY3OTYsLTE5MzY5
+NTM2MjIsLTEyMjU1NDY0MjEsLTE1NjYwMTMzNjEsMjAzNjc3Mj
+g5NywtODkxOTA3NjUxLDMzNDU0NTczLDQ5MDY5NzAyNSwtMTI1
+MTY1NTgwMywxNjA1OTA4NzA2LDY2NDM0NjcxMiwtMjAxNzkwND
+kzMV19
 -->
