@@ -464,15 +464,16 @@ $ gitk --all &
 ```
 ### [How to move git commits from one branch to another](https://www.spkaa.com/blog/how-to-move-git-commits-from-one-branch-to-another/)
 
+#### [How do I copy a version of a single file from one git branch to another?](https://stackoverflow.com/questions/307579/how-do-i-copy-a-version-of-a-single-file-from-one-git-branch-to-another) 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTM0NjcyNjQsMTI5NTM4MzkwOSw0OD
-k4Mjc3MDYsNTM4ODg3NDY0LC0xNjQ0OTQxODkxLDEwMjg3MzA0
-OTgsLTEwMTc2ODM0OTMsMTczNjEwNDA2OCwyMDE5Mjc5Mzg2LD
-IwMTkyNzkzODYsMTYwMTgxNjk3MSwtMTMwMjE1MjY1MCwtMTky
-NTcwODQ2MCwtMTA1MTMyNTc0NywyMDQwMjY3NjA5LDI0MjY4OT
-czM119
+eyJoaXN0b3J5IjpbLTY0NTAxNjQwOCwtMTM1MzQ2NzI2NCwxMj
+k1MzgzOTA5LDQ4OTgyNzcwNiw1Mzg4ODc0NjQsLTE2NDQ5NDE4
+OTEsMTAyODczMDQ5OCwtMTAxNzY4MzQ5MywxNzM2MTA0MDY4LD
+IwMTkyNzkzODYsMjAxOTI3OTM4NiwxNjAxODE2OTcxLC0xMzAy
+MTUyNjUwLC0xOTI1NzA4NDYwLC0xMDUxMzI1NzQ3LDIwNDAyNj
+c2MDksMjQyNjg5NzMzXX0=
 -->
