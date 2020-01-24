@@ -107,11 +107,16 @@ Some information about solving the optimal location problem from a supervised an
 ### Satellite images
 
 - [7 TOP FREE SATELLITE IMAGERY SOURCES IN 2019](https://eos.com/blog/7-top-free-satellite-imagery-sources-in-2019/)
+
+### COLORBREWER  2.0 color advice for cartography
+
+- [COLORBREWER  2.0 color advice for cartography](http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjMzMjAwMzAsMTQ1OTAxMTA3LC01Nj
-A0NTUxODIsLTkzMjY1ODkzMSwtMTU4MTMwODM3MiwtMTM0ODI3
-NTI3Nyw5MjkyNjAyMzksMTE5MTYwODM1MywtMjcwMzk4NTEwLC
-04OTczODY5MTcsLTEwOTU3MTcwNDAsMjA5NDk4NTExNiwtMjA4
-MjMyNjgyMCw0MTg3NTg4NDUsMTQwMjU0MDAwMCwtMTUyMjcxMD
-Y2MCwtMTYxMzk4MzM3NCwtMjQwNDM0NDQ1XX0=
+eyJoaXN0b3J5IjpbMzU2NTU2NTcxLC0xNDIzMzIwMDMwLDE0NT
+kwMTEwNywtNTYwNDU1MTgyLC05MzI2NTg5MzEsLTE1ODEzMDgz
+NzIsLTEzNDgyNzUyNzcsOTI5MjYwMjM5LDExOTE2MDgzNTMsLT
+I3MDM5ODUxMCwtODk3Mzg2OTE3LC0xMDk1NzE3MDQwLDIwOTQ5
+ODUxMTYsLTIwODIzMjY4MjAsNDE4NzU4ODQ1LDE0MDI1NDAwMD
+AsLTE1MjI3MTA2NjAsLTE2MTM5ODMzNzQsLTI0MDQzNDQ0NV19
+
 -->
