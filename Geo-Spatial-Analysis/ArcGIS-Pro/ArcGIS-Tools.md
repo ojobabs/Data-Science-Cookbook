@@ -58,11 +58,12 @@ Reference:
 
 - [Reference](https://support.esri.com/en/technical-article/000008599)
 
-Target: the point 
+Target: the polygone layer
+Join Features: the point data layer
 
 ![enter image description here](https://s3-us-west-2.amazonaws.com/ist-app-support-files/000008599/00N39000003LL2C-0EMf20000001nAJ.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTI3MTUwMzUsNjI3NDE4MDM2LDEwNz
+eyJoaXN0b3J5IjpbLTE5OTUzMTA3NTIsNjI3NDE4MDM2LDEwNz
 U3MzE3MjcsMTEzNjE3OTQ0LC0xMDg4MjUzODczLC0xNzE5MDc2
 MTUxLDc2MTIxNTY4OCwtMjc3NzE5NTksLTk5NTY5ODE0MiwxOD
 Q3ODkzNDk1LC0xNzE2MzkyNDM5LDE1OTE0Mjc2NDYsLTEwOTky
