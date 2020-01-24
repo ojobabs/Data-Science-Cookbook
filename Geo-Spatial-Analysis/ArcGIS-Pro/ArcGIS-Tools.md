@@ -72,11 +72,14 @@ or this
 
 - [Find-what-is-inside-a-polygon](https://pro.arcgis.com/en/pro-app/help/data/tables/find-what-is-inside-a-polygon.htm)
 
-Targ
+- Target Feature: point layer
+- Join Feature: polygon layer
+- Keep all target features: NO
+- Match Option: either intersect or completely within 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NjQ4ODA0MCwtMTQ0MTI4MTUyNSw2Mj
+eyJoaXN0b3J5IjpbLTE2MDU0NTg4MiwtMTQ0MTI4MTUyNSw2Mj
 c0MTgwMzYsMTA3NTczMTcyNywxMTM2MTc5NDQsLTEwODgyNTM4
 NzMsLTE3MTkwNzYxNTEsNzYxMjE1Njg4LC0yNzc3MTk1OSwtOT
 k1Njk4MTQyLDE4NDc4OTM0OTUsLTE3MTYzOTI0MzksMTU5MTQy
