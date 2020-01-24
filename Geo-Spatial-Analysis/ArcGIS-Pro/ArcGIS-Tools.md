@@ -62,10 +62,23 @@ Target: the polygon layer
 Join Features: the point data layer
 
 ![enter image description here](https://s3-us-west-2.amazonaws.com/ist-app-support-files/000008599/00N39000003LL2C-0EMf20000001nAJ.png)
+
+### Create a point layer with all points inside a polygon
+
+You can use this:
+- [Find-what-intersects-a-feature](https://pro.arcgis.com/en/pro-app/help/data/tables/find-what-intersects-a-feature.htm)
+
+or this
+
+- [Find-what-is-inside-a-polygon](https://pro.arcgis.com/en/pro-app/help/data/tables/find-what-is-inside-a-polygon.htm)
+
+Targ
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDEyODE1MjUsNjI3NDE4MDM2LDEwNz
-U3MzE3MjcsMTEzNjE3OTQ0LC0xMDg4MjUzODczLC0xNzE5MDc2
-MTUxLDc2MTIxNTY4OCwtMjc3NzE5NTksLTk5NTY5ODE0MiwxOD
-Q3ODkzNDk1LC0xNzE2MzkyNDM5LDE1OTE0Mjc2NDYsLTEwOTky
-ODk3NDhdfQ==
+eyJoaXN0b3J5IjpbLTg5NjQ4ODA0MCwtMTQ0MTI4MTUyNSw2Mj
+c0MTgwMzYsMTA3NTczMTcyNywxMTM2MTc5NDQsLTEwODgyNTM4
+NzMsLTE3MTkwNzYxNTEsNzYxMjE1Njg4LC0yNzc3MTk1OSwtOT
+k1Njk4MTQyLDE4NDc4OTM0OTUsLTE3MTYzOTI0MzksMTU5MTQy
+NzY0NiwtMTA5OTI4OTc0OF19
 -->
