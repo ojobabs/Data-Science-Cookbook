@@ -53,9 +53,18 @@ Reference:
 3. The ideal tool is [Generate Geographies from Overlay]([https://pro.arcgis.com/en/pro-app/tool-reference/business-analyst/generate-geographies-from-overlay.htm](https://pro.arcgis.com/en/pro-app/tool-reference/business-analyst/generate-geographies-from-overlay.htm)) . But as you can see [here]([https://pro.arcgis.com/en/pro-app/get-started/whats-new-in-arcgis-pro-2-3.htm](https://pro.arcgis.com/en/pro-app/get-started/whats-new-in-arcgis-pro-2-3.htm)) only exist on ArcGIS Pro 2.3. Our current version is 2.2.3. 
 4. There is another option, using the [ArcGIS Living Atlas of the World](https://livingatlas.arcgis.com/en/browse/#d=2&q=%22ACS%20Population%20Variables%20-%20Boundaries%22), but the [available layer](https://www.arcgis.com/home/item.html?id=f430d25bf03744edbb1579e18c4bf6b8) doesn't come at Block-Group level.
 5. The ideal tool is . But as you can see [here]([https://pro.arcgis.com/en/pro-app/get-started/whats-new-in-arcgis-pro-2-3.htm](https://pro.arcgis.com/en/pro-app/get-started/whats-new-in-arcgis-pro-2-3.htm)) only exist on 
+
+### How To: Count the number of point features within a polygon
+
+- [Reference](https://support.esri.com/en/technical-article/000008599)
+
+Target: the point 
+
+![enter image description here](https://s3-us-west-2.amazonaws.com/ist-app-support-files/000008599/00N39000003LL2C-0EMf20000001nAJ.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI3NDE4MDM2LDEwNzU3MzE3MjcsMTEzNj
-E3OTQ0LC0xMDg4MjUzODczLC0xNzE5MDc2MTUxLDc2MTIxNTY4
-OCwtMjc3NzE5NTksLTk5NTY5ODE0MiwxODQ3ODkzNDk1LC0xNz
-E2MzkyNDM5LDE1OTE0Mjc2NDYsLTEwOTkyODk3NDhdfQ==
+eyJoaXN0b3J5IjpbLTE3MTI3MTUwMzUsNjI3NDE4MDM2LDEwNz
+U3MzE3MjcsMTEzNjE3OTQ0LC0xMDg4MjUzODczLC0xNzE5MDc2
+MTUxLDc2MTIxNTY4OCwtMjc3NzE5NTksLTk5NTY5ODE0MiwxOD
+Q3ODkzNDk1LC0xNzE2MzkyNDM5LDE1OTE0Mjc2NDYsLTEwOTky
+ODk3NDhdfQ==
 -->
