@@ -466,14 +466,49 @@ $ gitk --all &
 
 #### [How do I copy a version of a single file from one git branch to another?](https://stackoverflow.com/questions/307579/how-do-i-copy-a-version-of-a-single-file-from-one-git-branch-to-another) 
 
+### What to do with branch after merge
 
+Let's say I had two branches: master and branch1. I just merged branch1 back into 
+master and I'm done with that branch. Should I delete it or just let it sit around? 
+Will deleting it cause any loss of data?
+
+After the merge, it's safe to delete the branch:
+
+```
+git branch -d branch1
+```
+
+Additionally, git will warn you (and refuse to delete the branch) if it thinks 
+you didn't fully merge it yet. If you forcefully delete a branch (with `git branch -D`) 
+which is not completely merged yet, you have to do some tricks to get the unmerged 
+commits back though (see below).
+
+There are some reasons to keep a branch around though. For example, if it's a 
+feature branch, you may want to be able to do bugfixes on that feature still 
+inside that branch.
+
+If you also want to delete the branch on a remote host, you can do:
+
+```
+git push origin :branch1
+```
+
+This will forcefully delete the branch on the remote (this will not affect already 
+checked-out repositiories though and won't prevent anyone with push access to 
+re-push/create it).
+
+`git reflog` shows the recently checked out revisions. Any branch you've had 
+checked out in the recent repository history will also show up there. Aside 
+from that, `git fsck` will be the tool of choice at any case of commit-loss in git.
+
+[reference](https://stackoverflow.com/questions/14005854/what-to-do-with-branch-after-merge)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTAxNjQwOCwtMTM1MzQ2NzI2NCwxMj
-k1MzgzOTA5LDQ4OTgyNzcwNiw1Mzg4ODc0NjQsLTE2NDQ5NDE4
-OTEsMTAyODczMDQ5OCwtMTAxNzY4MzQ5MywxNzM2MTA0MDY4LD
-IwMTkyNzkzODYsMjAxOTI3OTM4NiwxNjAxODE2OTcxLC0xMzAy
-MTUyNjUwLC0xOTI1NzA4NDYwLC0xMDUxMzI1NzQ3LDIwNDAyNj
-c2MDksMjQyNjg5NzMzXX0=
+eyJoaXN0b3J5IjpbLTUyODg3MTg0OSwtNjQ1MDE2NDA4LC0xMz
+UzNDY3MjY0LDEyOTUzODM5MDksNDg5ODI3NzA2LDUzODg4NzQ2
+NCwtMTY0NDk0MTg5MSwxMDI4NzMwNDk4LC0xMDE3NjgzNDkzLD
+E3MzYxMDQwNjgsMjAxOTI3OTM4NiwyMDE5Mjc5Mzg2LDE2MDE4
+MTY5NzEsLTEzMDIxNTI2NTAsLTE5MjU3MDg0NjAsLTEwNTEzMj
+U3NDcsMjA0MDI2NzYwOSwyNDI2ODk3MzNdfQ==
 -->
