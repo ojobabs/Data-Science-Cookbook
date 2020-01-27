@@ -474,7 +474,7 @@ Will deleting it cause any loss of data?
 
 After the merge, it's safe to delete the branch:
 
-```
+```bash
 git branch -d branch1
 ```
 
@@ -489,7 +489,7 @@ inside that branch.
 
 If you also want to delete the branch on a remote host, you can do:
 
-```
+```bash
 git push origin :branch1
 ```
 
@@ -505,7 +505,7 @@ from that, `git fsck` will be the tool of choice at any case of commit-loss in g
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyODg3MTg0OSwtNjQ1MDE2NDA4LC0xMz
+eyJoaXN0b3J5IjpbLTI2OTc5MDU5MywtNjQ1MDE2NDA4LC0xMz
 UzNDY3MjY0LDEyOTUzODM5MDksNDg5ODI3NzA2LDUzODg4NzQ2
 NCwtMTY0NDk0MTg5MSwxMDI4NzMwNDk4LC0xMDE3NjgzNDkzLD
 E3MzYxMDQwNjgsMjAxOTI3OTM4NiwyMDE5Mjc5Mzg2LDE2MDE4
