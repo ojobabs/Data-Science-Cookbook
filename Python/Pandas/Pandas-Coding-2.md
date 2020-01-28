@@ -649,14 +649,51 @@ df.set_index('id')['value'].to_dict()
 
 
 
+### [Pandas DataFrame column to list [duplicate]](https://stackoverflow.com/questions/23748995/pandas-dataframe-column-to-list)
+  
+Use  `.values`  to get a  `numpy.array`  and then  `.tolist()`  to get a list.
+
+For example:
+
+```python
+import pandas as pd
+df = pd.DataFrame({'a':[1,3,5,7,4,5,6,4,7,8,9],
+                   'b':[3,5,6,2,4,6,7,8,7,8,9]})
+```
+
+Result:
+
+```python
+>>> df['a'].values.tolist()
+[1, 3, 5, 7, 4, 5, 6, 4, 7, 8, 9]
+```
+
+or you can just use
+
+```python
+>>> df['a'].tolist()
+[1, 3, 5, 7, 4, 5, 6, 4, 7, 8, 9]
+```
+
+To drop duplicates you can do one of the following:
+
+```python
+>>> df['a'].drop_duplicates().values.tolist()
+[1, 3, 5, 7, 4, 6, 8, 9]
+>>> list(set(df['a'])) # as pointed out by EdChum
+[1, 3, 4, 5, 6, 7, 8, 9]
+```
+
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MzMwNjI4NSw2NDE5OTU5Niw4Njg2ND
-kyOTcsLTE3MzI1MTQ0MTYsLTE2NzM3ODUxODIsLTIzNzA2NzY4
-MCwyNDk4NTM1NTUsMTY0NDI4MjY4NiwzNTI3MjA1MTUsMjU3OT
-Y5MTE3LDE2MzM2MDc5NjYsMTI1MDc1NzkzOSwtMjA2MzQ2OTI0
-NSwtMTA3NjA1ODM1LC01MzM2NjgwNjIsODc2MzE2ODIsNTUzNz
-EyOTEzLC0xMjAwOTk0OTU5LC0xMTc1MzgyMzI5LDg4NTYyODk1
-NV19
+eyJoaXN0b3J5IjpbLTIwNjU5MTM5NzYsLTg1MzMwNjI4NSw2ND
+E5OTU5Niw4Njg2NDkyOTcsLTE3MzI1MTQ0MTYsLTE2NzM3ODUx
+ODIsLTIzNzA2NzY4MCwyNDk4NTM1NTUsMTY0NDI4MjY4NiwzNT
+I3MjA1MTUsMjU3OTY5MTE3LDE2MzM2MDc5NjYsMTI1MDc1Nzkz
+OSwtMjA2MzQ2OTI0NSwtMTA3NjA1ODM1LC01MzM2NjgwNjIsOD
+c2MzE2ODIsNTUzNzEyOTEzLC0xMjAwOTk0OTU5LC0xMTc1Mzgy
+MzI5XX0=
 -->
