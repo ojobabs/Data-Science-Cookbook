@@ -623,13 +623,7 @@ all_cols.remove('county_gcode')
 
 ### [summarising-aggregation-and-grouping-data-in-python-pandas](https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/)
 
-### [python pandas dataframe to dictionary](https://stackoverflow.com/questions/18695605/python-pandas-dataframe-to-dictionary)
-
-90
-
-42
-
-[](https://stackoverflow.com/posts/18695605/timeline "Timeline")
+### [Python pandas dataframe to dictionary](https://stackoverflow.com/questions/18695605/python-pandas-dataframe-to-dictionary)
 
 I've a two columns dataframe, and intend to convert it to python dictionary - the first column will be the key and the second will be the value. Thank you in advance.
 
@@ -643,13 +637,13 @@ Dataframe:
 ```
 See the docs for  [`to_dict`](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.to_dict.html). You can use it like this:
 
-```
+```python
 df.set_index('id').to_dict()
 ```
 
 And if you have only one column, to avoid the column name is also a level in the dict (actually, in this case you use the  `Series.to_dict()`):
 
-```
+```python
 df.set_index('id')['value'].to_dict()
 ```
 
@@ -658,7 +652,7 @@ df.set_index('id')['value'].to_dict()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MjgyMDc4MSw2NDE5OTU5Niw4Njg2ND
+eyJoaXN0b3J5IjpbLTg1MzMwNjI4NSw2NDE5OTU5Niw4Njg2ND
 kyOTcsLTE3MzI1MTQ0MTYsLTE2NzM3ODUxODIsLTIzNzA2NzY4
 MCwyNDk4NTM1NTUsMTY0NDI4MjY4NiwzNTI3MjA1MTUsMjU3OT
 Y5MTE3LDE2MzM2MDc5NjYsMTI1MDc1NzkzOSwtMjA2MzQ2OTI0
