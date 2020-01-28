@@ -623,16 +623,18 @@ all_cols.remove('county_gcode')
 
 ### [summarising-aggregation-and-grouping-data-in-python-pandas](https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/)
 
+### [python pandas dataframe to dictionary](https://stackoverflow.com/questions/18695605/python-pandas-dataframe-to-dictionary)
 
+Let's say I have to columns on a panda dataframe,
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQxOTk1OTYsODY4NjQ5Mjk3LC0xNzMyNT
-E0NDE2LC0xNjczNzg1MTgyLC0yMzcwNjc2ODAsMjQ5ODUzNTU1
-LDE2NDQyODI2ODYsMzUyNzIwNTE1LDI1Nzk2OTExNywxNjMzNj
-A3OTY2LDEyNTA3NTc5MzksLTIwNjM0NjkyNDUsLTEwNzYwNTgz
-NSwtNTMzNjY4MDYyLDg3NjMxNjgyLDU1MzcxMjkxMywtMTIwMD
-k5NDk1OSwtMTE3NTM4MjMyOSw4ODU2Mjg5NTUsNzMxNDU1NTFd
-fQ==
+eyJoaXN0b3J5IjpbLTEzNTU1OTAzMTIsNjQxOTk1OTYsODY4Nj
+Q5Mjk3LC0xNzMyNTE0NDE2LC0xNjczNzg1MTgyLC0yMzcwNjc2
+ODAsMjQ5ODUzNTU1LDE2NDQyODI2ODYsMzUyNzIwNTE1LDI1Nz
+k2OTExNywxNjMzNjA3OTY2LDEyNTA3NTc5MzksLTIwNjM0Njky
+NDUsLTEwNzYwNTgzNSwtNTMzNjY4MDYyLDg3NjMxNjgyLDU1Mz
+cxMjkxMywtMTIwMDk5NDk1OSwtMTE3NTM4MjMyOSw4ODU2Mjg5
+NTVdfQ==
 -->
