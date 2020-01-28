@@ -503,12 +503,53 @@ from that, `git fsck` will be the tool of choice at any case of commit-loss in g
 
 [reference](https://stackoverflow.com/questions/14005854/what-to-do-with-branch-after-merge)
 
+### How to Rename Git local and remote branches
 
+If you have misnamed a branch AND pushed this to the remote repository, follow these steps before any other developers get a chance to jump on you and give you shit for not correctly following naming conventions.
+
+**1. Rename your local branch.**
+
+If you are on the branch you want to rename:
+
+```
+git branch -m new-name
+```
+
+If you are on a different branch:
+
+```
+git branch -m old-name new-name
+```
+
+**2. Delete the old-name remote branch and push the new-name local branch.**
+
+```
+git push origin :old-name new-name
+```
+
+**3. Reset the upstream branch for the new-name local branch.**
+
+Switch to the branch and then:
+
+```
+git push origin -u new-name
+```
+Or you as a fast way to do that, you can use these three steps: command in your terminal
+
+```
+git branch -m old_branch new_branch         # Rename branch locally    
+
+git push origin :old_branch                 # Delete the old branch    
+
+git push --set-upstream origin new_branch   # Push the new branch, set local branch to track the new remote
+```
+referre
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2OTc5MDU5MywtNjQ1MDE2NDA4LC0xMz
-UzNDY3MjY0LDEyOTUzODM5MDksNDg5ODI3NzA2LDUzODg4NzQ2
-NCwtMTY0NDk0MTg5MSwxMDI4NzMwNDk4LC0xMDE3NjgzNDkzLD
-E3MzYxMDQwNjgsMjAxOTI3OTM4NiwyMDE5Mjc5Mzg2LDE2MDE4
-MTY5NzEsLTEzMDIxNTI2NTAsLTE5MjU3MDg0NjAsLTEwNTEzMj
-U3NDcsMjA0MDI2NzYwOSwyNDI2ODk3MzNdfQ==
+eyJoaXN0b3J5IjpbMTIwMDIzMjA0NSwtMjY5NzkwNTkzLC02ND
+UwMTY0MDgsLTEzNTM0NjcyNjQsMTI5NTM4MzkwOSw0ODk4Mjc3
+MDYsNTM4ODg3NDY0LC0xNjQ0OTQxODkxLDEwMjg3MzA0OTgsLT
+EwMTc2ODM0OTMsMTczNjEwNDA2OCwyMDE5Mjc5Mzg2LDIwMTky
+NzkzODYsMTYwMTgxNjk3MSwtMTMwMjE1MjY1MCwtMTkyNTcwOD
+Q2MCwtMTA1MTMyNTc0NywyMDQwMjY3NjA5LDI0MjY4OTczM119
+
 -->
