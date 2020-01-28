@@ -543,13 +543,13 @@ git push origin :old_branch                 # Delete the old branch
 
 git push --set-upstream origin new_branch   # Push the new branch, set local branch to track the new remote
 ```
-referre
+reference: [how-to-rename-git-local-and-remote-branches](https://www.w3docs.com/snippets/git/how-to-rename-git-local-and-remote-branches.html) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMDIzMjA0NSwtMjY5NzkwNTkzLC02ND
-UwMTY0MDgsLTEzNTM0NjcyNjQsMTI5NTM4MzkwOSw0ODk4Mjc3
-MDYsNTM4ODg3NDY0LC0xNjQ0OTQxODkxLDEwMjg3MzA0OTgsLT
-EwMTc2ODM0OTMsMTczNjEwNDA2OCwyMDE5Mjc5Mzg2LDIwMTky
-NzkzODYsMTYwMTgxNjk3MSwtMTMwMjE1MjY1MCwtMTkyNTcwOD
-Q2MCwtMTA1MTMyNTc0NywyMDQwMjY3NjA5LDI0MjY4OTczM119
-
+eyJoaXN0b3J5IjpbLTE2OTE3MDMzMDQsLTI2OTc5MDU5MywtNj
+Q1MDE2NDA4LC0xMzUzNDY3MjY0LDEyOTUzODM5MDksNDg5ODI3
+NzA2LDUzODg4NzQ2NCwtMTY0NDk0MTg5MSwxMDI4NzMwNDk4LC
+0xMDE3NjgzNDkzLDE3MzYxMDQwNjgsMjAxOTI3OTM4NiwyMDE5
+Mjc5Mzg2LDE2MDE4MTY5NzEsLTEzMDIxNTI2NTAsLTE5MjU3MD
+g0NjAsLTEwNTEzMjU3NDcsMjA0MDI2NzYwOSwyNDI2ODk3MzNd
+fQ==
 -->
