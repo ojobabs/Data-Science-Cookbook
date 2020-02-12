@@ -53,8 +53,12 @@ Determines whether to calculate the distance using a planar (flat earth) or a ge
 >
 > One use for a geodesic line is when you want to determine the shortest distance between two cities for an airplane's flight path. This is also known as a great circle line if based on a > sphere rather than an ellipsoid.
 
+- [How can I quickly estimate the distance between two (latitude, longitude) points?](https://stackoverflow.com/questions/15736995/how-can-i-quickly-estimate-the-distance-between-two-latitude-longitude-points)
+- [Haversine Formula in Python (Bearing and Distance between two GPS points)](https://stackoverflow.com/questions/4913349/haversine-formula-in-python-bearing-and-distance-between-two-gps-points)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTU4NTQ3MDgsMTg0MjY1NDU5MCwtMT
-kwMTc2ODE4NSwxNzU5NzY3OTAyLC0xMTc1NDQ1OTMyXX0=
+eyJoaXN0b3J5IjpbLTE0ODE1OTc4NzIsLTE4NTU4NTQ3MDgsMT
+g0MjY1NDU5MCwtMTkwMTc2ODE4NSwxNzU5NzY3OTAyLC0xMTc1
+NDQ1OTMyXX0=
 -->
