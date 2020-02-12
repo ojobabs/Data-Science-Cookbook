@@ -35,10 +35,12 @@
 
 ### [Does Y mean latitude and X mean longitude in every GIS software?](https://gis.stackexchange.com/questions/11626/does-y-mean-latitude-and-x-mean-longitude-in-every-gis-software)
 
-In 
+For ESRI its almost always going to be:
+
+Lat = Y Long = X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQ3NjAwMDEsMTc1OTc2NzkwMiwtMT
+eyJoaXN0b3J5IjpbLTE5MDE3NjgxODUsMTc1OTc2NzkwMiwtMT
 E3NTQ0NTkzMl19
 -->
