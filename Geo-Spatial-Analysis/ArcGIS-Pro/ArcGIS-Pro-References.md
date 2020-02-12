@@ -44,8 +44,17 @@ Lat = Y Long = X
 - [https://python-forum.io/Thread-Formula-works-for-one-row-does-not-for-two](https://python-forum.io/Thread-Formula-works-for-one-row-does-not-for-two) If you you Pandas dataframe you need to change the math library by the numpy library. 
 - [Pandas: calculate haversine distance within each group of rows](https://stackoverflow.com/questions/43577086/pandas-calculate-haversine-distance-within-each-group-of-rows)
 
+Determines whether to calculate the distance using a planar (flat earth) or a geodesic (ellipsoid) method.
+
+-   **Planar**—Planar measurements use 2D Cartesian mathematics to calculate length and area. The option is only available when measuring in a projected coordinate system and the 2D plane of that coordinate system will be used as the basis for the measurements.
+-   **Geodesic**—The shortest line between two points on the earth's surface on a spheroid (ellipsoid). Therefore, regardless of input or output projection, the results do not change.
+
+>##### Note:
+>
+> One use for a geodesic line is when you want to determine the shortest distance between two cities for an airplane's flight path. This is also known as a great circle line if based on a > sphere rather than an ellipsoid.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNDA2MjI5NSwtMTkwMTc2ODE4NSwxNz
+eyJoaXN0b3J5IjpbMTg0MjY1NDU5MCwtMTkwMTc2ODE4NSwxNz
 U5NzY3OTAyLC0xMTc1NDQ1OTMyXX0=
 -->
