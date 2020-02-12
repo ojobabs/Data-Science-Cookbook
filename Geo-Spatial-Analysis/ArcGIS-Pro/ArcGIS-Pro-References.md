@@ -41,8 +41,10 @@ Lat = Y Long = X
 
 ### Measuring distance between to points using Python
 
+- [https://python-forum.io/Thread-Formula-works-for-one-row-does-not-for-two](https://python-forum.io/Thread-Formula-works-for-one-row-does-not-for-two) If you you Pandas dataframe you need to change the math library by the numpy library. 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTgxODQxMzYsLTE5MDE3NjgxODUsMT
-c1OTc2NzkwMiwtMTE3NTQ0NTkzMl19
+eyJoaXN0b3J5IjpbMTg2NjcwNDU1MSwtMTkwMTc2ODE4NSwxNz
+U5NzY3OTAyLC0xMTc1NDQ1OTMyXX0=
 -->
