@@ -42,9 +42,10 @@ Lat = Y Long = X
 ### Measuring distance between to points using Python
 
 - [https://python-forum.io/Thread-Formula-works-for-one-row-does-not-for-two](https://python-forum.io/Thread-Formula-works-for-one-row-does-not-for-two) If you you Pandas dataframe you need to change the math library by the numpy library. 
+- [Pandas: calculate haversine distance within each group of rows](https://stackoverflow.com/questions/43577086/pandas-calculate-haversine-distance-within-each-group-of-rows)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NjcwNDU1MSwtMTkwMTc2ODE4NSwxNz
+eyJoaXN0b3J5IjpbLTkyNDA2MjI5NSwtMTkwMTc2ODE4NSwxNz
 U5NzY3OTAyLC0xMTc1NDQ1OTMyXX0=
 -->
