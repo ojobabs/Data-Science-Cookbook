@@ -47,7 +47,7 @@ Lat = Y Long = X
 Determines whether to calculate the distance using a planar (flat earth) or a geodesic (ellipsoid) method.
 
 -   **Planar**—Planar measurements use 2D Cartesian mathematics to calculate length and area. The option is only available when measuring in a projected coordinate system and the 2D plane of that coordinate system will be used as the basis for the measurements.
--   **Geodesic**—The shortest line between two points on the earth's surface on a spheroid (ellipsoid). Therefore, regardless of input or output projection, the results do not change.
+-   **Geodesic** (Harversine)—The shortest line between two points on the earth's surface on a spheroid (ellipsoid). Therefore, regardless of input or output projection, the results do not change.
 
 >##### Note:
 >
@@ -55,6 +55,6 @@ Determines whether to calculate the distance using a planar (flat earth) or a ge
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MjY1NDU5MCwtMTkwMTc2ODE4NSwxNz
-U5NzY3OTAyLC0xMTc1NDQ1OTMyXX0=
+eyJoaXN0b3J5IjpbLTE4NTU4NTQ3MDgsMTg0MjY1NDU5MCwtMT
+kwMTc2ODE4NSwxNzU5NzY3OTAyLC0xMTc1NDQ1OTMyXX0=
 -->
