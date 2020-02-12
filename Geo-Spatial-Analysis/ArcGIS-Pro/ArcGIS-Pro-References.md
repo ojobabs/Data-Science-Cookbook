@@ -55,10 +55,13 @@ Determines whether to calculate the distance using a planar (flat earth) or a ge
 
 - [How can I quickly estimate the distance between two (latitude, longitude) points?](https://stackoverflow.com/questions/15736995/how-can-i-quickly-estimate-the-distance-between-two-latitude-longitude-points)
 - [Haversine Formula in Python (Bearing and Distance between two GPS points)](https://stackoverflow.com/questions/4913349/haversine-formula-in-python-bearing-and-distance-between-two-gps-points)
-
+- [https://community.esri.com/groups/coordinate-reference-systems/blog/2017/10/05/haversine-formula](https://community.esri.com/groups/coordinate-reference-systems/blog/2017/10/05/haversine-formula)
+- [https://community.esri.com/groups/coordinate-reference-systems/blog/2014/09/01/geodetic-distances-how-long-is-that-line-again](https://community.esri.com/groups/coordinate-reference-systems/blog/2014/09/01/geodetic-distances-how-long-is-that-line-again)
+- [https://www.esri.com/arcgis-blog/products/arcgis-desktop/analytics/calculating-geodesic-distance-between-points/](https://www.esri.com/arcgis-blog/products/arcgis-desktop/analytics/calculating-geodesic-distance-between-points/)
+- [Pandas: calculate haversine distance within each group of rows](https://stackoverflow.com/questions/43577086/pandas-calculate-haversine-distance-within-each-group-of-rows)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODE1OTc4NzIsLTE4NTU4NTQ3MDgsMT
-g0MjY1NDU5MCwtMTkwMTc2ODE4NSwxNzU5NzY3OTAyLC0xMTc1
-NDQ1OTMyXX0=
+eyJoaXN0b3J5IjpbMTcyODExNDY1OCwtMTg1NTg1NDcwOCwxOD
+QyNjU0NTkwLC0xOTAxNzY4MTg1LDE3NTk3Njc5MDIsLTExNzU0
+NDU5MzJdfQ==
 -->
