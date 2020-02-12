@@ -32,6 +32,13 @@
 - [DBSCAN Clustering in ML | Density based clustering](https://www.geeksforgeeks.org/dbscan-clustering-in-ml-density-based-clustering/)
 - [Density-Based Clustering - Domino Blog]([https://blog.dominodatalab.com/topology-and-density-based-clustering/](https://blog.dominodatalab.com/topology-and-density-based-clustering/))
 - [Brian Kent: Density Based Clustering in Python]([https://www.youtube.com/watch?v=5cOhL4B5waU](https://www.youtube.com/watch?v=5cOhL4B5waU))
+
+### [Does Y mean latitude and X mean longitude in every GIS software?](https://gis.stackexchange.com/questions/11626/does-y-mean-latitude-and-x-mean-longitude-in-every-gis-software)
+
+In 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1OTc2NzkwMiwtMTE3NTQ0NTkzMl19
+eyJoaXN0b3J5IjpbLTEyNjQ3NjAwMDEsMTc1OTc2NzkwMiwtMT
+E3NTQ0NTkzMl19
 -->
