@@ -39,8 +39,10 @@ For ESRI its almost always going to be:
 
 Lat = Y Long = X
 
+### Measuring distance between to points using Python
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDE3NjgxODUsMTc1OTc2NzkwMiwtMT
-E3NTQ0NTkzMl19
+eyJoaXN0b3J5IjpbLTEzNTgxODQxMzYsLTE5MDE3NjgxODUsMT
+c1OTc2NzkwMiwtMTE3NTQ0NTkzMl19
 -->
