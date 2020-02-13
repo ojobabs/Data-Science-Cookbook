@@ -59,9 +59,10 @@ Determines whether to calculate the distance using a planar (flat earth) or a ge
 - [https://community.esri.com/groups/coordinate-reference-systems/blog/2014/09/01/geodetic-distances-how-long-is-that-line-again](https://community.esri.com/groups/coordinate-reference-systems/blog/2014/09/01/geodetic-distances-how-long-is-that-line-again)
 - [https://www.esri.com/arcgis-blog/products/arcgis-desktop/analytics/calculating-geodesic-distance-between-points/](https://www.esri.com/arcgis-blog/products/arcgis-desktop/analytics/calculating-geodesic-distance-between-points/)
 - [Pandas: calculate haversine distance within each group of rows](https://stackoverflow.com/questions/43577086/pandas-calculate-haversine-distance-within-each-group-of-rows)
+- [Vectorised Haversine formula with a pandas dataframe](https://stackoverflow.com/questions/25767596/vectorised-haversine-formula-with-a-pandas-dataframe)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyODExNDY1OCwtMTg1NTg1NDcwOCwxOD
+eyJoaXN0b3J5IjpbLTI1NzkyMzQzMSwtMTg1NTg1NDcwOCwxOD
 QyNjU0NTkwLC0xOTAxNzY4MTg1LDE3NTk3Njc5MDIsLTExNzU0
 NDU5MzJdfQ==
 -->
