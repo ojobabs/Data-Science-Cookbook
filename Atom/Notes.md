@@ -129,7 +129,26 @@ The terminal now is using Git Bash instead Windows Console.
 Reference:
 
 - [Change terminal in Atom-editor's Platformio-Ide-Terminal on Windows](https://stackoverflow.com/questions/42277302/change-terminal-in-atom-editors-platformio-ide-terminal-on-windows)
+
+### Atom not showing folders ignored by .gitignore in editor
+
+1.  Launch Atom
+2.  Open the Settings View by pressing  Cmd+,  on macOS or  Ctrl+,  on other platforms
+3.  Click the Packages tab
+4.  Search for “tree view”
+5.  Click the Settings button on the tree-view package card
+6.  Uncheck “Hide VCS Ignored Files”
+
+Or
+
+1.  Click anywhere in the Tree View
+2.  Press  I
+
+This setting defaults to  `false`  in all versions of Atom.
+
+Reference: [all-gitignored-files-are-hidden-now-atom](https://discuss.atom.io/t/all-gitignored-files-are-hidden-now-atom-1-15/39238)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzI2MzM5OTMsLTM3MjAyOTM5MCwtMT
-kxMTcyNTc0LDkyOTgxNDQ5MSwxNTk5NjQ3ODYxXX0=
+eyJoaXN0b3J5IjpbLTEwNTU3Nzk1NjksLTE0MzI2MzM5OTMsLT
+M3MjAyOTM5MCwtMTkxMTcyNTc0LDkyOTgxNDQ5MSwxNTk5NjQ3
+ODYxXX0=
 -->
