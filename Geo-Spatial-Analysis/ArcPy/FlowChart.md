@@ -11,7 +11,7 @@ J --> K[agent_add_go_HDBSCAN2.lyr]
 K --> L((Remove outliers))
 L --> M((% outliers))
 M --> N{outliers == 20%?}
-N -- Loop _--> J
+N -- Loop --> J
 N --> O((Add marketer_id))
 O --> P[marketers_go.lyr]
 end
@@ -44,6 +44,6 @@ id18 --> id19((Metrics to CSV))
 id19 --> id20[geo_loop_3.csv]
 end
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NTUwNDcyMSw5NTU1NTQwNjgsLTE0Nj
-Q0NTkzNCwtNTAyMTQ4NDk2XX0=
+eyJoaXN0b3J5IjpbLTE0ODExOTYxOTYsOTU1NTU0MDY4LC0xND
+Y0NDU5MzQsLTUwMjE0ODQ5Nl19
 -->
