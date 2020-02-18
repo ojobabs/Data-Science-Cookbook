@@ -35,7 +35,7 @@ id12 --> id13((Spatial Join))
 id5 --> id13
 id13 --> id14[Polygons_SpatialJoin_go.lyr]
 id14 --> id15((% Clients inside LM))
-id15 --> id16{% Clients == 50%}
+id15 --> id16{% Clients == 50%?}
 id16 -- Loop --> id6
 id13 --> id17
 id16 --> id17((Pop Density))
@@ -44,6 +44,7 @@ id18 --> id19((Metrics to CSV))
 id19 --> id20[geo_loop_3.csv]
 end
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjk0MTQwMyw4MzkyMzE3MTYsOTU1NT
-U0MDY4LC0xNDY0NDU5MzQsLTUwMjE0ODQ5Nl19
+eyJoaXN0b3J5IjpbLTc0NzkwMzkwOCwxNjA2OTQxNDAzLDgzOT
+IzMTcxNiw5NTU1NTQwNjgsLTE0NjQ0NTkzNCwtNTAyMTQ4NDk2
+XX0=
 -->
