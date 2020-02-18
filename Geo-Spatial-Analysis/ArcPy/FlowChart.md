@@ -3,11 +3,11 @@
 graph TD;
 P --> id4
 subgraph two
-C[agent_add_all.csv  ____] -- org_unit == go _ --> D((geocode_))
+C[agent_add_all.csv  ____] -- org_unit == go ___ --> D((geocode_))
 D --> H[agent_add_go_Geocoded.lyr  ______]
 H --> I((DeleteIdentical _))
-I --> J((DBSCAN _ ))
-J --> K[agent_add_go_HDBSCAN2.lyr ___]
+I --> J((DBSCAN __ ))
+J --> K[agent_add_go_HDBSCAN2.lyr _______]
 K --> L((Remove outliers _))
 L --> M((% outliers))
 M --> N{outliers == 20%? ___}
@@ -20,7 +20,7 @@ A[offices_all.csv _] --> B((geocode_))
 B --> G[offices_all_Geocoded.lyr __]
 end
 subgraph three
-id1[clients_address_all.csv  __] -- general_office == go  __ --> id2((geocode_))
+id1[clients_address_all.csv  __] -- general_office == go  ____ --> id2((geocode_))
 id2 --> id3[clients_address_add_go_Geocoded.lyr____]
 id3 --> id4((join marketer_id ___))
 id4 --> id5[client_join_go.lyr ____]
@@ -44,5 +44,5 @@ id18 --> id19((Metrics to CSV ___))
 id19 --> id20[geo_loop_3.csv ___]
 end
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzcxODY3NSwtNTAyMTQ4NDk2XX0=
+eyJoaXN0b3J5IjpbLTIyNTE3NDMwNiwtNTAyMTQ4NDk2XX0=
 -->
