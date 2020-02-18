@@ -8,7 +8,7 @@ D --> H[agent_add_go_Geocoded.lyr  ______]
 H --> I((DeleteIdentical _))
 I --> J((DBSCAN __ ))
 J --> K[agent_add_go_HDBSCAN2.lyr _______]
-K --> L((Remove outliers _))
+K --> L((Remove outliers ____))
 L --> M((% outliers))
 M --> N{outliers == 20%? ___}
 N -- Loop _--> J
@@ -16,8 +16,8 @@ N --> O((Add marketer_id _))
 O --> P[marketers_go.lyr _]
 end
 subgraph one
-A[offices_all.csv _] --> B((geocode_)) 
-B --> G[offices_all_Geocoded.lyr __]
+A[offices_all.csv ___] --> B((geocode __)) 
+B --> G[offices_all_Geocoded.lyr _____]
 end
 subgraph three
 id1[clients_address_all.csv  __] -- general_office == go  ____ --> id2((geocode_))
@@ -44,5 +44,5 @@ id18 --> id19((Metrics to CSV ___))
 id19 --> id20[geo_loop_3.csv ___]
 end
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNTE3NDMwNiwtNTAyMTQ4NDk2XX0=
+eyJoaXN0b3J5IjpbLTM0Mzc0NTMzOSwtNTAyMTQ4NDk2XX0=
 -->
