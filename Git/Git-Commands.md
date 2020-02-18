@@ -544,12 +544,38 @@ git push origin :old_branch                 # Delete the old branch
 git push --set-upstream origin new_branch   # Push the new branch, set local branch to track the new remote
 ```
 reference: [how-to-rename-git-local-and-remote-branches](https://www.w3docs.com/snippets/git/how-to-rename-git-local-and-remote-branches.html) 
+
+### [How to have git log show filenames like svn log -v](https://stackoverflow.com/questions/1230084/how-to-have-git-log-show-filenames-like-svn-log-v)
+
+  
+For full path names of changed files:
+
+```
+git log --name-only
+
+```
+
+For full path names and status of changed files:
+
+```
+git log --name-status
+
+```
+
+For abbreviated pathnames and a diffstat of changed files:
+
+```
+git log --stat
+
+```
+
+There's a lot more options,  [check out the docs](https://git-scm.com/docs/git-log).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTE3MDMzMDQsLTI2OTc5MDU5MywtNj
-Q1MDE2NDA4LC0xMzUzNDY3MjY0LDEyOTUzODM5MDksNDg5ODI3
-NzA2LDUzODg4NzQ2NCwtMTY0NDk0MTg5MSwxMDI4NzMwNDk4LC
-0xMDE3NjgzNDkzLDE3MzYxMDQwNjgsMjAxOTI3OTM4NiwyMDE5
-Mjc5Mzg2LDE2MDE4MTY5NzEsLTEzMDIxNTI2NTAsLTE5MjU3MD
-g0NjAsLTEwNTEzMjU3NDcsMjA0MDI2NzYwOSwyNDI2ODk3MzNd
-fQ==
+eyJoaXN0b3J5IjpbMjE0MDkxMDU0NCwtMTY5MTcwMzMwNCwtMj
+Y5NzkwNTkzLC02NDUwMTY0MDgsLTEzNTM0NjcyNjQsMTI5NTM4
+MzkwOSw0ODk4Mjc3MDYsNTM4ODg3NDY0LC0xNjQ0OTQxODkxLD
+EwMjg3MzA0OTgsLTEwMTc2ODM0OTMsMTczNjEwNDA2OCwyMDE5
+Mjc5Mzg2LDIwMTkyNzkzODYsMTYwMTgxNjk3MSwtMTMwMjE1Mj
+Y1MCwtMTkyNTcwODQ2MCwtMTA1MTMyNTc0NywyMDQwMjY3NjA5
+LDI0MjY4OTczM119
 -->
