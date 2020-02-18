@@ -3,7 +3,7 @@
 graph TD;
 P --> id6
 subgraph two
-C[agent_add_all.csv] -- org_unit == go ___ --> D((geocode_))
+C[agent_add_all.csv] -- org_unit == go --> D((geocode_))
 D --> H[agent_add_go_Geocoded.lyr]
 H --> I((DeleteIdentical _))
 I --> J((DBSCAN))
@@ -31,19 +31,19 @@ id6 --> id9[LocalMarket_go.lyr]
 id9 --> id10((Rename))
 id10 --> id11[ServiceArea1.lyr]
 id8 --> id12[LocalMarket_go.lyr]
-id12 --> id13((Spatial Join ___))
+id12 --> id13((Spatial Join))
 id5 --> id13
-id13 --> id14[Polygons_SpatialJoin_go.lyr ______]
-id14 --> id15((% Clients inside LM ____))
-id15 --> id16{% Clients == 50% ____}
-id16 -- Loop _ --> id6
+id13 --> id14[Polygons_SpatialJoin_go.lyr]
+id14 --> id15((% Clients inside LM))
+id15 --> id16{% Clients == 50%}
+id16 -- Loop --> id6
 id13 --> id17
-id16 --> id17((Pop Density  __))
-id17 --> id18[Plygons_pop_Den_go.lyr _____]
-id18 --> id19((Metrics to CSV ___))
-id19 --> id20[geo_loop_3.csv ___]
+id16 --> id17((Pop Density))
+id17 --> id18[Plygons_pop_Den_go.lyr]
+id18 --> id19((Metrics to CSV))
+id19 --> id20[geo_loop_3.csv]
 end
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwOTUzMzU3LDk1NTU1NDA2OCwtMTQ2ND
-Q1OTM0LC01MDIxNDg0OTZdfQ==
+eyJoaXN0b3J5IjpbLTU4NTUwNDcyMSw5NTU1NTQwNjgsLTE0Nj
+Q0NTkzNCwtNTAyMTQ4NDk2XX0=
 -->
