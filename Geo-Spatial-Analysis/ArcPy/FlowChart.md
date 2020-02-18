@@ -24,7 +24,7 @@ id1[clients_address_all.csv] -- general_office == go --> id2((geocode))
 id2 --> id3[clients_address_add_go_Geocoded.lyr]
 id3 --> id4((join marketer_id))
 id4 --> id5[client_join_go.lyr]
-id5 --> id6((Service Area))
+id5 -- NO--> id6((Service Area))
 id6 --> id7[SAPolygons1.lyr]
 id7 --> id8((Rename))
 id6 --> id9[LocalMarket_go.lyr]
@@ -44,6 +44,6 @@ id18 --> id19((Metrics to CSV))
 id19 --> id20[geo_loop_3.csv]
 end
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM5MjMxNzE2LDk1NTU1NDA2OCwtMTQ2ND
-Q1OTM0LC01MDIxNDg0OTZdfQ==
+eyJoaXN0b3J5IjpbMTYwNjk0MTQwMyw4MzkyMzE3MTYsOTU1NT
+U0MDY4LC0xNDY0NDU5MzQsLTUwMjE0ODQ5Nl19
 -->
