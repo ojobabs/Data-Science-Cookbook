@@ -47,17 +47,21 @@ Issue about rendering Latex or Katex on Ipython on GitLab:
 Packages:
 
 - language-mermaid
-- atom-mermaid
+- atom-merma
 - markdown-preview-enhanced
 
 With the above packages you can:
+1. Write mermaid code in an `.mm` extension file. By using the language-mermaid package you can highlight the code. An by using the atom-mermaid package, you can render the content of the `.mm` file.
+2. You can just write mermaid code in a markdown document. by using:
 
-1. Write mermaid code in an `.mm` extension file. By using the language-mermaid package you can highlight the code. An by using the atom-mermaid package, you can r
 
+```mermaid
+graph TD
+``'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MjU2MDA5LC0xNDI4MjcxNzEsLTU5Mz
-czNjYxNiwyODM3NTY2NjYsOTU3NzA1NjIyLC0xMjMzMTIxNDc3
-LC0yNzE4NTE1OTMsLTE2Nzg2Njg0NF19
+eyJoaXN0b3J5IjpbMTQxOTQ5MDMyMSwtMTQyODI3MTcxLC01OT
+M3MzY2MTYsMjgzNzU2NjY2LDk1NzcwNTYyMiwtMTIzMzEyMTQ3
+NywtMjcxODUxNTkzLC0xNjc4NjY4NDRdfQ==
 -->
