@@ -55,13 +55,16 @@ With the above packages you can:
 2. You can just write mermaid code in a markdown document. by using:
 
 
-```mermaid
+\```mermaid
 graph TD
-``'
+A --> B
+\```
+
+Then markdown-preview-enhanced will render the content of the code as part of your markdown document. The problem is that our current version of GitLab don't render mermaid code. Therefore, we
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTQ5MDMyMSwtMTQyODI3MTcxLC01OT
-M3MzY2MTYsMjgzNzU2NjY2LDk1NzcwNTYyMiwtMTIzMzEyMTQ3
-NywtMjcxODUxNTkzLC0xNjc4NjY4NDRdfQ==
+eyJoaXN0b3J5IjpbNjg4MjcwODQzLC0xNDI4MjcxNzEsLTU5Mz
+czNjYxNiwyODM3NTY2NjYsOTU3NzA1NjIyLC0xMjMzMTIxNDc3
+LC0yNzE4NTE1OTMsLTE2Nzg2Njg0NF19
 -->
