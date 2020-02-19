@@ -60,11 +60,17 @@ graph TD
 A --> B
 \```
 
-Then markdown-preview-enhanced will render the content of the code as part of your markdown document. The problem is that our current version of GitLab don't render mermaid code. Therefore, we
+Then markdown-preview-enhanced will render the content of the code as part of your markdown document. 
+
+The problem is that our current version of GitLab don't render mermaid code. Therefore, we need to use the approach 1. The atom-mermaid package can save the rendered content as a picture. Then, you can upload the picture to GitLab and insert the picture as part of your markdown documentation.
+
+Mermaid resources:
+
+- [https://mermaid-js.github.io/mermaid/#/](https://mermaid-js.github.io/mermaid/#/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg4MjcwODQzLC0xNDI4MjcxNzEsLTU5Mz
-czNjYxNiwyODM3NTY2NjYsOTU3NzA1NjIyLC0xMjMzMTIxNDc3
-LC0yNzE4NTE1OTMsLTE2Nzg2Njg0NF19
+eyJoaXN0b3J5IjpbMTk4OTY0NDI0NywtMTQyODI3MTcxLC01OT
+M3MzY2MTYsMjgzNzU2NjY2LDk1NzcwNTYyMiwtMTIzMzEyMTQ3
+NywtMjcxODUxNTkzLC0xNjc4NjY4NDRdfQ==
 -->
