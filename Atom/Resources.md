@@ -66,11 +66,12 @@ The problem is that our current version of GitLab don't render mermaid code. The
 
 Mermaid resources:
 
-- [https://mermaid-js.github.io/mermaid/#/](https://mermaid-js.github.io/mermaid/#/)
+- [mermaid](https://mermaid-js.github.io/mermaid/#/)
+- [Mermaid Live Editor](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcbiAgQVtDaHJpc3RtYXNdIC0tPnxHZXQgbW9uZXl8IEIoR28gc2hvcHBpbmcpXG4gIEIgLS0-IEN7TGV0IG1lIHRoaW5rfVxuICBDIC0tPnxPbmV8IERbTGFwdG9wXVxuICBDIC0tPnxUd298IEVbaVBob25lXVxuICBDIC0tPnxUaHJlZXwgRltmYTpmYS1jYXIgQ2FyXVxuXHRcdCIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4OTY0NDI0NywtMTQyODI3MTcxLC01OT
-M3MzY2MTYsMjgzNzU2NjY2LDk1NzcwNTYyMiwtMTIzMzEyMTQ3
-NywtMjcxODUxNTkzLC0xNjc4NjY4NDRdfQ==
+eyJoaXN0b3J5IjpbLTEzMzcxMTg1ODksLTE0MjgyNzE3MSwtNT
+kzNzM2NjE2LDI4Mzc1NjY2Niw5NTc3MDU2MjIsLTEyMzMxMjE0
+NzcsLTI3MTg1MTU5MywtMTY3ODY2ODQ0XX0=
 -->
