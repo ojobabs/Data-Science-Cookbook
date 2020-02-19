@@ -40,11 +40,20 @@ Issue about rendering Latex or Katex on Ipython on GitLab:
 - https://gitlab.com/magkey/test_project/blob/master/test_notebook.ipynb
 - https://gitlab.com/gitlab-org/gitlab-ce/issues/37536
 - https://stackoverflow.com/questions/11256433/how-to-show-math-equations-in-general-githubs-markdownnot-githubs-blog?rq=1
+
+
+### Mermaid flowcharts with Atom
+
+Packages:
+
+- language-mermaid
 - 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjgyNzE3MSwtNTkzNzM2NjE2LDI4Mz
-c1NjY2Niw5NTc3MDU2MjIsLTEyMzMxMjE0NzcsLTI3MTg1MTU5
-MywtMTY3ODY2ODQ0XX0=
+eyJoaXN0b3J5IjpbLTU2MDQ3NDc0NywtMTQyODI3MTcxLC01OT
+M3MzY2MTYsMjgzNzU2NjY2LDk1NzcwNTYyMiwtMTIzMzEyMTQ3
+NywtMjcxODUxNTkzLC0xNjc4NjY4NDRdfQ==
 -->
