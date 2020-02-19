@@ -29,7 +29,7 @@ The best approach is using [Mermaid live editor](https://mermaid-js.github.io/me
 
 - [Guide for mermaid flowcharts](https://mermaid-js.github.io/mermaid/#/flowchart) 
 
-## UML diagrams on 
+## UML diagrams on Stackedit - Limited application
 
 You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
 
@@ -61,6 +61,6 @@ graph TD; A-->B; A-->C; B-->D; C-->D;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzM2NzI2MjgsLTg1NzA2NzQ2NSw3Nj
-I1MTMzNTUsMzU2NDIyNDA5XX0=
+eyJoaXN0b3J5IjpbMTE5MjIxNzA1OSwtODU3MDY3NDY1LDc2Mj
+UxMzM1NSwzNTY0MjI0MDldfQ==
 -->
