@@ -25,9 +25,11 @@ Outputs:
 
 # How to use `mermaid` for flowchart
 
+The best approach is using [Mermaid live editor](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcbiAgQVtDaHJpc3RtYXNdIC0tPnxHZXQgbW9uZXl8IEIoR28gc2hvcHBpbmcpXG4gIEIgLS0-IEN7TGV0IG1lIHRoaW5rfVxuICBDIC0tPnxPbmV8IERbTGFwdG9wXVxuICBDIC0tPnxUd298IEVbaVBob25lXVxuICBDIC0tPnxUaHJlZXwgRltmYTpmYS1jYXIgQ2FyXVxuXHRcdCIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19). You can download an image and then upload the image to GitLab or GitHub. 
+
 - [Guide for mermaid flowcharts](https://mermaid-js.github.io/mermaid/#/flowchart) 
 
-## UML diagrams
+## UML diagrams on 
 
 You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
 
@@ -59,6 +61,6 @@ graph TD; A-->B; A-->C; B-->D; C-->D;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTQzMzQyMjAsLTg1NzA2NzQ2NSw3Nj
+eyJoaXN0b3J5IjpbLTEzMzM2NzI2MjgsLTg1NzA2NzQ2NSw3Nj
 I1MTMzNTUsMzU2NDIyNDA5XX0=
 -->
