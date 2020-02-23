@@ -115,9 +115,9 @@ Using the new f-string from Python 3.6:
 logging.info(f'Elapsed wall-clock time for offices:'
              f'{int(end - start)} seconds.')
 ```
-
+reference: [Multiline f-string in Python](https://stackoverflow.com/questions/45965007/multiline-f-string-in-python)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODY0ODQ5NCwxNDY5MjMzNjE0LC05MD
+eyJoaXN0b3J5IjpbLTk5MzUxNDMyMywxNDY5MjMzNjE0LC05MD
 UwMDA0OTMsLTE4MjEyNDYwMDAsODk3NjA3MDkyLDY2MDA1OTMx
 N119
 -->
