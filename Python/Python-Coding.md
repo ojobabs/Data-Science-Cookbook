@@ -166,13 +166,13 @@ select = arcpy.management.SelectLayerByAttribute("geocoded_all_agents",
                                                  "USER_general_office = \'" + go + "\'",
                                                  None)
 ```
-Note: while developing the above strings 
+Note: while developing the above strings, do not use the `print()` function
 
 References:
 - [Comments and Quotes](https://cscircles.cemc.uwaterloo.ca/3-comments-literals/)
 - [Printing double quotes around a variable](https://stackoverflow.com/questions/20056548/printing-double-quotes-around-a-variable)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NTMzMzg1OCwxNjY2NjU2ODEyLC05OT
+eyJoaXN0b3J5IjpbLTMzNjczMzE1OCwxNjY2NjU2ODEyLC05OT
 M1MTQzMjMsMTQ2OTIzMzYxNCwtOTA1MDAwNDkzLC0xODIxMjQ2
 MDAwLDg5NzYwNzA5Miw2NjAwNTkzMTddfQ==
 -->
