@@ -152,8 +152,25 @@ References:
 - [Python Tutorial: Logging Basics - Logging to Files, Setting Levels, and Formatting](https://www.youtube.com/watch?v=-ARI4Cz-awo)
 - [Python Tutorial: Logging Advanced - Loggers, Handlers, and Formatters](https://www.youtube.com/watch?v=jxmzY9soFXg&pbjreload=10)
 - [Measure time elapsed in Python](https://stackoverflow.com/questions/7370801/measure-time-elapsed-in-python)
+
+### new
+
+```python
+select = arcpy.management.SelectLayerByAttribute("geocoded_all_agents",
+                                                 "NEW_SELECTION",
+                                                 "USER_general_office = 'V46'",
+                                                 None)
+
+select = arcpy.management.SelectLayerByAttribute("geocoded_all_agents",
+                                                 "NEW_SELECTION",
+                                                 "USER_general_office = \'" + go + "\'",
+                                                 None)
+```
+References:
+- [Comments and Quotes](https://cscircles.cemc.uwaterloo.ca/3-comments-literals/)
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NjY1NjgxMiwtOTkzNTE0MzIzLDE0Nj
-kyMzM2MTQsLTkwNTAwMDQ5MywtMTgyMTI0NjAwMCw4OTc2MDcw
-OTIsNjYwMDU5MzE3XX0=
+eyJoaXN0b3J5IjpbLTEzNDQ1MDAyNjUsMTY2NjY1NjgxMiwtOT
+kzNTE0MzIzLDE0NjkyMzM2MTQsLTkwNTAwMDQ5MywtMTgyMTI0
+NjAwMCw4OTc2MDcwOTIsNjYwMDU5MzE3XX0=
 -->
