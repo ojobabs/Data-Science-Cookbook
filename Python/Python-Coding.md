@@ -99,10 +99,17 @@ cont = pd.read_csv(file_to_open)
 
 ### More examples about how to deal with paths in Python 3
 
+In a Windows machine:
+
+```python
+```
+    input_data = "C:\\Users\\T93KQI0\\Documents\\Projects\\" \
+        "Geospatial-Analysis\\data_output\\" + infile + ".csv"
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODA3NjM1MzksMTQ2OTIzMzYxNCwtOT
-A1MDAwNDkzLC0xODIxMjQ2MDAwLDg5NzYwNzA5Miw2NjAwNTkz
-MTddfQ==
+eyJoaXN0b3J5IjpbMTc2NjYwODc1MCwxNDY5MjMzNjE0LC05MD
+UwMDA0OTMsLTE4MjEyNDYwMDAsODk3NjA3MDkyLDY2MDA1OTMx
+N119
 -->
