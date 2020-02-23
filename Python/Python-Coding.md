@@ -115,9 +115,21 @@ Using the new f-string from Python 3.6:
 logging.info(f'Elapsed wall-clock time for offices:'
              f'{int(end - start)} seconds.')
 ```
-reference: [Multiline f-string in Python](https://stackoverflow.com/questions/45965007/multiline-f-string-in-python)
+reference: 
+- [Multiline f-string in Python](https://stackoverflow.com/questions/45965007/multiline-f-string-in-python)
+- [f-Strings: A New and Improved Way to Format Strings in Python](https://realpython.com/python-f-strings/)
+
+### Logging
+
+```
+import logging
+
+# Set logger configuration
+logging.basicConfig(filename='src/lm_02_geocode_all.log', level=logging.INFO,
+                    format='%(asctime)s:%(levelname)s:%(message)s')
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MzUxNDMyMywxNDY5MjMzNjE0LC05MD
-UwMDA0OTMsLTE4MjEyNDYwMDAsODk3NjA3MDkyLDY2MDA1OTMx
-N119
+eyJoaXN0b3J5IjpbMTk1NjczMDU3MywtOTkzNTE0MzIzLDE0Nj
+kyMzM2MTQsLTkwNTAwMDQ5MywtMTgyMTI0NjAwMCw4OTc2MDcw
+OTIsNjYwMDU5MzE3XX0=
 -->
