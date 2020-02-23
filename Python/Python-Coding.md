@@ -97,7 +97,12 @@ file_to_open = data_folder / "contracts_with_attr.csv"
 cont = pd.read_csv(file_to_open)
 ```
 
+### More examples about how to deal with paths in Python 3
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2OTIzMzYxNCwtOTA1MDAwNDkzLC0xOD
-IxMjQ2MDAwLDg5NzYwNzA5Miw2NjAwNTkzMTddfQ==
+eyJoaXN0b3J5IjpbLTEwODA3NjM1MzksMTQ2OTIzMzYxNCwtOT
+A1MDAwNDkzLC0xODIxMjQ2MDAwLDg5NzYwNzA5Miw2NjAwNTkz
+MTddfQ==
 -->
