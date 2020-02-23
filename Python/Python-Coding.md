@@ -102,14 +102,17 @@ cont = pd.read_csv(file_to_open)
 In a Windows machine:
 
 ```python
-```
-    input_data = "C:\\Users\\T93KQI0\\Documents\\Projects\\" \
-        "Geospatial-Analysis\\data_output\\" + infile + ".csv"
+input_data = "C:\\Users\\T93KQI0\\Documents\\Projects\\" \
+             "Geospatial-Analysis\\data_output\\" + infile + ".csv"
+
+locator = r"C:\Users\T93KQI0\Documents\EsriData" \
+          r"\ESRI_BA_2019_US_Data_Update\WinRoot\ArcGIS\Business Analyst" \
+          r"\US_2019\Data\Geocoding Data for ArcGIS Pro\USA.loc"
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NjYwODc1MCwxNDY5MjMzNjE0LC05MD
-UwMDA0OTMsLTE4MjEyNDYwMDAsODk3NjA3MDkyLDY2MDA1OTMx
-N119
+eyJoaXN0b3J5IjpbLTE1MDE0NjYyMzMsMTQ2OTIzMzYxNCwtOT
+A1MDAwNDkzLC0xODIxMjQ2MDAwLDg5NzYwNzA5Miw2NjAwNTkz
+MTddfQ==
 -->
