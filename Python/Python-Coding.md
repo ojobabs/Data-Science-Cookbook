@@ -109,10 +109,15 @@ locator = r"C:\Users\T93KQI0\Documents\EsriData" \
           r"\ESRI_BA_2019_US_Data_Update\WinRoot\ArcGIS\Business Analyst" \
           r"\US_2019\Data\Geocoding Data for ArcGIS Pro\USA.loc"
 ```
+Using the new f-string from Python 3.6:
 
+```python
+logging.info(f'Elapsed wall-clock time for offices:'
+             f'{int(end - start)} seconds.')
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDE0NjYyMzMsMTQ2OTIzMzYxNCwtOT
-A1MDAwNDkzLC0xODIxMjQ2MDAwLDg5NzYwNzA5Miw2NjAwNTkz
-MTddfQ==
+eyJoaXN0b3J5IjpbLTcwODY0ODQ5NCwxNDY5MjMzNjE0LC05MD
+UwMDA0OTMsLTE4MjEyNDYwMDAsODk3NjA3MDkyLDY2MDA1OTMx
+N119
 -->
