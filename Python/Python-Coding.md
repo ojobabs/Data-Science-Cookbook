@@ -146,8 +146,13 @@ logging.info('Geocoding for offices completed.')
 logging.info(f'Elapsed wall-clock time for offices:'
              f'{int(end - start)} seconds.')
 ```
+
+References:
+
+- [Python Tutorial: Logging Basics - Logging to Files, Setting Levels, and Formatting](https://www.youtube.com/watch?v=-ARI4Cz-awo)
+- # Python Tutorial: Logging Advanced - Loggers, Handlers, and Formatters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzIzNDU0NjYsLTk5MzUxNDMyMywxND
+eyJoaXN0b3J5IjpbLTIxMTI4MDk4MzcsLTk5MzUxNDMyMywxND
 Y5MjMzNjE0LC05MDUwMDA0OTMsLTE4MjEyNDYwMDAsODk3NjA3
 MDkyLDY2MDA1OTMxN119
 -->
