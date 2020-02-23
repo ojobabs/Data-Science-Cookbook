@@ -150,9 +150,10 @@ logging.info(f'Elapsed wall-clock time for offices:'
 References:
 
 - [Python Tutorial: Logging Basics - Logging to Files, Setting Levels, and Formatting](https://www.youtube.com/watch?v=-ARI4Cz-awo)
-- # Python Tutorial: Logging Advanced - Loggers, Handlers, and Formatters
+- [Python Tutorial: Logging Advanced - Loggers, Handlers, and Formatters](https://www.youtube.com/watch?v=jxmzY9soFXg&pbjreload=10)
+- [Measure time elapsed in Python](https://stackoverflow.com/questions/7370801/measure-time-elapsed-in-python)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTI4MDk4MzcsLTk5MzUxNDMyMywxND
-Y5MjMzNjE0LC05MDUwMDA0OTMsLTE4MjEyNDYwMDAsODk3NjA3
-MDkyLDY2MDA1OTMxN119
+eyJoaXN0b3J5IjpbMTY2NjY1NjgxMiwtOTkzNTE0MzIzLDE0Nj
+kyMzM2MTQsLTkwNTAwMDQ5MywtMTgyMTI0NjAwMCw4OTc2MDcw
+OTIsNjYwMDU5MzE3XX0=
 -->
