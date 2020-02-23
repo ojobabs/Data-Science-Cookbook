@@ -121,15 +121,22 @@ reference:
 
 ### Logging
 
-```
+```python
+import time
 import logging
 
 # Set logger configuration
 logging.basicConfig(filename='src/lm_02_geocode_all.log', level=logging.INFO,
                     format='%(asctime)s:%(levelname)s:%(message)s')
+
+
+# Checking and changing working directory
+cwd = os.getcwd()
+logging.info(f'Working directory: {cwd}.')
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NjczMDU3MywtOTkzNTE0MzIzLDE0Nj
-kyMzM2MTQsLTkwNTAwMDQ5MywtMTgyMTI0NjAwMCw4OTc2MDcw
-OTIsNjYwMDU5MzE3XX0=
+eyJoaXN0b3J5IjpbMTEyMjcxMDQ2LC05OTM1MTQzMjMsMTQ2OT
+IzMzYxNCwtOTA1MDAwNDkzLC0xODIxMjQ2MDAwLDg5NzYwNzA5
+Miw2NjAwNTkzMTddfQ==
 -->
