@@ -134,9 +134,20 @@ logging.basicConfig(filename='src/lm_02_geocode_all.log', level=logging.INFO,
 cwd = os.getcwd()
 logging.info(f'Working directory: {cwd}.')
 
+# Getting the current workspace path
+mydir = arcpy.env.workspace
+logging.info(f'Current workspace path: {mydir}.')
+
+
+start = time.time()
+
+end = time.time()
+logging.info('Geocoding for offices completed.')
+logging.info(f'Elapsed wall-clock time for offices:'
+             f'{int(end - start)} seconds.')
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMjcxMDQ2LC05OTM1MTQzMjMsMTQ2OT
-IzMzYxNCwtOTA1MDAwNDkzLC0xODIxMjQ2MDAwLDg5NzYwNzA5
-Miw2NjAwNTkzMTddfQ==
+eyJoaXN0b3J5IjpbLTEyNzIzNDU0NjYsLTk5MzUxNDMyMywxND
+Y5MjMzNjE0LC05MDUwMDA0OTMsLTE4MjEyNDYwMDAsODk3NjA3
+MDkyLDY2MDA1OTMxN119
 -->
