@@ -153,7 +153,7 @@ References:
 - [Python Tutorial: Logging Advanced - Loggers, Handlers, and Formatters](https://www.youtube.com/watch?v=jxmzY9soFXg&pbjreload=10)
 - [Measure time elapsed in Python](https://stackoverflow.com/questions/7370801/measure-time-elapsed-in-python)
 
-### new
+### How to escape quotes
 
 ```python
 select = arcpy.management.SelectLayerByAttribute("geocoded_all_agents",
@@ -166,11 +166,13 @@ select = arcpy.management.SelectLayerByAttribute("geocoded_all_agents",
                                                  "USER_general_office = \'" + go + "\'",
                                                  None)
 ```
+Note: while developing the above strings 
+
 References:
 - [Comments and Quotes](https://cscircles.cemc.uwaterloo.ca/3-comments-literals/)
-- 
+- [Printing double quotes around a variable](https://stackoverflow.com/questions/20056548/printing-double-quotes-around-a-variable)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQ1MDAyNjUsMTY2NjY1NjgxMiwtOT
-kzNTE0MzIzLDE0NjkyMzM2MTQsLTkwNTAwMDQ5MywtMTgyMTI0
-NjAwMCw4OTc2MDcwOTIsNjYwMDU5MzE3XX0=
+eyJoaXN0b3J5IjpbLTg1NTMzMzg1OCwxNjY2NjU2ODEyLC05OT
+M1MTQzMjMsMTQ2OTIzMzYxNCwtOTA1MDAwNDkzLC0xODIxMjQ2
+MDAwLDg5NzYwNzA5Miw2NjAwNTkzMTddfQ==
 -->
