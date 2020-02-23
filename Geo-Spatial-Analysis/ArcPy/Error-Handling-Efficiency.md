@@ -67,9 +67,6 @@ def delete_object(in_obj):
 			f'Delete existing {in_obj}.'
 		)
 ```
-
-<![endif]-->
-
 * Notes:
 
 i. You could extend the handle_arcpy_method() wrapper to include a method to capture the run duration of the method - i.e. time.time()<[https://urldefense.proofpoint.com/v2/url?u=https-3A__stackoverflow.com_questions_7370801_measure-2Dtime-2Delapsed-2Din-2Dpython&d=DwIFAg&c=n6-cguzQvX_tUIrZOS_4Og&r=PbR4ImVx2L_irY4YCDMn5prX5On4LYYOeD7XlqHT-kSpzPWx2nd0cR-gKD-ZF7Yo&m=JN4SWc-ynjZpQmE4hVeG-ZNDkFQvkPleZf8nvogu5Fs&s=o8JZnZUtwKqIKFNrcm59_MX3DrG0fqNKa23FIAQYlbE&e=](https://urldefense.proofpoint.com/v2/url?u=https-3A__stackoverflow.com_questions_7370801_measure-2Dtime-2Delapsed-2Din-2Dpython&d=DwIFAg&c=n6-cguzQvX_tUIrZOS_4Og&r=PbR4ImVx2L_irY4YCDMn5prX5On4LYYOeD7XlqHT-kSpzPWx2nd0cR-gKD-ZF7Yo&m=JN4SWc-ynjZpQmE4hVeG-ZNDkFQvkPleZf8nvogu5Fs&s=o8JZnZUtwKqIKFNrcm59_MX3DrG0fqNKa23FIAQYlbE&e=%20) >
@@ -84,5 +81,5 @@ What is the source of the road network dataset you are using in your service are
 
 Also, please send me your source for review. This will help me look at the specific logic and tooling you use to suggest targeted efficiency gains.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk2MDA0NDFdfQ==
+eyJoaXN0b3J5IjpbLTM0OTc1MjQzMCw1OTYwMDQ0MV19
 -->
