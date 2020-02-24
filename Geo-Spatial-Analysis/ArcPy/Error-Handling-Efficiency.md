@@ -81,8 +81,18 @@ What is the source of the road network dataset you are using in your service are
 
 Also, please send me your source for review. This will help me look at the specific logic and tooling you use to suggest targeted efficiency gains.
 
-USER_address_type
+USER_address_type### In addition to the previous suggestions:
+
+*  Break adjustable values out to settings
+*  F strings rather than .format or str concat
+*  Standardize on ' vs "
+*  Use 'with' creation of cursors
+*  Reduce duplicate imports, variables
+*  Use variables when declared
+*  Use functions (DRY)
+*  Try 'Binary Search' implementation rather than linear range
+* 100 iterations --> max 7
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQyMjczOTY1LC0zNDk3NTI0MzAsNTk2MD
-A0NDFdfQ==
+eyJoaXN0b3J5IjpbMTc3NDU1MjA1Niw5NDIyNzM5NjUsLTM0OT
+c1MjQzMCw1OTYwMDQ0MV19
 -->
