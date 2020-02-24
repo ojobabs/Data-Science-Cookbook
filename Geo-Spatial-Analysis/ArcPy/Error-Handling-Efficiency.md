@@ -81,7 +81,7 @@ What is the source of the road network dataset you are using in your service are
 
 Also, please send me your source for review. This will help me look at the specific logic and tooling you use to suggest targeted efficiency gains.
 
-USER_address_type### In addition to the previous suggestions:
+### In addition to the previous suggestions:
 
 *  Break adjustable values out to settings
 *  F strings rather than .format or str concat
@@ -93,6 +93,6 @@ USER_address_type### In addition to the previous suggestions:
 *  Try 'Binary Search' implementation rather than linear range
 * 100 iterations --> max 7
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NDU1MjA1Niw5NDIyNzM5NjUsLTM0OT
-c1MjQzMCw1OTYwMDQ0MV19
+eyJoaXN0b3J5IjpbMTk1MDIxODU1MywxNzc0NTUyMDU2LDk0Mj
+I3Mzk2NSwtMzQ5NzUyNDMwLDU5NjAwNDQxXX0=
 -->
