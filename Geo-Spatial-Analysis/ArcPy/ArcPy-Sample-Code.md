@@ -5,7 +5,7 @@
 
 ### Remove any kind of data from geodatabase
 
-See how we can use the `*` wildcard to remove fea:
+See how we can use the `*` wildcard to remove data:
 ```python
 # Use the ListFeatureClasses function to return a list 
 # of feture classes.
@@ -18,5 +18,5 @@ for fc in featureclasses:
     print(f'Removing data from geodatabse: {fc}')
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMDIxMjQ2M119
+eyJoaXN0b3J5IjpbLTE4NTI4MTIxNjldfQ==
 -->
