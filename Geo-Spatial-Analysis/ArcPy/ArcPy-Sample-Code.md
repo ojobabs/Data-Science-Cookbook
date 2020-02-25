@@ -3,7 +3,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 
-### 
+### Remove any kind of data from geodatabase
 ```python
 # Use the ListFeatureClasses function to return a list 
 # of feture classes.
@@ -16,5 +16,5 @@ for fc in featureclasses:
     print(f'Removing data from geodatabse: {fc}')
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjI3NTQ2NDBdfQ==
+eyJoaXN0b3J5IjpbLTExNDM2NTEwODddfQ==
 -->
