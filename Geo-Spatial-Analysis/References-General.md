@@ -114,9 +114,9 @@ Some information about solving the optimal location problem from a supervised an
 
 ### Using Euclidean, Manhattan and Minkowski distances
 
-[Comparison of distance measures in spatial analytical modeling for health service planning](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2781002/)
+- [Comparison of distance measures in spatial analytical modeling for health service planning](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2781002/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzgyMTMxMDIsLTE0MjMzMjAwMzAsMT
+eyJoaXN0b3J5IjpbLTEzOTY0MDU1MzEsLTE0MjMzMjAwMzAsMT
 Q1OTAxMTA3LC01NjA0NTUxODIsLTkzMjY1ODkzMSwtMTU4MTMw
 ODM3MiwtMTM0ODI3NTI3Nyw5MjkyNjAyMzksMTE5MTYwODM1My
 wtMjcwMzk4NTEwLC04OTczODY5MTcsLTEwOTU3MTcwNDAsMjA5
