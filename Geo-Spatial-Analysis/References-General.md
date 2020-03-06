@@ -111,12 +111,16 @@ Some information about solving the optimal location problem from a supervised an
 ### COLORBREWER  2.0 color advice for cartography
 
 - [COLORBREWER  2.0 color advice for cartography](http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU2NTU2NTcxLC0xNDIzMzIwMDMwLDE0NT
-kwMTEwNywtNTYwNDU1MTgyLC05MzI2NTg5MzEsLTE1ODEzMDgz
-NzIsLTEzNDgyNzUyNzcsOTI5MjYwMjM5LDExOTE2MDgzNTMsLT
-I3MDM5ODUxMCwtODk3Mzg2OTE3LC0xMDk1NzE3MDQwLDIwOTQ5
-ODUxMTYsLTIwODIzMjY4MjAsNDE4NzU4ODQ1LDE0MDI1NDAwMD
-AsLTE1MjI3MTA2NjAsLTE2MTM5ODMzNzQsLTI0MDQzNDQ0NV19
 
+### Using Euclidean, Manhattan and Minkowski distances
+
+[Comparison of distance measures in spatial analytical modeling for health service planning](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2781002/)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE1NzgyMTMxMDIsLTE0MjMzMjAwMzAsMT
+Q1OTAxMTA3LC01NjA0NTUxODIsLTkzMjY1ODkzMSwtMTU4MTMw
+ODM3MiwtMTM0ODI3NTI3Nyw5MjkyNjAyMzksMTE5MTYwODM1My
+wtMjcwMzk4NTEwLC04OTczODY5MTcsLTEwOTU3MTcwNDAsMjA5
+NDk4NTExNiwtMjA4MjMyNjgyMCw0MTg3NTg4NDUsMTQwMjU0MD
+AwMCwtMTUyMjcxMDY2MCwtMTYxMzk4MzM3NCwtMjQwNDM0NDQ1
+XX0=
 -->
