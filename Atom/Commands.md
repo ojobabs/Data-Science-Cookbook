@@ -28,10 +28,8 @@ C:\Users\T93KQI0>atom -n C:\Users\T93KQI0\Documents\Projects\Geospatial-Analysis
 
 This is to change font size, color and other characteristics on the Script Console to run code on Atom. The original font size is too small and white. 
 
-Here there CSS colors you can use:
-
-[https://www.w3schools.com/cssref/css_colors.asp](https://www.w3schools.com/cssref/css_colors.asp)
+Here there CSS colors you can use: [css_colors](https://www.w3schools.com/cssref/css_colors.asp)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTA0NzMwMzksNjM4ODkwNjczLDE0OD
+eyJoaXN0b3J5IjpbLTE4MzA1ODA2NTcsNjM4ODkwNjczLDE0OD
 IxNjQ5NSwtMTE1MTg1ODg3MSw0NzAzODc0NzddfQ==
 -->
