@@ -23,7 +23,9 @@ you need to use the command `atom -n project-folder-location`. For example:
 ```
 C:\Users\T93KQI0>atom -n C:\Users\T93KQI0\Documents\Projects\Geospatial-Analysis
 ```
+
+### [http://www.rebellionrider.com/how-to-customize-script-console-of-atom-editor/](http://www.rebellionrider.com/how-to-customize-script-console-of-atom-editor/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4ODkwNjczLDE0ODIxNjQ5NSwtMTE1MT
-g1ODg3MSw0NzAzODc0NzddfQ==
+eyJoaXN0b3J5IjpbODI0OTQwMzQzLDYzODg5MDY3MywxNDgyMT
+Y0OTUsLTExNTE4NTg4NzEsNDcwMzg3NDc3XX0=
 -->
