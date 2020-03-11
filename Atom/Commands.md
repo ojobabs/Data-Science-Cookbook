@@ -19,11 +19,11 @@ How to open two Atom windows on the same project. In that way, you can execute a
 
 You need to open (Windows) the CMD terminal.
 
-you need to use the command `atom -n project-folder-locaton`. For example:
+you need to use the command `atom -n project-folder-location`. For example:
 ```
 C:\Users\T93KQI0>atom -n C:\Users\T93KQI0\Documents\Projects\Geospatial-Analysis
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0NjQ5MTc0LDE0ODIxNjQ5NSwtMTE1MT
+eyJoaXN0b3J5IjpbNjM4ODkwNjczLDE0ODIxNjQ5NSwtMTE1MT
 g1ODg3MSw0NzAzODc0NzddfQ==
 -->
