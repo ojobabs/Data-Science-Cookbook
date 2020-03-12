@@ -747,18 +747,19 @@ Output:
 ```
 ['D54-KANSAS', 'S27-GR. SAN FRANCISCO', 'V68-QUEENS']
 ```
-###
+### Aggregate by one column and get the average for several columns
 ```python
 # Aggregate by drivingTimeOne per prcClientsInsideOne, numCliInsideOne, and popDenOne
+# and calculate the mean for the three variables
 columns = ['prcClientsInsideOne', 'numCliInsideOne', 'popDenOne']
 lm_exp_agg_raw = expOneTwo.groupby('drivingTimeOne', as_index=False)[columns].mean()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0Njg5MTI5OSwtMjA2NTkxMzk3NiwtOD
-UzMzA2Mjg1LDY0MTk5NTk2LDg2ODY0OTI5NywtMTczMjUxNDQx
-NiwtMTY3Mzc4NTE4MiwtMjM3MDY3NjgwLDI0OTg1MzU1NSwxNj
-Q0MjgyNjg2LDM1MjcyMDUxNSwyNTc5NjkxMTcsMTYzMzYwNzk2
-NiwxMjUwNzU3OTM5LC0yMDYzNDY5MjQ1LC0xMDc2MDU4MzUsLT
-UzMzY2ODA2Miw4NzYzMTY4Miw1NTM3MTI5MTMsLTEyMDA5OTQ5
-NTldfQ==
+eyJoaXN0b3J5IjpbLTE2MTY0ODQ5NzMsLTIwNjU5MTM5NzYsLT
+g1MzMwNjI4NSw2NDE5OTU5Niw4Njg2NDkyOTcsLTE3MzI1MTQ0
+MTYsLTE2NzM3ODUxODIsLTIzNzA2NzY4MCwyNDk4NTM1NTUsMT
+Y0NDI4MjY4NiwzNTI3MjA1MTUsMjU3OTY5MTE3LDE2MzM2MDc5
+NjYsMTI1MDc1NzkzOSwtMjA2MzQ2OTI0NSwtMTA3NjA1ODM1LC
+01MzM2NjgwNjIsODc2MzE2ODIsNTUzNzEyOTEzLC0xMjAwOTk0
+OTU5XX0=
 -->
