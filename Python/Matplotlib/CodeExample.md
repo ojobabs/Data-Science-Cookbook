@@ -126,12 +126,21 @@ Output:
 - [matplotlib](https://matplotlib.org/index.html)
 
 ## Line Plot using a Loop
-
+The followin
 ```python
+for go in gos:
+    expOneTwo_sel = expOneTwo[expOneTwo['go_cd_nm'] == go]
+    plot = expOneTwo_sel.plot(x="drivingTimeOne",
+                             y="prcClientsInsideOne",
+                             grid=True,
+                             title=f'Prc. Clients Inside LM by Driving'
+                                   f'Time (minutes) for GO: {go}',
+                             figsize= (10, 6))
+    plot.figure.savefig('images/lm_exp_' + go + '.png')
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDc3MDQxMzAsMTYzNzc5OTY1OSw0NT
-k5MTcyMzQsLTczMzQ2NDY3Ml19
+eyJoaXN0b3J5IjpbMTE5NDYwMDAyLDE2Mzc3OTk2NTksNDU5OT
+E3MjM0LC03MzM0NjQ2NzJdfQ==
 -->
