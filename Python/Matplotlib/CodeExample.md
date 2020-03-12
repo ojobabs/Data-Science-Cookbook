@@ -126,8 +126,13 @@ Output:
 - [matplotlib](https://matplotlib.org/index.html)
 
 ## Line Plot using a Loop
-The followin
+The following code is using Pandas 
 ```python
+# Import modules
+import numpy as np
+import pandas as pd
+
+# Plot multiple line-plots by using a loop
 for go in gos:
     expOneTwo_sel = expOneTwo[expOneTwo['go_cd_nm'] == go]
     plot = expOneTwo_sel.plot(x="drivingTimeOne",
@@ -138,9 +143,10 @@ for go in gos:
                              figsize= (10, 6))
     plot.figure.savefig('images/lm_exp_' + go + '.png')
 ```
+The output ar
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NDYwMDAyLDE2Mzc3OTk2NTksNDU5OT
-E3MjM0LC03MzM0NjQ2NzJdfQ==
+eyJoaXN0b3J5IjpbLTY2MDIyMzc4MCwxNjM3Nzk5NjU5LDQ1OT
+kxNzIzNCwtNzMzNDY0NjcyXX0=
 -->
