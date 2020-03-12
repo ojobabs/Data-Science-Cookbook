@@ -684,16 +684,26 @@ To drop duplicates you can do one of the following:
 [1, 3, 4, 5, 6, 7, 8, 9]
 ```
 
+### Select rows from a `DataFF
 
+```python
+# Create table for all GOs includd in this experiments
+go_list = ['D54', 'S27', 'V68', 'V79', 'V65', 'V73', 'V46', 'S51', 'V61',
+           'V56', 'A22', 'V42', 'D57', 'D56', 'S19', 'A64', 'S89', 'A29',
+           'S82', 'D07', 'S69', 'S75', 'S68', 'S74', 'D18', 'D21', 'S96',
+           'A41', 'A48', 'A37', 'V69']
+
+table_go = offices[offices['go_cd'].isin(go_list)]
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjU5MTM5NzYsLTg1MzMwNjI4NSw2ND
-E5OTU5Niw4Njg2NDkyOTcsLTE3MzI1MTQ0MTYsLTE2NzM3ODUx
-ODIsLTIzNzA2NzY4MCwyNDk4NTM1NTUsMTY0NDI4MjY4NiwzNT
-I3MjA1MTUsMjU3OTY5MTE3LDE2MzM2MDc5NjYsMTI1MDc1Nzkz
-OSwtMjA2MzQ2OTI0NSwtMTA3NjA1ODM1LC01MzM2NjgwNjIsOD
-c2MzE2ODIsNTUzNzEyOTEzLC0xMjAwOTk0OTU5LC0xMTc1Mzgy
-MzI5XX0=
+eyJoaXN0b3J5IjpbLTU0ODU0MzQwMiwtMjA2NTkxMzk3NiwtOD
+UzMzA2Mjg1LDY0MTk5NTk2LDg2ODY0OTI5NywtMTczMjUxNDQx
+NiwtMTY3Mzc4NTE4MiwtMjM3MDY3NjgwLDI0OTg1MzU1NSwxNj
+Q0MjgyNjg2LDM1MjcyMDUxNSwyNTc5NjkxMTcsMTYzMzYwNzk2
+NiwxMjUwNzU3OTM5LC0yMDYzNDY5MjQ1LC0xMDc2MDU4MzUsLT
+UzMzY2ODA2Miw4NzYzMTY4Miw1NTM3MTI5MTMsLTEyMDA5OTQ5
+NTldfQ==
 -->
