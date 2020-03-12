@@ -121,7 +121,7 @@ Output:
 
 > Note: when you try to save the above image as image by using:
 > `plt.savefig('images/lm_exp_spaghetti.png') # do not work propertly`
-> it seems it is not possible to save the complete image (part of the legent
+> it seems it is not possible to save the complete image (part of the legend is missing) as an image. Therefore, I had to take a snap shoot of the plot and save it as `.png` file.
 
 
 ### References
@@ -155,6 +155,6 @@ The output are multiple plots like this one:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzgxMjY5Myw0MDAyOTIxNDQsMTYzNz
-c5OTY1OSw0NTk5MTcyMzQsLTczMzQ2NDY3Ml19
+eyJoaXN0b3J5IjpbLTE4NTExNDA1ODUsNDAwMjkyMTQ0LDE2Mz
+c3OTk2NTksNDU5OTE3MjM0LC03MzM0NjQ2NzJdfQ==
 -->
