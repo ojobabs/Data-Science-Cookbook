@@ -31,8 +31,8 @@ plt.show()
 ```
 Output:
 
-![enter image description here](../../../imgs/lm_exp_agg_raw.png)
+![enter link description here](https://raw.githubusercontent.com/markeyser/Data-Science-Cookbook/master/imgs/lm_exp_agg_raw.png?_sm_au_=iVVqVkTbq0kFjjHNjfc06K6ttCjRt)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NzExNjA4OCwtNzMzNDY0NjcyXX0=
+eyJoaXN0b3J5IjpbMTI1Njc5NTYzNCwtNzMzNDY0NjcyXX0=
 -->
