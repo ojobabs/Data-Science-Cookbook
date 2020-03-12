@@ -754,19 +754,18 @@ Output:
 columns = ['prcClientsInsideOne', 'numCliInsideOne', 'popDenOne']
 lm_exp_agg_raw = expOneTwo.groupby('drivingTimeOne', as_index=False)[columns].mean()
 ```
-### Calculate 
-
+### Calculate the percentage change between rows for a `DataFrame`
 ```python
 # Include percentage change One
 lm_exp_agg_raw['prcChangeOne'] = lm_exp_agg_raw['numCliInsideOne'].pct_change(periods=1)
 lm_exp_agg_raw.round(4)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgwMzA5MTA1LC0yMDY1OTEzOTc2LC04NT
-MzMDYyODUsNjQxOTk1OTYsODY4NjQ5Mjk3LC0xNzMyNTE0NDE2
-LC0xNjczNzg1MTgyLC0yMzcwNjc2ODAsMjQ5ODUzNTU1LDE2ND
-QyODI2ODYsMzUyNzIwNTE1LDI1Nzk2OTExNywxNjMzNjA3OTY2
-LDEyNTA3NTc5MzksLTIwNjM0NjkyNDUsLTEwNzYwNTgzNSwtNT
-MzNjY4MDYyLDg3NjMxNjgyLDU1MzcxMjkxMywtMTIwMDk5NDk1
-OV19
+eyJoaXN0b3J5IjpbLTIxMjMxNzk3NTgsLTIwNjU5MTM5NzYsLT
+g1MzMwNjI4NSw2NDE5OTU5Niw4Njg2NDkyOTcsLTE3MzI1MTQ0
+MTYsLTE2NzM3ODUxODIsLTIzNzA2NzY4MCwyNDk4NTM1NTUsMT
+Y0NDI4MjY4NiwzNTI3MjA1MTUsMjU3OTY5MTE3LDE2MzM2MDc5
+NjYsMTI1MDc1NzkzOSwtMjA2MzQ2OTI0NSwtMTA3NjA1ODM1LC
+01MzM2NjgwNjIsODc2MzE2ODIsNTUzNzEyOTEzLC0xMjAwOTk0
+OTU5XX0=
 -->
