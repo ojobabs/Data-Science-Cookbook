@@ -32,12 +32,12 @@ Here there CSS colors you can use: [css_colors](https://www.w3schools.com/cssref
 
 ### Atom not showing folders ignored by `.gitignore` in editor
 
+- [https://stackoverflow.com/questions/24079976/how-to-hide-pyc-files-in-atom-editor/24728871#24728871](https://stackoverflow.com/questions/24079976/how-to-hide-pyc-files-in-atom-editor/24728871#24728871)
 - [https://github.com/atom/atom/issues/3429](https://github.com/atom/atom/issues/3429)
-- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MjM2NTM0LC0xODMwNTgwNjU3LDYzOD
-g5MDY3MywxNDgyMTY0OTUsLTExNTE4NTg4NzEsNDcwMzg3NDc3
-XX0=
+eyJoaXN0b3J5IjpbLTM1NTE0NTk4NywxNzQyMzY1MzQsLTE4Mz
+A1ODA2NTcsNjM4ODkwNjczLDE0ODIxNjQ5NSwtMTE1MTg1ODg3
+MSw0NzAzODc0NzddfQ==
 -->
