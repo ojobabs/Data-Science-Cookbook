@@ -26,9 +26,10 @@
 - [Identifying patterns in spatial information: a survey of methods](https://www-users.cs.umn.edu/~shekhar/talk/2011/sdm_wiley2011.pdf)
 
 ### Density-Based Clustering
-- [This is the most clear video: DBSCAN: Part 2](https://www.youtube.com/watch?v=6jl9KkmgDIw)
+
+- [This is the most clear video: DBSCAN:  ](https://www.youtube.com/watch?v=6jl9KkmgDIw)
 - [DBSCAN: Part 1](https://www.youtube.com/watch?v=sKRUfsc8zp4)
-- [How Density-based Clustering works](https://pro.arcgis.com/en/pro-app/tool-reference/spatial-statistics/how-density-based-clustering-works.htm)
+- [How Dpro.arcgis.com/en/pro-app/tool-reference/spatial-statistics/how-density-based C-clustering works](https://ensity-basedlustering-works.htm)
 - [HDBSCAN, Fast Density Based Clustering, the How and the Why - John Healy - Pydata 2019](https://www.youtube.com/watch?v=dGsxd67IFiU)
 - [DBSCAN Clustering in ML | Density based clustering](https://www.geeksforgeeks.org/dbscan-clustering-in-ml-density-based-clustering/)
 - [Density-Based Clustering - Domino Blog]([https://blog.dominodatalab.com/topology-and-density-based-clustering/](https://blog.dominodatalab.com/topology-and-density-based-clustering/))
@@ -63,7 +64,7 @@ Determines whether to calculate the distance using a planar (flat earth) or a ge
 - [Vectorised Haversine formula with a pandas dataframe](https://stackoverflow.com/questions/25767596/vectorised-haversine-formula-with-a-pandas-dataframe)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAxMDM4NjkxLC01NzkzNjk5OTYsLTE4NT
-U4NTQ3MDgsMTg0MjY1NDU5MCwtMTkwMTc2ODE4NSwxNzU5NzY3
-OTAyLC0xMTc1NDQ1OTMyXX0=
+eyJoaXN0b3J5IjpbMTY0NTczODYzMCw2MDEwMzg2OTEsLTU3OT
+M2OTk5NiwtMTg1NTg1NDcwOCwxODQyNjU0NTkwLC0xOTAxNzY4
+MTg1LDE3NTk3Njc5MDIsLTExNzU0NDU5MzJdfQ==
 -->
