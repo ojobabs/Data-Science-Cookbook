@@ -23,7 +23,6 @@ you need to use the command `atom -n project-folder-location`. For example:
 ```
 C:\Users\T93KQI0>atom -n C:\Users\T93KQI0\Documents\Projects\Geospatial-Analysis
 ```
-
 ### [How To Customize Script Console Of Atom Editor](http://www.rebellionrider.com/how-to-customize-script-console-of-atom-editor/)
 
 This is to change font size, color and other characteristics on the Script Console to run code on Atom. The original font size is too small and white. 
@@ -37,7 +36,7 @@ Here there CSS colors you can use: [css_colors](https://www.w3schools.com/cssref
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NTE0NTk4NywxNzQyMzY1MzQsLTE4Mz
+eyJoaXN0b3J5IjpbMTk1Nzc2NzMxMSwxNzQyMzY1MzQsLTE4Mz
 A1ODA2NTcsNjM4ODkwNjczLDE0ODIxNjQ5NSwtMTE1MTg1ODg3
 MSw0NzAzODc0NzddfQ==
 -->
