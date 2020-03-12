@@ -31,8 +31,8 @@ plt.show()
 ```
 Output:
 
-
+![enter image description here](../../../imgs/lm_exp_agg_raw.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjAzNTIyNiwtNzMzNDY0NjcyXX0=
+eyJoaXN0b3J5IjpbLTg2NzExNjA4OCwtNzMzNDY0NjcyXX0=
 -->
