@@ -29,8 +29,10 @@ plt.legend(['Experiment One', 'Experiment Two'], loc=4)
 plt.savefig('images/lm_exp_agg_raw.png')
 plt.show()
 ```
-Output
+Output:
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjMyNTk4NDgsLTczMzQ2NDY3Ml19
+eyJoaXN0b3J5IjpbMTA4MjAzNTIyNiwtNzMzNDY0NjcyXX0=
 -->
