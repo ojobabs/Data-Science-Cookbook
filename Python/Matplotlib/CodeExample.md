@@ -34,14 +34,14 @@ Output:
 ![enter link description here](https://raw.githubusercontent.com/markeyser/Data-Science-Cookbook/master/imgs/lm_exp_agg_raw.png?_sm_au_=iVVqVkTbq0kFjjHNjfc06K6ttCjRt)
 ## References
 
-
-- https://tonysyu.github.io/raw_content/matplotlib-style-gallery/gallery.html
--  https://matplotlib.org/tutorials/introductory/customizing.html
-
-
 - [Line plot or Line chart in Python with Legends](http://www.datasciencemadesimple.com/line-plot-line-chart-in-python-legends/)
+- [Matplotlib Style Gallery](https://tonysyu.github.io/raw_content/matplotlib-style-gallery/gallery.html)
+-  [](https://matplotlib.org/tutorials/introductory/customizing.html)
+- # Customizing Matplotlib with style sheets and rcParams
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTI1NDgwNjYsNDU5OTE3MjM0LC03Mz
+eyJoaXN0b3J5IjpbLTExODg3NzY2MTIsNDU5OTE3MjM0LC03Mz
 M0NjQ2NzJdfQ==
 -->
