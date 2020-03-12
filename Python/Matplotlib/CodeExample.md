@@ -125,8 +125,13 @@ Output:
 -  [Customizing Matplotlib with style sheets and rcParams](https://matplotlib.org/tutorials/introductory/customizing.html)
 - [matplotlib](https://matplotlib.org/index.html)
 
-##
+## Line Plot using a Loop
+
+```python
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0ODgwMzc1NCwxNjM3Nzk5NjU5LDQ1OT
-kxNzIzNCwtNzMzNDY0NjcyXX0=
+eyJoaXN0b3J5IjpbLTE2NDc3MDQxMzAsMTYzNzc5OTY1OSw0NT
+k5MTcyMzQsLTczMzQ2NDY3Ml19
 -->
