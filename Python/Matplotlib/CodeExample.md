@@ -145,10 +145,10 @@ for go in gos:
 ```
 The output are multiple plots like this one:
 
-
+![enter image description here](https://raw.githubusercontent.com/markeyser/Data-Science-Cookbook/master/imgs/lm_exp_V61-NASSAU.png?_sm_au_=iVVqVkTbq0kFjjHNjfc06K6ttCjRt)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNjIzODUyNCwxNjM3Nzk5NjU5LDQ1OT
-kxNzIzNCwtNzMzNDY0NjcyXX0=
+eyJoaXN0b3J5IjpbNDAwMjkyMTQ0LDE2Mzc3OTk2NTksNDU5OT
+E3MjM0LC03MzM0NjQ2NzJdfQ==
 -->
