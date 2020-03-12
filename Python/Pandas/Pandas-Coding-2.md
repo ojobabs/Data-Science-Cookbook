@@ -706,11 +706,17 @@ References:
 # Let's add a new variable go_cd_nm we need in this context
 offices['go_cd_nm'] = offices['go_cd'] + "-" + offices['GO_NM']
 ```
+### Read a `.csv` file
+```python
+exp1 = pd.read_csv('data_output/lm_06_network.csv')
+```
+### List all column names in a `DataFrame`
+`
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNzk0NDgyMywtMjA2NTkxMzk3NiwtOD
+eyJoaXN0b3J5IjpbLTY0NDQ1ODQ5NywtMjA2NTkxMzk3NiwtOD
 UzMzA2Mjg1LDY0MTk5NTk2LDg2ODY0OTI5NywtMTczMjUxNDQx
 NiwtMTY3Mzc4NTE4MiwtMjM3MDY3NjgwLDI0OTg1MzU1NSwxNj
 Q0MjgyNjg2LDM1MjcyMDUxNSwyNTc5NjkxMTcsMTYzMzYwNzk2
