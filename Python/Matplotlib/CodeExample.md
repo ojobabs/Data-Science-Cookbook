@@ -37,11 +37,11 @@ Output:
 - [Line plot or Line chart in Python with Legends](http://www.datasciencemadesimple.com/line-plot-line-chart-in-python-legends/)
 - [Matplotlib Style Gallery](https://tonysyu.github.io/raw_content/matplotlib-style-gallery/gallery.html)
 -  [Customizing Matplotlib with style sheets and rcParams](https://matplotlib.org/tutorials/introductory/customizing.html)
-
+- [matplotlib](https://matplotlib.org/index.html)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNzYxMzIyLDQ1OTkxNzIzNCwtNzMzND
-Y0NjcyXX0=
+eyJoaXN0b3J5IjpbLTEwNTQzNTc3NDksNDU5OTE3MjM0LC03Mz
+M0NjQ2NzJdfQ==
 -->
