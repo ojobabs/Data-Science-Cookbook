@@ -684,8 +684,8 @@ To drop duplicates you can do one of the following:
 [1, 3, 4, 5, 6, 7, 8, 9]
 ```
 
-### Select rows from a `DataFF
-
+### Use a list of values to select rows from a pandas `DataFrame`
+There are two ways to do this. So
 ```python
 # Create table for all GOs includd in this experiments
 go_list = ['D54', 'S27', 'V68', 'V79', 'V65', 'V73', 'V46', 'S51', 'V61',
@@ -699,11 +699,11 @@ table_go = offices[offices['go_cd'].isin(go_list)]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0ODU0MzQwMiwtMjA2NTkxMzk3NiwtOD
-UzMzA2Mjg1LDY0MTk5NTk2LDg2ODY0OTI5NywtMTczMjUxNDQx
-NiwtMTY3Mzc4NTE4MiwtMjM3MDY3NjgwLDI0OTg1MzU1NSwxNj
-Q0MjgyNjg2LDM1MjcyMDUxNSwyNTc5NjkxMTcsMTYzMzYwNzk2
-NiwxMjUwNzU3OTM5LC0yMDYzNDY5MjQ1LC0xMDc2MDU4MzUsLT
-UzMzY2ODA2Miw4NzYzMTY4Miw1NTM3MTI5MTMsLTEyMDA5OTQ5
-NTldfQ==
+eyJoaXN0b3J5IjpbMjc4NDc4MTAwLC0yMDY1OTEzOTc2LC04NT
+MzMDYyODUsNjQxOTk1OTYsODY4NjQ5Mjk3LC0xNzMyNTE0NDE2
+LC0xNjczNzg1MTgyLC0yMzcwNjc2ODAsMjQ5ODUzNTU1LDE2ND
+QyODI2ODYsMzUyNzIwNTE1LDI1Nzk2OTExNywxNjMzNjA3OTY2
+LDEyNTA3NTc5MzksLTIwNjM0NjkyNDUsLTEwNzYwNTgzNSwtNT
+MzNjY4MDYyLDg3NjMxNjgyLDU1MzcxMjkxMywtMTIwMDk5NDk1
+OV19
 -->
