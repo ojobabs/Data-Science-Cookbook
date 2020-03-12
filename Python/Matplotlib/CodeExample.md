@@ -40,8 +40,16 @@ Output:
 - [matplotlib](https://matplotlib.org/index.html)
 
 ## Spaghetti Line Plot
-
+Code:
 ```python
+# Import modules
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib as mpl
+plt.style.use('seaborn-deep')
+
+# Prc. Clients Inside Local Market by Driving Time All GOs
 plt.figure(figsize=(10,7))
 prc_cli1 = expOneTwo[expOneTwo['go'] == 'D54']['prcClientsInsideOne']
 prc_cli2 = expOneTwo[expOneTwo['go'] == 'S27']['prcClientsInsideOne']
@@ -107,8 +115,11 @@ plt.legend(['D54-KANSAS', 'S27-GR. SAN FRANCISCO', 'V68-QUEENS',
 #plt.savefig('images/lm_exp_spaghetti.png') # do not work propertly
 plt.show()
 ```
+Output:
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczOTcwNTcyNSw0NTk5MTcyMzQsLTczMz
+eyJoaXN0b3J5IjpbMTYzNzc5OTY1OSw0NTk5MTcyMzQsLTczMz
 Q2NDY3Ml19
 -->
