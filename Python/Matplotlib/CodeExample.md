@@ -118,6 +118,8 @@ plt.show()
 Output:
 
 ![enter image description here](https://raw.githubusercontent.com/markeyser/Data-Science-Cookbook/master/imgs/lm_exp_spaghetti.png?_sm_au_=iVVqVkTbq0kFjjHNjfc06K6ttCjRt)
+
+> Note: w
 ### References
 
 - [Line plot or Line chart in Python with Legends](http://www.datasciencemadesimple.com/line-plot-line-chart-in-python-legends/)
@@ -149,6 +151,6 @@ The output are multiple plots like this one:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAwMjkyMTQ0LDE2Mzc3OTk2NTksNDU5OT
-E3MjM0LC03MzM0NjQ2NzJdfQ==
+eyJoaXN0b3J5IjpbNTAzNTkyOTQzLDQwMDI5MjE0NCwxNjM3Nz
+k5NjU5LDQ1OTkxNzIzNCwtNzMzNDY0NjcyXX0=
 -->
