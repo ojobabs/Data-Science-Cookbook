@@ -143,10 +143,12 @@ for go in gos:
                              figsize= (10, 6))
     plot.figure.savefig('images/lm_exp_' + go + '.png')
 ```
-The output ar
+The output are multiple plots like this one:
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MDIyMzc4MCwxNjM3Nzk5NjU5LDQ1OT
+eyJoaXN0b3J5IjpbMTUyNjIzODUyNCwxNjM3Nzk5NjU5LDQ1OT
 kxNzIzNCwtNzMzNDY0NjcyXX0=
 -->
