@@ -32,7 +32,7 @@ plt.show()
 Output:
 
 ![enter link description here](https://raw.githubusercontent.com/markeyser/Data-Science-Cookbook/master/imgs/lm_exp_agg_raw.png?_sm_au_=iVVqVkTbq0kFjjHNjfc06K6ttCjRt)
-## References
+### References
 
 - [Line plot or Line chart in Python with Legends](http://www.datasciencemadesimple.com/line-plot-line-chart-in-python-legends/)
 - [Matplotlib Style Gallery](https://tonysyu.github.io/raw_content/matplotlib-style-gallery/gallery.html)
@@ -117,9 +117,16 @@ plt.show()
 ```
 Output:
 
+![enter image description here](https://raw.githubusercontent.com/markeyser/Data-Science-Cookbook/master/imgs/lm_exp_spaghetti.png?_sm_au_=iVVqVkTbq0kFjjHNjfc06K6ttCjRt)
+### References
 
+- [Line plot or Line chart in Python with Legends](http://www.datasciencemadesimple.com/line-plot-line-chart-in-python-legends/)
+- [Matplotlib Style Gallery](https://tonysyu.github.io/raw_content/matplotlib-style-gallery/gallery.html)
+-  [Customizing Matplotlib with style sheets and rcParams](https://matplotlib.org/tutorials/introductory/customizing.html)
+- [matplotlib](https://matplotlib.org/index.html)
 
+##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNzc5OTY1OSw0NTk5MTcyMzQsLTczMz
-Q2NDY3Ml19
+eyJoaXN0b3J5IjpbMTI0ODgwMzc1NCwxNjM3Nzk5NjU5LDQ1OT
+kxNzIzNCwtNzMzNDY0NjcyXX0=
 -->
