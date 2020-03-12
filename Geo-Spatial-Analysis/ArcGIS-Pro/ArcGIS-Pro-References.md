@@ -31,7 +31,7 @@
 - [HDBSCAN, Fast Density Based Clustering, the How and the Why - John Healy - Pydata 2019](https://www.youtube.com/watch?v=dGsxd67IFiU)
 - [DBSCAN Clustering in ML | Density based clustering](https://www.geeksforgeeks.org/dbscan-clustering-in-ml-density-based-clustering/)
 - [Density-Based Clustering - Domino Blog]([https://blog.dominodatalab.com/topology-and-density-based-clustering/](https://blog.dominodatalab.com/topology-and-density-based-clustering/))
-- [Brian Kent: Density Based Clustering in Python]([https://www.youtube.com/watch?v=5cOhL4B5waU](https://www.youtube.com/watch?v=5cOhL4B5waU))
+- [Brian Kent: Density Based Clustering in Python](https://www.youtube.com/watch?v=5cOhL4B5waU)
 
 ### [Does Y mean latitude and X mean longitude in every GIS software?](https://gis.stackexchange.com/questions/11626/does-y-mean-latitude-and-x-mean-longitude-in-every-gis-software)
 
@@ -62,7 +62,7 @@ Determines whether to calculate the distance using a planar (flat earth) or a ge
 - [Vectorised Haversine formula with a pandas dataframe](https://stackoverflow.com/questions/25767596/vectorised-haversine-formula-with-a-pandas-dataframe)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODA5MjMwODgsLTE4NTU4NTQ3MDgsMT
-g0MjY1NDU5MCwtMTkwMTc2ODE4NSwxNzU5NzY3OTAyLC0xMTc1
-NDQ1OTMyXX0=
+eyJoaXN0b3J5IjpbLTU3OTM2OTk5NiwtMTg1NTg1NDcwOCwxOD
+QyNjU0NTkwLC0xOTAxNzY4MTg1LDE3NTk3Njc5MDIsLTExNzU0
+NDU5MzJdfQ==
 -->
