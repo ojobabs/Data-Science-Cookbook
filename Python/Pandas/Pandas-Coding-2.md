@@ -747,13 +747,18 @@ Output:
 ```
 ['D54-KANSAS', 'S27-GR. SAN FRANCISCO', 'V68-QUEENS']
 ```
-
+###
+```python
+# Aggregate by drivingTimeOne per prcClientsInsideOne, numCliInsideOne, and popDenOne
+columns = ['prcClientsInsideOne', 'numCliInsideOne', 'popDenOne']
+lm_exp_agg_raw = expOneTwo.groupby('drivingTimeOne', as_index=False)[columns].mean()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMxMjk4OTk2LC0yMDY1OTEzOTc2LC04NT
-MzMDYyODUsNjQxOTk1OTYsODY4NjQ5Mjk3LC0xNzMyNTE0NDE2
-LC0xNjczNzg1MTgyLC0yMzcwNjc2ODAsMjQ5ODUzNTU1LDE2ND
-QyODI2ODYsMzUyNzIwNTE1LDI1Nzk2OTExNywxNjMzNjA3OTY2
-LDEyNTA3NTc5MzksLTIwNjM0NjkyNDUsLTEwNzYwNTgzNSwtNT
-MzNjY4MDYyLDg3NjMxNjgyLDU1MzcxMjkxMywtMTIwMDk5NDk1
-OV19
+eyJoaXN0b3J5IjpbLTg0Njg5MTI5OSwtMjA2NTkxMzk3NiwtOD
+UzMzA2Mjg1LDY0MTk5NTk2LDg2ODY0OTI5NywtMTczMjUxNDQx
+NiwtMTY3Mzc4NTE4MiwtMjM3MDY3NjgwLDI0OTg1MzU1NSwxNj
+Q0MjgyNjg2LDM1MjcyMDUxNSwyNTc5NjkxMTcsMTYzMzYwNzk2
+NiwxMjUwNzU3OTM5LC0yMDYzNDY5MjQ1LC0xMDc2MDU4MzUsLT
+UzMzY2ODA2Miw4NzYzMTY4Miw1NTM3MTI5MTMsLTEyMDA5OTQ5
+NTldfQ==
 -->
