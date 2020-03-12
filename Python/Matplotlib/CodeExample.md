@@ -32,7 +32,15 @@ plt.show()
 Output:
 
 ![enter link description here](https://raw.githubusercontent.com/markeyser/Data-Science-Cookbook/master/imgs/lm_exp_agg_raw.png?_sm_au_=iVVqVkTbq0kFjjHNjfc06K6ttCjRt)
+## References
+
+- http://www.datasciencemadesimple.com/line-plot-line-chart-in-python-legends/
+- https://tonysyu.github.io/raw_content/matplotlib-style-gallery/gallery.html
+-  https://matplotlib.org/tutorials/introductory/customizing.html
+
+
+- [http://www.datasciencemadesimple.com/line-plot-line-chart-in-python-legends/](http://www.datasciencemadesimple.com/line-plot-line-chart-in-python-legends/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1Njc5NTYzNCwtNzMzNDY0NjcyXX0=
+eyJoaXN0b3J5IjpbNDU5OTE3MjM0LC03MzM0NjQ2NzJdfQ==
 -->
