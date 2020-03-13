@@ -30,11 +30,15 @@
 - [ ] [markdown-preview-plus](https://atom.io/packages/markdown-preview-plus) (to render maths in markdown).
 
 ### Diff tools, and the git-time-machine atom package
-Packages to compare two files to see differences. You can compar
+Packages to compare two files to see differences. You can compare two different files or the same file against a checkout git past change on the same file:
+
+- `Split-Diff`: compares two different files and also one using git.
+- `git tim` 
+
 - [Diff tools, and the git-time-machine atom package](https://folk.uio.no/jeanra/Informatics/DiffAndGitTimeMachine.html)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDYyMTY2MDksMTg4NDk1MTg1NCwtMz
-Q0NDQ0Mjg2LC0xNjgyNTc3NTEwLDIxNDU3NTM4NTddfQ==
+eyJoaXN0b3J5IjpbMTIyMzc2MTQ2NCwxODg0OTUxODU0LC0zND
+Q0NDQyODYsLTE2ODI1Nzc1MTAsMjE0NTc1Mzg1N119
 -->
