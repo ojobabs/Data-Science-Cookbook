@@ -29,9 +29,12 @@
 - [x] [remote-sync](https://atom.io/packages/remote-sync)
 - [ ] [markdown-preview-plus](https://atom.io/packages/markdown-preview-plus) (to render maths in markdown).
 
+### Diff tools, and the git-time-machine atom package
+Packages to compare two files to see differences. You can compar
+- [Diff tools, and the git-time-machine atom package](https://folk.uio.no/jeanra/Informatics/DiffAndGitTimeMachine.html)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NDk1MTg1NCwtMzQ0NDQ0Mjg2LC0xNj
-gyNTc3NTEwLDIxNDU3NTM4NTddfQ==
+eyJoaXN0b3J5IjpbLTIwNDYyMTY2MDksMTg4NDk1MTg1NCwtMz
+Q0NDQ0Mjg2LC0xNjgyNTc3NTEwLDIxNDU3NTM4NTddfQ==
 -->
