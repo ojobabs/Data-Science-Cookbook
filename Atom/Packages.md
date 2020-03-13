@@ -33,12 +33,12 @@
 Packages to compare two files to see differences. You can compare two different files or the same file against a checkout git past change on the same file:
 
 - `Split-Diff`: compares two different files and also one using git.
-- `git tim` 
+- `git-time-machine`: it is only for git but it is cool 
 
 - [Diff tools, and the git-time-machine atom package](https://folk.uio.no/jeanra/Informatics/DiffAndGitTimeMachine.html)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMzc2MTQ2NCwxODg0OTUxODU0LC0zND
+eyJoaXN0b3J5IjpbLTgzMDk0NjUyOSwxODg0OTUxODU0LC0zND
 Q0NDQyODYsLTE2ODI1Nzc1MTAsMjE0NTc1Mzg1N119
 -->
