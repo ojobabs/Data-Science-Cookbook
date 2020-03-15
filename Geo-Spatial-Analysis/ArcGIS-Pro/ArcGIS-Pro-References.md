@@ -65,9 +65,29 @@ Determines whether to calculate the distance using a planar (flat earth) or a ge
 
 ### How to select the symbology you want to show?
 
+If you use Pyht
 
+Query for map symbology
+
+```python
+def FindLabel ([USER_GO_CD_1], [USER_go_ou_nm]):
+    if [USER_GO_CD_1] == "V65":
+        return [USER_go_ou_nm]
+```
+or
+
+```python
+def FindLabel ([USER_GO_CD_1], [USER_go_ou_nm]):
+    if [USER_GO_CD_1] == "D54":
+        return [USER_go_ou_nm]
+    elif [USER_GO_CD_1] == "D56":
+        return [USER_go_ou_nm]
+    elif [USER_GO_CD_1] == "D57":
+        return [USER_go_ou_nm]
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDM2OTc0MzgsNjAxMDM4NjkxLC01Nz
-kzNjk5OTYsLTE4NTU4NTQ3MDgsMTg0MjY1NDU5MCwtMTkwMTc2
-ODE4NSwxNzU5NzY3OTAyLC0xMTc1NDQ1OTMyXX0=
+eyJoaXN0b3J5IjpbLTc5MDkwMzYwOCwtMjAwMzY5NzQzOCw2MD
+EwMzg2OTEsLTU3OTM2OTk5NiwtMTg1NTg1NDcwOCwxODQyNjU0
+NTkwLC0xOTAxNzY4MTg1LDE3NTk3Njc5MDIsLTExNzU0NDU5Mz
+JdfQ==
 -->
