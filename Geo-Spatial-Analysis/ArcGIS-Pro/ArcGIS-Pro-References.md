@@ -63,8 +63,11 @@ Determines whether to calculate the distance using a planar (flat earth) or a ge
 - [Pandas: calculate haversine distance within each group of rows](https://stackoverflow.com/questions/43577086/pandas-calculate-haversine-distance-within-each-group-of-rows)
 - [Vectorised Haversine formula with a pandas dataframe](https://stackoverflow.com/questions/25767596/vectorised-haversine-formula-with-a-pandas-dataframe)
 
+### How to select the symbology you want to show?
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NTczODYzMCw2MDEwMzg2OTEsLTU3OT
-M2OTk5NiwtMTg1NTg1NDcwOCwxODQyNjU0NTkwLC0xOTAxNzY4
-MTg1LDE3NTk3Njc5MDIsLTExNzU0NDU5MzJdfQ==
+eyJoaXN0b3J5IjpbLTIwMDM2OTc0MzgsNjAxMDM4NjkxLC01Nz
+kzNjk5OTYsLTE4NTU4NTQ3MDgsMTg0MjY1NDU5MCwtMTkwMTc2
+ODE4NSwxNzU5NzY3OTAyLC0xMTc1NDQ1OTMyXX0=
 -->
