@@ -65,16 +65,15 @@ Determines whether to calculate the distance using a planar (flat earth) or a ge
 
 ### How to select the symbology you want to show?
 
-If you use Pyht
+If you use Python language you can use the following code to show up only the labels corresponding to the selected GOs:
 
-Query for map symbology
-
+If you want to show the label corresponding the GO = V65 then you can use this code:
 ```python
 def FindLabel ([USER_GO_CD_1], [USER_go_ou_nm]):
     if [USER_GO_CD_1] == "V65":
         return [USER_go_ou_nm]
 ```
-or
+If you can to show the label corresponding to the follo
 
 ```python
 def FindLabel ([USER_GO_CD_1], [USER_go_ou_nm]):
@@ -86,8 +85,8 @@ def FindLabel ([USER_GO_CD_1], [USER_go_ou_nm]):
         return [USER_go_ou_nm]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MDkwMzYwOCwtMjAwMzY5NzQzOCw2MD
-EwMzg2OTEsLTU3OTM2OTk5NiwtMTg1NTg1NDcwOCwxODQyNjU0
-NTkwLC0xOTAxNzY4MTg1LDE3NTk3Njc5MDIsLTExNzU0NDU5Mz
-JdfQ==
+eyJoaXN0b3J5IjpbLTIxMzMxMjcwNDAsLTIwMDM2OTc0MzgsNj
+AxMDM4NjkxLC01NzkzNjk5OTYsLTE4NTU4NTQ3MDgsMTg0MjY1
+NDU5MCwtMTkwMTc2ODE4NSwxNzU5NzY3OTAyLC0xMTc1NDQ1OT
+MyXX0=
 -->
