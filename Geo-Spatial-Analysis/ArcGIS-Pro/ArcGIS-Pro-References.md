@@ -73,8 +73,7 @@ def FindLabel ([USER_GO_CD_1], [USER_go_ou_nm]):
     if [USER_GO_CD_1] == "V65":
         return [USER_go_ou_nm]
 ```
-If you can to show the label corresponding to the follo
-
+If you can to show the label corresponding to the following three GOs you can use the following code:
 ```python
 def FindLabel ([USER_GO_CD_1], [USER_go_ou_nm]):
     if [USER_GO_CD_1] == "D54":
@@ -85,8 +84,8 @@ def FindLabel ([USER_GO_CD_1], [USER_go_ou_nm]):
         return [USER_go_ou_nm]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzMxMjcwNDAsLTIwMDM2OTc0MzgsNj
-AxMDM4NjkxLC01NzkzNjk5OTYsLTE4NTU4NTQ3MDgsMTg0MjY1
-NDU5MCwtMTkwMTc2ODE4NSwxNzU5NzY3OTAyLC0xMTc1NDQ1OT
-MyXX0=
+eyJoaXN0b3J5IjpbLTk0ODczNDMyOSwtMjAwMzY5NzQzOCw2MD
+EwMzg2OTEsLTU3OTM2OTk5NiwtMTg1NTg1NDcwOCwxODQyNjU0
+NTkwLC0xOTAxNzY4MTg1LDE3NTk3Njc5MDIsLTExNzU0NDU5Mz
+JdfQ==
 -->
