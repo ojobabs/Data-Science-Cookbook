@@ -28,8 +28,8 @@
 ### Density-Based Clustering
 
 - [This is the most clear video: DBSCAN:  ](https://www.youtube.com/watch?v=6jl9KkmgDIw)
-- [DBSCAN: Part 1](https://www.youtube.com/watch?v=sKRUfsc8zp4)
-- [How Dpro.arcgis.com/en/pro-app/tool-reference/spatial-statistics/how-density-based C-clustering works](https://ensity-basedlustering-works.htm)
+- [DBSCAN:  ](https://www.youtube.com/watch?v=sKRUfsc8zp4)
+- [How Dpro.arcgis.com/en/pro-app/tool-reference/spatial-statistics/how-density-basedlustering-works.htm)
 - [HDBSCAN, Fast Density Based Clustering, the How and the Why - John Healy - Pydata 2019](https://www.youtube.com/watch?v=dGsxd67IFiU)
 - [DBSCAN Clustering in ML | Density based clustering](https://www.geeksforgeeks.org/dbscan-clustering-in-ml-density-based-clustering/)
 - [Density-Based Clustering - Domino Blog]([https://blog.dominodatalab.com/topology-and-density-based-clustering/](https://blog.dominodatalab.com/topology-and-density-based-clustering/))
@@ -84,8 +84,8 @@ def FindLabel ([USER_GO_CD_1], [USER_go_ou_nm]):
         return [USER_go_ou_nm]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0ODczNDMyOSwtMjAwMzY5NzQzOCw2MD
-EwMzg2OTEsLTU3OTM2OTk5NiwtMTg1NTg1NDcwOCwxODQyNjU0
-NTkwLC0xOTAxNzY4MTg1LDE3NTk3Njc5MDIsLTExNzU0NDU5Mz
-JdfQ==
+eyJoaXN0b3J5IjpbLTQzMjg1MzU3LC05NDg3MzQzMjksLTIwMD
+M2OTc0MzgsNjAxMDM4NjkxLC01NzkzNjk5OTYsLTE4NTU4NTQ3
+MDgsMTg0MjY1NDU5MCwtMTkwMTc2ODE4NSwxNzU5NzY3OTAyLC
+0xMTc1NDQ1OTMyXX0=
 -->
