@@ -70,8 +70,10 @@ Then click on  Replace all
 This will replace each field by the same with single quotes arround it.
 
 ### [How to delete all lines in a document which has a specific text](https://notepad-plus-plus.org/community/topic/12814/how-to-delete-all-lines-in-a-document-which-has-a-specific-text)
+
+### [How to change decimal precision using Notepad++](https://www.itsupportguides.com/knowledge-base/notepad-plus-plus/how-to-change-decimal-precision-using-notepad/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDk5ODU2LDE0NjU1NDY5NjcsLTU3Nz
-kwNzQxNywxMzQ1NzMwOTkzLC00MzcxNjQ2NjMsLTEzMjY3OTY0
-NzUsNTE1NzE0NzRdfQ==
+eyJoaXN0b3J5IjpbLTE5MTI5MjkxODcsLTE5NDk5ODU2LDE0Nj
+U1NDY5NjcsLTU3NzkwNzQxNywxMzQ1NzMwOTkzLC00MzcxNjQ2
+NjMsLTEzMjY3OTY0NzUsNTE1NzE0NzRdfQ==
 -->
