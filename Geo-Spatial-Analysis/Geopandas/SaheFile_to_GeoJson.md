@@ -47,12 +47,50 @@ for sr in reader.shapeRecords():
     buffer.append(dict(type="Feature", geometry=geom, properties=atr)) 
 ```
 Write the GeoJson file:
+
 ```python
 # write the GeoJSON file
 geojson = open("cb_2018_us_state_5m.geojson", "w")
 geojson.write(dumps({"type": "FeatureCollection", "features": buffer}, indent=2) + "\n")
 geojson.close()
 ```
+Let's see the data
+
+```python
+states = gpd.read_file('cb_2018_us_state_5m.geojson')
+print(states.head())
+````
+Output
+```
+  STATEFP   STATENS     AFFGEOID GEOID STUSPS          NAME LSAD  \
+0      31  01779792  0400000US31    31     NE      Nebraska   00   
+1      53  01779804  0400000US53    53     WA    Washington   00   
+2      35  00897535  0400000US35    35     NM    New Mexico   00   
+3      46  01785534  0400000US46    46     SD  South Dakota   00   
+4      48  01779801  0400000US48    48     TX         Texas   00   
+
+          ALAND       AWATER  \
+0  198956658395   1371829134   
+1  172112588220  12559278850   
+2  314196306401    728776523   
+3  196346981786   3382720225   
+4  676653171537  19006305260   
+
+                                            geometry  
+0  POLYGON ((-104.05351 41.15726, -104.05267 41.2...  
+1  MULTIPOLYGON (((-122.32834 48.02134, -122.3217...  
+2  POLYGON ((-109.05017 31.48000, -109.04984 31.4...  
+3  POLYGON ((-104.05770 44.99743, -104.05021 44.9...  
+4  POLYGON ((-106.64548 31.89867, -106.64084 31.9...
+```
+The `descartes` package is required for plotting polygons in geopandas. 
+```python
+ax = states.plot(color='blue')
+```
+Output
+```
+the output is a map of the US with all the states
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzYyMjk0ODJdfQ==
+eyJoaXN0b3J5IjpbMTc1NDY2ODIwMV19
 -->
