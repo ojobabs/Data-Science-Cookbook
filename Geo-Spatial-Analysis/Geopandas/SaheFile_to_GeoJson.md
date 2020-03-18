@@ -91,6 +91,16 @@ Output
 ```
 the output is a map of the US with all the states
 ```
+
+We can use [geojson.io](http://geojson.io/#map=3/53.64/-115.49) to plot your GeoJson file too. 
+
+The following code does not work due to the company's firewall:
+
+```python
+# import geojsonio
+# geojsonio.display(states)
+```
+But, if you but the content of the geojson file on the webpage, you get the map of all U.S. states too.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NDY2ODIwMV19
+eyJoaXN0b3J5IjpbLTE2NDk2Nzc2MTNdfQ==
 -->
