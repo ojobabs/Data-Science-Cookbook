@@ -33,7 +33,26 @@ from shapely.geometry import Point
 import descartes
 %matplotlib inline
 ```
+Read ShapeFile:
 
+```python
+# read the shapefile
+reader = shapefile.Reader("cb_2018_us_state_5m.shp")
+fields = reader.fields[1:]
+field_names = [field[0] for field in fields]
+buffer = []
+for sr in reader.shapeRecords():
+    atr = dict(zip(field_names, sr.record))
+    geom = sr.shape.__geo_interface__
+    buffer.append(dict(type="Feature", geometry=geom, properties=atr)) 
+```
+Write the GeoJson file:
+```python
+# write the GeoJSON file
+geojson = open("cb_2018_us_state_5m.geojson", "w")
+geojson.write(dumps({"type": "FeatureCollection", "features": buffer}, indent=2) + "\n")
+geojson.close()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc4NjQzNzIyXX0=
+eyJoaXN0b3J5IjpbLTE3NzYyMjk0ODJdfQ==
 -->
