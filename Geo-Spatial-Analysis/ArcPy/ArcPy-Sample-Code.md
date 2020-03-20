@@ -24,8 +24,8 @@ for fc in featureclasses:
 The following algorithm is do the following:
 
 1. It uses the `Intersect()` function from `arcpy` to get all client locations (points) inside the local market (polygon).
-2. It uses `SearchCorsor()`  function from `arcpy` to take a list of unique [marketer_id, address_type] pair values. We have two locations per agent, the business (location) and the residential location. Therefore, we need to create a list of unique pairs. This is the interesting part of this code. The code on the below reference web page uses one field instead of two. 
-3. It uses `SearchCorsor()`  function from `arcpy` to for every unique [marketer_id, address_type] pair, make a list of unique  # distances values and get the maximum value    
+2. It uses `SearchCorsor()`  function from `arcpy` to take a list of unique `[marketer_id, address_type]` pair values. We have two locations per agent, the business (location) and the residential location. Therefore, we need to create a list of unique pairs. This is the interesting part of this code. The code on the below reference web page uses one field instead of two. 
+3. It uses `SearchCorsor()`  function from `arcpy` for every unique `[marketer_id, address_type]` pair, make a list of unique  distances values and get the maximum value.       
 
 ```python
 # Import modules
@@ -111,6 +111,5 @@ print(statistics.stdev(AllDist)*0.621371)  # in miles
 Reference:
 - [Selecting maximum Value based on other field using ArcMap?](https://gis.stackexchange.com/questions/110392/selecting-maximum-value-based-on-other-field-using-arcmap)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTE0MDI3NDQsLTE4NTI4MTIxNjldfQ
-==
+eyJoaXN0b3J5IjpbNzA5NTM1NjUwLC0xODUyODEyMTY5XX0=
 -->
