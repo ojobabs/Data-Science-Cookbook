@@ -39,7 +39,7 @@ import logging
 import csv
 import statistics
 ```
-Setting variables, current work space path, overwrite    
+Setting variables, current work space path, overwrite feature layers in geodatabase, file location, ArcGIS Pro project location:  
 ```python
 # Variables
 go = 'S19'
@@ -52,13 +52,16 @@ arcpy.env.workspace = "C:\\Users\\T93KQI0\\Documents\\ArcGIS\\Projects\\" \
 # Getting the current workspace path
 mydir = arcpy.env.workspace
 logging.info(f'Current workspace path: {mydir}.')
-# Overwrite feature layers in geosdatabase
+# Overwrite feature layers in geodatabase
 arcpy.env.overwriteOutput = True
 # File locaiton
 fileloc = "C:\\Users\\T93KQI0\\Documents\\Projects\\" \
           "Geospatial-Analysis\\data_output\\"
 geodb = "C:\\Users\\T93KQI0\\Documents\\ArcGIS\\Projects\\" \
         "Local_Market_02\\Local_Market_02.gdb\\"
+```
+Intersection. Note that 
+```python
 # Intersection to get all clients insided LM
 input_data_1 = "Local_Market_" + go + "_" + str(dt)
 input_data_2 = "clients_" + go
@@ -114,6 +117,6 @@ print(statistics.stdev(AllDist)*0.621371)  # in miles
 Reference:
 - [Selecting maximum Value based on other field using ArcMap?](https://gis.stackexchange.com/questions/110392/selecting-maximum-value-based-on-other-field-using-arcmap)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTMxMDUwNzEsMTk3NDM1MTQ4MiwtMT
-g1MjgxMjE2OV19
+eyJoaXN0b3J5IjpbLTIzOTk3NTAwNCwxOTc0MzUxNDgyLC0xOD
+UyODEyMTY5XX0=
 -->
