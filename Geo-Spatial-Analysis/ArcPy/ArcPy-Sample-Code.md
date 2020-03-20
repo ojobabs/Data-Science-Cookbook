@@ -60,7 +60,7 @@ fileloc = "C:\\Users\\T93KQI0\\Documents\\Projects\\" \
 geodb = "C:\\Users\\T93KQI0\\Documents\\ArcGIS\\Projects\\" \
         "Local_Market_02\\Local_Market_02.gdb\\"
 ```
-Intersection. Note that 
+Intersection. Note that here the output is `POINT`. We want points, the location of each client as output. 
 ```python
 # Intersection to get all clients insided LM
 input_data_1 = "Local_Market_" + go + "_" + str(dt)
@@ -71,6 +71,9 @@ arcpy.analysis.Intersect([input_data_1, input_data_2],
                          "ALL",
                          None,
                          "POINT")
+```
+Create the list of all unique 
+```python
 # Make a list of unique [marketer_id, address_type] pair values
 col1 = "clients_match_" + go + "_USER_marketer_id_1"
 col2 = "clients_match_" + go + "_USER_address_type_1"
@@ -117,6 +120,6 @@ print(statistics.stdev(AllDist)*0.621371)  # in miles
 Reference:
 - [Selecting maximum Value based on other field using ArcMap?](https://gis.stackexchange.com/questions/110392/selecting-maximum-value-based-on-other-field-using-arcmap)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzOTk3NTAwNCwxOTc0MzUxNDgyLC0xOD
+eyJoaXN0b3J5IjpbLTkxMDQyNzc4NSwxOTc0MzUxNDgyLC0xOD
 UyODEyMTY5XX0=
 -->
