@@ -19,8 +19,7 @@ for fc in featureclasses:
 ```
 
 
-### [Selecting maximum Value based on other field using ArcMap?](https://gis.stackexchange.com/questions/110392/selecting-maximum-value-based-on-other-field-using-arcmap)
-fadf
+### Selecting maximum Value based on other field by group?
 
 ```python
 # Import modules
@@ -106,5 +105,5 @@ print(statistics.stdev(AllDist)*0.621371)  # in miles
 Reference:
 - [Selecting maximum Value based on other field using ArcMap?](https://gis.stackexchange.com/questions/110392/selecting-maximum-value-based-on-other-field-using-arcmap)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0MDUxODk5LC0xODUyODEyMTY5XX0=
+eyJoaXN0b3J5IjpbLTQxMTUwMDgzNiwtMTg1MjgxMjE2OV19
 -->
