@@ -21,7 +21,7 @@ for fc in featureclasses:
 
 ### Selecting maximum Value based on other field by group?
 
-This code is grouping by one filed and then getting the max value of a numeric field for each group. `ArcPy` do not use gro
+This code is grouping by one filed and then getting the max value of a numeric field for each group. `ArcPy` do not use `group by` function; therefore, yo need to write this code. This script is efficient because, first it creates a list of all unique groups. Then, it creates another list for all 
 
 The following algorithm is do the following:
 
@@ -113,5 +113,5 @@ print(statistics.stdev(AllDist)*0.621371)  # in miles
 Reference:
 - [Selecting maximum Value based on other field using ArcMap?](https://gis.stackexchange.com/questions/110392/selecting-maximum-value-based-on-other-field-using-arcmap)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM1MjI1NTY5LC0xODUyODEyMTY5XX0=
+eyJoaXN0b3J5IjpbLTg0NjM5Njg3LC0xODUyODEyMTY5XX0=
 -->
