@@ -86,7 +86,7 @@ with arcpy.da.SearchCursor(output_data, [col1, col2]) as cur1:
 print(AgentLoc)
 print(len(AgentLoc))
 ```
-Here, we follow the same approach. One of the key points here is writing correctly the where clause. 
+Here, we follow the same approach. One of the key points here is writing correctly the where clause. This code uses two nested loops. The first one iterates over each element of `AgentLoc` list of lists. That is because we need to use 
 ```python
 # For every unique [marketer_id, address_type] pair, make a list of unique
 # distances values and get the maximum value
@@ -123,6 +123,6 @@ print(statistics.stdev(AllDist)*0.621371)  # in miles
 Reference:
 - [Selecting maximum Value based on other field using ArcMap?](https://gis.stackexchange.com/questions/110392/selecting-maximum-value-based-on-other-field-using-arcmap)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzg2NDQyMzMsMTk3NDM1MTQ4MiwtMT
+eyJoaXN0b3J5IjpbLTIwMTk0NjY5NjIsMTk3NDM1MTQ4MiwtMT
 g1MjgxMjE2OV19
 -->
