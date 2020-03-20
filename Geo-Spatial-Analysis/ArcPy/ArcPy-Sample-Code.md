@@ -113,7 +113,7 @@ for i in AgentLoc:
 print(AllDist)
 print(len(AllDist))
 ```
-Finally, we calculate some statistics we 
+Finally, we calculate some statistics we will send to a CSV file. 
 ```Python
 # Caluclate statistics for maximum distances for the GO
 print(statistics.mean(AllDist)*0.621371)  # in miles
@@ -126,6 +126,6 @@ print(statistics.stdev(AllDist)*0.621371)  # in miles
 Reference:
 - [Selecting maximum Value based on other field using ArcMap?](https://gis.stackexchange.com/questions/110392/selecting-maximum-value-based-on-other-field-using-arcmap)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE4NDUxODM3LDE5NzQzNTE0ODIsLTE4NT
-I4MTIxNjldfQ==
+eyJoaXN0b3J5IjpbLTIyMTY2MjcyOSwxOTc0MzUxNDgyLC0xOD
+UyODEyMTY5XX0=
 -->
