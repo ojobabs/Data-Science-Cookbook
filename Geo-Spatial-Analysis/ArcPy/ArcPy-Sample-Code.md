@@ -29,6 +29,7 @@ The following algorithm is do the following:
 2. It uses `SearchCorsor()`  function from `arcpy` to take a list of unique `[marketer_id, address_type]` pair values. We have two locations per agent, the business (location) and the residential location. Therefore, we need to create a list of unique pairs. This is the interesting part of this code. The code on the below reference web page uses one field instead of two. 
 3. It uses `SearchCorsor()`  function from `arcpy` for every unique `[marketer_id, address_type]` pair, make a list of unique  distances values and get the maximum value.       
 
+Import modules
 ```python
 # Import modules
 import arcpy
@@ -37,16 +38,14 @@ import time
 import logging
 import csv
 import statistics
+```
+Setting variables, current work space path, overwrite    
+```python
 # Variables
-# gos = ['D54', 'S27', 'V68', 'V79', 'V65', 'V73', 'V46', 'S51', 'V61', 'V56',
-#        'A22', 'V42', 'D57', 'D56', 'S19', 'A64', 'S89', 'A29', 'S82', 'D07',
-#        'S69', 'S75', 'S68', 'S74']
-# driving_time = [20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120]
 go = 'S19'
 dt = 60
 # Checking and changing working directory
 cwd = os.getcwd()
-logging.info(f'Working directory: {cwd}.')
 # Setting the current workspace path
 arcpy.env.workspace = "C:\\Users\\T93KQI0\\Documents\\ArcGIS\\Projects\\" \
                       "Local_Market_02\\Local_Market_02.gdb"
@@ -115,6 +114,6 @@ print(statistics.stdev(AllDist)*0.621371)  # in miles
 Reference:
 - [Selecting maximum Value based on other field using ArcMap?](https://gis.stackexchange.com/questions/110392/selecting-maximum-value-based-on-other-field-using-arcmap)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzQ5ODMyNTcsMTk3NDM1MTQ4MiwtMT
+eyJoaXN0b3J5IjpbLTEzMTMxMDUwNzEsMTk3NDM1MTQ4MiwtMT
 g1MjgxMjE2OV19
 -->
