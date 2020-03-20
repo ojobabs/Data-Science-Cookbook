@@ -23,7 +23,8 @@ for fc in featureclasses:
 
 The following algorithm is do the following:
 
-1. It uses the `Intersect()` function from `arcpy` 
+1. It uses the `Intersect()` function from `arcpy` to get all client locations (points) inside the local market (polygon).
+2. It uses `SearchCorsor()`  function from to   
 
 ```python
 # Import modules
@@ -109,5 +110,5 @@ print(statistics.stdev(AllDist)*0.621371)  # in miles
 Reference:
 - [Selecting maximum Value based on other field using ArcMap?](https://gis.stackexchange.com/questions/110392/selecting-maximum-value-based-on-other-field-using-arcmap)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MDQ2MTkwOCwtMTg1MjgxMjE2OV19
+eyJoaXN0b3J5IjpbMTM0NDg2NTQ5OSwtMTg1MjgxMjE2OV19
 -->
