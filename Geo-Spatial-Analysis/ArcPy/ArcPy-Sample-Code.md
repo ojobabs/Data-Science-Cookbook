@@ -124,9 +124,11 @@ print(statistics.stdev(AllDist)*0.621371)  # in miles
 
 ```
 Reference:
+
 - [Selecting maximum Value based on other field using ArcMap?](https://gis.stackexchange.com/questions/110392/selecting-maximum-value-based-on-other-field-using-arcmap)
+- [Python: Iterate over list of tuples](https://code-maven.com/python-iterate-list-of-tuples)
 - [`statistics`](https://docs.python.org/3/library/statistics.html#module-statistics "statistics: Mathematical statistics functions")  — Mathematical statistics functions
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNTM3MzQ0NywxOTc0MzUxNDgyLC0xOD
-UyODEyMTY5XX0=
+eyJoaXN0b3J5IjpbMTU0MjQ1ODMsMTk3NDM1MTQ4MiwtMTg1Mj
+gxMjE2OV19
 -->
