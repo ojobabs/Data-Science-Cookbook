@@ -91,7 +91,8 @@ for i in AgentLoc:
                      = " + str(agent) + ") AND \
                      (clients_match_" + go + "_USER_address_type_1 \
                      = \'" + location + "\'" + ")"
-    with arcpy.da.SearchCursor(output_data, ["clients_match_S19_distance_1"],
+    with arcpy.da.SearchCursor(output_data,
+                               ["clients_match_" + go + "_distance_1"],
                                where_clause) as cur2:
         for row2 in cur2:
             if row2[0] not in DistList:
@@ -109,9 +110,11 @@ print(statistics.median(AllDist)*0.621371)  # in miles
 print(max(AllDist)*0.621371)  # in miles
 print(min(AllDist)*0.621371)  # in miles
 print(statistics.stdev(AllDist)*0.621371)  # in miles
+
 ```
 Reference:
 - [Selecting maximum Value based on other field using ArcMap?](https://gis.stackexchange.com/questions/110392/selecting-maximum-value-based-on-other-field-using-arcmap)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NDM1MTQ4MiwtMTg1MjgxMjE2OV19
+eyJoaXN0b3J5IjpbLTE3MzQ5ODMyNTcsMTk3NDM1MTQ4MiwtMT
+g1MjgxMjE2OV19
 -->
