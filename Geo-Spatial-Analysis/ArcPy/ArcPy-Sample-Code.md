@@ -72,7 +72,7 @@ arcpy.analysis.Intersect([input_data_1, input_data_2],
                          None,
                          "POINT")
 ```
-Create the list of lists for all unique agent-location pair. Notice that we are using `[row1[0], row1[1]]` a list of lists. We could use a list of tuples instead but, the result is the same. 
+Create the list of lists for all unique agent-location pair. Notice that we are using `[row1[0], row1[1]]` a list of lists. We could use a list of tuples instead but, the result is the same. Also, notice we are using `if [row1[0], row1[1]] not in AgentLoc:` this line of code to get unique values in our final list of lists.
 ```python
 # Make a list of unique [marketer_id, address_type] pair values
 col1 = "clients_match_" + go + "_USER_marketer_id_1"
@@ -120,6 +120,6 @@ print(statistics.stdev(AllDist)*0.621371)  # in miles
 Reference:
 - [Selecting maximum Value based on other field using ArcMap?](https://gis.stackexchange.com/questions/110392/selecting-maximum-value-based-on-other-field-using-arcmap)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYxNzI0NzQwLDE5NzQzNTE0ODIsLTE4NT
-I4MTIxNjldfQ==
+eyJoaXN0b3J5IjpbLTE2NzczMzA2NjUsMTk3NDM1MTQ4MiwtMT
+g1MjgxMjE2OV19
 -->
