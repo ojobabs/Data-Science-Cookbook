@@ -21,6 +21,8 @@ for fc in featureclasses:
 
 ### Selecting maximum Value based on other field by group?
 
+This code is grouping by one filed and then getting the max value of a numeric field for each group. `ArcPy` do not use gro
+
 The following algorithm is do the following:
 
 1. It uses the `Intersect()` function from `arcpy` to get all client locations (points) inside the local market (polygon).
@@ -111,5 +113,5 @@ print(statistics.stdev(AllDist)*0.621371)  # in miles
 Reference:
 - [Selecting maximum Value based on other field using ArcMap?](https://gis.stackexchange.com/questions/110392/selecting-maximum-value-based-on-other-field-using-arcmap)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA5NTM1NjUwLC0xODUyODEyMTY5XX0=
+eyJoaXN0b3J5IjpbODM1MjI1NTY5LC0xODUyODEyMTY5XX0=
 -->
