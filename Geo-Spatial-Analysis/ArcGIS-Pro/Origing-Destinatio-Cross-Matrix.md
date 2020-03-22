@@ -46,7 +46,15 @@ You can set many constraints when setting up an origin-destination cost matrix a
 
 The output of an origin-destination cost matrix analysis is the table containing the travel times or distances from origins to destinations. You can use this table, or matrix, to show ranked locations—that is, which locations are the shortest driving times or distances from other locations.
 
+![Destination 2 is closest in driving time to both Origin 1 and 2.](https://raw.githubusercontent.com/markeyser/Data-Science-Cookbook/master/imgs/OD-Cost-Matrix.png?_sm_au_=iVVH555w0LFMV6sHjfc06K6ttCjRt)
 
+> Destination 2 is closest in driving time to both Origin 1 and 2.
+
+An OD cost matrix can also be used as input for many other spatial analyses where the network cost is needed instead of simple straight-line cost, including many location or supply-chain problems. Here are some examples:
+
+-   Using the Summary Statistics tool, you can report how many people live within a certain distance of each of your stores, setting store locations as the Origins and census tracts with population as the Destinations.
+-   The Hot Spot Analysis tool uses the results of an OD cost matrix analysis to show statistically significant spatial clustering.
+-   The Generate Network Spatial Weights calls the OD cost matrix solver to create an SWM (spatial weights matrix) file, which can be input to other tools like Spatial Autocorrelation.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzEzMDc5NDMsMTMxODI1MzMwOV19
+eyJoaXN0b3J5IjpbNjExMzk0OTk4LDEzMTgyNTMzMDldfQ==
 -->
