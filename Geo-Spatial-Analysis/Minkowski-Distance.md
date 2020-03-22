@@ -5,7 +5,9 @@
 
 # Minkowski Distance Estimation
 
-The following notes summarizes the article: 
+The following notes summarizes the article:  ["Comparison of distance measures in spatial analytical modeling for health service planning"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2781002/).
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTUzODE2ODVdfQ==
+eyJoaXN0b3J5IjpbODIxNDcyODk0XX0=
 -->
