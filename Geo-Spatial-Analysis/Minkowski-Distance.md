@@ -10,6 +10,7 @@ The following notes summarizes the article:  ["Comparison of distance measures i
 > **Summary*8: The Minkowski metric is optimized, to approximate travel time and road distance, respectively.
 
 - Distances estimated with each metric are contrasted with road distance and travel time measurements, and an optimized Minkowski distance is implemented in spatial analytical modeling.
+
 ## Methods
 
 - **Road distance** and **travel time** are calculated from the postal code of residence of each patient undergoing cardiac catheterization to the pertinent hospital.
@@ -20,5 +21,6 @@ The following notes summarizes the article:  ["Comparison of distance measures i
 
 - The Minkowski coefficient that best approximates road distance is 1.54; 1.31 best approximates travel time.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MDkzNjY3MSw4MjE0NzI4OTRdfQ==
+eyJoaXN0b3J5IjpbLTE2NDQ3NDA4NTEsMTQ1MDkzNjY3MSw4Mj
+E0NzI4OTRdfQ==
 -->
