@@ -29,6 +29,10 @@ The OD cost matrix solver uses a network dataset to analyze origins and destinat
 ### Settings and constraints
 
 You can set many constraints when setting up an origin-destination cost matrix analysis.
+
+> **Mode:** Mode refers to the way that you want the OD matrix to be created—the type of transportation and distance versus time. The modes are configured in the network dataset, and these settings can be changed at the time of analysis.
+
+> **Cutoff**: Cutoff refers to a maximum time or distance within which you would like the analysis to search for destinations. For example, if the mode is based on driving time, a cutoff of 5 will yield only the destinations that are within five minutes of an origin. If the mode is based on distance, the units will be miles, meters, or whatever unit you have set in the network dataset.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTM0MzEwNV19
+eyJoaXN0b3J5IjpbNTA1NTM2NzM0XX0=
 -->
