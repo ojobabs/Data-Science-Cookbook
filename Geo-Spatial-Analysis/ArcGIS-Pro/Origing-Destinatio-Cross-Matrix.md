@@ -45,6 +45,8 @@ You can set many constraints when setting up an origin-destination cost matrix a
 ## Output and other uses
 
 The output of an origin-destination cost matrix analysis is the table containing the travel times or distances from origins to destinations. You can use this table, or matrix, to show ranked locations—that is, which locations are the shortest driving times or distances from other locations.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxODI1MzMwOV19
+eyJoaXN0b3J5IjpbLTE4MzEzMDc5NDMsMTMxODI1MzMwOV19
 -->
