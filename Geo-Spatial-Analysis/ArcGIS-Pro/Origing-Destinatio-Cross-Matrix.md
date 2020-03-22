@@ -20,6 +20,8 @@ An origin-destination (OD) cost matrix analysis can be used to create a matrix s
 -   How many people live within a certain distance of each voting location?
 
 The OD cost matrix solver uses a network dataset to analyze origins and destinations and return a matrix.
+
+> **Network dataset**: A network dataset contains information about the road system, how roads relate to one another, where turns might be allowed or prohibited, and how long road segments take to traverse. Costs are used to calculate travel time and can include prohibited turns, speed limits, traffic, one-way streets, and temporary road construction. Costs in the network can make a facility or incident that is not the closest be the quickest to drive to.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU3NTEzODYyXX0=
+eyJoaXN0b3J5IjpbMTc0MDMxMTUwNV19
 -->
