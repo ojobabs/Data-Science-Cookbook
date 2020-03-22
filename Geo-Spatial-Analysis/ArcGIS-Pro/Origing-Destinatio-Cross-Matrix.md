@@ -62,6 +62,8 @@ Tools that use OD cost matrix output
 >For example, some linear programming problems require an origin-destination matrix as input. This tool is an example of an external tool using an OD cost matrix and a Python script used to solve common allocation problems having capacity constraints, such as allocating stores to warehouses or allocating students to schools.
 >[Determine Optimum Allocation tool![](https://www.esri.com/training/courses/shared/images/newWindow.png "Opens in new window")](http://www.arcgis.com/home/item.html?id=c5ae481f25604d1bb050d9bd1d6e3c06 "Opens in new window")
 >This tool solves the classic transportation problem by first generating a travel cost matrix between the given origins and destinations using the OD cost matrix solver provided by Network Analyst. The tool then formulates and solves a linear programming (LP) problem using an LP solver. It allocates origins having a supply to destinations having demand where the supply is consumed, the demands are met, and the overall transportation cost is minimized.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NDgzNzQzMywxMzE4MjUzMzA5XX0=
+eyJoaXN0b3J5IjpbMTQwNjMyMzM2MywxMzE4MjUzMzA5XX0=
 -->
