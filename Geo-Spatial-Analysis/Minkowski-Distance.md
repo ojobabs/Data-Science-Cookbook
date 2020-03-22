@@ -12,7 +12,9 @@ The following notes summarizes the article:  ["Comparison of distance measures i
 - Distances estimated with each metric are contrasted with road distance and travel time measurements, and an optimized Minkowski distance is implemented in spatial analytical modeling.
 ## Methods
 
-- Road distance and travel time are calculated from the postal code of residence of each patient undergoing cardiac catheterization to the pertinent hospital.
+- **Road distance** and **travel time** are calculated from the postal code of residence of each patient undergoing cardiac catheterization to the pertinent hospital.
+- The Minkowski metric is optimized, to approximate travel time and road distance, respectively.
+- Distance estimates and distance measurements are then compared using descriptive statistics and visual mapping methods.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODA3MDA1NTcsODIxNDcyODk0XX0=
+eyJoaXN0b3J5IjpbMjE0Mjk0MjA0MSw4MjE0NzI4OTRdfQ==
 -->
