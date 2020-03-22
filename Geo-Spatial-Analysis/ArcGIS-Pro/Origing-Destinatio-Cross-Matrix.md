@@ -33,6 +33,10 @@ You can set many constraints when setting up an origin-destination cost matrix a
 > **Mode:** Mode refers to the way that you want the OD matrix to be created—the type of transportation and distance versus time. The modes are configured in the network dataset, and these settings can be changed at the time of analysis.
 
 > **Cutoff**: Cutoff refers to a maximum time or distance within which you would like the analysis to search for destinations. For example, if the mode is based on driving time, a cutoff of 5 will yield only the destinations that are within five minutes of an origin. If the mode is based on distance, the units will be miles, meters, or whatever unit you have set in the network dataset.
+
+> **Destinations**: The number of destinations to find should also be set. A setting of 1 means that your analysis will find the one closest destination for each origin. Leaving Destinations blank or setting it to a number higher than the actual number of destinations imported will result in the matrix containing a path from every origin to every destination.
+
+> **Barriers**: Barriers allow you to model a road or area blocked by an obstruction, such as road construction or another temporary closure. Barriers can be modeled and added to your analysis to get more realistic results by temporarily adding to the cost of reaching certain parts of a network. Barriers in ArcGIS Network Analyst must be imported from a feature class or digitized on-screen.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1NTM2NzM0XX0=
+eyJoaXN0b3J5IjpbMTM4MzE3NzI2OF19
 -->
