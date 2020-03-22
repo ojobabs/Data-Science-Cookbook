@@ -25,6 +25,10 @@ The OD cost matrix solver uses a network dataset to analyze origins and destinat
 
 > **OD cost matrix solver**: Because it uses a network dataset, an OD cost matrix analysis can find the shortest road distances and quickest travel times between locations. It gives you this information from the possible network paths, from multiple origins to multiple destinations. Using network paths instead of straight-line distances is better for analyzing how people move about in a city. This is because people usually travel on a transportation network, such as roads, train lines, and sidewalks.
 > **The matrix**: The best path on the street network is discovered for each OD pair, and the travel times and travel distances are stored as attributes of the output lines. You can display the paths as straight lines on a map or, more commonly, you can view the table of the attributes of the paths. The paths are also ranked in ascending order based on the travel time or distance.
+
+### Settings and constraints
+
+You can set many constraints when setting up an origin-destination cost matrix analysis.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjMxNjcxODldfQ==
+eyJoaXN0b3J5IjpbMTE3NTM0MzEwNV19
 -->
