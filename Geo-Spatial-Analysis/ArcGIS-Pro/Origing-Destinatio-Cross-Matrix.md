@@ -5,7 +5,7 @@
 
 # Origin Destination Cross Matrix
 
-> Reference: # Creating an Origin-Destination Cost Matrix in ArcGIS Pro  by Esri
+> Reference: _Creating an Origin-Destination Cost Matrix in ArcGIS Pro  by Esri_ one-hour training by ESRI.
 
 ## Introduction
 
@@ -21,5 +21,5 @@ An origin-destination (OD) cost matrix analysis can be used to create a matrix s
 
 The OD cost matrix solver uses a network dataset to analyze origins and destinations and return a matrix.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1MTk3OTAwXX0=
+eyJoaXN0b3J5IjpbODU3NTEzODYyXX0=
 -->
