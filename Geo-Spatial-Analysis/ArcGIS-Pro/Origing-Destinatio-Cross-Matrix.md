@@ -37,6 +37,10 @@ You can set many constraints when setting up an origin-destination cost matrix a
 > **Destinations**: The number of destinations to find should also be set. A setting of 1 means that your analysis will find the one closest destination for each origin. Leaving Destinations blank or setting it to a number higher than the actual number of destinations imported will result in the matrix containing a path from every origin to every destination.
 
 > **Barriers**: Barriers allow you to model a road or area blocked by an obstruction, such as road construction or another temporary closure. Barriers can be modeled and added to your analysis to get more realistic results by temporarily adding to the cost of reaching certain parts of a network. Barriers in ArcGIS Network Analyst must be imported from a feature class or digitized on-screen.
+
+> **Arrive/Depart Time**: Arrive/Depart Time is a setting that allows you to add information about the date, day, or time of day to better reflect reality, if desired for the analysis. This option can be useful if your network dataset contains traffic data and you want to target or avoid high-traffic times of day in your scenario.
+
+> ****
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MzE3NzI2OF19
+eyJoaXN0b3J5IjpbLTk0NjgxMTE0OF19
 -->
