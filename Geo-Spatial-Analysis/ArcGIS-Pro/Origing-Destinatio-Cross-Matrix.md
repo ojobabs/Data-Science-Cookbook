@@ -43,6 +43,8 @@ You can set many constraints when setting up an origin-destination cost matrix a
 > **Output Geometry:** The Output Geometry parameter allows you to display the results of the analysis as either lines from origins to destinations or no lines at all. For performance reasons, when analysis results are displayed as lines, the lines are straight. The lines always store the travel time and travel distance along the street network, not the straight-line distance. This is why the table, or matrix, behind the lines output is the most useful part of the analysis results.
 
 ## Output and other uses
+
+The output of an origin-destination cost matrix analysis is the table containing the travel times or distances from origins to destinations. You can use this table, or matrix, to show ranked locations—that is, which locations are the shortest driving times or distances from other locations.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MTMwNDcyXX0=
+eyJoaXN0b3J5IjpbMTMxODI1MzMwOV19
 -->
