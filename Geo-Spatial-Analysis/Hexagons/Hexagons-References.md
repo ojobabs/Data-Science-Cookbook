@@ -13,6 +13,8 @@ References:
 - [[5] Generate Tessellation (Data Management](https://pro.arcgis.com/en/pro-app/tool-reference/data-management/generatetesellation.htm)
 - [[6] Aggregate Points (GeoAnalytics)](https://pro.arcgis.com/en/pro-app/tool-reference/big-data-analytics/aggregate-points.htm)
 - [[7] Cartographic Creations in ArcGIS Pro](https://learn.arcgis.com/en/projects/cartographic-creations-in-arcgis-pro/)
+- [[8] Calculate Density (GeoAnalytics)](https://pro.arcgis.com/en/pro-app/tool-reference/big-data-analytics/calculate-density.htm)
+- [[]Analyzing traffic accidents in space and time](https://desktop.arcgis.com/de/analytics/case-studies/analyzing-crashes-1-overview.htm)
 
 From [3]:
 **_Want to be “in” the cool club? Use hexagons to visualize your data._**  
@@ -86,5 +88,6 @@ Hexagon data:
 
 See this too: [https://learn.arcgis.com/en/gallery/](https://learn.arcgis.com/en/gallery/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQxNTY3OTYsMTMwOTU4ODE1N119
+eyJoaXN0b3J5IjpbLTE0ODYyNTkzMiwtMTA1NDE1Njc5NiwxMz
+A5NTg4MTU3XX0=
 -->
