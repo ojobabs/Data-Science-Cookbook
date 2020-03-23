@@ -29,9 +29,11 @@ You need to select Python and Advanced as part of Class.
 	3.4. Join Operation: `Join one to one`
 	3.5. Output Fields: `GRID_ID`, `Merge Rule`: Count
 	3.6. Match Option: `Completely contains`
-4. Go to 
+4. Go to the generated layer and select `Symbology`.
+	4.1. Graduated colors
+	4.2. take the lower level color, click twice on the color and put  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NTI2OTg0NCwxMDY0NTA5NjI4LC0xNj
-M5NDY2MTIsNjMzMDgwMjczXX0=
+eyJoaXN0b3J5IjpbOTI2ODU2NDY2LDEwNjQ1MDk2MjgsLTE2Mz
+k0NjYxMiw2MzMwODAyNzNdfQ==
 -->
