@@ -17,7 +17,9 @@ You need to select Python and Advanced as part of Class.
 
 1. Use zoom to layer to select the area we want to create the tessellation.
 2. Open `Generate Tesselation` tool. 
+	2.1. Output Feature Class: `GenerateTessellation_D54_D56_D57`. Put here the name you want.
+	2.2. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNjMzNTA2Myw2MzMwODAyNzNdfQ==
+eyJoaXN0b3J5IjpbLTY0NzYxMTc3NCw2MzMwODAyNzNdfQ==
 -->
