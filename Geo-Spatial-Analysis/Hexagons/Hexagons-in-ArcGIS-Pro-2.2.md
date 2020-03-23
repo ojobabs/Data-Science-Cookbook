@@ -20,8 +20,10 @@ You need to select Python and Advanced as part of Class.
 	2.1. Output Feature Class: `GenerateTessellation_D54_D56_D57`. Put here the name you want.
 	2.2. Extend: 	`Current Display Extent` to generate a tessallation for the screen. 
 	2.3. Shape Type: `Hexagon`
-	2.4. Size: ``
+	2.4. Size: `70 Square Miles` for example. You need to choose the right value.
+	2.5. Spatial reference: automatically selected.  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzk0NjYxMiw2MzMwODAyNzNdfQ==
+eyJoaXN0b3J5IjpbMTA2NDUwOTYyOCwtMTYzOTQ2NjEyLDYzMz
+A4MDI3M119
 -->
