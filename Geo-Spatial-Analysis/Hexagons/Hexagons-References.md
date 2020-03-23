@@ -9,6 +9,7 @@ References:
 - [[1] Why hexagons?](https://pro.arcgis.com/en/pro-app/tool-reference/spatial-statistics/h-whyhexagons.htm)
 - [[2] Using a binning technique for point-based multiscale web maps](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/using-a-binning-technique-for-point-based-multiscale-web-maps/)
 - [[3] Thematic Mapping with Hexagons](https://www.esri.com/about/newsroom/insider/thematic-mapping-with-hexagons/)
+- [Creating thematic maps with hexagons in ArcGIS Online](https://www.esri.com/arcgis-blog/products/analytics/analytics/creating-thematic-maps-with-hexagons-in-arcgis-online/)
 
 From [3]:
 **_Want to be “in” the cool club? Use hexagons to visualize your data._**  
@@ -76,5 +77,5 @@ Hexagon data:
 **UPDATE:** ArcGIS Online now includes ready-to-use Hexagon Data – making this process and visualization much easier. See this blog post for more information:  
 [http://blogs.esri.com/esri/arcgis/2015/08/26/creating-thematic-maps-with-hexagons-in-arcgis-online/](http://blogs.esri.com/esri/arcgis/2015/08/26/creating-thematic-maps-with-hexagons-in-arcgis-online/ "Creating thematic maps with hexagons in ArcGIS Online")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzU1NDYxM119
+eyJoaXN0b3J5IjpbLTQ2OTQ4OTE1OF19
 -->
