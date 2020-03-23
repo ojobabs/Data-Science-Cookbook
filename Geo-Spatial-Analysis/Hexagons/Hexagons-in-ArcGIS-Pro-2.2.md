@@ -27,9 +27,10 @@ You need to select Python and Advanced as part of Class.
 	3.2. Join features: `clients_D54`. This is the point-layer
 	3.3. Output Feature Class: the name you want.
 	3.4. Join Operation: `Join one to one`
-	3.5. Output Fields: `GRID_ID`
+	3.5. Output Fields: `GRID_ID`, `Merge Rule`: Count
+	3.6. Match Option: `Completely contains`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgxODA1MDM4LDEwNjQ1MDk2MjgsLTE2Mz
-k0NjYxMiw2MzMwODAyNzNdfQ==
+eyJoaXN0b3J5IjpbLTE1NDY3MTg4MjEsMTA2NDUwOTYyOCwtMT
+YzOTQ2NjEyLDYzMzA4MDI3M119
 -->
