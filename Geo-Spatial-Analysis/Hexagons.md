@@ -7,7 +7,7 @@
 
 References:
 
-- [https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/using-a-binning-technique-for-point-based-multiscale-web-maps/](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/using-a-binning-technique-for-point-based-multiscale-web-maps/)
+- [Using a binning technique for point-based multiscale web maps](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/using-a-binning-technique-for-point-based-multiscale-web-maps/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk0NTc4MDY0XX0=
+eyJoaXN0b3J5IjpbLTExMzYxNjk1NTVdfQ==
 -->
