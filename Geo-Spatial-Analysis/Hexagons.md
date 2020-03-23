@@ -19,9 +19,16 @@ For instance, if you create a thematic map using US counties, [the county where 
 ![enter image description here](http://www.esri.com/about/newsroom/wp-content/uploads/files/2015/04/1_640.jpg)
 > Left: Population Density show with Counties. Right: Population Density shown with Hexagons.
 
+**But why hexagons?**  
+Simply put, hexagons are good for visualization because they nest together perfectly and look good. Rectangles are also a good way to show data, and we do it all the time with rasters and imagery data, but the linear patterns of the rectangles are very apparent when zoomed far enough in to see them. The linear patterns in the hexagons are not as apparent and the shapes “softer”, making them more attractive when you are able to see the shape outline. (Note: if you are zoomed out to a small scale, rectangles and hexagons look the same, so the scale at which the data will be used is important).
+
+![enter image description here](http://www.esri.com/about/newsroom/wp-content/uploads/files/2015/04/2_640.jpg)
+
+
+
 An interesting thing, you can label each hexagon with the number of points inside each one:
 
 ![enter image description here](http://www.esri.com/about/newsroom/wp-content/uploads/files/2015/04/3.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODI1OTMxMzFdfQ==
+eyJoaXN0b3J5IjpbLTIxMTQzMjQ0XX0=
 -->
