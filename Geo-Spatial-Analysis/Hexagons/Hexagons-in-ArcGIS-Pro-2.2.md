@@ -13,6 +13,10 @@ To label with the number of points, `Join_Count` those hexagons with more than z
  ```
 You need to select Python and Advanced as part of Class. 
 
+## Steps
+
+1. Zoo
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzMDgwMjczXX0=
+eyJoaXN0b3J5IjpbMTM4NTkzMDU3MSw2MzMwODAyNzNdfQ==
 -->
