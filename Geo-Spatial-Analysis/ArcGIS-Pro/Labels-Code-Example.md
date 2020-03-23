@@ -27,11 +27,10 @@ def FindLabel ([USER_GO_CD_1], [USER_go_ou_nm]):
 Tho show labels for hexagon counts:
 
 ```python
- ```python
- def FindLabel ( [Join_Count] ):
-    if [Join_Count] > '0':
-        return [Join_Count]
- ```
+def FindLabel ( [Join_Count] ):
+   if [Join_Count] > '0':
+       return [Join_Count]
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyNTE5Nzg3LDE5NTA1NTU5ODVdfQ==
+eyJoaXN0b3J5IjpbNTAzNDU5NjI3LDE5NTA1NTU5ODVdfQ==
 -->
