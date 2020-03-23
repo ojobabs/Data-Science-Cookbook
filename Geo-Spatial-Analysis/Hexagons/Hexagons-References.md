@@ -84,7 +84,7 @@ Hexagon data:
 
 ![enter image description here](https://learn.arcgis.com/en/projects/cartographic-creations-in-arcgis-pro/GUID-543D3AD2-AB31-4138-A010-2A3EC90904A5-web.png)
 
-See this too
+See this too: [https://learn.arcgis.com/en/gallery/](https://learn.arcgis.com/en/gallery/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTA3MzcsMTMwOTU4ODE1N119
+eyJoaXN0b3J5IjpbLTEwNTQxNTY3OTYsMTMwOTU4ODE1N119
 -->
