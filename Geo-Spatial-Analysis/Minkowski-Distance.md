@@ -20,7 +20,8 @@ The following notes summarizes the article:  ["Comparison of distance measures i
 ## Results
 
 - The Minkowski coefficient that best approximates road distance is 1.54; 1.31 best approximates travel time.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDQ3NDA4NTEsMTQ1MDkzNjY3MSw4Mj
-E0NzI4OTRdfQ==
+eyJoaXN0b3J5IjpbMTk4NTU5MjgyNywtMTY0NDc0MDg1MSwxND
+UwOTM2NjcxLDgyMTQ3Mjg5NF19
 -->
