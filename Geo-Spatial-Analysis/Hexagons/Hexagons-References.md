@@ -16,7 +16,12 @@ References:
 - [[8] Calculate Density (GeoAnalytics)](https://pro.arcgis.com/en/pro-app/tool-reference/big-data-analytics/calculate-density.htm)
 - [[9] Analyzing traffic accidents in space and time](https://desktop.arcgis.com/de/analytics/case-studies/analyzing-crashes-1-overview.htm)
 - [[10] Make your point using aggregation](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/point-aggregation/)
-- [https://doc.arcgis.com/en/arcgis-online/analyze/aggregate-points.htm](https://doc.arcgis.com/en/arcgis-online/analyze/aggregate-points.htm)
+- [[11] Aggregate Points](https://doc.arcgis.com/en/arcgis-online/analyze/aggregate-points.htm)
+- [[12] Aggregate features into bins](https://pro.arcgis.com/en/pro-app/help/mapping/layer-properties/aggregate-features-into-bins.htm)
+- [ Work with binned feature layers](https://pro.arcgis.com/en/pro-app/help/mapping/layer-properties/work-with-binned-feature-layers.htm)
+
+
+
 From [3]:
 **_Want to be “in” the cool club? Use hexagons to visualize your data._**  
 Over the last few years we’ve seen more and more maps that use hexagons. They have become “cool”. Why is that? Well, hexagons and other regularly shaped features allow you to normalize geography for thematic mapping rather than be constrained to using irregular shaped polygons created from a political process (for example, county boundaries, census tracts, zip codes, etc.). And this is VERY useful because of the massive disparity in some of these shapes.
@@ -89,6 +94,6 @@ Hexagon data:
 
 See this too: [https://learn.arcgis.com/en/gallery/](https://learn.arcgis.com/en/gallery/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMjEyMzQyOSwtMTA1NDE1Njc5NiwxMz
+eyJoaXN0b3J5IjpbMTc1NDg4NDA3MiwtMTA1NDE1Njc5NiwxMz
 A5NTg4MTU3XX0=
 -->
