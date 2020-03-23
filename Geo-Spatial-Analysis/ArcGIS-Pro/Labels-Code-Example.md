@@ -5,6 +5,7 @@
 
 # Labels Code Example
 
+To show labels for office locations:
 
 ```python
 def FindLabel ([USER_GO_CD_1], [USER_go_ou_nm]):
@@ -22,6 +23,12 @@ def FindLabel ([USER_GO_CD_1], [USER_go_ou_nm]):
     elif [USER_GO_CD_1] == "D57":
         return [USER_go_ou_nm]
 ```
+
+Tho show labels for hexagon counts:
+
+```python
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3OTA5NTA1NV19
+eyJoaXN0b3J5IjpbMTk1MDU1NTk4NV19
 -->
