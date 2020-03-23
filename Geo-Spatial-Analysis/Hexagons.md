@@ -42,6 +42,39 @@ Because hexagons do not follow the tightly controlled row and column notation (u
 
 **Where do I get hexagon shapes to use?**  
 You have a couple of choices: you can use existing hexagons, or create your own. For existing hexagon data, search in ArcGIS Online on the keyword ‘hexagon’ to find some data you can just copy and use (links are also provided at the end of this post). If you don’t find data of the scale you want, you can easily create your own; [this blog post](http://blogs.esri.com/esri/arcgis/2012/07/09/2d-beehive-tool-a-k-a-create-hexagons-tool/) provides the script and directions. In fact, there are several Esri blog posts about using hexagons that you may find useful, including [Using a binning technique for point-based multiscale web maps](http://blogs.esri.com/esri/arcgis/2012/06/08/using-a-binning-technique-for-point-based-multiscale-web-maps/) and [A new tool for creating sampling hexagons](http://blogs.esri.com/esri/arcgis/2013/05/06/a-new-tool-for-creating-sampling-hexagons/).
+
+**Know your projection.**  
+I want to note an important aspect to consider when using or making your hexagons: the projection/coordinate system is very important. Because you are normalizing the features, you need to make sure you use hexagons that are based on an equal area projection (or spheroid based radians) or you can skew the visual results. If you end up re-projecting your data, then bear in mind your hexagons will be distorted in terms of their shape and apparent size but because of their original equal area property they will still be equivalent for analytical purposes.
+
+**Are hexagons a new idea?**  
+No. The use of hexagons in mapping and in ecological modeling [goes back many years](http://mappinglondon.co.uk/2013/hexagonal-map-of-london/). But until the advent of modern computer-based cartography, hexagon maps were extremely labor intensive produce. It should be noted that just like some people are very passionate about rasters/imagery or parcels, others are [very passionate about hexagons](http://hexnet.org/).
+
+Following are some resources and examples that will help you use hexagons to visualize your data:  
+Blogs posts:
+
+-   [Using a binning technique for point-based multiscale web maps](http://blogs.esri.com/esri/arcgis/2012/06/08/using-a-binning-technique-for-point-based-multiscale-web-maps/)
+-   [A new tool for creating sampling hexagons](http://blogs.esri.com/esri/arcgis/2013/05/06/a-new-tool-for-creating-sampling-hexagons/%5d)
+-   [2D Beehive Tool a.k.a. Create Hexagons Tool](http://blogs.esri.com/esri/arcgis/2012/07/09/2d-beehive-tool-a-k-a-create-hexagons-tool/)
+
+Apps:
+
+-   [App showing comparison of hexagons and rectangles](http://damian.maps.arcgis.com/apps/StorytellingSwipe/index.html?appid=ad1e265fa67b41139c87c7d03458eacb)
+-   [App showing the density of bridges in the Continental US using hexagons](http://damian.maps.arcgis.com/apps/webappviewer/index.html?id=85967ecbe6cf42faa2f9e71a037dfbd4)
+    -   [App using hexagons to show Failing Schools: UK Secondary School results, 2011](http://www.arcgis.com/apps/OnePane/splash/index.html?appid=dfe732ba315c4cc4a583528e8e7e4c85)
+
+Hexagon data:
+
+-   Contiguous US Albers Equal Area Hexagons
+    -   [10km, 50km, and 500 km](http://damian.maps.arcgis.com/home/item.html?id=52ddd064528241a7a75aec2320e5d450)
+    -   [30 km](http://damian.maps.arcgis.com/home/item.html?id=dc797d88227348318029d098ac2bc395)
+
+-   Scripts to create hexagons
+    -   [Very fast tool for hexagon creation](http://www.arcgis.com/home/item.html?id=03388990d3274160afe240ac54763e57)
+    -   [A new tool for creating sampling hexagons](http://blogs.esri.com/esri/arcgis/2013/05/06/a-new-tool-for-creating-sampling-hexagons/)
+    -   [2D Beehive Tool a.k.a. Create Hexagons Tool](http://blogs.esri.com/esri/arcgis/2012/07/09/2d-beehive-tool-a-k-a-create-hexagons-tool/)
+
+**UPDATE:** ArcGIS Online now includes ready-to-use Hexagon Data – making this process and visualization much easier. See this blog post for more information:  
+[http://blogs.esri.com/esri/arcgis/2015/08/26/creating-thematic-maps-with-hexagons-in-arcgis-online/](http://blogs.esri.com/esri/arcgis/2015/08/26/creating-thematic-maps-with-hexagons-in-arcgis-online/ "Creating thematic maps with hexagons in ArcGIS Online")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NTYzNzc5NV19
+eyJoaXN0b3J5IjpbMTkwMzU1NDYxM119
 -->
