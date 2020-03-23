@@ -32,9 +32,9 @@ The following notes summarizes the article:  ["Comparison of distance measures i
 - The Minkowski distance has the potential to provide a more accurate estimate of road network distance and travel time than the Euclidean and Manhattan metrics.
 - A set of 2, 138 distances between each patient's postal code of residence and the Foothills hospital are calculated according to each of the distance measurement methods considered.
 
-> **Note**: we can use the same approach on out current project. We could go further and use the hexagon approach to group close clients and agent under the same hexagon and, then use the centroid of the hexagon for the analysis. We cloud, also, follow a differee 
+> **Note**: we can use the same approach on out current project. We could go further and use the hexagon approach to group close clients and agent under the same hexagon and, then use the centroid of the hexagon for the analysis. We cloud, also, follow a different approach by using the OD Cross Matrix or the Closest Facility tools. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0OTYwNDMxOCwtMTY0NDc0MDg1MSwxND
+eyJoaXN0b3J5IjpbLTUxOTU1ODQ5MiwtMTY0NDc0MDg1MSwxND
 UwOTM2NjcxLDgyMTQ3Mjg5NF19
 -->
