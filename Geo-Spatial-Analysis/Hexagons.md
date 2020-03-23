@@ -23,12 +23,15 @@ For instance, if you create a thematic map using US counties, [the county where 
 Simply put, hexagons are good for visualization because they nest together perfectly and look good. Rectangles are also a good way to show data, and we do it all the time with rasters and imagery data, but the linear patterns of the rectangles are very apparent when zoomed far enough in to see them. The linear patterns in the hexagons are not as apparent and the shapes “softer”, making them more attractive when you are able to see the shape outline. (Note: if you are zoomed out to a small scale, rectangles and hexagons look the same, so the scale at which the data will be used is important).
 
 ![enter image description here](http://www.esri.com/about/newsroom/wp-content/uploads/files/2015/04/2_640.jpg)
+> Left: 20 km hexagons showing density of bridges. Right: 20 km rectangles showing density of bridges.
 
-
+**How do you assign data to hexagons?**  
+Assigning data to hexagons is pretty easy. You just need more detailed data than the scale of your hexagons and then you aggregate that data into your hexagons. You simply overlay your source data (for example, a set of points representing bridge locations) and a layer of hexagons, and then summarize the values that intersect your hexagons. This is very easy for point data, as you take all the points within a single hexagon and specify how you want to aggregate each field in the point data (maximum, minimum, average, count, etc.). If your data is represented as lines or polygons you can also overlay the data, but you should be aware that you are introducing some interpolated data into your results. (Use the “Summarize within” analysis tool in [ArcGIS Desktop](http://pro.arcgis.com/en/pro-app/tool-reference/analysis/summarize-within.htm) or [ArcGIS Online](https://doc.arcgis.com/en/arcgis-online/use-maps/perform-analysis.htm) to aggregate the data.)  
+Depending on the extent or your source data, you may want to do this aggregation at a couple of different scales. Then you can create multi-scale hexagons that turn on as you zoom in or out on the map, giving your end users a more dynamic experience. They only see data appropriate at the given scale and never struggle to discern the data.
 
 An interesting thing, you can label each hexagon with the number of points inside each one:
 
 ![enter image description here](http://www.esri.com/about/newsroom/wp-content/uploads/files/2015/04/3.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTQzMjQ0XX0=
+eyJoaXN0b3J5IjpbLTk1MjQ2NDQ4XX0=
 -->
