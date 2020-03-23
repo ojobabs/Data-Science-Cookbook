@@ -23,10 +23,13 @@ You need to select Python and Advanced as part of Class.
 	2.4. Size: `70 Square Miles` for example. You need to choose the right value.
 	2.5. Spatial reference: automatically selected. 
 3. Use `Spatial Join` tool to count the number of points inside each hexagon.
-	3.1. Target Features: `GenerateTessellation_D54_D56_D57`
-	3.2. Join features: `clients_D54` .
+	3.1. Target Features: `GenerateTessellation_D54_D56_D57`. This is the hexagon layer.
+	3.2. Join features: `clients_D54`. This is the point-layer
+	3.3. Output Feature Class: the name you want.
+	3.4. Join Operation: `Join one to one`
+	3.5. Output Fields: `GRID_ID`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODk5ODIxOCwxMDY0NTA5NjI4LC0xNj
-M5NDY2MTIsNjMzMDgwMjczXX0=
+eyJoaXN0b3J5IjpbNTgxODA1MDM4LDEwNjQ1MDk2MjgsLTE2Mz
+k0NjYxMiw2MzMwODAyNzNdfQ==
 -->
