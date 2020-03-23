@@ -20,8 +20,11 @@ The following notes summarizes the article:  ["Comparison of distance measures i
 ## Results
 
 - The Minkowski coefficient that best approximates road distance is 1.54; 1.31 best approximates travel time.
+- Euclidean distance tends to underestimate road distance and travel time; Manhattan distance tends to overestimate both.
+- The optimized Minkowski distance partially overcomes their shortcomings; it provides a single model of travel over the network.
+- The method is flexible, suitable for analytical modeling, and more accurate than the traditional metrics; its use ultimately increases the reliability of spatial analytical models.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NTU5MjgyNywtMTY0NDc0MDg1MSwxND
-UwOTM2NjcxLDgyMTQ3Mjg5NF19
+eyJoaXN0b3J5IjpbMTYyMjg5MjYyLC0xNjQ0NzQwODUxLDE0NT
+A5MzY2NzEsODIxNDcyODk0XX0=
 -->
