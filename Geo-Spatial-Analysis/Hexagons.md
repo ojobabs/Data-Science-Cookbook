@@ -36,6 +36,12 @@ An interesting thing, you can label each hexagon with the number of points insid
 
 ![enter image description here](http://www.esri.com/about/newsroom/wp-content/uploads/files/2015/04/3.jpg)
 > Showing conference attendees at multiple scales. Top: 500 km hexagons; Middle: 100 km hexagons; Bottom: 20 km hexagons.
+
+**What about analysis?**  
+Because hexagons do not follow the tightly controlled row and column notation (unlike raster/imagery data), doing overlay or other analysis with hexagons is a bit more difficult. You of course can filter/select the data easily (the benefits of vector data) and easily symbolize and normalize the data using many attributes and deriving new attributes. But if you are trying to calculate terrain, interpolate information, or derive trends, traditional vector or raster analysis is a better way to go.
+
+**Where do I get hexagon shapes to use?**  
+You have a couple of choices: you can use existing hexagons, or create your own. For existing hexagon data, search in ArcGIS Online on the keyword ‘hexagon’ to find some data you can just copy and use (links are also provided at the end of this post). If you don’t find data of the scale you want, you can easily create your own; [this blog post](http://blogs.esri.com/esri/arcgis/2012/07/09/2d-beehive-tool-a-k-a-create-hexagons-tool/) provides the script and directions. In fact, there are several Esri blog posts about using hexagons that you may find useful, including [Using a binning technique for point-based multiscale web maps](http://blogs.esri.com/esri/arcgis/2012/06/08/using-a-binning-technique-for-point-based-multiscale-web-maps/) and [A new tool for creating sampling hexagons](http://blogs.esri.com/esri/arcgis/2013/05/06/a-new-tool-for-creating-sampling-hexagons/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzQ2NzQ4NDJdfQ==
+eyJoaXN0b3J5IjpbMTc1NTYzNzc5NV19
 -->
