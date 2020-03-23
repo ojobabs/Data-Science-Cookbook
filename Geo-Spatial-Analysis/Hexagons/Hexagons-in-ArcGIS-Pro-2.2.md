@@ -15,8 +15,9 @@ You need to select Python and Advanced as part of Class.
 
 ## Steps
 
-1. Zoo
+1. Use zoom to layer to select the area we want to create the tessellation.
+2. Open `Generate Tesselation` tool. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NTkzMDU3MSw2MzMwODAyNzNdfQ==
+eyJoaXN0b3J5IjpbLTMwNjMzNTA2Myw2MzMwODAyNzNdfQ==
 -->
