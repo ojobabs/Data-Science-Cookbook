@@ -9,11 +9,10 @@ References:
 - [[1] Why hexagons?](https://pro.arcgis.com/en/pro-app/tool-reference/spatial-statistics/h-whyhexagons.htm)
 - [[2] Using a binning technique for point-based multiscale web maps](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/using-a-binning-technique-for-point-based-multiscale-web-maps/)
 - [[3] Thematic Mapping with Hexagons](https://www.esri.com/about/newsroom/insider/thematic-mapping-with-hexagons/)
-- [Creating thematic maps with hexagons in ArcGIS Online](https://www.esri.com/arcgis-blog/products/analytics/analytics/creating-thematic-maps-with-hexagons-in-arcgis-online/)
-- [Generate Tessellation (Data Management](https://pro.arcgis.com/en/pro-app/tool-reference/data-management/generatetesellation.htm)
-- [Aggregate Points (GeoAnalytics)](https://pro.arcgis.com/en/pro-app/tool-reference/big-data-analytics/aggregate-points.htm)
-- []Cartographic Creations in ArcGIS Pro
-- [https://learn.arcgis.com/en/projects/cartographic-creations-in-arcgis-pro/](https://learn.arcgis.com/en/projects/cartographic-creations-in-arcgis-pro/)
+- [[4] Creating thematic maps with hexagons in ArcGIS Online](https://www.esri.com/arcgis-blog/products/analytics/analytics/creating-thematic-maps-with-hexagons-in-arcgis-online/)
+- [[5] Generate Tessellation (Data Management](https://pro.arcgis.com/en/pro-app/tool-reference/data-management/generatetesellation.htm)
+- [[6] Aggregate Points (GeoAnalytics)](https://pro.arcgis.com/en/pro-app/tool-reference/big-data-analytics/aggregate-points.htm)
+- [[7] Cartographic Creations in ArcGIS Pro](https://learn.arcgis.com/en/projects/cartographic-creations-in-arcgis-pro/)
 
 From [3]:
 **_Want to be “in” the cool club? Use hexagons to visualize your data._**  
@@ -80,6 +79,10 @@ Hexagon data:
 
 **UPDATE:** ArcGIS Online now includes ready-to-use Hexagon Data – making this process and visualization much easier. See this blog post for more information:  
 [http://blogs.esri.com/esri/arcgis/2015/08/26/creating-thematic-maps-with-hexagons-in-arcgis-online/](http://blogs.esri.com/esri/arcgis/2015/08/26/creating-thematic-maps-with-hexagons-in-arcgis-online/ "Creating thematic maps with hexagons in ArcGIS Online")
+
+> Note. From [7] we can create with ArcGIS Pro maps like to following:
+
+![enter image description here](https://learn.arcgis.com/en/projects/cartographic-creations-in-arcgis-pro/GUID-543D3AD2-AB31-4138-A010-2A3EC90904A5-web.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzUxOTU4NDQsMTMwOTU4ODE1N119
+eyJoaXN0b3J5IjpbLTIwMjkxMDQ5NDIsMTMwOTU4ODE1N119
 -->
