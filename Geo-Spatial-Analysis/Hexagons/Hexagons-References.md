@@ -12,6 +12,8 @@ References:
 - [Creating thematic maps with hexagons in ArcGIS Online](https://www.esri.com/arcgis-blog/products/analytics/analytics/creating-thematic-maps-with-hexagons-in-arcgis-online/)
 - [Generate Tessellation (Data Management](https://pro.arcgis.com/en/pro-app/tool-reference/data-management/generatetesellation.htm)
 - [Aggregate Points (GeoAnalytics)](https://pro.arcgis.com/en/pro-app/tool-reference/big-data-analytics/aggregate-points.htm)
+- []Cartographic Creations in ArcGIS Pro
+- [https://learn.arcgis.com/en/projects/cartographic-creations-in-arcgis-pro/](https://learn.arcgis.com/en/projects/cartographic-creations-in-arcgis-pro/)
 
 From [3]:
 **_Want to be “in” the cool club? Use hexagons to visualize your data._**  
@@ -79,5 +81,5 @@ Hexagon data:
 **UPDATE:** ArcGIS Online now includes ready-to-use Hexagon Data – making this process and visualization much easier. See this blog post for more information:  
 [http://blogs.esri.com/esri/arcgis/2015/08/26/creating-thematic-maps-with-hexagons-in-arcgis-online/](http://blogs.esri.com/esri/arcgis/2015/08/26/creating-thematic-maps-with-hexagons-in-arcgis-online/ "Creating thematic maps with hexagons in ArcGIS Online")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwOTU4ODE1N119
+eyJoaXN0b3J5IjpbLTE5NzUxOTU4NDQsMTMwOTU4ODE1N119
 -->
