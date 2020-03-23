@@ -18,7 +18,8 @@ References:
 - [[10] Make your point using aggregation](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/point-aggregation/)
 - [[11] Aggregate Points](https://doc.arcgis.com/en/arcgis-online/analyze/aggregate-points.htm)
 - [[12] Aggregate features into bins](https://pro.arcgis.com/en/pro-app/help/mapping/layer-properties/aggregate-features-into-bins.htm)
-- [ Work with binned feature layers](https://pro.arcgis.com/en/pro-app/help/mapping/layer-properties/work-with-binned-feature-layers.htm)
+- [[13] Work with binned feature layers](https://pro.arcgis.com/en/pro-app/help/mapping/layer-properties/work-with-binned-feature-layers.htm)
+- [[14] [What's new in ArcGIS Pro 2.4?]](https://communityhub.esriuk.com/geoxchange/2019/6/28/whats-new-in-arcgis-pro-24)
 
 
 
@@ -94,6 +95,6 @@ Hexagon data:
 
 See this too: [https://learn.arcgis.com/en/gallery/](https://learn.arcgis.com/en/gallery/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NDg4NDA3MiwtMTA1NDE1Njc5NiwxMz
-A5NTg4MTU3XX0=
+eyJoaXN0b3J5IjpbLTIwNzU1NDc0ODcsLTEwNTQxNTY3OTYsMT
+MwOTU4ODE1N119
 -->
