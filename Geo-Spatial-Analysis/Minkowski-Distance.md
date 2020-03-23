@@ -24,7 +24,13 @@ The following notes summarizes the article:  ["Comparison of distance measures i
 - The optimized Minkowski distance partially overcomes their shortcomings; it provides a single model of travel over the network.
 - The method is flexible, suitable for analytical modeling, and more accurate than the traditional metrics; its use ultimately increases the reliability of spatial analytical models.
 
+## Distance Metric Calculation
+
+- One of the reasons for using Euclidean and/or Manhattan distance is the relative ease of their implementation; in contrast, it is more problematic to design algorithms implementing actual road network distance in spatial analytical models.
+- In order to reduce the error associated with the Euclidean and Manhattan metrics while maintaining the computational simplicity of a single, intuitive mathematical formula, the general Minkowski metric is examined, to devise a single method that best approximates the average pattern of an empirical road network.
+- Optimizing values of the Minkowski formula are calculated for road distance as well as travel time; the results are compared with more traditional distance measures in the context of assessing geographic accessibility to cardiac facilities.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMjg5MjYyLC0xNjQ0NzQwODUxLDE0NT
-A5MzY2NzEsODIxNDcyODk0XX0=
+eyJoaXN0b3J5IjpbLTg5MDgyMzIzMywtMTY0NDc0MDg1MSwxND
+UwOTM2NjcxLDgyMTQ3Mjg5NF19
 -->
