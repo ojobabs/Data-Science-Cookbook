@@ -31,10 +31,10 @@ You need to select Python and Advanced as part of Class.
 	3.6. Match Option: `Completely contains`
 4. Go to the generated layer and select `Symbology`.
 	4.1. Graduated colors
-	4.2. field: Join_Count, Method
+	4.2. field: Join_Count, Method: `Quantile`, Classes: `5`
 	4.2. take the lower level color, click twice on the color and put fill and border as transparency.  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MzE5NzAzMSwxMDY0NTA5NjI4LC0xNj
-M5NDY2MTIsNjMzMDgwMjczXX0=
+eyJoaXN0b3J5IjpbLTEyNDMzOTg0NjUsMTA2NDUwOTYyOCwtMT
+YzOTQ2NjEyLDYzMzA4MDI3M119
 -->
