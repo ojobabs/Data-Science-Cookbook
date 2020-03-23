@@ -31,9 +31,9 @@ You need to select Python and Advanced as part of Class.
 	3.6. Match Option: `Completely contains`
 4. Go to the generated layer and select `Symbology`.
 	4.1. Graduated colors
-	4.2. take the lower level color, click twice on the color and put  
+	4.2. take the lower level color, click twice on the color and put fill and border as transparency.  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI2ODU2NDY2LDEwNjQ1MDk2MjgsLTE2Mz
-k0NjYxMiw2MzMwODAyNzNdfQ==
+eyJoaXN0b3J5IjpbLTIxNTM1MTIyNCwxMDY0NTA5NjI4LC0xNj
+M5NDY2MTIsNjMzMDgwMjczXX0=
 -->
