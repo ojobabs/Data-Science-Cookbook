@@ -115,12 +115,15 @@ Some information about solving the optimal location problem from a supervised an
 ### Using Euclidean, Manhattan and Minkowski distances
 
 - [Comparison of distance measures in spatial analytical modeling for health service planning](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2781002/)
+
+### `ENVS363/563` Geographic Data Science
+- [http://darribas.org/gds15/index.html](http://darribas.org/gds15/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTY0MDU1MzEsLTE0MjMzMjAwMzAsMT
-Q1OTAxMTA3LC01NjA0NTUxODIsLTkzMjY1ODkzMSwtMTU4MTMw
-ODM3MiwtMTM0ODI3NTI3Nyw5MjkyNjAyMzksMTE5MTYwODM1My
-wtMjcwMzk4NTEwLC04OTczODY5MTcsLTEwOTU3MTcwNDAsMjA5
-NDk4NTExNiwtMjA4MjMyNjgyMCw0MTg3NTg4NDUsMTQwMjU0MD
-AwMCwtMTUyMjcxMDY2MCwtMTYxMzk4MzM3NCwtMjQwNDM0NDQ1
-XX0=
+eyJoaXN0b3J5IjpbLTU1MDY4ODY1MiwtMTM5NjQwNTUzMSwtMT
+QyMzMyMDAzMCwxNDU5MDExMDcsLTU2MDQ1NTE4MiwtOTMyNjU4
+OTMxLC0xNTgxMzA4MzcyLC0xMzQ4Mjc1Mjc3LDkyOTI2MDIzOS
+wxMTkxNjA4MzUzLC0yNzAzOTg1MTAsLTg5NzM4NjkxNywtMTA5
+NTcxNzA0MCwyMDk0OTg1MTE2LC0yMDgyMzI2ODIwLDQxODc1OD
+g0NSwxNDAyNTQwMDAwLC0xNTIyNzEwNjYwLC0xNjEzOTgzMzc0
+LC0yNDA0MzQ0NDVdfQ==
 -->
