@@ -21,8 +21,10 @@
 - [Modifiable areal unit problem](https://en.wikipedia.org/wiki/Modifiable_areal_unit_problem)
 - [The modifi able areal unit problem (MAUP) in physical geography](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.620.9529&rep=rep1&type=pdf)
 - [Standardizing Data](https://www.axismaps.com/guide/data/standardizing-data/)
+- [https://courseware.e-education.psu.edu/courses/geog486/L07_cg.html#dasymetric](https://courseware.e-education.psu.edu/courses/geog486/L07_cg.html#dasymetric)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIxMjg5NTUzLC01NjU5Nzk5NDddfQ==
+eyJoaXN0b3J5IjpbMTUzNTMwNTMzMSw3MjEyODk1NTMsLTU2NT
+k3OTk0N119
 -->
