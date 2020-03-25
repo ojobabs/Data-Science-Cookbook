@@ -18,8 +18,9 @@
 - [The Modifiable Areal Unit Problem](http://www.restore.ac.uk/geo-refer/91023cwors00y00000000.php)
 - [Modifiable areal unit problem](https://en.wikipedia.org/wiki/Modifiable_areal_unit_problem)
 - [The modifi able areal unit problem (MAUP) in physical geography](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.620.9529&rep=rep1&type=pdf)
+- [Standardizing Data](https://www.axismaps.com/guide/data/standardizing-data/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyNDA0MTc1XX0=
+eyJoaXN0b3J5IjpbLTU2NTk3OTk0N119
 -->
