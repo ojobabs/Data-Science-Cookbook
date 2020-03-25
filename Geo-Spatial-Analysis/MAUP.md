@@ -10,6 +10,8 @@
 - [How analyzing supply-demand gaps can optimize your unit economics!](https://medium.com/locale-ai/how-analyzing-supply-demand-gaps-can-optimize-your-unit-economics-1da3ecd340c6)
 - [Why spatial data is special?](https://www.e-education.psu.edu/geog586/node/809)
 - [When maps lie](https://www.citylab.com/design/2015/06/when-maps-lie/396761/)
+- [Data Classification](https://2012books.lardbucket.org/books/geographic-information-system-basics/s10-03-data-classification.html)
+- [DATA CLASSIFICATION METHODS](http://individual.utoronto.ca/lackner/ggr272/DataClassificationMethods.pdf)
 - [Welcome to GEOG 486 - Cartography and Visualization](https://www.e-education.psu.edu/geog486/)
 - [The Modifiable Areal Unit Problem and GIS](https://www.gislounge.com/modifiable-areal-unit-problem-gis/)
 - [The modifiable areal unit problem (MAUP) in the relationship between exposure to NO2 and respiratory health](https://ij-healthgeographics.biomedcentral.com/articles/10.1186/1476-072X-10-58)
@@ -22,5 +24,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTk3OTk0N119
+eyJoaXN0b3J5IjpbNzIxMjg5NTUzLC01NjU5Nzk5NDddfQ==
 -->
