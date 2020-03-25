@@ -32,6 +32,8 @@ More information [here]([https://current360.com/research-101-census-tracts-vs-ce
 
 [Standard Hierarchy of Census Geographic Entities](https://www2.census.gov/geo/pdfs/reference/geodiagram.pdf?#)
 
+- [Introduction to GIS 4: What is a Census Tract? Tracts, Blocks and More](https://www.youtube.com/watch?v=WPet07zMuxA)
+
 ### GIS analysis using Python
 
 - [Introduction to Geospatial Data in Python](https://www.datacamp.com/community/tutorials/geospatial-data-python)
@@ -122,11 +124,11 @@ Some information about solving the optimal location problem from a supervised an
 ### Why do not use ZIP codes? 
 - [Don’t Use Zip Codes Unless You Have To](https://sunlightfoundation.com/2012/01/19/dont-use-zipcodes/ "Don’t Use Zip Codes Unless You Have To")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNTEyNzg3OSwtNTUwNjg4NjUyLC0xMz
-k2NDA1NTMxLC0xNDIzMzIwMDMwLDE0NTkwMTEwNywtNTYwNDU1
-MTgyLC05MzI2NTg5MzEsLTE1ODEzMDgzNzIsLTEzNDgyNzUyNz
-csOTI5MjYwMjM5LDExOTE2MDgzNTMsLTI3MDM5ODUxMCwtODk3
-Mzg2OTE3LC0xMDk1NzE3MDQwLDIwOTQ5ODUxMTYsLTIwODIzMj
-Y4MjAsNDE4NzU4ODQ1LDE0MDI1NDAwMDAsLTE1MjI3MTA2NjAs
-LTE2MTM5ODMzNzRdfQ==
+eyJoaXN0b3J5IjpbLTE2MTQzODc5MTEsLTU1MDY4ODY1MiwtMT
+M5NjQwNTUzMSwtMTQyMzMyMDAzMCwxNDU5MDExMDcsLTU2MDQ1
+NTE4MiwtOTMyNjU4OTMxLC0xNTgxMzA4MzcyLC0xMzQ4Mjc1Mj
+c3LDkyOTI2MDIzOSwxMTkxNjA4MzUzLC0yNzAzOTg1MTAsLTg5
+NzM4NjkxNywtMTA5NTcxNzA0MCwyMDk0OTg1MTE2LC0yMDgyMz
+I2ODIwLDQxODc1ODg0NSwxNDAyNTQwMDAwLC0xNTIyNzEwNjYw
+LC0xNjEzOTgzMzc0XX0=
 -->
