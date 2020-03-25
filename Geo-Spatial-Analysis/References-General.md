@@ -118,12 +118,15 @@ Some information about solving the optimal location problem from a supervised an
 
 ### `ENVS363/563` Geographic Data Science
 - [http://darribas.org/gds15/index.html](http://darribas.org/gds15/index.html)
+
+### Why do not use ZIP codes? 
+- [Don’t Use Zip Codes Unless You Have To](https://sunlightfoundation.com/2012/01/19/dont-use-zipcodes/ "Don’t Use Zip Codes Unless You Have To")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MDY4ODY1MiwtMTM5NjQwNTUzMSwtMT
-QyMzMyMDAzMCwxNDU5MDExMDcsLTU2MDQ1NTE4MiwtOTMyNjU4
-OTMxLC0xNTgxMzA4MzcyLC0xMzQ4Mjc1Mjc3LDkyOTI2MDIzOS
-wxMTkxNjA4MzUzLC0yNzAzOTg1MTAsLTg5NzM4NjkxNywtMTA5
-NTcxNzA0MCwyMDk0OTg1MTE2LC0yMDgyMzI2ODIwLDQxODc1OD
-g0NSwxNDAyNTQwMDAwLC0xNTIyNzEwNjYwLC0xNjEzOTgzMzc0
-LC0yNDA0MzQ0NDVdfQ==
+eyJoaXN0b3J5IjpbMTMyNTEyNzg3OSwtNTUwNjg4NjUyLC0xMz
+k2NDA1NTMxLC0xNDIzMzIwMDMwLDE0NTkwMTEwNywtNTYwNDU1
+MTgyLC05MzI2NTg5MzEsLTE1ODEzMDgzNzIsLTEzNDgyNzUyNz
+csOTI5MjYwMjM5LDExOTE2MDgzNTMsLTI3MDM5ODUxMCwtODk3
+Mzg2OTE3LC0xMDk1NzE3MDQwLDIwOTQ5ODUxMTYsLTIwODIzMj
+Y4MjAsNDE4NzU4ODQ1LDE0MDI1NDAwMDAsLTE1MjI3MTA2NjAs
+LTE2MTM5ODMzNzRdfQ==
 -->
