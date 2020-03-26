@@ -19,9 +19,9 @@ By adding some html:
 ```html
 <img src="images/local_market_definition_02.jpg" alt="drawing" width="370"/>
 ```
-You can control the size of the image. You cannot render the image on Atom but, if you push the image
+You can control the size of the image. You cannot render the image on Atom but, if you push the image to the GitLab repo, you can render the content of the image with the desired size. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzU4ODUwLC0yMzM2ODE5NjYsMTQ5Mj
-UyMDc0NF19
+eyJoaXN0b3J5IjpbLTkyODExNTE5OSwtMjMzNjgxOTY2LDE0OT
+I1MjA3NDRdfQ==
 -->
